@@ -1,0 +1,78 @@
+{# Mapped from components-a.jsx → <Filters>, <CertGrid> (grouped), <CertCard>.
+   Data grouped at build time by _data/certsByCategory.js. #}
+
+<section class="certifications" id="certifications" data-screen-label="Certifications">
+  <div class="container">
+
+    <div class="filters">
+      <div class="filters-head">
+        <div>
+          <span class="eyebrow">Browse the catalog</span>
+          <h2>All {{ certs.length }} nursing certifications</h2>
+          <p class="filters-sub">Filter by specialty area, or type into the search bar above. Every card links to a full study path.</p>
+        </div>
+      </div>
+      <div class="chips-row" role="tablist" aria-label="Filter by specialty">
+        <button type="button" class="chip chip-on" data-filter="all">
+          All <span class="chip-count">{{ certs.length }}</span>
+        </button>
+        {% for cat in certsByCategory %}
+          <button type="button" class="chip" data-filter="{{ cat.id }}" style="--chip-accent: {{ cat.accent }}">
+            <span class="chip-dot" style="background: {{ cat.accent }}"></span>
+            {{ cat.label }}
+            <span class="chip-count">{{ cat.certs.length }}</span>
+          </button>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="cert-groups" id="js-cert-groups">
+      {% for cat in certsByCategory %}
+        <section class="cert-group" id="group-{{ cat.id }}" data-cat="{{ cat.id }}">
+          <header class="cert-group-head">
+            <span class="cert-group-dot" style="background: {{ cat.accent }}"></span>
+            <h3>{{ cat.label }}</h3>
+            <span class="cert-group-count">{{ cat.certs.length }} cert{% if cat.certs.length != 1 %}s{% endif %}</span>
+          </header>
+          <div class="cert-grid">
+            {% for c in cat.certs %}
+              <a class="cert-card"
+                 href="/certifications/{{ c.code | lower }}/"
+                 data-code="{{ c.code | lower }}"
+                 data-name="{{ c.name | lower }}"
+                 data-body="{{ c.body | lower }}"
+                 data-blurb="{{ c.blurb | lower }}"
+                 data-cat="{{ c.cat }}"
+                 data-cat-label="{{ cat.label | lower }}">
+                <div class="cert-card-head">
+                  <span class="cert-code" style="--cat-accent: {{ cat.accent }}">{{ c.code }}</span>
+                  <span class="cert-body-chip">{{ c.body }}</span>
+                </div>
+                <div class="cert-name">{{ c.name }}</div>
+                <p class="cert-blurb">{{ c.blurb }}</p>
+                <div class="cert-card-foot">
+                  <span class="cert-cat">
+                    <span class="cert-cat-dot" style="background: {{ cat.accent }}"></span>
+                    {{ cat.label }}
+                  </span>
+                  <span class="cert-card-cta">
+                    Explore
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                  </span>
+                </div>
+              </a>
+            {% endfor %}
+          </div>
+        </section>
+      {% endfor %}
+    </div>
+
+    {# Empty-state message (hidden by default, shown via JS when search has no matches) #}
+    <div class="empty" id="js-cert-empty" hidden>
+      <span class="empty-icon">⌕</span>
+      <h4>No matches for "<span id="js-empty-query"></span>"</h4>
+      <p>Try a cert code (CNOR), specialty (oncology), or issuing body (ANCC).</p>
+    </div>
+
+  </div>
+</section>

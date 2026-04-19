@@ -1,0 +1,56 @@
+{# Mapped from components-b.jsx → <Footer>
+   The cert index uses certsByCategory (pre-grouped at build time). #}
+
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer-cta">
+      <div>
+        <span class="eyebrow eyebrow-on-dark">Ready when you are</span>
+        <h2 class="footer-cta-title">Start free. Keep your seat for 7 days.</h2>
+        <p class="footer-cta-sub">No credit card. Full access to any one certification track. If it doesn't click, nothing to cancel.</p>
+      </div>
+      <div class="footer-cta-actions">
+        <a href="#" class="btn btn-primary btn-lg">Question Banks</a>
+        <a href="#" class="btn btn-ghost-light btn-lg">Talk to our team</a>
+      </div>
+    </div>
+
+    <div class="footer-index">
+      <div class="footer-index-head">
+        <h3>Explore all certifications</h3>
+        <p>Every credential we prep for, grouped by practice area.</p>
+      </div>
+      <div class="footer-index-grid">
+        {% for cat in certsByCategory %}
+          <div class="footer-index-col">
+            <div class="footer-index-label">
+              <span class="footer-index-dot" style="background: {{ cat.accent }}"></span>
+              {{ cat.label }}
+            </div>
+            <ul>
+              {% for c in cat.certs %}
+                <li><a href="/certifications/{{ c.code | lower }}/">{{ c.code }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-brand">
+        <span class="logo-mark logo-mark-sm" aria-hidden="true">N</span>
+        <span>NursPrep · Built by nurses, for nurses.</span>
+      </div>
+      <nav class="footer-bottom-links">
+        <a href="#">About</a>
+        <a href="#">Pass guarantee</a>
+        <a href="#">Pricing</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </nav>
+      <div class="footer-legal">© {{ site.year }} NursPrep Inc. NursPrep is not affiliated with ANCC, AACN, BCEN, or any other certifying body referenced on this site.</div>
+    </div>
+  </div>
+</footer>

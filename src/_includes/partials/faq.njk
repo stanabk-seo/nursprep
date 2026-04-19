@@ -1,0 +1,53 @@
+{# Mapped from components-b.jsx → <FAQ>
+   SEO bonus: all FAQ answers are rendered in DOM at build time (Google indexes them).
+   JS only handles expand/collapse. #}
+{% set faqs = [
+  { q: "Which certifications does NursPrep cover?", a: "All " ~ certs.length ~ " listed on this page — from CNOR and PCCN to NEA-BC and CIC. Each has a dedicated question bank, study plan, and mock exam built to that board's test blueprint." },
+  { q: "Am I eligible to sit the exam?", a: "Eligibility varies by issuing body. Most certifications require an active, unrestricted RN license plus 1–2 years of specialty experience. Every cert page on NursPrep shows the current requirements for its issuing body." },
+  { q: "How long does it take to prepare?", a: "Most working nurses are exam-ready in 6–8 weeks studying 45–60 minutes a day. Your personalized plan adjusts based on diagnostic scores and the time you have available." },
+  { q: "What if I fail?", a: "Our pass guarantee is simple: finish your plan, sit the exam, and if you don't pass on the first attempt, you study free until you do — plus we reimburse your exam fee." },
+  { q: "Does my employer reimburse this?", a: "Most hospitals reimburse certification prep and exam fees through tuition or professional-development funds. We provide a one-page summary you can submit for reimbursement." },
+  { q: "Is the content CE-accredited?", a: "Yes. Completing a full certification program on NursPrep awards contact hours accredited by the ANCC Commission on Accreditation." }
+] %}
+
+<section class="faq" id="faq">
+  <div class="container faq-grid">
+    <div class="faq-left">
+      <span class="eyebrow">Frequently asked</span>
+      <h2>Questions, answered by nurses.</h2>
+      <p class="faq-sub">Can't find what you're looking for? <a href="#" class="faq-link">Message our clinical team →</a></p>
+    </div>
+    <div class="faq-list">
+      {% for f in faqs %}
+        <div class="faq-item {% if loop.first %}faq-open{% endif %}" data-faq>
+          <button type="button" class="faq-q" aria-expanded="{% if loop.first %}true{% else %}false{% endif %}">
+            <span>{{ f.q }}</span>
+            <span class="faq-plus" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+            </span>
+          </button>
+          <div class="faq-a" role="region">
+            <p>{{ f.a }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# Structured data for FAQ (helps Google show FAQ rich results in search) #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for f in faqs %}
+    {
+      "@type": "Question",
+      "name": {{ f.q | dump | safe }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ f.a | dump | safe }} }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>

@@ -1,0 +1,28 @@
+{# Mapped from components-b.jsx → <HowItWorks> #}
+{% set steps = [
+  { n: "01", t: "Pick your certification",        d: "Choose from " ~ certs.length ~ " specialties. Get a personalized readiness check and eligibility breakdown in under two minutes." },
+  { n: "02", t: "Follow the study plan",          d: "Your plan adapts to your shift schedule. 15-minute sessions on the subway, 90-minute deep dives on your day off — it works." },
+  { n: "03", t: "Practice like the real exam",    d: "Every question mirrors board style with plain-English rationales. No more guessing why B was right and C was wrong." },
+  { n: "04", t: "Sit the exam with confidence",   d: "Full-length mock exams under timed conditions, readiness score, and a pass guarantee. Most nurses are ready in 6–8 weeks." }
+] %}
+
+<section class="how" id="how">
+  <div class="container">
+    <div class="how-head">
+      <span class="eyebrow">How NursPrep works</span>
+      <h2>Built around your shifts — not the other way around.</h2>
+    </div>
+    <ol class="how-list">
+      {% for s in steps %}
+        <li class="how-step">
+          <span class="how-step-n">{{ s.n }}</span>
+          <div class="how-step-body">
+            <h4>{{ s.t }}</h4>
+            <p>{{ s.d }}</p>
+          </div>
+          <span class="how-step-rule" aria-hidden="true"></span>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>

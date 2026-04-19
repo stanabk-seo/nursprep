@@ -1,0 +1,27 @@
+{# Mapped from components-b.jsx → <WhyCertify> #}
+{% set items = [
+  { title: "Earn 5–15% more",        body: "Certified nurses consistently report higher base pay and differential premiums across acute-care settings.", pill: "Compensation" },
+  { title: "Stand out on the floor", body: "Magnet and Pathway hospitals actively recruit — and retain — certified nurses for charge, preceptor, and lead roles.", pill: "Career" },
+  { title: "Better patient outcomes", body: "Units with higher certification density show measurable reductions in falls, pressure injuries, and medication errors.", pill: "Outcomes" },
+  { title: "Validated expertise",    body: "A credential is a portable, nationally-recognized signal of mastery — one that travels with you to any employer.", pill: "Credibility" }
+] %}
+
+<section class="why" id="why">
+  <div class="container">
+    <div class="why-head">
+      <span class="eyebrow">Why certify</span>
+      <h2>Certification is the clearest path from <em>experienced</em> to <em>expert</em>.</h2>
+      <p class="why-sub">A board certification isn't just another line on your badge. It reshapes how your unit, your manager, and your next employer see you.</p>
+    </div>
+    <div class="why-grid">
+      {% for it in items %}
+        <div class="why-card">
+          <span class="why-num">0{{ loop.index }}</span>
+          <span class="why-pill">{{ it.pill }}</span>
+          <h4>{{ it.title }}</h4>
+          <p>{{ it.body }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

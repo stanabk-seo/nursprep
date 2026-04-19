@@ -1,0 +1,17 @@
+{
+  "name": "nursprep-11ty",
+  "version": "1.0.0",
+  "description": "NursPrep — nursing certification prep site. 11ty static build for Cloudflare Pages.",
+  "private": true,
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "clean": "rm -rf _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

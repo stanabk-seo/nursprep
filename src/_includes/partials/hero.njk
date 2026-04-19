@@ -1,0 +1,94 @@
+{# Mapped from components-a.jsx → <Hero heroVariant="split" tone="clinical"> plus HeroSearch, HeroChips, HeroTrust, HeroVisual.
+   Using the "split" layout + "clinical" tone as defaults (removed the Tweaks panel). #}
+<section class="hero hero-split">
+  <div class="container hero-split-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">For working nurses</span>
+      <h1 class="hero-title">Pass your nursing certification. With confidence.</h1>
+      <p class="hero-sub">Structured study plans, {{ site.stats.questions }} practice questions, and board-style rationales for {{ certs.length }} nursing certifications — built by nurses who've sat the exam.</p>
+
+      <form class="hero-search" role="search" onsubmit="event.preventDefault()">
+        <span class="hero-search-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </span>
+        <input
+          id="js-hero-search"
+          class="hero-search-input"
+          type="search"
+          placeholder="Search by code, specialty, or issuing body — e.g. CNOR, oncology, AACN"
+          aria-label="Search certifications"
+          autocomplete="off"
+        />
+        <a href="#certifications" class="btn btn-primary hero-search-btn">
+          Find my cert
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+      </form>
+
+      <div class="hero-chips">
+        <span class="hero-chips-label">Popular:</span>
+        {% for chip in site.featuredChips %}
+          <button type="button" class="chip chip-featured" data-chip="{{ chip }}">{{ chip }}</button>
+        {% endfor %}
+      </div>
+    </div>
+
+    {# Hero visual — mock exam card (static illustration) #}
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-card hero-card-main">
+        <div class="hero-card-head">
+          <span class="hero-card-badge">CNOR</span>
+          <span class="hero-card-body">CCI</span>
+        </div>
+        <div class="hero-card-title">Certified Perioperative Nurse</div>
+        <div class="hero-card-meter">
+          <div class="hero-card-meter-bar"></div>
+          <span class="hero-card-meter-label">68% complete · Section 4 of 6</span>
+        </div>
+        <div class="hero-card-q">
+          <div class="hero-card-q-label">Question 127 of 200</div>
+          <div class="hero-card-q-text">Which intervention is <em>most</em> appropriate for a patient in the immediate post-op period following a total hip arthroplasty?</div>
+          <div class="hero-card-q-opts">
+            <div class="hero-q-opt">A · Encourage ambulation within 2 hours</div>
+            <div class="hero-q-opt hero-q-opt-correct">B · Maintain abduction with a pillow between knees <span class="hero-q-check">✓</span></div>
+            <div class="hero-q-opt">C · Apply heat to the operative site</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card hero-card-sub">
+        <div class="hero-sub-row">
+          <span class="hero-sub-icon">✓</span>
+          <div>
+            <div class="hero-sub-title">Streak: 14 days</div>
+            <div class="hero-sub-meta">Goal: 30 questions / day</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card hero-card-pill">
+        <span class="hero-pill-dot"></span>
+        Ready for mock exam
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="hero-trust">
+      <div class="trust-stat">
+        <span class="trust-stat-n">{{ certs.length }}</span>
+        <span class="trust-stat-l">certifications covered</span>
+      </div>
+      <div class="trust-stat">
+        <span class="trust-stat-n">{{ site.stats.questions }}</span>
+        <span class="trust-stat-l">practice questions</span>
+      </div>
+      <div class="trust-stat">
+        <span class="trust-stat-n">{{ site.stats.passRate }}</span>
+        <span class="trust-stat-l">first-attempt pass rate</span>
+      </div>
+      <div class="trust-stat">
+        <span class="trust-stat-n">{{ site.stats.nursesCertified }}</span>
+        <span class="trust-stat-l">nurses certified</span>
+      </div>
+    </div>
+  </div>
+</section>

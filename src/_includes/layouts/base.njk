@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" data-theme="light" data-accent="indigo">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ title or site.title }}</title>
+  <meta name="description" content="{{ description or site.description }}" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="{{ title or site.title }}" />
+  <meta property="og:description" content="{{ description or site.description }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
+  <!-- Styles (flat paths — match original design export) -->
+  <link rel="stylesheet" href="/tokens.css" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  {{ content | safe }}
+
+  <!-- Vanilla JS for search, filters, FAQ accordion, scroll progress -->
+  <script src="/assets/js/app.js" defer></script>
+</body>
+</html>

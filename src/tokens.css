@@ -1,0 +1,159 @@
+/* NursPrep — light-mode tokens layered on Pencil DS palette */
+@font-face { font-family: 'Figtree'; src: url('fonts/Figtree_Regular_Font.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Figtree'; src: url('fonts/Figtree_SemiBold.ttf') format('truetype'); font-weight: 600; font-display: swap; }
+@font-face { font-family: 'Figtree'; src: url('fonts/Figtree_Bold_Font.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+@font-face { font-family: 'Figtree'; src: url('fonts/Figtree_Black_Font.woff2') format('woff2'); font-weight: 900; font-display: swap; }
+
+:root {
+  /* Palette — from Pencil DS */
+  --indigo-70:#0c114d; --indigo-60:#133191; --indigo-50:#163bf3; --indigo-40:#6d83f3;
+  --indigo-30:#bdc7fb; --indigo-20:#ebeeff; --indigo-10:#f2f4ff;
+  --blue-50:#0089e3; --blue-40:#4fb3f6; --blue-20:#d9f0ff; --blue-10:#edf8ff;
+  --green-70:#002e13; --green-60:#00672e; --green-50:#24a865; --green-40:#60d399;
+  --green-20:#e3f7ed; --green-10:#f0faf5;
+  --red-50:#ff341a; --red-40:#ff7968; --red-20:#ffe8e5;
+  --yellow-50:#c98600; --yellow-40:#fbbe2e; --yellow-20:#fff3d6; --yellow-10:#fffaf0;
+  --gray-70:#323c45; --gray-60:#46535f; --gray-50:#687b8c; --gray-40:#c3d1dd;
+  --gray-30:#e1eaf1; --gray-20:#ebf2f7; --gray-10:#f5f8fa;
+
+  /* Light surfaces */
+  --bg-0:#fbfbfd;          /* page */
+  --bg-1:#ffffff;          /* card / raised */
+  --bg-2:#f5f6fb;          /* hover / secondary surface */
+  --bg-3:#eef0f8;          /* pressed / input */
+  --bg-tint:#f2f4ff;       /* brand tint region */
+  --bg-dark:#0c114d;       /* dark accent section */
+
+  /* Foreground */
+  --fg-0:#0c1024;          /* headlines */
+  --fg-1:#1f2744;          /* body */
+  --fg-2:#4a5378;          /* secondary */
+  --fg-3:#7a82a0;          /* tertiary / placeholder */
+  --fg-4:#b5bace;          /* disabled */
+  --fg-on-brand:#ffffff;
+
+  /* Brand — accent var so Tweaks can swap */
+  --accent-50:#163bf3;
+  --accent-40:#6d83f3;
+  --accent-30:#bdc7fb;
+  --accent-20:#ebeeff;
+  --accent-10:#f2f4ff;
+  --accent-hover:#2d50f5;
+  --accent-soft:rgba(22,59,243,0.08);
+  --accent-glow:rgba(22,59,243,0.16);
+
+  /* Borders */
+  --border-subtle:#eef0f5;
+  --border-default:#e1e5ee;
+  --border-strong:#cdd3e0;
+
+  /* Semantic */
+  --success:#24a865; --success-bg:#e3f7ed;
+  --danger:#cf1d00;  --danger-bg:#ffe8e5;
+  --warning:#c98600; --warning-bg:#fff3d6;
+
+  /* Type */
+  --font-primary:'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --fs-xsmall:0.75rem; --fs-small:0.875rem; --fs-default:1rem; --fs-standout:1.125rem;
+  --fs-subheadline:1.25rem; --fs-headline:1.5rem; --fs-subheader:2rem;
+  --fs-header:2.75rem; --fs-large:3.5rem; --fs-xlarge:4.5rem;
+
+  /* Space */
+  --s-xxs:4px; --s-xs:8px; --s-s:16px; --s-m:24px; --s-l:40px; --s-xl:64px; --s-xxl:104px;
+
+  /* Radius */
+  --r-xs:8px; --r-s:12px; --r-m:16px; --r-l:24px; --r-xl:32px; --r-pill:999px;
+
+  /* Shadow */
+  --shadow-sm: 0 1px 2px rgba(12,16,36,0.04), 0 1px 1px rgba(12,16,36,0.03);
+  --shadow-md: 0 4px 12px rgba(12,16,36,0.06), 0 1px 3px rgba(12,16,36,0.04);
+  --shadow-lg: 0 12px 32px rgba(12,16,36,0.10), 0 2px 6px rgba(12,16,36,0.05);
+  --shadow-brand: 0 12px 32px -8px rgba(22,59,243,0.28);
+  --shadow-ring: 0 0 0 4px var(--accent-glow);
+
+  /* Motion */
+  --dur-quick:120ms; --dur-mod:200ms; --dur-gentle:320ms;
+  --ease: cubic-bezier(0.35, 0, 0.1, 1);
+
+  --layout-max: 1280px;
+  --layout-pad: 24px;
+}
+
+/* Dark mode override */
+:root[data-theme="dark"] {
+  --bg-0:#07081a;
+  --bg-1:#0e1030;
+  --bg-2:#161a3e;
+  --bg-3:#1f2450;
+  --bg-tint:#0e1030;
+  --bg-dark:#050615;
+
+  --fg-0:#ffffff;
+  --fg-1:rgba(255,255,255,0.92);
+  --fg-2:rgba(255,255,255,0.68);
+  --fg-3:rgba(255,255,255,0.48);
+  --fg-4:rgba(255,255,255,0.28);
+
+  --border-subtle:rgba(255,255,255,0.06);
+  --border-default:rgba(255,255,255,0.12);
+  --border-strong:rgba(255,255,255,0.22);
+
+  --accent-soft:rgba(109,131,243,0.14);
+  --accent-glow:rgba(109,131,243,0.28);
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.48);
+  --shadow-lg: 0 12px 32px rgba(0,0,0,0.56);
+  --shadow-brand: 0 12px 32px -8px rgba(22,59,243,0.45);
+}
+
+/* Accent variants */
+:root[data-accent="green"] {
+  --accent-50:#24a865; --accent-40:#60d399; --accent-30:#9ce8c2;
+  --accent-20:#e3f7ed; --accent-10:#f0faf5;
+  --accent-hover:#1f9458; --accent-soft:rgba(36,168,101,0.10); --accent-glow:rgba(36,168,101,0.20);
+}
+:root[data-accent="blue"] {
+  --accent-50:#0089e3; --accent-40:#4fb3f6; --accent-30:#b9e2fe;
+  --accent-20:#d9f0ff; --accent-10:#edf8ff;
+  --accent-hover:#0073c0; --accent-soft:rgba(0,137,227,0.10); --accent-glow:rgba(0,137,227,0.22);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { font-size:16px; scroll-behavior:smooth; }
+body {
+  margin:0;
+  font-family: var(--font-primary);
+  font-size: var(--fs-default);
+  line-height: 1.5;
+  color: var(--fg-1);
+  background: var(--bg-0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background var(--dur-gentle) var(--ease), color var(--dur-gentle) var(--ease);
+}
+
+h1,h2,h3,h4,h5,h6 { margin:0; color:var(--fg-0); font-weight:900; line-height:1.1; letter-spacing:-0.02em; }
+h1 { font-size: clamp(2.5rem, 5vw, 4.5rem); }
+h2 { font-size: clamp(2rem, 3.5vw, 2.75rem); letter-spacing:-0.015em; }
+h3 { font-size: var(--fs-subheader); font-weight:800; }
+h4 { font-size: var(--fs-headline); font-weight:700; letter-spacing:-0.01em; }
+p  { margin:0; color: var(--fg-1); }
+
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; }
+
+::selection { background: var(--accent-20); color: var(--fg-0); }
+
+/* Util */
+.container { max-width: var(--layout-max); margin: 0 auto; padding: 0 var(--layout-pad); }
+.eyebrow {
+  display:inline-flex; align-items:center; gap: var(--s-xs);
+  font-size: var(--fs-xsmall); font-weight:700;
+  text-transform: uppercase; letter-spacing: 0.12em;
+  color: var(--accent-50);
+}
+.eyebrow::before {
+  content:""; width:18px; height:1.5px; background: currentColor; border-radius: 2px;
+}
