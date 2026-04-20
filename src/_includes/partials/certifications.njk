@@ -37,7 +37,7 @@
           <div class="cert-grid">
             {% for c in cat.certs %}
               <a class="cert-card"
-                 href="/certifications/{{ c.code | lower }}/"
+                 href="/certifications/{{ c.slug or (c.code | lower) }}/"
                  data-code="{{ c.code | lower }}"
                  data-name="{{ c.name | lower }}"
                  data-body="{{ c.body | lower }}"

@@ -7,10 +7,11 @@
   <meta name="description" content="{{ description or site.description }}" />
 
   <!-- Open Graph / Social -->
-  <meta property="og:title" content="{{ title or site.title }}" />
-  <meta property="og:description" content="{{ description or site.description }}" />
-  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ ogTitle or title or site.title }}" />
+  <meta property="og:description" content="{{ ogDescription or description or site.description }}" />
+  <meta property="og:type" content="{{ ogType or 'website' }}" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta name="twitter:card" content="summary_large_image" />
 
   <!-- Canonical -->
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
@@ -18,11 +19,17 @@
   <!-- Styles (flat paths — match original design export) -->
   <link rel="stylesheet" href="/tokens.css" />
   <link rel="stylesheet" href="/styles.css" />
+  {% if usesExamStyles %}<link rel="stylesheet" href="/exam-styles.css" />{% endif %}
+
+  {% if jsonLd %}
+  <script type="application/ld+json">{{ jsonLd | safe }}</script>
+  {% endif %}
 </head>
 <body>
   {{ content | safe }}
 
   <!-- Vanilla JS for search, filters, FAQ accordion, scroll progress -->
   <script src="/assets/js/app.js" defer></script>
+  {% if usesExamStyles %}<script src="/assets/js/exam.js" defer></script>{% endif %}
 </body>
 </html>

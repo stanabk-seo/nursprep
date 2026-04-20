@@ -9,4 +9,11 @@ eleventyExcludeFromCollections: true
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  {% for exam in examsList %}
+  <url>
+    <loc>{{ site.url }}/certifications/{{ exam.slug or (exam.code | lower) }}/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
 </urlset>

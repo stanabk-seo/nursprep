@@ -7,7 +7,7 @@ module.exports = [
   // Critical & Emergency
   { code: "PCCN",  name: "Progressive Care Certified Nurse",       body: "AACN",       cat: "critical",  questions: 125, blurb: "For nurses caring for moderately-to-acutely ill adult patients in progressive care settings." },
   { code: "TCRN",  name: "Trauma Certified Registered Nurse",      body: "BCEN",       cat: "critical",  questions: 175, blurb: "Validates expertise across the trauma continuum — from injury prevention through rehabilitation." },
-  { code: "CFRN",  name: "Certified Flight Registered Nurse",      body: "BCEN",       cat: "critical",  questions: 180, blurb: "For RNs providing critical care transport via rotor-wing aircraft." },
+  { code: "CFRN",  name: "Certified Flight Registered Nurse",      body: "BCEN",       cat: "critical",  questions: 175, blurb: "For RNs providing critical care transport via rotor-wing aircraft." },
   { code: "CEN",   name: "Certified Emergency Nurse",              body: "BCEN",       cat: "critical",  questions: 175, blurb: "The standard certification for nurses practicing in emergency departments." },
   { code: "CPEN",  name: "Certified Pediatric Emergency Nurse",    body: "BCEN/PNCB",  cat: "critical",  questions: 175, blurb: "Validates the specialized knowledge needed to care for pediatric patients in emergency settings." },
   { code: "CMC",   name: "Cardiac Medicine Certification",         body: "AACN",       cat: "critical",  questions: 90,  blurb: "Subspecialty credential for critical-care nurses caring for acutely ill cardiac patients." },

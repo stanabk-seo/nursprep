@@ -1,0 +1,240 @@
+---
+# One HTML page per file in src/_data/exams/
+# Permalink: /certifications/{code}/  (already expected by the footer + hero chips)
+pagination:
+  data: examsList
+  size: 1
+  alias: exam
+permalink: "/certifications/{{ exam.slug or (exam.code | lower) }}/"
+layout: layouts/base.njk
+eleventyComputed:
+  title: "{{ exam.seo.title }}"
+  description: "{{ exam.seo.description }}"
+  ogTitle: "{{ exam.seo.ogTitle or exam.seo.title }}"
+  ogDescription: "{{ exam.seo.ogDescription or exam.seo.description }}"
+  ogType: "article"
+  usesExamStyles: true
+---
+
+{% import "partials/exam-components.njk" as ex %}
+
+{# ---- Page-level JSON-LD (BreadcrumbList + Course + FAQPage) ---- #}
+{%- set courseLd = {
+  "@type": "Course",
+  "name": exam.code ~ " — " ~ exam.name,
+  "description": exam.seo.description,
+  "provider": { "@type": "Organization", "name": "NursPrep" },
+  "educationalCredentialAwarded": exam.code,
+  "hasCourseInstance": [{ "@type": "CourseInstance", "courseMode": "Online", "courseWorkload": "PT80H" }]
+} -%}
+{%- set crumbsLd = {
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": site.url ~ "/" },
+    { "@type": "ListItem", "position": 2, "name": "Certifications", "item": site.url ~ "/#certifications" },
+    { "@type": "ListItem", "position": 3, "name": exam.code ~ " Certification", "item": site.url ~ "/certifications/" ~ (exam.slug or (exam.code | lower)) ~ "/" }
+  ]
+} -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {{ crumbsLd | jsonSafe | safe }},
+    {{ courseLd | jsonSafe | safe }},
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {% for f in exam.faq.items -%}
+          { "@type": "Question", "name": {{ f.q | dump | safe }}, "acceptedAnswer": { "@type": "Answer", "text": {{ f.a | dump | safe }} } }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>
+
+{% include "partials/nav.njk" %}
+
+<main>
+  {{ ex.examHero(exam, exam.catLabel, exam.cat) }}
+
+  <div class="container">
+    <div class="exam-layout">
+
+      {# ---- LEFT TOC ---- #}
+      <aside class="exam-sidebar-left">
+        {{ ex.toc(exam.sections) }}
+      </aside>
+
+      {# ---- ARTICLE ---- #}
+      <article class="article">
+
+        {# Overview #}
+        {% if exam.overview %}
+        <section id="overview">
+          <h2>{{ exam.overview.heading }}</h2>
+          {% for p in exam.overview.prose %}<p>{{ p | safe }}</p>{% endfor %}
+          {% if exam.overview.coverImageLabel %}
+            {{ ex.coverImage(exam.overview.coverImageLabel, exam.code) }}
+          {% endif %}
+          {% if exam.overview.stats %}{{ ex.statGrid(exam.overview.stats) }}{% endif %}
+          {% if exam.overview.factBox %}{{ ex.factBox(exam.overview.factBox) }}{% endif %}
+        </section>
+        {% endif %}
+
+        {# Eligibility #}
+        {% if exam.eligibility %}
+        <section id="eligibility">
+          <h2>{{ exam.eligibility.heading }}</h2>
+          {% for p in exam.eligibility.prose %}<p>{{ p | safe }}</p>{% endfor %}
+          {% if exam.eligibility.candidateHeading %}
+            <h3>{{ exam.eligibility.candidateHeading }}</h3>
+            <ul>
+              {% for li in exam.eligibility.candidateList %}<li>{{ li | safe }}</li>{% endfor %}
+            </ul>
+          {% endif %}
+        </section>
+        {% endif %}
+
+        {# Blueprint — first paragraph before chart, remainder after #}
+        {% if exam.blueprint %}
+        <section id="blueprint">
+          <h2>{{ exam.blueprint.heading }}</h2>
+          {% for p in exam.blueprint.prose %}
+            {% if loop.first %}<p>{{ p | safe }}</p>{% endif %}
+          {% endfor %}
+          {{ ex.blueprintChart(exam.blueprint.domains) }}
+          {% for p in exam.blueprint.prose %}
+            {% if not loop.first %}<p>{{ p | safe }}</p>{% endif %}
+          {% endfor %}
+        </section>
+        {% endif %}
+
+        {# Cost #}
+        {% if exam.cost %}
+        <section id="cost">
+          <h2>{{ exam.cost.heading }}</h2>
+          {% for p in exam.cost.prose %}<p>{{ p | safe }}</p>{% endfor %}
+          {{ ex.costTable(exam.cost.rows) }}
+          {% if exam.cost.factBox %}{{ ex.factBox(exam.cost.factBox) }}{% endif %}
+          {% if exam.cost.renewalHeading %}
+            <h3>{{ exam.cost.renewalHeading }}</h3>
+            {% for p in exam.cost.renewalProse %}<p>{{ p | safe }}</p>{% endfor %}
+          {% endif %}
+        </section>
+        {% endif %}
+
+        {# Pass rate #}
+        {% if exam.passrate %}
+        <section id="passrate">
+          <h2>{{ exam.passrate.heading }}</h2>
+          {% for p in exam.passrate.prose %}<p>{{ p | safe }}</p>{% endfor %}
+          {{ ex.passChart(exam.passrate.rows, exam.passrate.target or 80, exam.passrate.footnote) }}
+          {% if exam.passrate.factBox %}{{ ex.factBox(exam.passrate.factBox) }}{% endif %}
+        </section>
+        {% endif %}
+
+        {# Study plan #}
+        {% if exam.plan %}
+        <section id="plan">
+          <h2>{{ exam.plan.heading }}</h2>
+          {% for p in exam.plan.prose %}<p>{{ p | safe }}</p>{% endfor %}
+          {{ ex.studyPlan(exam.plan.weeks, exam.plan.planSubtitle or 'Practice question load ramps through the final weeks.') }}
+          {% if exam.plan.tipsHeading %}
+            <h3>{{ exam.plan.tipsHeading }}</h3>
+            {{ ex.tipsList(exam.plan.tips) }}
+          {% endif %}
+        </section>
+        {% endif %}
+
+        {# Sample question #}
+        {% if exam.sample %}
+        <section id="sample">
+          <h2>{{ exam.sample.heading }}</h2>
+          {% for p in exam.sample.prose %}<p>{{ p | safe }}</p>{% endfor %}
+          {{ ex.sampleQuestion(exam.sample.q, exam.code) }}
+        </section>
+        {% endif %}
+
+        {# Key terms #}
+        {% if exam.keyterms %}
+        <section id="keyterms">
+          <h2>{{ exam.keyterms.heading }}</h2>
+          {% for p in exam.keyterms.prose %}<p>{{ p | safe }}</p>{% endfor %}
+          {{ ex.keytermTable(exam.keyterms.rows) }}
+        </section>
+        {% endif %}
+
+        {# Compare #}
+        {% if exam.compare %}
+        <section id="compare">
+          <h2>{{ exam.compare.heading }}</h2>
+          {% for p in exam.compare.prose %}<p>{{ p | safe }}</p>{% endfor %}
+          {{ ex.compareTable(exam.compare.rows) }}
+          {% if exam.compare.closingProse %}<p>{{ exam.compare.closingProse | safe }}</p>{% endif %}
+        </section>
+        {% endif %}
+
+        {# FAQ #}
+        {% if exam.faq %}
+        <section id="faq">
+          <h2>{{ exam.faq.heading }}</h2>
+          {{ ex.examFaq(exam.faq.items) }}
+        </section>
+        {% endif %}
+
+        {# Sources #}
+        {% if exam.sources %}
+        <section id="sources">
+          <h2>{{ exam.sources.heading }}</h2>
+          {% for p in exam.sources.prose %}<p>{{ p | safe }}</p>{% endfor %}
+          <ul class="sources-list">
+            {% for s in exam.sources.list %}<li>{{ s }}</li>{% endfor %}
+          </ul>
+        </section>
+        {% endif %}
+
+        {# CTA #}
+        {% if exam.ctaHeading %}
+        <section id="cta" aria-label="Start practicing">
+          <div class="exam-cta">
+            <div>
+              <h2>{{ exam.ctaHeading }}</h2>
+              <p>{{ exam.ctaProse }}</p>
+            </div>
+            <div class="exam-cta-actions">
+              {% if exam.ctaPrimary %}<a class="btn btn-primary btn-lg" href="{{ exam.ctaPrimary.href }}">{{ exam.ctaPrimary.label }}</a>{% endif %}
+              {% if exam.ctaSecondary %}<a class="btn btn-ghost btn-lg" href="{{ exam.ctaSecondary.href }}">{{ exam.ctaSecondary.label }}</a>{% endif %}
+            </div>
+          </div>
+        </section>
+        {% endif %}
+
+        {# Related #}
+        {% if exam.related and exam.related.length %}
+        <section id="related" aria-label="Related reading">
+          <h2>Related reading</h2>
+          {{ ex.relatedArticles(exam.related) }}
+        </section>
+        {% endif %}
+
+      </article>
+
+      {# ---- RIGHT SIDEBAR ---- #}
+      <aside class="exam-sidebar-right">
+        {% if exam.sidebarFactBox %}
+          {{ ex.factBox(exam.sidebarFactBox) }}
+        {% else %}
+          {{ ex.factBox({
+            tone: 'success',
+            title: 'You can test anywhere',
+            html: exam.code ~ ' is delivered at approved test centers. Candidates working internationally can still sit the US exam on-site at most regional centers.'
+          }) }}
+        {% endif %}
+      </aside>
+
+    </div>
+  </div>
+</main>
+
+{% include "partials/footer.njk" %}

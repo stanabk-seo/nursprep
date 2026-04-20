@@ -29,7 +29,7 @@
             </div>
             <ul>
               {% for c in cat.certs %}
-                <li><a href="/certifications/{{ c.code | lower }}/">{{ c.code }}</a></li>
+                <li><a href="/certifications/{{ c.slug or (c.code | lower) }}/">{{ c.code }}</a></li>
               {% endfor %}
             </ul>
           </div>
