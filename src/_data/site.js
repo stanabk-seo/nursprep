@@ -3,7 +3,7 @@ module.exports = {
   title: "NursPrep — Pass your nursing certification. With confidence.",
   description:
     "Structured study plans, 30,000+ practice questions, and board-style rationales for 30 nursing certifications — built by nurses who've sat the exam.",
-  url: "https://nursprep.pages.dev", // Cloudflare Pages deployment
+  url: "https://nursprep.com", // production domain
   author: "NursPrep",
   year: new Date().getFullYear(),
 
