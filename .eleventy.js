@@ -6,6 +6,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/fonts": "fonts" });
   eleventyConfig.addPassthroughCopy({ "src/icons": "icons" });
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
+  // Favicons — served from site root so browsers resolve /favicon.svg etc.
+  eleventyConfig.addPassthroughCopy({ "src/favicon.svg": "favicon.svg" });
+  eleventyConfig.addPassthroughCopy({ "src/favicon-32.png": "favicon-32.png" });
+  eleventyConfig.addPassthroughCopy({ "src/favicon-192.png": "favicon-192.png" });
+  eleventyConfig.addPassthroughCopy({ "src/apple-touch-icon.png": "apple-touch-icon.png" });
 
   // Watch targets — trigger rebuild when these change
   eleventyConfig.addWatchTarget("src/tokens.css");

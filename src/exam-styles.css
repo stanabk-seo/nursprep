@@ -157,9 +157,13 @@
 .article strong { color: var(--fg-0); font-weight: 800; }
 
 /* Cover image */
-.cover-image { margin: 20px 0 0; }
-.cover-image svg { width: 100%; height: auto; display: block; border-radius: var(--r-l); border-top-right-radius: 6px; border: 1px solid var(--border-default); }
-.cover-caption { font-size: 0.75rem; color: var(--fg-3); margin-top: 8px; font-style: italic; }
+.cover-image { margin: 20px auto 0; max-width: 560px; }
+.cover-image svg,
+.cover-image img { width: 100%; height: auto; display: block; border-radius: var(--r-l); border-top-right-radius: 6px; border: 1px solid var(--border-default); }
+.cover-caption { font-size: 0.75rem; color: var(--fg-3); margin-top: 8px; font-style: italic; text-align: center; }
+@media (max-width: 640px) {
+  .cover-image { max-width: 100%; }
+}
 
 /* ---------- Fact box ---------- */
 .factbox {
