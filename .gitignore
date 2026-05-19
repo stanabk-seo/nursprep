@@ -5,3 +5,10 @@ _site/
 *.log
 .env
 .env.local
+# Skill state — track pipeline.json in git, but keep secrets out
+.skill-state/*
+!.skill-state/pipeline.json
+!.skill-state/keyword-to-code.json
+!.skill-state/runs/
+.skill-state/runs/*
+!.skill-state/runs/.gitkeep

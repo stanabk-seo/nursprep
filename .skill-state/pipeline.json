@@ -1,0 +1,518 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-19T20:42:04.491907Z",
+  "last_updated": "2026-05-19T21:06:38.464637Z",
+  "staging_branch": "staging",
+  "exams": [
+    {
+      "code": "SCRN",
+      "csv_keyword": "scrn",
+      "has_outline": false,
+      "status": "done",
+      "stages": {
+        "research": "done",
+        "brief": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "CNOR",
+      "csv_keyword": "cnor",
+      "has_outline": true,
+      "status": "done",
+      "stages": {
+        "research": "done",
+        "brief": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "PCCN",
+      "csv_keyword": "pccn",
+      "has_outline": true,
+      "status": "done",
+      "stages": {
+        "research": "done",
+        "brief": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "CAPA",
+      "csv_keyword": "capa certification",
+      "has_outline": true,
+      "status": "done",
+      "stages": {
+        "research": "done",
+        "brief": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "CDCES",
+      "csv_keyword": "cdces",
+      "has_outline": true,
+      "status": "done",
+      "stages": {
+        "research": "done",
+        "brief": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "NEA-BC",
+      "csv_keyword": "nea bc",
+      "has_outline": true,
+      "status": "done",
+      "stages": {
+        "research": "done",
+        "brief": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "CRRN",
+      "csv_keyword": "crrn",
+      "has_outline": true,
+      "status": "done",
+      "stages": {
+        "research": "done",
+        "brief": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "RNC-OB",
+      "csv_keyword": "rnc ob",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "TCRN",
+      "csv_keyword": "tcrn",
+      "has_outline": true,
+      "status": "done",
+      "stages": {
+        "research": "done",
+        "brief": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "CFRN",
+      "csv_keyword": "cfrn",
+      "has_outline": true,
+      "status": "done",
+      "stages": {
+        "research": "done",
+        "brief": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "NE-BC",
+      "csv_keyword": "ne bc",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "CHPN",
+      "csv_keyword": "chpn",
+      "has_outline": true,
+      "status": "done",
+      "stages": {
+        "research": "done",
+        "brief": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "attempts": 1,
+      "last_error": null,
+      "last_attempt_at": "2026-05-19T20:53:08.160802Z",
+      "completed_at": "2026-05-19T21:06:38.464605Z"
+    },
+    {
+      "code": "NPD-BC",
+      "csv_keyword": "npd bc",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "PMH-BC",
+      "csv_keyword": "pmh bc",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "ACHPN",
+      "csv_keyword": "achpn",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "BMTCN",
+      "csv_keyword": "bmtcn",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "AMB-BC",
+      "csv_keyword": "amb bc",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "NCSN",
+      "csv_keyword": "ncsn",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "CV-BC",
+      "csv_keyword": "cv bc",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "CWCN",
+      "csv_keyword": "cwcn",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "CMC",
+      "csv_keyword": "cmc certification nursing",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "MEDSURG-BC",
+      "csv_keyword": "medsurg bc",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "CSC",
+      "csv_keyword": "csc exam",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "NI-BC",
+      "csv_keyword": "ni bc",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "CIC",
+      "csv_keyword": "infection preventionist certification",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "CPN",
+      "csv_keyword": "cpn exam",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "CEN",
+      "csv_keyword": "cen exam",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "OCN",
+      "csv_keyword": "ocn exam",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "CPEN",
+      "csv_keyword": "cpen exam",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    },
+    {
+      "code": "CPAN",
+      "csv_keyword": "cpan exam",
+      "has_outline": true,
+      "status": "pending",
+      "stages": {
+        "research": "pending",
+        "brief": "pending",
+        "data_file": "pending",
+        "build_validated": "pending",
+        "committed": "pending"
+      },
+      "attempts": 0,
+      "last_error": null,
+      "last_attempt_at": null,
+      "completed_at": null
+    }
+  ]
+}
