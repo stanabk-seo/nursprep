@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-05-19T20:42:04.491907Z",
-  "last_updated": "2026-05-19T21:06:38.464637Z",
+  "last_updated": "2026-05-19T21:25:46.585574Z",
   "staging_branch": "staging",
   "exams": [
     {
@@ -127,17 +127,17 @@
       "code": "RNC-OB",
       "csv_keyword": "rnc ob",
       "has_outline": true,
-      "status": "pending",
+      "status": "in_progress",
       "stages": {
-        "research": "pending",
-        "brief": "pending",
-        "data_file": "pending",
-        "build_validated": "pending",
+        "research": "done",
+        "brief": "done",
+        "data_file": "done",
+        "build_validated": "done",
         "committed": "pending"
       },
-      "attempts": 0,
+      "attempts": 1,
       "last_error": null,
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-05-19T21:15:48.970502Z",
       "completed_at": null
     },
     {

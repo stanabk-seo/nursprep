@@ -1,0 +1,208 @@
+{
+  "code": "RNC-OB",
+  "researched_at": "2026-05-19T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "National Certification Corporation (NCC)",
+      "source": "https://www.nccwebsite.org/certification-exams/details/2/inpatient-obstetric-nursing",
+      "confidence": "high"
+    },
+    "credential_full_name": {
+      "value": "Registered Nurse Certified - Inpatient Obstetric Nursing (RNC-OB)",
+      "source": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "NCC publishes pass-rate stats starting from 2016 (2,308 candidates), and NCC itself was incorporated in 1975. Year the RNC-OB credential specifically launched is not clearly documented in primary sources."
+    },
+    "eligibility": {
+      "value": "Current, active, unencumbered RN licensure in the U.S. or Canada; 24 months of specialty experience as a U.S. or Canadian RN comprised of a minimum of 2,000 hours (lifetime); employment in the specialty within the last 24 months. Both practice time AND hours must be met (not either/or). Specialty experience can include direct patient care, education, administration, or research.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/2/inpatient-obstetric-nursing",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based exam delivered at PSI/AMP test centers OR via Live Remote Proctoring (LRP). 175 multiple-choice items (150 scored + 25 unscored pretest). Each question has a stem with three options (one correct, two distractors). 3-hour time limit.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Criterion-referenced using Rasch / item response theory. No fixed percentage passing level — pass/fail is based on an ability score against a predetermined criterion set by the Content Team. Different exam forms are equated to a common scale.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "fee_total": {
+      "value": "$325 USD (includes $50 non-refundable application fee + $275 testing fee). Applies to both Computer Test Center and Live Remote Proctoring formats. Retake = full fee, no discount.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/2/inpatient-obstetric-nursing",
+      "confidence": "high"
+    },
+    "incomplete_application_fee": {
+      "value": "$30 reprocessing fee for incomplete applications",
+      "source": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "change_request_fee": {
+      "value": "$125 to change exam category, eligibility window, or method (one change allowed)",
+      "source": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "withdrawal_refund": {
+      "value": "$160 refund of $325 if candidate withdraws per policy (minus any outstanding charges). Bulk-purchase voucher candidates cannot withdraw.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "retest_policy": {
+      "value": "45-day wait period before reapplying after a failed attempt. Maximum of two attempts at the same exam per calendar year. Full fee applies each retake — no discount.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "renewal_cycle_years": {
+      "value": 3,
+      "source": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "renewal_process": {
+      "value": "Continuing Competency Assessment (CCA) framework. At the start of each 3-year cycle the certificant completes the CCA, which generates a personalized Education Plan listing the specific CE hours required. CE earned AFTER the CCA in the areas defined by the Education Plan counts toward maintenance. A maintenance application + fee must be submitted before the maintenance due date. There is no fixed CE hour count published in the candidate guide — the requirement is individualized by the CCA.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "scheduling_window_days": {
+      "value": 90,
+      "source": "https://www.nccwebsite.org/certification-exams/details/2/inpatient-obstetric-nursing",
+      "confidence": "high"
+    },
+    "scope_focus": {
+      "value": "Care of the pregnant person after 20 weeks of gestation through discharge, across antepartum, intrapartum, postpartum, and normal newborn areas.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "salary_context_rn_median": {
+      "value": "RN median annual wage $93,600 (BLS May 2024 OEWS). Lowest 10% < $66,030; highest 10% > $135,320. BLS does not break out labor-and-delivery RNs separately.",
+      "source": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
+      "confidence": "high"
+    },
+    "salary_context_ld_estimated": {
+      "value": "Labor and delivery RN average ~$82,500/yr (range $75,100–$103,000) per industry aggregators (Salary.com, Vivian Health) — not BLS-published.",
+      "source": "https://www.vivian.com/nursing/labor-and-delivery-nurse/salary/",
+      "confidence": "medium"
+    },
+    "common_confusions": {
+      "value": "RNC-OB is frequently confused with: (1) RNC-MNN (Maternal Newborn Nursing — focuses on level I postpartum/well-newborn rather than full intrapartum continuum); (2) RNC-LRN (Low-Risk Neonatal Nursing); (3) C-EFM (Certified in Electronic Fetal Monitoring — a subspecialty add-on, not a standalone core credential); (4) WHNP-BC (Women's Health Nurse Practitioner — APRN credential, different role); (5) CNM (Certified Nurse-Midwife — different role and certifying body, AMCB).",
+      "source": "https://www.nccwebsite.org/certification-exams/exam-fees-and-eligibility",
+      "confidence": "high"
+    },
+    "recent_changes": {
+      "value": "2026 exam outline is current (as published in the 2026 Candidate Guide). NCC introduced two new subspecialty exams in 2025: Reproductive Health and Infertility (RHI) and Obstetric Emergencies (OBE). The 2025 RNC-OB pass rate dropped sharply to 65% (2,079 candidates) from 86% in 2024 (3,098 candidates) — consistent with a new exam form or revised passing point. NCC also ran a 'Second Chance Free' promotion starting 2025-02-01.",
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "Pregnancy Complications, Treatment, and Management",
+      "weight_pct": 28,
+      "source": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf",
+      "confidence": "high",
+      "subdomains": [
+        "Maternal/Birthing Person Complications Affecting the Fetus and Newborn",
+        "Maternal/Birthing Person Psychological and Environmental Factors",
+        "Preterm Labor",
+        "Multiple Gestation",
+        "Placental Disorders"
+      ]
+    },
+    {
+      "domain": "Fetal Assessment",
+      "weight_pct": 17,
+      "source": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf",
+      "confidence": "high",
+      "subdomains": [
+        "Antenatal Testing",
+        "Electronic Fetal Monitoring (NICHD terminology)",
+        "Non-Electronic Fetal Monitoring",
+        "Acid-Base Interpretation"
+      ]
+    },
+    {
+      "domain": "Labor and Birth",
+      "weight_pct": 36,
+      "source": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf",
+      "confidence": "high",
+      "subdomains": [
+        "Physiology of Labor",
+        "Assessment and Management of Labor",
+        "Obstetric and Perioperative Procedures",
+        "Pain Management and Coping",
+        "Labor and Obstetric Complications",
+        "Induction and Augmentation"
+      ]
+    },
+    {
+      "domain": "Recovery, Postpartum, and Newborn Care",
+      "weight_pct": 16,
+      "source": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf",
+      "confidence": "high",
+      "subdomains": [
+        "Recovery and Postpartum Physiology and Complications",
+        "Family Dynamics, Social Determinants of Health, and Discharge Readiness",
+        "Lactation and Infant Nutrition",
+        "Newborn Physiology and Complications"
+      ]
+    },
+    {
+      "domain": "Professional Practice Issues",
+      "weight_pct": 3,
+      "source": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf",
+      "confidence": "high",
+      "subdomains": [
+        "Legal, Ethics, Evidence-based Practice, Safety, and Quality Improvement"
+      ]
+    }
+  ],
+  "pass_rate_history": [
+    {"year": 2016, "pass_rate_pct": 87, "candidates": 2308, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2017, "pass_rate_pct": 89, "candidates": 2377, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2018, "pass_rate_pct": 90, "candidates": 2384, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2020, "pass_rate_pct": 90, "candidates": 2257, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2021, "pass_rate_pct": 93, "candidates": 1963, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2022, "pass_rate_pct": 87, "candidates": 2424, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2023, "pass_rate_pct": 90, "candidates": 1546, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2024, "pass_rate_pct": 86, "candidates": 3098, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2025, "pass_rate_pct": 65, "candidates": 2079, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"}
+  ],
+  "competing_credentials": [
+    {"code": "RNC-MNN", "body": "NCC", "scope": "Maternal Newborn Nursing — well-newborn / postpartum focused (level I units)", "who": "Postpartum/mother-baby RNs"},
+    {"code": "RNC-LRN", "body": "NCC", "scope": "Low-Risk Neonatal Nursing — well-newborn nursery", "who": "Newborn nursery RNs"},
+    {"code": "C-EFM", "body": "NCC", "scope": "Electronic Fetal Monitoring subspecialty (add-on)", "who": "L&D RNs, providers, perinatal educators"},
+    {"code": "OBE", "body": "NCC", "scope": "Obstetric Emergencies subspecialty (launched 2025)", "who": "L&D RNs/teams focused on emergencies"},
+    {"code": "WHNP-BC", "body": "AANC/NCC", "scope": "Women's Health Nurse Practitioner — APRN", "who": "APRNs in women's health"},
+    {"code": "CNM", "body": "AMCB", "scope": "Certified Nurse-Midwife — APRN-level midwifery", "who": "APRN midwives"}
+  ],
+  "sources_index": [
+    {"title": "NCC Exam Detail Page — Inpatient Obstetric Nursing (RNC-OB)", "url": "https://www.nccwebsite.org/certification-exams/details/2/inpatient-obstetric-nursing", "accessed": "2026-05-19"},
+    {"title": "NCC 2026 Candidate Guide — Inpatient Obstetric Nursing (RNC-OB) [PDF]", "url": "https://www.nccwebsite.org/content/documents/cms/inpt-candidate_guide.pdf", "accessed": "2026-05-19"},
+    {"title": "NCC CORE RNC Examination Registration Catalog [PDF]", "url": "https://www.nccwebsite.org/content/documents/cms/exam-core.pdf", "accessed": "2026-05-19"},
+    {"title": "NCC Statistics — Pass Rates 2016–2025", "url": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "accessed": "2026-05-19"},
+    {"title": "NCC Exam Fees and Eligibility", "url": "https://www.nccwebsite.org/certification-exams/exam-fees-and-eligibility", "accessed": "2026-05-19"},
+    {"title": "BLS Occupational Outlook Handbook — Registered Nurses (May 2024)", "url": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm", "accessed": "2026-05-19"},
+    {"title": "BLS Occupational Employment and Wage Statistics — Registered Nurses 29-1141", "url": "https://www.bls.gov/oes/current/oes291141.htm", "accessed": "2026-05-19"},
+    {"title": "Vivian Health — Labor and Delivery Nurse Salary by State", "url": "https://www.vivian.com/nursing/labor-and-delivery-nurse/salary/", "accessed": "2026-05-19"},
+    {"title": "DoD COOL — Inpatient Obstetric Nursing (RNC-OB) credential mapping", "url": "https://www.cool.osd.mil/dciv/credential/index.html?cert=rncion2447", "accessed": "2026-05-19"}
+  ],
+  "discrepancies": [
+    {
+      "field": "year_launched",
+      "note": "Multiple secondary sources do not consistently report the launch year. NCC pass-rate table starts at 2016 but the credential predates that. Leaving as null per skill rules."
+    },
+    {
+      "field": "renewal_ce_hours",
+      "note": "Unlike many specialty credentials with a fixed CE hour count, NCC issues an individualized Education Plan via the CCA. There is no single hour figure in the 2026 candidate guide for RNC-OB. Page copy must say 'CE hours per individualized CCA-generated Education Plan' rather than invent a number."
+    },
+    {
+      "field": "2025_pass_rate_drop",
+      "note": "RNC-OB pass rate dropped from 86% (2024) to 65% (2025) — a 21-point shift. NCC has not publicly explained, but a revised passing point and/or 2026 exam form rollout are likely drivers. Both numbers are pulled directly from NCC's statistics page."
+    }
+  ]
+}
