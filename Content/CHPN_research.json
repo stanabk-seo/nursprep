@@ -1,0 +1,230 @@
+{
+  "code": "CHPN",
+  "name": "Certified Hospice and Palliative Nurse",
+  "researched_at": "2026-05-19T20:55:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "Hospice and Palliative Credentialing Center (HPCC)",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/chpn/",
+      "confidence": "high"
+    },
+    "issuing_body_parent": {
+      "value": "HPCC is the credentialing arm of the Hospice and Palliative Nurses Association (HPNA). HPCC was originally chartered in 1993 as NBCHN and renamed Hospice and Palliative Credentialing Center in 2013.",
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/hpcc-history/",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": 1999,
+      "note": "Predecessor credential CRNH (Certified Registered Nurse Hospice) was first administered in 1994 and retired in 2002. In 1999 the exam was expanded to cover palliative care, and the credential was renamed CHPN.",
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/hpcc-history/",
+      "confidence": "high"
+    },
+    "active_certificants": {
+      "value": 7283,
+      "as_of": "2026-02-19",
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/exam-statistics/",
+      "confidence": "high"
+    },
+    "eligibility": {
+      "value": "Hold a current, active, unencumbered Registered Nurse (RN) license in the United States, US territories, or the equivalent in Canada. Must have hospice and palliative nursing practice of 500 hours in the most recent 12 months OR 1,000 hours in the most recent 24 months prior to applying.",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/chpn/",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based, multiple-choice. Delivered by PSI Exams at PSI test centers and via Live Remote Proctoring (LRP). 150 multiple-choice items total: 135 scored + 15 unscored pretest items. 3-hour time limit. Offered in four annual testing windows (March, June, September, December).",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/chpn/",
+      "confidence": "high"
+    },
+    "exam_vendor": {
+      "value": "PSI Exams (test centers and Live Remote Proctoring)",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/chpn/",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 150,
+      "scored": 135,
+      "pretest": 15,
+      "source": "https://hospicepalliativecertification.com/chpn-certification-hospice-and-palliative-care-certification-for-registered-nurses/",
+      "confidence": "high"
+    },
+    "time_limit": {
+      "value": "3 hours",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/chpn/",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Scaled score of 75 on a 0–99 scale (raw correct answers are converted to a scaled score that accounts for slight form-to-form difficulty variation).",
+      "source": "https://hospicepalliativecertification.com/chpn-certification-hospice-and-palliative-care-certification-for-registered-nurses/",
+      "confidence": "medium",
+      "note": "Third-party prep vendor cites scaled-75 standard. HPCC candidate handbook (PDF) is the authoritative source but was not directly fetchable; figure should be re-verified against handbook on next pass."
+    },
+    "fee_member": {
+      "value": 305,
+      "currency": "USD",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/chpn/",
+      "confidence": "high"
+    },
+    "fee_nonmember": {
+      "value": 445,
+      "currency": "USD",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/chpn/",
+      "confidence": "high"
+    },
+    "retest_assured": {
+      "value": 135,
+      "currency": "USD",
+      "note": "Optional reTEST Assured add-on allowing a no-additional-cost retake if the candidate fails the first attempt.",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/chpn/",
+      "confidence": "high"
+    },
+    "renewal_cycle_years": {
+      "value": 4,
+      "source": "https://www.advancingexpertcare.org/hpcc/recertification/hpar/",
+      "confidence": "high"
+    },
+    "renewal_program": {
+      "value": "Hospice and Palliative Accrual for Recertification (HPAR) — 100 points accumulated through CE and professional activities, where 1 CE contact hour = 1 HPAR point, plus a Situational Judgment Exercise (SJE) covering case-based decision-making. Practice-hour minimum required during the four-year cycle.",
+      "source": "https://www.advancingexpertcare.org/hpcc/recertification/hpar/",
+      "confidence": "high"
+    },
+    "exam_windows": {
+      "value": "Four annual windows: March 1–31, June 1–30, September 1–30, December 1–31. Online application deadlines are roughly two weeks before the window opens (Feb 15, May 15, Aug 15, Nov 15).",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/chpn/",
+      "confidence": "high"
+    },
+    "common_confusions": {
+      "value": [
+        {"credential": "ACHPN", "disambiguation": "ACHPN is the advanced-practice version of CHPN, for APRNs (NP/CNS). CHPN is the RN-level credential."},
+        {"credential": "CHPPN", "disambiguation": "CHPPN is HPCC's pediatric RN palliative credential. CHPN is the adult-focused RN credential, though it covers patients across the lifespan."},
+        {"credential": "CHPLN", "disambiguation": "CHPLN is HPCC's hospice/palliative credential for LPNs/LVNs. CHPN is for RNs only."},
+        {"credential": "CHPNA", "disambiguation": "CHPNA is the certification for nursing assistants in hospice/palliative care. Different scope and eligibility from CHPN."},
+        {"credential": "OCN", "disambiguation": "OCN (Oncology Nursing Certification Corporation) is for general oncology RNs. CHPN focuses on end-of-life and serious-illness care across all diagnoses, not just oncology."}
+      ],
+      "source": "https://www.advancingexpertcare.org/hpcc/",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": "BLS does not publish a hospice/palliative-specific RN occupation code. Median RN annual wage was $93,600 in May 2024 (BLS OOH, Registered Nurses). Hospice-RN-specific aggregator estimates cluster around $89,000–$94,000.",
+      "source": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
+      "confidence": "medium"
+    },
+    "accreditation": {
+      "value": "CHPN exam is accredited by the Accreditation Board for Specialty Nursing Certification (ABSNC). First accredited in February 2002, reaccredited in 2007, 2012, 2017, and 2022 — valid through February 2027.",
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/hpcc-history/",
+      "confidence": "high"
+    },
+    "recent_changes": {
+      "value": "Live Remote Proctoring (LRP) introduced September 2022. reTEST Assured program launched 2022. HPCC Retired Certification designation added 2024. In 2025 CHPNA certificants became HPAR-eligible. 2027 Detailed Content Outline published in May 2026.",
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/hpcc-history/",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "Patient Care — Assessment and Planning",
+      "scored_items": 25,
+      "weight_pct": 18.5,
+      "source": "https://hospicepalliativecertification.com/chpn-certification-hospice-and-palliative-care-certification-for-registered-nurses/",
+      "confidence": "high"
+    },
+    {
+      "domain": "Patient Care — Pain Management",
+      "scored_items": 26,
+      "weight_pct": 19.3,
+      "source": "https://hospicepalliativecertification.com/chpn-certification-hospice-and-palliative-care-certification-for-registered-nurses/",
+      "confidence": "high"
+    },
+    {
+      "domain": "Patient Care — Symptom Management",
+      "scored_items": 28,
+      "weight_pct": 20.7,
+      "source": "https://hospicepalliativecertification.com/chpn-certification-hospice-and-palliative-care-certification-for-registered-nurses/",
+      "confidence": "high"
+    },
+    {
+      "domain": "Support, Education, and Advocacy",
+      "scored_items": 28,
+      "weight_pct": 20.7,
+      "source": "https://hospicepalliativecertification.com/chpn-certification-hospice-and-palliative-care-certification-for-registered-nurses/",
+      "confidence": "high"
+    },
+    {
+      "domain": "Practice Issues",
+      "scored_items": 28,
+      "weight_pct": 20.7,
+      "source": "https://hospicepalliativecertification.com/chpn-certification-hospice-and-palliative-care-certification-for-registered-nurses/",
+      "confidence": "high"
+    }
+  ],
+  "blueprint_total_scored_items": 135,
+  "blueprint_note": "Blueprint counts in scored items align with the HPCC Detailed Content Outline. The 2027 DCO was published by HPCC in May 2026 — pages should verify domain weights against the most current DCO. Until HPCC posts revised counts, use the published five-domain structure shown here.",
+  "blueprint_source_dco": "https://www.advancingexpertcare.org/wp-content/uploads/2026/05/2026-CHPN-DCO_for-website.pdf",
+  "pass_rate_history": [
+    {
+      "year": 2025,
+      "cohort": "first_time",
+      "candidates": 1190,
+      "passed": 825,
+      "pass_rate_pct": 69.3,
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/exam-statistics/",
+      "confidence": "high"
+    },
+    {
+      "year": 2025,
+      "cohort": "repeater",
+      "candidates": 168,
+      "passed": 82,
+      "pass_rate_pct": 48.8,
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/exam-statistics/",
+      "confidence": "high"
+    },
+    {
+      "year": 2025,
+      "cohort": "total",
+      "candidates": 1358,
+      "passed": 907,
+      "pass_rate_pct": 66.8,
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/exam-statistics/",
+      "confidence": "high"
+    },
+    {
+      "year": 2024,
+      "cohort": "first_time",
+      "candidates": 1288,
+      "passed": 939,
+      "pass_rate_pct": 72.9,
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/exam-statistics/",
+      "confidence": "high"
+    },
+    {
+      "year": 2024,
+      "cohort": "total",
+      "candidates": 1386,
+      "passed": 990,
+      "pass_rate_pct": 71.4,
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/exam-statistics/",
+      "confidence": "high"
+    }
+  ],
+  "sources_index": [
+    {"title": "HPCC — CHPN credential page (fees, eligibility, schedule, application instructions)", "url": "https://www.advancingexpertcare.org/hpcc/credentials/chpn/", "accessed": "2026-05-19"},
+    {"title": "HPCC — Exam Statistics (2024 and 2025 CHPN pass rates, certificant counts)", "url": "https://www.advancingexpertcare.org/hpcc/why-certification/exam-statistics/", "accessed": "2026-05-19"},
+    {"title": "HPCC — History (1999 launch, CRNH predecessor, ABSNC accreditation, HPAR introduction)", "url": "https://www.advancingexpertcare.org/hpcc/why-certification/hpcc-history/", "accessed": "2026-05-19"},
+    {"title": "HPCC — HPAR (recertification program, 100-point requirement)", "url": "https://www.advancingexpertcare.org/hpcc/recertification/hpar/", "accessed": "2026-05-19"},
+    {"title": "HPCC — Recertification overview", "url": "https://www.advancingexpertcare.org/hpcc/recertification/how-to-recertify-2/", "accessed": "2026-05-19"},
+    {"title": "HPCC — Live Remote Proctoring", "url": "https://www.advancingexpertcare.org/hpcc/live-remote-proctoring/", "accessed": "2026-05-19"},
+    {"title": "HPCC — reTEST Assured program", "url": "https://www.advancingexpertcare.org/hpcc/retest-assured/", "accessed": "2026-05-19"},
+    {"title": "HPCC — 2026 CHPN Detailed Content Outline (PDF)", "url": "https://www.advancingexpertcare.org/wp-content/uploads/2026/05/2026-CHPN-DCO_for-website.pdf", "accessed": "2026-05-19"},
+    {"title": "Hospice Palliative Certification (HospicePalliativeReview) — CHPN exam content table and passing-score guidance", "url": "https://hospicepalliativecertification.com/chpn-certification-hospice-and-palliative-care-certification-for-registered-nurses/", "accessed": "2026-05-19"},
+    {"title": "US Bureau of Labor Statistics — Registered Nurses Occupational Outlook Handbook (May 2024 wages, 5% projected growth)", "url": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm", "accessed": "2026-05-19"}
+  ],
+  "discrepancies": [
+    {
+      "field": "passing_score",
+      "description": "Two scale frameworks appear in third-party sources: (a) scaled 75 on a 0–99 scale; (b) scaled 500 on a 200–800 scale. Scaling on 0–99 is the more recent third-party characterization aligned with HPCC's PSI-administered exams; the 200–800 figure may reflect legacy NBCHPN scaling. HPCC handbook should be consulted for definitive figure."
+    }
+  ],
+  "gaps": [
+    "Exact HPAR practice-hour minimum during the 4-year cycle was not directly fetched from the HPCC HPAR page (page returned empty in fetch). Use 'practice hours required during cycle' phrasing rather than a specific number until verified."
+  ]
+}
