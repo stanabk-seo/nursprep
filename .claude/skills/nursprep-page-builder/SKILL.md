@@ -81,9 +81,11 @@ Dispatch a sub-agent using `.claude/skills/nursprep-page-builder/stage-prompts/r
 
 **Critical:** every numeric figure on the page must trace to a row in `research.json`. No inventing pass rates, fees, or blueprint weights.
 
+**Conflict resolution rule:** if `src/_data/certs.js` and a secondary research source disagree on a basic fact (e.g. question count), TRUST `certs.js` — it's the project's canonical source. Note the discrepancy in `research.json` `discrepancies` field for the user's review.
+
 ### Stage 3 — Brief (sub-agent)
 
-Dispatch a sub-agent using `.claude/skills/nursprep-page-builder/stage-prompts/brief.md`. Inputs: outline text, `Content/{CODE}_research.json`, certs.js row, the SEO + NLP reference docs, and `Content Briefs/TCRN_Content_Brief.md` as gold-standard structure. Output: `Content Briefs/{CODE}_Content_Brief.md`.
+Dispatch a sub-agent using `.claude/skills/nursprep-page-builder/stage-prompts/brief.md`. Inputs: outline text, `Content/{CODE}_research.json`, certs.js row, the SEO + NLP reference docs, and `Content Briefs/CHPN_Content_Brief.md` as gold-standard structure (TCRN brief lives in the user's parent folder and isn't in the repo). Output: `Content Briefs/{CODE}_Content_Brief.md`.
 
 ### Stage 4 — Data file (sub-agent)
 
@@ -113,9 +115,10 @@ In the main flow (no defensive lock cleanup needed — /tmp has no stale locks):
 
 - `git push origin staging` — credentials are in the remote URL from clone; no helper needed.
 - Cloudflare Pages auto-deploys to `staging.nursprep.pages.dev/certifications/{code}/` within ~60s.
-- Final check: `sleep 60 && curl -sI https://staging.nursprep.pages.dev/certifications/{code-lowercase}/ | head -1`. If status isn't 200, log it but don't fail the run — Cloudflare may still be propagating.
+- Verify deploy WITHOUT blowing the bash timeout: run `sleep 40` in one bash call, then `sleep 30 && curl -sI https://staging.nursprep.pages.dev/certifications/{code-lowercase}/ | head -1` in a separate call. If status isn't 200, log it but don't fail the run — Cloudflare may still be propagating.
+- **Mark done + push the state update:** Run `python3 .claude/skills/nursprep-page-builder/scripts/state.py done {CODE}`. Then make a small follow-up commit: `git add .skill-state/pipeline.json && git commit -m 'Mark {CODE} done in pipeline.json' && git push origin staging`. This ensures the next scheduled run sees the latest done status on GitHub.
 
-After Stage 7, mark `status: done` via state.py and exit.
+After the state-update push, exit cleanly.
 
 ## Post-run: sync state back to mounted folder (optional but helpful)
 

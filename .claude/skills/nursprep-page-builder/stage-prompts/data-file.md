@@ -5,8 +5,7 @@ Generate `src/_data/exams/{{code}}.js` (lowercase filename) for the **{{CODE}}**
 ## Inputs
 - `Content Briefs/{{CODE}}_Content_Brief.md` — the brief from Stage 3
 - `Content/{{CODE}}_research.json` — verified facts with citations
-- `Website Codebase 11ty/src/_data/exams/tcrn.js` — gold-standard structural reference. Read it in full.
-- `Website Codebase 11ty/.claude/skills/nursprep-page-builder/reference/schema-reference.md` — annotated schema
+- `src/_data/exams/tcrn.js` (in your /tmp clone, repo root) — gold-standard structural reference. **Read it in full.** It's the authoritative schema; no separate schema doc is maintained.
 
 ## Output
 
