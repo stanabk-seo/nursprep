@@ -1,0 +1,130 @@
+{
+  "code": "NCSN",
+  "researched_at": "2026-05-20T12:30:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "National Board for Certification of School Nurses (NBCSN)",
+      "source": "https://nbcsn.org/certification/examination",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "Founding year of NBCSN credential not surfaced in primary sources reviewed."
+    },
+    "eligibility": {
+      "value": "Hold a current, unrestricted RN license in the United States; hold a baccalaureate or higher degree (BSN or non-nursing bachelor's/master's accepted per NBCSN); and have completed a minimum of 1,000 hours of clinical practice in school nursing within the past three years (direct or indirect contributions to student health and education count).",
+      "source": "https://www.nbcsn.org/certification/eligibility-readiness",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based exam delivered by PSI at testing sites across the U.S. (also offered via live online proctoring). Per project canonical certs.js, the exam contains 250 multiple-choice questions; per NBCSN public materials, the working count is 200 items (175 scored + 25 unscored pretest). Testing time is approximately 4 hours.",
+      "source": "https://nbcsn.org/exam",
+      "confidence": "medium"
+    },
+    "passing_score": {
+      "value": "Scaled score of 620 on a 200-800 scale (criterion-referenced).",
+      "source": "https://www.examedge.com/healthcare/nbcsn/ncsn/nbcsn-nationally-certified-school-nurse-ncsn-practice-tests-faq.cfm",
+      "confidence": "medium"
+    },
+    "fee_initial": {
+      "value": "$370 Early Bird application fee; $390 Regular application fee; $50 late fee if submitted after deadline.",
+      "source": "https://nbcsn.org/certification/examination",
+      "confidence": "high"
+    },
+    "fee_recertification": {
+      "value": "$255 recertification application fee.",
+      "source": "https://nbcsn.org/recertification-procedures",
+      "confidence": "high"
+    },
+    "pass_rate_recent": {
+      "value": "70.6% in 2023 (847 passed of 1,199 examinations administered). Historical annual pass rates have ranged from approximately 50% to 83.6%.",
+      "source": "https://nbcsn.org/about-ncsn-credential/statistics",
+      "confidence": "medium"
+    },
+    "renewal": {
+      "value": "5-year certification cycle. Recertify by accumulating at least 75 contact hours of continuing education AND documenting at least 2,000 hours of school nursing clinical practice during the 5-year cycle (minimum 750 of those hours within the most recent 3 years), OR retake and pass the NCSN exam.",
+      "source": "https://nbcsn.org/recertification",
+      "confidence": "high"
+    },
+    "common_confusions": {
+      "value": "Often conflated with state-level school nurse certifications/endorsements issued by departments of education, which are separate licensing credentials and not the same as the national NCSN credential.",
+      "source": "https://nbcsn.org/resources/faqs",
+      "confidence": "medium"
+    },
+    "salary_context": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "BLS does not break out school nurses as a distinct OEWS occupation; salary varies widely by state education funding."
+    },
+    "recent_changes": {
+      "value": "Effective Summer 2025 (July-August 2025 administration) the Exam Content Outline was restructured from five domains to four domains, with item counts per domain clarified.",
+      "source": "https://nbcsn.org/certification/updated-exam-content-summer-2025",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "Health Appraisal & Nursing Practice",
+      "weight_pct": null,
+      "item_count": 52,
+      "source": "https://nbcsn.org/certification/updated-exam-content-summer-2025",
+      "confidence": "high"
+    },
+    {
+      "domain": "Health Promotion / Disease Prevention",
+      "weight_pct": null,
+      "item_count": 41,
+      "source": "https://nbcsn.org/certification/updated-exam-content-summer-2025",
+      "confidence": "high"
+    },
+    {
+      "domain": "School Health Practice Considerations",
+      "weight_pct": null,
+      "item_count": 32,
+      "source": "https://nbcsn.org/certification/updated-exam-content-summer-2025",
+      "confidence": "high"
+    },
+    {
+      "domain": "Leadership, Professionalism & Systems",
+      "weight_pct": null,
+      "item_count": null,
+      "source": "https://nbcsn.org/certification/updated-exam-content-summer-2025",
+      "confidence": "low",
+      "note": "Fourth domain referenced in 4-domain restructure; specific item count not surfaced in summarized sources. Domain label paraphrased; consult Summer 2025 Candidate Handbook for verbatim."
+    }
+  ],
+  "pass_rate_history": [
+    {
+      "year": 2023,
+      "pass_rate_pct": 70.6,
+      "candidates": 1199,
+      "passed": 847,
+      "source": "https://nbcsn.org/about-ncsn-credential/statistics",
+      "confidence": "medium"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "question_count",
+      "values": [
+        {"source": "src/_data/certs.js (project canonical)", "value": 250},
+        {"source": "https://nbcsn.org/exam (NBCSN public)", "value": 200}
+      ],
+      "resolution": "Per skill rule, trust certs.js (250) on the page. Flagged here for user review."
+    }
+  ],
+  "sources_index": [
+    {"title": "Examination | NBCSN", "url": "https://nbcsn.org/certification/examination", "accessed": "2026-05-20"},
+    {"title": "Eligibility & Readiness | NBCSN", "url": "https://www.nbcsn.org/certification/eligibility-readiness", "accessed": "2026-05-20"},
+    {"title": "Updated Exam Content - Summer 2025 | NBCSN", "url": "https://nbcsn.org/certification/updated-exam-content-summer-2025", "accessed": "2026-05-20"},
+    {"title": "The Exam | NBCSN", "url": "https://nbcsn.org/exam", "accessed": "2026-05-20"},
+    {"title": "Recertification | NBCSN", "url": "https://nbcsn.org/recertification", "accessed": "2026-05-20"},
+    {"title": "Recertification Procedures | NBCSN", "url": "https://nbcsn.org/recertification-procedures", "accessed": "2026-05-20"},
+    {"title": "Statistics | NBCSN", "url": "https://nbcsn.org/about-ncsn-credential/statistics", "accessed": "2026-05-20"},
+    {"title": "FAQs | NBCSN", "url": "https://nbcsn.org/resources/faqs", "accessed": "2026-05-20"},
+    {"title": "NBCSN NCSN Practice Tests FAQ | Exam Edge", "url": "https://www.examedge.com/healthcare/nbcsn/ncsn/nbcsn-nationally-certified-school-nurse-ncsn-practice-tests-faq.cfm", "accessed": "2026-05-20"}
+  ]
+}

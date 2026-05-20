@@ -1,0 +1,15 @@
+NCSN run log — 2026-05-20T12:15:10Z
+========================================
+Stages:
+  1 resolve         done (certs.js row located, outline read from mounted CSV)
+  2 research        done (Content/NCSN_research.json, 9 sources, NBCSN primary)
+  3 brief           done (Content Briefs/NCSN_Content_Brief.md, ~3100 words)
+  4 data_file       done (src/_data/exams/ncsn.js, 343 lines, schema mirrors tcrn.js)
+  5 build_validated done (66,427 bytes, all 12 sections, 1 JSON-LD)
+  6 committed       in progress
+  7 pushed          pending
+
+Key notes:
+  - certs.js says 250 questions; NBCSN public materials say 200 (175 scored + 25 pretest). Per skill rule, certs.js wins on the page; discrepancy logged in research.json.
+  - Summer 2025 four-domain ECO used. Domain 4 (Leadership, Professionalism & Systems) item count not surfaced in public sources; flagged in brief and data file.
+  - Year credential launched not surfaced; left null and noted as gap.
