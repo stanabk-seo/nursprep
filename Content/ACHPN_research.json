@@ -1,0 +1,302 @@
+{
+  "code": "ACHPN",
+  "name": "Advanced Certified Hospice and Palliative Nurse",
+  "researched_at": "2026-05-20T09:30:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "Hospice and Palliative Credentialing Center (HPCC)",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/achpn/",
+      "confidence": "high"
+    },
+    "issuing_body_parent": {
+      "value": "HPCC is the credentialing arm of the Hospice and Palliative Nurses Association (HPNA). HPCC was originally chartered in 1993 as NBCHN and renamed Hospice and Palliative Credentialing Center in 2013.",
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/hpcc-history/",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": 2003,
+      "note": "First national testing for the advanced-practice hospice and palliative exam was held in May 2003 and developed by HPCC in partnership with the American Nurses Credentialing Center (ANCC). In December 2004, HPCC acquired the exam and rebranded it as the ACHPN credential. ABSNC accreditation was awarded in February 2007 and reaccredited in 2012, 2017, and 2022; current accreditation is valid through February 2027.",
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/hpcc-history/",
+      "confidence": "high"
+    },
+    "active_certificants": {
+      "value": 2628,
+      "as_of": "2026-02-19",
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/exam-statistics/",
+      "confidence": "high"
+    },
+    "eligibility": {
+      "value": "Hold a current, active APRN license or APRN certification in the United States, US territories, or the equivalent in Canada. Completion of an accredited graduate, postgraduate, or doctoral Nurse Practitioner (NP) or Clinical Nurse Specialist (CNS) educational program (US schools, or Canadian programs approved by CCRNR) is required. The transcript must demonstrate three separate comprehensive graduate-level courses in advanced pathophysiology, advanced health assessment, and advanced pharmacology, plus a clinical practicum of at least 500 hours. Candidates must be functioning as an NP or CNS with hospice and palliative advanced nursing practice of 500 hours in the most recent 12 months OR 1,000 hours in the most recent 24 months prior to applying.",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/achpn/",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based, multiple-choice. Delivered by PSI Exams at PSI test centers and via Live Remote Proctoring (LRP). Per the 2026 ACHPN Detailed Content Outline (April 2026 role-delineation study report), the exam blueprint comprises 150 scored items distributed across four domains. Offered in four annual testing windows (March, June, September, December).",
+      "source": "https://www.advancingexpertcare.org/wp-content/uploads/2026/05/2026-ACHPN-DCO_for-website.pdf",
+      "confidence": "high"
+    },
+    "exam_vendor": {
+      "value": "PSI Exams (test centers and Live Remote Proctoring)",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/achpn/",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 150,
+      "scored": 150,
+      "pretest": null,
+      "note": "HPCC's 2026 ACHPN DCO sums to 150 scored items across four domains (Assessment 42 + Evaluation/Management 49 + Education/Communication 38 + Professionalism/Practice 21). This matches the canonical figure in src/_data/certs.js (questions: 150). Two third-party prep vendors (Mometrix; HospicePalliativeCertification.com) describe the exam as 175 items with 150 scored plus 25 unscored pretest items and a 3.5-hour seat time; HPCC's own credential page does not publish a total-item or seat-time number. Per project rules, certs.js wins on the 150 question count; the third-party 175/3.5-hour figures are flagged in discrepancies for user review.",
+      "source": "https://www.advancingexpertcare.org/wp-content/uploads/2026/05/2026-ACHPN-DCO_for-website.pdf",
+      "confidence": "high"
+    },
+    "time_limit": {
+      "value": null,
+      "note": "HPCC's public ACHPN credential page does not publish an exam time limit. Third-party prep vendors report 3.5 hours, but HPCC's authoritative candidate handbook PDF was not directly fetchable in this pass. Left null per the skill's rule against inventing facts.",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/achpn/",
+      "confidence": "missing"
+    },
+    "passing_score": {
+      "value": null,
+      "note": "HPCC's public ACHPN credential page does not publish a passing scaled score. Third-party sources (boardcerts.com; Mometrix) report a scaled score of 500 on a 200-800 scale, but HPCC's own handbook was not directly fetchable. Left null pending handbook verification.",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/achpn/",
+      "confidence": "missing"
+    },
+    "fee_member": {
+      "value": 355,
+      "currency": "USD",
+      "note": "Initial Certification, HPNA member.",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/achpn/",
+      "confidence": "high"
+    },
+    "fee_nonmember": {
+      "value": 515,
+      "currency": "USD",
+      "note": "Initial Certification, non-member.",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/achpn/",
+      "confidence": "high"
+    },
+    "retest_assured": {
+      "value": 135,
+      "currency": "USD",
+      "note": "Optional reTEST Assured add-on, prepaid retake for candidates who fail the first attempt. Program launched in 2022.",
+      "source": "https://www.advancingexpertcare.org/hpcc/retest-assured/",
+      "confidence": "high"
+    },
+    "renewal_cycle_years": {
+      "value": 4,
+      "source": "https://www.advancingexpertcare.org/hpcc/recertification/how-to-recertify-achpn/",
+      "confidence": "high"
+    },
+    "renewal_program": {
+      "value": "Hospice and Palliative Accrual for Recertification (HPAR) - an online portfolio in LearningBuilder where ACHPN holders accumulate 100 HPAR points over the 4-year cycle (1 CE contact hour = 1 HPAR point) and additionally complete the Situational Judgment Exercise (SJE), a series of case-based scenarios testing critical reasoning beyond initial-exam content. Practice-hour requirement mirrors initial eligibility: 500 hours in the most recent 12 months or 1,000 hours in the most recent 24 months. HPAR has been the standard recertification pathway since 2014; the 100-point requirement was standardized in 2017.",
+      "source": "https://www.advancingexpertcare.org/hpcc/recertification/hpar/",
+      "confidence": "high"
+    },
+    "testing_windows": {
+      "value": "Four annual testing windows: March 1-31, June 1-30, September 1-30, and December 1-31. Online application deadlines are Feb 15, May 15, Aug 15, and Nov 15 respectively. Application start dates open three months before each window.",
+      "source": "https://www.advancingexpertcare.org/hpcc/credentials/achpn/",
+      "confidence": "high"
+    },
+    "accreditation": {
+      "value": "ABSNC (Accreditation Board for Specialty Nursing Certification) accredited; current accreditation valid through February 2027.",
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/hpcc-history/",
+      "confidence": "high"
+    },
+    "scholarships": {
+      "value": "Sandra Lee Schafer Certification Scholarship and other Hospice and Palliative Nurses Foundation (HPNF) scholarships cover certification fees for selected applicants on an ongoing basis.",
+      "source": "https://www.advancingexpertcare.org/sandra-lee-schafer-certification-scholarship/",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": "BLS OEWS May 2024: median annual wage for nurse anesthetists, nurse midwives, and nurse practitioners (combined SOC 29-1170 grouping) was $132,050. Nurse practitioner-only median was $129,210. Lowest 10% earned less than $98,520; highest 10% earned more than $217,270. BLS does not break out hospice/palliative NPs separately, but hospital settings (median $137,790) are typically the highest-paying for NPs.",
+      "source": "https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "Assessment and Data Collection",
+      "scored_items": 42,
+      "weight_pct": 28.0,
+      "subtopics": "Medical history & review of systems; physical exam; functional assessment; psychosocial/spiritual/cultural assessment; prognostic tools; signs and symptoms of serious illness; advance care planning; disease progression and prognostication; signs of imminent death; unique needs of specific populations; hospice criteria.",
+      "source": "https://www.advancingexpertcare.org/wp-content/uploads/2026/05/2026-ACHPN-DCO_for-website.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Evaluation and Management",
+      "scored_items": 49,
+      "weight_pct": 32.7,
+      "subtopics": "Diagnostic tests and procedures; pharmacologic interventions; non-pharmacologic interventions; disease process and plan of care; hospice and palliative care emergencies (spinal cord compression, hemorrhage, seizures, SVC syndrome); palliative sedation; life-support devices; opioid stewardship; complex clinical decision making.",
+      "source": "https://www.advancingexpertcare.org/wp-content/uploads/2026/05/2026-ACHPN-DCO_for-website.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Education and Communication",
+      "scored_items": 38,
+      "weight_pct": 25.3,
+      "subtopics": "Population-appropriate communication methods; communication theory and principles; strategies to overcome communication barriers; grief, loss, and bereavement; hospice versus palliative care.",
+      "source": "https://www.advancingexpertcare.org/wp-content/uploads/2026/05/2026-ACHPN-DCO_for-website.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Professionalism and Practice",
+      "scored_items": 21,
+      "weight_pct": 14.0,
+      "subtopics": "Principles of biomedical ethics (including withholding/withdrawing treatment, palliative sedation, medical aid in dying, voluntary stopping of eating and drinking); professional boundaries; scope of practice; national hospice and palliative care standards and guidelines; working with an interdisciplinary team; professionalism in the role of a consultant.",
+      "source": "https://www.advancingexpertcare.org/wp-content/uploads/2026/05/2026-ACHPN-DCO_for-website.pdf",
+      "confidence": "high"
+    }
+  ],
+  "pass_rate_history": [
+    {
+      "year": 2024,
+      "first_time_total": 292,
+      "first_time_passed": 222,
+      "first_time_pass_rate_pct": 76.0,
+      "repeater_total": 59,
+      "repeater_passed": 30,
+      "repeater_pass_rate_pct": 50.8,
+      "overall_total": 351,
+      "overall_passed": 252,
+      "overall_pass_rate_pct": 71.8,
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/exam-statistics/",
+      "confidence": "high"
+    },
+    {
+      "year": 2025,
+      "first_time_total": 284,
+      "first_time_passed": 200,
+      "first_time_pass_rate_pct": 70.4,
+      "repeater_total": 48,
+      "repeater_passed": 26,
+      "repeater_pass_rate_pct": 54.2,
+      "overall_total": 332,
+      "overall_passed": 226,
+      "overall_pass_rate_pct": 68.1,
+      "source": "https://www.advancingexpertcare.org/hpcc/why-certification/exam-statistics/",
+      "confidence": "high"
+    }
+  ],
+  "hpar_recertification_2025": {
+    "renewals": 368,
+    "reactivations": 37,
+    "source": "https://www.advancingexpertcare.org/hpcc/why-certification/exam-statistics/",
+    "confidence": "high"
+  },
+  "common_confusions": [
+    {
+      "credential": "CHPN",
+      "issuer": "HPCC",
+      "scope": "RN-level hospice and palliative certification",
+      "disambiguation": "CHPN is the RN-level credential (requires active RN license + 500/1000 practice hours). ACHPN is the APRN-level credential restricted to NPs and CNSs who completed an accredited graduate NP or CNS program. RNs progressing through an APRN program typically move from CHPN to ACHPN."
+    },
+    {
+      "credential": "CHPPN",
+      "issuer": "HPCC",
+      "scope": "Pediatric hospice and palliative RN",
+      "disambiguation": "CHPPN is the RN-level pediatric hospice/palliative credential. ACHPN-eligible NPs/CNSs working in pediatric palliative care typically hold ACHPN plus their primary pediatric APRN board certification (PNP-PC, PNP-AC, or CNS) rather than CHPPN."
+    },
+    {
+      "credential": "HPM (Hospice and Palliative Medicine)",
+      "issuer": "ABIM / ABMS member boards",
+      "scope": "Hospice and Palliative Medicine subspecialty for physicians",
+      "disambiguation": "HPM is a physician subspecialty board certification. ACHPN is the parallel APRN nursing credential - same clinical domain, different licensure track."
+    },
+    {
+      "credential": "APHSW-C",
+      "issuer": "HPCC",
+      "scope": "Advanced Palliative Hospice Social Worker - Certified",
+      "disambiguation": "APHSW-C is HPCC's credential for licensed social workers practicing in hospice/palliative care. ACHPN is the parallel APRN nursing credential."
+    },
+    {
+      "credential": "AGACNP-BC / FNP-BC / AGPCNP-BC",
+      "issuer": "ANCC, AANP",
+      "scope": "Generalist APRN board certifications used to obtain APRN licensure",
+      "disambiguation": "AGACNP-BC, FNP-BC, and AGPCNP-BC are required population-focus APRN certifications used to obtain APRN licensure. ACHPN is a specialty add-on credential. Most ACHPN holders pair the credential with their primary AGACNP, AGPCNP, FNP, or CNS board certification."
+    }
+  ],
+  "discrepancies": [
+    {
+      "fact": "question_count",
+      "certs_js_value": 150,
+      "secondary_source_value": "175 total / 150 scored / 25 unscored pretest",
+      "secondary_sources": [
+        "https://www.mometrix.com/academy/achpn-exam/",
+        "https://hospicepalliativecertification.com/advanced-certified-hospice-and-palliative-nurse-achpn-certification/",
+        "https://www.boardcerts.com/exams/achpn"
+      ],
+      "resolution": "Used certs.js value of 150 (which matches the HPCC 2026 DCO scored-item sum). The published HPCC DCO does not list pretest items; this page treats 150 as the total exam length per project canonical rules. If user later confirms HPCC handbook explicitly states 175 items / 25 pretest, both this discrepancies note and the data-file's heroPills/ataGlance should be re-checked."
+    },
+    {
+      "fact": "time_limit",
+      "certs_js_value": "(not specified)",
+      "secondary_source_value": "3.5 hours",
+      "secondary_sources": [
+        "https://www.mometrix.com/academy/achpn-exam/",
+        "https://hospicepalliativecertification.com/advanced-certified-hospice-and-palliative-nurse-achpn-certification/"
+      ],
+      "resolution": "Left null on the page (no Duration pill, no Time line in at-a-glance) because HPCC's authoritative pages do not publish a seat-time number. Once HPCC's candidate handbook PDF is verified, the field can be backfilled in a follow-up edit."
+    },
+    {
+      "fact": "passing_score",
+      "certs_js_value": "(not specified)",
+      "secondary_source_value": "scaled score of 500 on a 200-800 scale",
+      "secondary_sources": [
+        "https://www.boardcerts.com/exams/achpn",
+        "https://www.mometrix.com/academy/achpn-exam/"
+      ],
+      "resolution": "Left null on the page until HPCC handbook is verified."
+    }
+  ],
+  "sources_index": [
+    {
+      "title": "HPCC - ACHPN credential page (eligibility, fees, testing windows, PSI scheduling)",
+      "url": "https://www.advancingexpertcare.org/hpcc/credentials/achpn/",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "HPCC - Exam Statistics: 2024 and 2025 ACHPN pass rates and active-certificant counts",
+      "url": "https://www.advancingexpertcare.org/hpcc/why-certification/exam-statistics/",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "HPCC - History: NBCHN 1993 founding, 2003 first advanced-practice testing, 2004 ACHPN acquisition, 2007 ABSNC accreditation",
+      "url": "https://www.advancingexpertcare.org/hpcc/why-certification/hpcc-history/",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "HPCC - 2026 ACHPN Detailed Content Outline (PDF, April 2026 role-delineation study report)",
+      "url": "https://www.advancingexpertcare.org/wp-content/uploads/2026/05/2026-ACHPN-DCO_for-website.pdf",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "HPCC - HPAR recertification program (100 points, Situational Judgment Exercise)",
+      "url": "https://www.advancingexpertcare.org/hpcc/recertification/hpar/",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "HPCC - How to Recertify ACHPN (4-year cycle, practice hours, HPAR + SJE)",
+      "url": "https://www.advancingexpertcare.org/hpcc/recertification/how-to-recertify-achpn/",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "HPCC - reTEST Assured program ($135 prepaid retake)",
+      "url": "https://www.advancingexpertcare.org/hpcc/retest-assured/",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "HPCC - Live Remote Proctoring program",
+      "url": "https://www.advancingexpertcare.org/hpcc/live-remote-proctoring/",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "HPCC - Sandra Lee Schafer Certification Scholarship",
+      "url": "https://www.advancingexpertcare.org/sandra-lee-schafer-certification-scholarship/",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "US Bureau of Labor Statistics - Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners OOH (May 2024 wage data)",
+      "url": "https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm",
+      "accessed": "2026-05-20"
+    }
+  ]
+}

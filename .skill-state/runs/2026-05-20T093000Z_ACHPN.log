@@ -1,0 +1,13 @@
+[2026-05-20T09:30:00Z] Run start: ACHPN (attempt 1)
+[2026-05-20T09:30:01Z] state.py start ACHPN -> in_progress
+[2026-05-20T09:30:05Z] Stage 1 (resolve): code=ACHPN name="Advanced Certified Hospice and Palliative Nurse" body=HPCC cat=palliative questions=150; CSV outline read for keyword "achpn"
+[2026-05-20T09:31:00Z] Stage 2 (research): Web-fetched HPCC ACHPN page, HPCC Exam Stats, HPCC History, 2026 ACHPN DCO PDF; web-searched HPAR, BLS NP wages. Wrote Content/ACHPN_research.json. 17 facts captured. Three facts left null with reason: time_limit (HPCC public pages do not publish), passing_score (HPCC handbook not directly fetchable), question_count.pretest (HPCC DCO sums to 150 scored; third-party 175-item claim flagged as discrepancy).
+[2026-05-20T09:31:05Z] state.py stage ACHPN research -> done
+[2026-05-20T09:32:00Z] Stage 3 (brief): CSV outline rewritten from scratch (vendor "Board Review Course" template, treated cert as course, missing all eligibility/fee/pass-rate sections). Wrote Content Briefs/ACHPN_Content_Brief.md (~2,200 words).
+[2026-05-20T09:32:05Z] state.py stage ACHPN brief -> done
+[2026-05-20T09:33:00Z] Stage 4 (data file): Wrote src/_data/exams/achpn.js (348 lines). All 12 section keys populated. Hero pills: omitted Duration (time_limit=null); replaced with "Domains: 4 domains". No "Time limit" row in ataGlance. No passing-score callout. Node -c syntax check passed.
+[2026-05-20T09:33:05Z] state.py stage ACHPN data_file -> done
+[2026-05-20T09:33:10Z] Stage 5 (build & validate): npx @11ty/eleventy wrote 18 files in 0.28s. validate-build.py ACHPN -> PASS (73,861 bytes, all 12 sections, 1 JSON-LD block).
+[2026-05-20T09:33:15Z] state.py stage ACHPN build_validated -> done
+[2026-05-20T09:33:30Z] Stage 6 (commit): see commit hash in pipeline.json after push.
+[2026-05-20T09:33:45Z] Stage 7 (push): origin/staging.
