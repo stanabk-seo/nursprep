@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-05-19T20:42:04.491907Z",
-  "last_updated": "2026-05-20T15:43:26.448869Z",
+  "last_updated": "2026-05-20T15:44:32.901468Z",
   "staging_branch": "staging",
   "exams": [
     {
@@ -348,18 +348,18 @@
       "code": "CMC",
       "csv_keyword": "cmc certification nursing",
       "has_outline": true,
-      "status": "in_progress",
+      "status": "done",
       "stages": {
         "research": "done",
         "brief": "done",
         "data_file": "done",
         "build_validated": "done",
-        "committed": "pending"
+        "committed": "done"
       },
       "attempts": 1,
       "last_error": null,
       "last_attempt_at": "2026-05-20T15:27:30.573846Z",
-      "completed_at": null
+      "completed_at": "2026-05-20T15:44:32.901457Z"
     },
     {
       "code": "MEDSURG-BC",
