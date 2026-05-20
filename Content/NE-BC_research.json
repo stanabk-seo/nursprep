@@ -1,0 +1,105 @@
+{
+  "code": "NE-BC",
+  "researched_at": "2026-05-20T07:35:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "American Nurses Credentialing Center (ANCC)",
+      "source": "https://www.nursingworld.org/our-certifications/nurse-executive/",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "ANCC nurse executive credentialing has existed since the 1990s but a specific NE-BC launch year was not located on the issuing body page during this run."
+    },
+    "eligibility": {
+      "value": "Hold a current, active U.S. RN license (or legally recognized equivalent in another country); a bachelor's or higher degree in nursing; the equivalent of 2 years full-time practice as an RN; a minimum of 2,000 hours of nursing administration practice within the last 3 years; and 30 hours of continuing education in nursing administration within the last 3 years.",
+      "source": "https://www.nursingworld.org/our-certifications/nurse-executive/",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based at Prometric test centers (and remote-proctored option per ANCC). Competency-based, multiple-choice. 175 items total (150 scored + 25 pretest), 3.5-hour time limit.",
+      "source": "https://www.boardcerts.com/exams/ne-bc",
+      "confidence": "medium",
+      "note": "Item count and time confirmed against certs.js (175 questions). One secondary source (mometrix) lists 150/3hr; the ANCC handbook value 175/3.5hr is treated as canonical."
+    },
+    "passing_score": {
+      "value": "Scaled score of 350 on a 0-500 scale",
+      "source": "https://www.mometrix.com/academy/nurseexec-practice-test/",
+      "confidence": "medium"
+    },
+    "fee_ana_member": {
+      "value": "$295",
+      "source": "https://nursingexams.org/ancc/ancc-cost/",
+      "confidence": "medium"
+    },
+    "fee_nonmember": {
+      "value": "$395",
+      "source": "https://nursingexams.org/ancc/ancc-cost/",
+      "confidence": "medium"
+    },
+    "fee_retake": {
+      "value": "$270",
+      "source": "https://nursingexams.org/ancc/ancc-retake-policy/",
+      "confidence": "medium",
+      "note": "Retake allowed no sooner than 60 days after a failed attempt."
+    },
+    "pass_rate_latest": {
+      "value": "66% (most recently reported pass rate per ANCC certification data)",
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "medium",
+      "note": "Total NE-BC credential holders reported at 9,156 as of the same data release."
+    },
+    "renewal": {
+      "value": "5-year cycle. Renew by completing 75 hours of continuing education in nurse executive practice plus one additional professional development category, or by retaking the certification exam.",
+      "source": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf",
+      "confidence": "high"
+    },
+    "fee_renewal_ana_member": {
+      "value": "$275",
+      "source": "https://nursingexams.org/ancc/ancc-cost/",
+      "confidence": "medium"
+    },
+    "fee_renewal_nonmember": {
+      "value": "$375",
+      "source": "https://nursingexams.org/ancc/ancc-cost/",
+      "confidence": "medium"
+    },
+    "common_confusions": {
+      "value": [
+        {"credential": "NEA-BC", "disambiguation": "Nurse Executive Advanced - Board Certified, also from ANCC, is the system or enterprise-level credential and requires a master's degree plus broader executive scope. NE-BC targets unit, team, service-line, department, or program leaders."},
+        {"credential": "CENP", "disambiguation": "Certified in Executive Nursing Practice from AONL is a competing executive credential aimed at nurse leaders at the executive level; NE-BC is ANCC's parallel offering for first-line and middle nurse leaders."}
+      ],
+      "source": "https://www.nursingworld.org/our-certifications/nurse-executive/",
+      "confidence": "high"
+    },
+    "recent_changes": {
+      "value": "ANCC Certification Renewal Requirements handbook effective September 10, 2025 governs the current renewal cycle.",
+      "source": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {"domain": "Structures and Processes", "weight_pct": null, "source": "https://www.nursingworld.org/our-certifications/nurse-executive/", "confidence": "low", "note": "ANCC publishes the Test Content Outline as a downloadable PDF; specific 2025-2026 domain weights were not extracted during this run. Secondary sources describe the major content areas as Human Resource Management, Quality and Safety, Business Management, and Health Care Delivery."},
+    {"domain": "Human Resource Management", "weight_pct": null, "source": "https://www.boardcerts.com/exams/ne-bc", "confidence": "low"},
+    {"domain": "Quality and Safety", "weight_pct": null, "source": "https://www.boardcerts.com/exams/ne-bc", "confidence": "low"},
+    {"domain": "Business Management", "weight_pct": null, "source": "https://www.boardcerts.com/exams/ne-bc", "confidence": "low"},
+    {"domain": "Health Care Delivery", "weight_pct": null, "source": "https://www.boardcerts.com/exams/ne-bc", "confidence": "low"}
+  ],
+  "pass_rate_history": [
+    {"year": 2024, "pass_rate_pct": 66, "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf", "confidence": "medium"}
+  ],
+  "discrepancies": [
+    {"field": "exam_question_count", "values": [{"src": "boardcerts.com / certs.js", "v": 175}, {"src": "mometrix.com", "v": 150}], "resolution": "Use 175 per ANCC's published handbook and internal certs.js data."}
+  ],
+  "sources_index": [
+    {"title": "Nurse Executive Certification (NE-BC) | ANCC", "url": "https://www.nursingworld.org/our-certifications/nurse-executive/", "accessed": "2026-05-20"},
+    {"title": "NE-BC Exam - boardcerts.com", "url": "https://www.boardcerts.com/exams/ne-bc", "accessed": "2026-05-20"},
+    {"title": "ANCC Certification Renewal Handbook (effective Sept 10, 2025)", "url": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf", "accessed": "2026-05-20"},
+    {"title": "2025 ANCC Certification Data", "url": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf", "accessed": "2026-05-20"},
+    {"title": "Understanding ANCC Exam Costs - nursingexams.org", "url": "https://nursingexams.org/ancc/ancc-cost/", "accessed": "2026-05-20"},
+    {"title": "ANCC Retake Policy - nursingexams.org", "url": "https://nursingexams.org/ancc/ancc-retake-policy/", "accessed": "2026-05-20"},
+    {"title": "Nurse Executive Exam Practice Test - Mometrix", "url": "https://www.mometrix.com/academy/nurseexec-practice-test/", "accessed": "2026-05-20"}
+  ]
+}
