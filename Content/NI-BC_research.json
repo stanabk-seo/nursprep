@@ -1,0 +1,162 @@
+{
+  "code": "NI-BC",
+  "name": "Informatics Nursing — Board Certified",
+  "researched_at": "2026-05-20T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "American Nurses Credentialing Center (ANCC)",
+      "source": "https://www.nursingworld.org/our-certifications/informatics-nurse/",
+      "confidence": "high"
+    },
+    "credential_awarded": {
+      "value": "NI-BC (Nursing Informatics-Board Certified)",
+      "source": "https://www.nursingworld.org/our-certifications/informatics-nurse/",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": 1995,
+      "note": "First informatics nursing certification offered in 1995 (scope of practice statement 1994). Credential designation updated from RN-BC to NI-BC in 2023.",
+      "source": "https://www.allianceni.org/sites/allianceni.org/files/ni-bc_final.web_0.pdf",
+      "confidence": "medium"
+    },
+    "designation_change": {
+      "value": "RN-BC renamed to NI-BC in 2023",
+      "source": "https://legacy.himss.org/resources/himss-champions-ancc-ni-bc-certified-informatics-nurses-designation-change",
+      "confidence": "medium"
+    },
+    "accreditation": {
+      "value": "Accredited by the Accreditation Board for Specialty Nursing Certification (ABSNC) and the National Commission for Certifying Agencies (NCCA).",
+      "source": "https://www.nursingworld.org/our-certifications/informatics-nurse/",
+      "confidence": "high"
+    },
+    "eligibility": {
+      "value": "Hold a current, active RN license in a U.S. state/territory (or legally recognized equivalent abroad); hold a bachelor's or higher degree in nursing; have practiced the equivalent of 2 years full-time as an RN; have completed 30 hours of continuing education in informatics nursing within the last 3 years; AND meet one of three practice-hour options: (1) 2,000 hours in informatics nursing within the last 3 years; OR (2) 1,000 hours in informatics nursing in the last 3 years plus 12 semester hours of graduate-level informatics nursing coursework; OR (3) completion of a graduate program in informatics nursing with at least 200 hours of faculty-supervised informatics practicum.",
+      "source": "https://www.nursingworld.org/our-certifications/informatics-nurse/",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based test delivered year-round through Prometric test centers; 3 hours to answer 150 questions (125 scored + 25 unscored pretest). 120-day testing window after approval.",
+      "source": "https://www.nursingworld.org/our-certifications/informatics-nurse/",
+      "confidence": "high"
+    },
+    "exam_vendor": {
+      "value": "Prometric",
+      "source": "https://www.nursingworld.org/our-certifications/informatics-nurse/",
+      "confidence": "high"
+    },
+    "question_count_official": {
+      "value": 150,
+      "note": "ANCC official Test Content Outline (effective May 3, 2023) and the certification page both state 150 questions (125 scored + 25 pretest). The exam was reduced from 175 to 150 in the May 2023 update. NOTE: project canonical certs.js lists 175 (pre-2023 figure). Per skill conflict rule certs.js wins as canonical, but the verified current value is 150. See discrepancies.",
+      "source": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/exam-27-tco_2023-05-03.pdf",
+      "confidence": "high"
+    },
+    "scored_items": {
+      "value": "125 scored of 150 (25 unscored pretest)",
+      "source": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/exam-27-tco_2023-05-03.pdf",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Scaled score of 350 out of 500",
+      "source": "https://www.examedge.com/nursing/ancc/informatics/ancc-informatics-nursing-rn-bc-informatics-practice-tests-additional-test-info.cfm",
+      "confidence": "medium"
+    },
+    "fee_initial_nonmember": {
+      "value": "$395",
+      "source": "https://www.nursingworld.org/our-certifications/informatics-nurse/",
+      "confidence": "high"
+    },
+    "fee_initial_ana_member": {
+      "value": "$295",
+      "source": "https://www.nursingworld.org/our-certifications/informatics-nurse/",
+      "confidence": "high"
+    },
+    "fee_initial_ania_member": {
+      "value": "$340",
+      "source": "https://www.nursingworld.org/our-certifications/informatics-nurse/",
+      "confidence": "high"
+    },
+    "fee_renewal_nonmember": {
+      "value": "$350",
+      "source": "https://www.nursingworld.org/our-certifications/informatics-nurse/",
+      "confidence": "high"
+    },
+    "fee_renewal_ana_member": {
+      "value": "$250 (as low as)",
+      "source": "https://www.nursingworld.org/our-certifications/informatics-nurse/",
+      "confidence": "high"
+    },
+    "fee_renewal_ania_member": {
+      "value": "$295",
+      "source": "https://www.nursingworld.org/our-certifications/informatics-nurse/",
+      "confidence": "high"
+    },
+    "fee_admin_nonrefundable": {
+      "value": "$140 non-refundable administrative fee included in prices above",
+      "source": "https://www.nursingworld.org/our-certifications/informatics-nurse/",
+      "confidence": "high"
+    },
+    "pass_rate": {
+      "value": 65,
+      "note": "First-time test takers, 2025: 352 tested, 229 passed = 65% pass rate.",
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high"
+    },
+    "active_certificants": {
+      "value": 3536,
+      "note": "Total certified as of 12.31.2025.",
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high"
+    },
+    "renewals_2025": {
+      "value": 401,
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high"
+    },
+    "renewal": {
+      "value": "Certification is valid for 5 years. Renew by meeting professional development / continuing education requirements between certification start and end dates. Renewal applications accepted up to 1 year before expiration.",
+      "source": "https://www.nursingworld.org/our-certifications/informatics-nurse/",
+      "confidence": "high"
+    },
+    "renewal_ce_hours": {
+      "value": 75,
+      "note": "75 CE contact hours commonly cited for ANCC specialty renewal; ANCC requires meeting renewal category requirements in the ANCC Certification Renewal Requirements handbook. Exact category mix not verified to a single primary line item.",
+      "source": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf",
+      "confidence": "medium"
+    },
+    "common_confusions": {
+      "value": "RN-BC (the former designation for this same credential, retired in 2023, still seen on older nurses' badges); CAHIMS and CPHIMS (HIMSS-issued health-IT certifications open to non-nurses); ANA membership vs. ANIA (American Nursing Informatics Association) membership, which carry different exam discounts.",
+      "source": "https://www.medicaltechnologyschools.com/nursing-informatics/nursing-informatics-certification",
+      "confidence": "medium"
+    },
+    "salary_context": {
+      "value": "BLS does not track nursing informaticists as a discrete occupation. Closest BLS proxies (May 2024): medical and health services managers median ~$117,960; registered nurses median ~$93,600. Industry/HIMSS surveys report a majority of nurse informaticists earning base salaries above $100,000.",
+      "source": "https://nurse.org/resources/nursing-informatics-salary/",
+      "confidence": "medium"
+    }
+  },
+  "blueprint": [
+    { "domain": "Foundations of Practice", "weight_pct": 36, "scored_items": 45, "source": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/exam-27-tco_2023-05-03.pdf", "confidence": "high" },
+    { "domain": "System Design Lifecycle", "weight_pct": 35, "scored_items": 44, "source": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/exam-27-tco_2023-05-03.pdf", "confidence": "high" },
+    { "domain": "Data Management and Healthcare Technology", "weight_pct": 29, "scored_items": 36, "source": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/exam-27-tco_2023-05-03.pdf", "confidence": "high" }
+  ],
+  "pass_rate_history": [
+    { "year": 2025, "tested": 352, "passed": 229, "pass_rate_pct": 65, "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf", "confidence": "high" }
+  ],
+  "discrepancies": [
+    {
+      "field": "question_count",
+      "certs_js_value": 175,
+      "research_value": 150,
+      "resolution": "Per skill conflict rule, certs.js is canonical and trusted for structural fields. However, the verified current ANCC value (effective May 3, 2023) is 150 questions (125 scored + 25 pretest); 175 was the pre-2023 figure. Recommend the user update certs.js. The page data file uses 150 (verified ANCC current value).",
+      "source": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/exam-27-tco_2023-05-03.pdf"
+    }
+  ],
+  "sources_index": [
+    { "title": "ANCC — Informatics Nursing Certification (NI-BC) official page", "url": "https://www.nursingworld.org/our-certifications/informatics-nurse/", "accessed": "2026-05-20" },
+    { "title": "ANCC — Informatics Nursing Test Content Outline (effective May 3, 2023)", "url": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/exam-27-tco_2023-05-03.pdf", "accessed": "2026-05-20" },
+    { "title": "ANCC — 2025 Certification Data (pass rates, certificant counts)", "url": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf", "accessed": "2026-05-20" },
+    { "title": "Alliance for Nursing Informatics — Nursing Informatics Credential From RN-BC to NI-BC", "url": "https://www.allianceni.org/sites/allianceni.org/files/ni-bc_final.web_0.pdf", "accessed": "2026-05-20" },
+    { "title": "HIMSS — Champions the ANCC NI-BC designation change", "url": "https://legacy.himss.org/resources/himss-champions-ancc-ni-bc-certified-informatics-nurses-designation-change", "accessed": "2026-05-20" },
+    { "title": "Nurse.org — Nursing Informatics Salary", "url": "https://nurse.org/resources/nursing-informatics-salary/", "accessed": "2026-05-20" }
+  ]
+}
