@@ -33,6 +33,7 @@ git clone --branch staging --depth 1 \
 # 4. Install dependencies
 cd /tmp/nursprep-work
 npm install --silent --no-audit --no-fund
+pip install cairosvg --break-system-packages --quiet  # for card image generation
 
 # 5. Configure git identity for this clone
 git config user.email "ripabhishek37@gmail.com"
@@ -91,6 +92,22 @@ Dispatch a sub-agent using `.claude/skills/nursprep-page-builder/stage-prompts/b
 
 Dispatch a sub-agent using `.claude/skills/nursprep-page-builder/stage-prompts/data-file.md`. Inputs: brief, research.json, and `src/_data/exams/tcrn.js` as the gold-standard schema. Output: `src/_data/exams/{code}.js` (lowercase filename) matching the TCRN schema exactly.
 
+### Stage 4.5 — Generate card image
+
+Quick, no sub-agent needed. Run from `/tmp/nursprep-work/`:
+
+```bash
+node scripts/generate-hero.js {code-lowercase}
+```
+
+This reads `src/_data/exams/{code}.js` (just written in Stage 4), fills `scripts/cert-template.svg` with the cert's pass rate / fee / renewal / body fields, runs cairosvg to convert to PNG, and writes `src/assets/images/certs/{code}-card.png` (1200×630). The page template already references this filename via the `coverImage` macro, so no template changes needed.
+
+**If `cairosvg` is missing:** `pip install cairosvg --break-system-packages --quiet` (it isn't in the default sandbox; the bootstrap should pre-install it).
+
+**Validate the image exists** before moving to Stage 5: `test -f src/assets/images/certs/{code-lowercase}-card.png || (echo "Card generation failed"; exit 1)`.
+
+The PNG is committed alongside the data file in Stage 6.
+
 ### Stage 5 — Build & validate
 
 In the main flow:
@@ -102,7 +119,7 @@ In the main flow:
 ### Stage 6 — Commit
 
 In the main flow (no defensive lock cleanup needed — /tmp has no stale locks):
-- `git add src/_data/exams/{code}.js Content/{CODE}_research.json "Content Briefs/{CODE}_Content_Brief.md" .skill-state/pipeline.json`
+- `git add src/_data/exams/{code}.js src/assets/images/certs/{code-lowercase}-card.png Content/{CODE}_research.json "Content Briefs/{CODE}_Content_Brief.md" .skill-state/pipeline.json`
 - Commit message format:
   ```
   Add {CODE} certification page
