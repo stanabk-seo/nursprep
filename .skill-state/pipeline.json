@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-05-19T20:42:04.491907Z",
-  "last_updated": "2026-05-20T08:17:02.597676Z",
+  "last_updated": "2026-05-20T08:18:36.611903Z",
   "staging_branch": "staging",
   "exams": [
     {
@@ -229,18 +229,18 @@
       "code": "PMH-BC",
       "csv_keyword": "pmh bc",
       "has_outline": true,
-      "status": "in_progress",
+      "status": "done",
       "stages": {
         "research": "done",
         "brief": "done",
         "data_file": "done",
         "build_validated": "done",
-        "committed": "pending"
+        "committed": "done"
       },
       "attempts": 1,
       "last_error": null,
       "last_attempt_at": "2026-05-20T08:08:15.951701Z",
-      "completed_at": null
+      "completed_at": "2026-05-20T08:18:36.611870Z"
     },
     {
       "code": "ACHPN",
