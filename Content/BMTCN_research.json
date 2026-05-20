@@ -1,0 +1,225 @@
+{
+  "code": "BMTCN",
+  "name": "Blood and Marrow Transplant Certified Nurse",
+  "researched_at": "2026-05-20T10:10:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "Oncology Nursing Certification Corporation (ONCC)",
+      "source": "https://www.oncc.org/blood-marrow-transplant-certified-nurse-bmtcn",
+      "confidence": "high"
+    },
+    "issuing_body_parent": {
+      "value": "ONCC is the credentialing affiliate of the Oncology Nursing Society (ONS). ONCC was separately incorporated in Pennsylvania in 1984 and administered its first OCN exam in April 1986. ONCC has offered nationally accredited oncology nursing certification since 1986.",
+      "source": "https://www.oncc.org/our-history",
+      "confidence": "high"
+    },
+    "credential_name_change": {
+      "value": "Effective January 1, 2026, ONCC renamed the BMTCN credential to Transplantation and Cellular Therapy Certified Nurse (TCTCN). All currently certified BMTCN nurses automatically have their credentials updated to TCTCN effective January 1, 2026. The last BMTCN application deadline was September 1, 2025. Examinations are offered under the TCTCN name starting January 2026, with registration opening in fall 2025.",
+      "source": "https://www.oncc.org/bmtcn-tctcn-name-change-faq",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": 2014,
+      "note": "ONCC offered the first Blood and Marrow Transplant Certified Nurse Examination in 2014. 524 nurses earned the BMTCN credential in the first year of testing.",
+      "source": "https://www.oncc.org/our-history",
+      "confidence": "high"
+    },
+    "first_year_passers": {
+      "value": 524,
+      "source": "https://www.oncc.org/our-history",
+      "confidence": "high"
+    },
+    "active_certificants": {
+      "value": null,
+      "note": "ONCC does not publicly list a current active-BMTCN certificant count. The History page states ONCC overall has more than 40,000 currently certified nurses across eight credential programs. Left null per the no-fabrication rule.",
+      "source": "https://www.oncc.org/our-history",
+      "confidence": "missing"
+    },
+    "eligibility": {
+      "value": "Initial certification candidates must hold a current, active, unencumbered RN license in the United States, its territories, or Canada; have a minimum of two years (24 months) of experience as an RN within the four years (48 months) prior to application; have a minimum of 2,000 hours of blood and marrow stem cell transplantation nursing practice within the four years (48 months) prior to application; and have completed a minimum of 10 contact hours of nursing continuing education in blood and marrow stem cell transplant nursing (or an academic elective in oncology nursing) within the three years (36 months) prior to application. Up to 5 of the 10 required CE hours may be CME or CPE. Beginning with the TCTCN renaming in January 2026, the practice-hour requirement wording is hematopoietic stem cell transplantation or cellular therapy nursing practice.",
+      "source": "https://www.oncc.org/sites/default/files/2025-12/2026_ONCC_Test_Registration_Manual_Web_121925.pdf",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Three-hour computer-based testing session including a 15-minute tutorial and post-test survey, with no scheduled breaks. 165 multiple-choice questions, each with a stem followed by four answer options (one correct). Delivered through PSI at more than 1,500 PSI test centers worldwide; year-round testing in North America since 2015. International testing offered once per year (June 1-30, 2026, for 2026 cycle).",
+      "source": "https://www.oncc.org/sites/default/files/2025-12/2026_ONCC_Test_Registration_Manual_Web_121925.pdf",
+      "confidence": "high"
+    },
+    "exam_vendor": {
+      "value": "PSI (computer-based testing at PSI test centers; international testing available once per year)",
+      "source": "https://www.oncc.org/sites/default/files/2025-12/2026_ONCC_Test_Registration_Manual_Web_121925.pdf",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 150,
+      "scored": 125,
+      "pretest": 40,
+      "total_items": 165,
+      "note": "DISCREPANCY: src/_data/certs.js lists questions: 150 for BMTCN. ONCC's authoritative 2026 Test Registration Manual states the BMTCN/TCTCN test consists of 165 multiple-choice questions, of which 125 are scored and 40 are pretest. Per project rules, certs.js wins for the headline display. The full 165/125/40 breakdown is surfaced in the at-a-glance and blueprint sections with explicit ONCC attribution. Flagged in discrepancies for user review.",
+      "source": "https://www.oncc.org/sites/default/files/2025-12/2026_ONCC_Test_Registration_Manual_Web_121925.pdf",
+      "confidence": "high"
+    },
+    "time_limit_hours": {
+      "value": 3,
+      "note": "Three-hour session including 15-minute tutorial and post-test survey. No scheduled breaks; clock continues if a candidate steps away.",
+      "source": "https://www.oncc.org/sites/default/files/2025-12/2026_ONCC_Test_Registration_Manual_Web_121925.pdf",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": null,
+      "note": "ONCC has not published a specific BMTCN/TCTCN scaled passing score in candidate-facing manuals. ONCC uses a criterion-referenced standard-setting process (Angoff method) with a Passing Score Task Force. A 2025 BMTCN Passing Score Task Force convened. Third-party prep sites cite a scaled score of 55 on a 25-75 scale, but this is not verified against an ONCC primary document. Left null per the no-fabrication rule.",
+      "source": "https://www.oncc.org/2025-BMTCN-passing-score-task-force",
+      "confidence": "missing"
+    },
+    "fee_member": {
+      "value": 300,
+      "currency": "USD",
+      "note": "ONS or APHON member rate, initial certification.",
+      "source": "https://www.oncc.org/sites/default/files/2025-12/2026_ONCC_Test_Registration_Manual_Web_121925.pdf",
+      "confidence": "high"
+    },
+    "fee_nonmember": {
+      "value": 420,
+      "currency": "USD",
+      "note": "Non-member rate, initial certification.",
+      "source": "https://www.oncc.org/sites/default/files/2025-12/2026_ONCC_Test_Registration_Manual_Web_121925.pdf",
+      "confidence": "high"
+    },
+    "doubletake_fee": {
+      "value": 100,
+      "currency": "USD",
+      "note": "ONCC DoubleTake retake option must be purchased at the time of initial application. Allows one retake within 180 days of the first attempt without paying the full test fee again. Not refundable if the candidate passes. Not available to FreeTake applicants or international candidates.",
+      "source": "https://www.oncc.org/sites/default/files/2025-12/2026_ONCC_Test_Registration_Manual_Web_121925.pdf",
+      "confidence": "high"
+    },
+    "international_fee": {
+      "value": 75,
+      "currency": "USD",
+      "note": "Additional international testing fee due with test fee at time of application; March 1, 2026 deadline to apply for international testing in 2026.",
+      "source": "https://www.oncc.org/sites/default/files/2025-12/2026_ONCC_Test_Registration_Manual_Web_121925.pdf",
+      "confidence": "high"
+    },
+    "may_promotion_2026": {
+      "value": "20% off certification test fees with code ONM2026, May 1-31, 2026 (Oncology Nursing Month). Does not apply to FreeTake applicants, DoubleTake, or renewal fees.",
+      "source": "https://www.oncc.org/blood-marrow-transplant-certified-nurse-bmtcn-renew",
+      "confidence": "high"
+    },
+    "freetake_program": {
+      "value": "Employer-sponsored program (launched 2017) that lets nurses from participating institutions apply to test without payment and have one free retest; member discount does not apply to FreeTake applicants. Available for OCN, AOCNP, CBCN, CPHON, and TCTCN exams.",
+      "source": "https://www.oncc.org/oncc-freetake-certification-program",
+      "confidence": "high"
+    },
+    "renewal_cycle_years": {
+      "value": 4,
+      "source": "https://www.oncc.org/blood-marrow-transplant-certified-nurse-bmtcn-renew",
+      "confidence": "high"
+    },
+    "renewal_eligibility": {
+      "value": "Active BMTCN/TCTCN certification, current and unencumbered RN license, a minimum of one year (12 months) of experience as an RN within the three years (36 months) prior to application, and 1,000 hours of blood and marrow stem cell transplantation nursing experience within the two-and-one-half years (30 months) prior to application.",
+      "source": "https://www.oncc.org/blood-marrow-transplant-certified-nurse-bmtcn-renew",
+      "confidence": "high"
+    },
+    "renewal_options": {
+      "value": "Three renewal options. Option 1 (most popular): Practice hours plus Professional Development Points via the ILNA (Individual Learning Needs Assessment) framework, entered in LearningBuilder. Option 2: Practice hours plus successful testing. Option 3: Points plus successful testing. ILNA has been the primary renewal method since 2016.",
+      "source": "https://www.oncc.org/certification-renewal-guide",
+      "confidence": "high"
+    },
+    "renewal_deadlines": {
+      "value": "September 15 at 11:59 pm ET of the year certification expires is the early-bird deadline (save $100 off final-deadline fee). October 15 at 11:59 pm ET is the final application deadline. March 31 at 11:59 pm ET of the year after credential expiration is the final Reinstatement application deadline.",
+      "source": "https://www.oncc.org/blood-marrow-transplant-certified-nurse-bmtcn-renew",
+      "confidence": "high"
+    },
+    "renewal_fee": {
+      "value": null,
+      "note": "ONCC publishes renewal fees on a dedicated page but specific BMTCN renewal fee dollar amounts were not surfaced in the primary manual. Left null pending direct verification.",
+      "source": "https://www.oncc.org/renewal-application-deadlines-dates-and-fees",
+      "confidence": "missing"
+    },
+    "testing_windows": {
+      "value": "Year-round testing at PSI test centers in the United States, its territories, and Canada (year-round testing began 2015). International testing is offered once per year; for the 2026 cycle, international testing runs June 1-30, 2026 with an application deadline of March 1, 2026.",
+      "source": "https://www.oncc.org/sites/default/files/2025-12/2026_ONCC_Test_Registration_Manual_Web_121925.pdf",
+      "confidence": "high"
+    },
+    "accreditation": {
+      "value": "NCCA (National Commission for Certifying Agencies) accredited. ONCC obtained NCCA accreditation in 2000 for OCN, AOCN, and CPON, and has maintained NCCA accreditation for all subsequent ONCC certifications including BMTCN/TCTCN.",
+      "source": "https://www.oncc.org/sites/default/files/2025-12/2026_ONCC_Test_Registration_Manual_Web_121925.pdf",
+      "confidence": "high"
+    },
+    "blueprint_2025_bmtcn": [
+      { "label": "Foundations of Transplant", "weight": 19 },
+      { "label": "Transplant Process and Infusion", "weight": 17 },
+      { "label": "Early Post-Transplant Management", "weight": 21 },
+      { "label": "Late Post-Transplant Management", "weight": 20 },
+      { "label": "Quality of Life", "weight": 11 },
+      { "label": "Professional Performance", "weight": 12 }
+    ],
+    "blueprint_2026_tctcn": [
+      { "label": "Foundations of HSCT and Cellular Therapy", "weight": 22 },
+      { "label": "HSCT and Cellular Therapy Process and Administration", "weight": 22 },
+      { "label": "Post-HSCT Management and Education", "weight": 22 },
+      { "label": "Post-Cellular Therapy Management and Education", "weight": 22 },
+      { "label": "Quality of Life", "weight": 8 },
+      { "label": "Professional Performance", "weight": 4 }
+    ],
+    "pass_rate_2024": {
+      "value": null,
+      "note": "ONCC publishes annual examination statistics (the 2024 Examination Statistics and Pass Rates PDF) but the document was not directly text-fetchable in this research pass. Third-party prep sites characterize BMTCN annual pass rates as generally between 68% and 70% but this is not anchored to an ONCC primary source citation. Left null pending direct verification.",
+      "source": "https://www.oncc.org/sites/default/files/2025-02/2024_Examination_Statistics_and_Pass%20Rates.pdf",
+      "confidence": "missing"
+    },
+    "pass_rate_2023": {
+      "value": null,
+      "note": "Not yet verified against ONCC primary statistics PDF.",
+      "source": "https://www.oncc.org/test-scores-and-more",
+      "confidence": "missing"
+    }
+  },
+  "discrepancies": [
+    {
+      "field": "question_count",
+      "certs_js_says": 150,
+      "oncc_official_says": "165 total (125 scored + 40 pretest)",
+      "resolution": "certs.js wins for the headline hero pill (project canonical source). The full 165/125/40 breakdown is surfaced in the at-a-glance and blueprint sections with explicit ONCC attribution. User to confirm or update certs.js."
+    }
+  ],
+  "key_distinctions": [
+    {
+      "concept": "BMTCN vs TCTCN",
+      "summary": "Same credential, renamed. Effective January 1, 2026, ONCC renamed BMTCN to TCTCN (Transplantation and Cellular Therapy Certified Nurse). Eligibility for hours and CE are unchanged; wording updated to hematopoietic stem cell transplantation or cellular therapy nursing. All current BMTCN holders auto-converted to TCTCN."
+    },
+    {
+      "concept": "BMTCN vs OCN",
+      "summary": "OCN is the broad adult-oncology credential. BMTCN/TCTCN is the specialty credential for nurses focused specifically on hematopoietic stem cell transplantation and cellular therapy. Both require 2 years RN, 2,000 specialty hours, and 10 CE hours, but the practice-hour specialty differs (adult oncology for OCN vs HSCT/cellular therapy for BMTCN/TCTCN)."
+    },
+    {
+      "concept": "BMTCN vs CPHON",
+      "summary": "CPHON is the pediatric hematology/oncology credential. CPHON candidates often care for pediatric HSCT patients; pediatric transplant nurses sometimes hold both CPHON and BMTCN/TCTCN. The TCTCN blueprint explicitly includes adult and pediatric practice settings."
+    }
+  ],
+  "history_milestones": [
+    { "year": 1975, "event": "Oncology Nursing Society (ONS) founded" },
+    { "year": 1984, "event": "ONCC separately incorporated in Pennsylvania" },
+    { "year": 1986, "event": "First OCN exam administered (1,607 nurses, 86% passed)" },
+    { "year": 2000, "event": "ONCC obtained NCCA accreditation for OCN, AOCN, and CPON" },
+    { "year": 2014, "event": "First BMTCN examination administered; 524 nurses earned the credential" },
+    { "year": 2015, "event": "ONCC began year-round testing in North America for all exams" },
+    { "year": 2016, "event": "ILNA became the primary renewal method" },
+    { "year": 2017, "event": "ONCC FreeTake employer-support program launched" },
+    { "year": 2024, "event": "BMTCN role delineation study completed (underpinning the TCTCN blueprint)" },
+    { "year": 2026, "event": "BMTCN renamed to TCTCN effective January 1, 2026; first TCTCN-branded exams administered" }
+  ],
+  "sources": [
+    { "url": "https://www.oncc.org/blood-marrow-transplant-certified-nurse-bmtcn", "label": "ONCC - BMTCN credential page" },
+    { "url": "https://www.oncc.org/blood-marrow-transplant-certified-nurse-bmtcn-renew", "label": "ONCC - BMTCN renewal page" },
+    { "url": "https://www.oncc.org/sites/default/files/2024-11/2025_BMTCN_Test_Content_Outline.pdf", "label": "ONCC - 2025 BMTCN Test Content Outline (PDF)" },
+    { "url": "https://www.oncc.org/sites/default/files/2025-12/2026_ONCC_Test_Registration_Manual_Web_121925.pdf", "label": "ONCC - 2026 Test Registration Manual (PDF)" },
+    { "url": "https://www.oncc.org/bmtcn-tctcn-name-change-faq", "label": "ONCC - BMTCN to TCTCN Name Change FAQ" },
+    { "url": "https://www.oncc.org/about-oncc/news/oncc-changing-name-bmtcn-certification-tctcn", "label": "ONCC News - Name Change Announcement" },
+    { "url": "https://www.oncc.org/transplantation-cellular-therapy-certified-nurse-tctcn", "label": "ONCC - TCTCN credential page" },
+    { "url": "https://www.oncc.org/our-history", "label": "ONCC - History of ONCC" },
+    { "url": "https://www.oncc.org/2025-BMTCN-passing-score-task-force", "label": "ONCC - 2025 BMTCN Passing Score Task Force" },
+    { "url": "https://www.oncc.org/oncc-freetake-certification-program", "label": "ONCC - FreeTake Program" },
+    { "url": "https://www.oncc.org/certification-renewal-guide", "label": "ONCC - Certification Renewal Guide" },
+    { "url": "https://www.oncc.org/sites/default/files/2025-02/2024_Examination_Statistics_and_Pass%20Rates.pdf", "label": "ONCC - 2024 Examination Statistics and Pass Rates (PDF)" }
+  ]
+}
