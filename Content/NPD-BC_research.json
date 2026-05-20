@@ -1,0 +1,134 @@
+{
+  "code": "NPD-BC",
+  "researched_at": "2026-05-20T08:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "American Nurses Credentialing Center (ANCC)",
+      "source": "https://www.nursingworld.org/our-certifications/nursing-professional-development/",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "ANCC's NPD specialty credential (originally RN-BC in NPD) has existed for many years and was rebranded to NPD-BC in alignment with ANCC's specialty-credential naming. A specific launch year was not located on the issuing-body page during this run."
+    },
+    "eligibility": {
+      "value": "Hold a current, active U.S. RN license (or legally recognized equivalent in another country); hold a bachelor's or higher degree in nursing; have practiced the equivalent of 2 years full-time as a registered nurse; have a minimum of 2,000 hours of clinical practice in nursing professional development within the last 3 years; and have completed 30 hours of continuing education in nursing professional development within the last 3 years.",
+      "source": "https://www.nursingworld.org/our-certifications/nursing-professional-development/",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based at Prometric test centers, year-round 120-day testing window once approved. Competency-based, multiple-choice. 150 items total (125 scored + 25 unscored pretest), 3-hour time limit.",
+      "source": "https://www.nursingworld.org/our-certifications/nursing-professional-development/",
+      "confidence": "high",
+      "note": "Item count and time confirmed by ANCC's own NPD-BC credential page AND by the ANCC NPD-BC Test Content Outline PDF (effective 2025-02-26). The internal project file src/_data/certs.js currently lists 175 questions for NPD-BC — that value is stale and should be reconciled to 150 in a follow-up commit. See discrepancies below."
+    },
+    "passing_score": {
+      "value": "Scaled score of 350 on a 0-500 scale",
+      "source": "https://www.boardcerts.com/exams/npd-bc",
+      "confidence": "medium",
+      "note": "ANCC uses a consistent scaled scoring model across its specialty certifications (350/500). Confirmed by secondary corroborating sources; ANCC's NPD-BC page does not republish the cut score on the public page."
+    },
+    "fee_ana_member": {
+      "value": "$295",
+      "source": "https://www.nursingworld.org/our-certifications/nursing-professional-development/",
+      "confidence": "high",
+      "note": "Includes a $140 non-refundable administrative fee per ANCC."
+    },
+    "fee_nonmember": {
+      "value": "$395",
+      "source": "https://www.nursingworld.org/our-certifications/nursing-professional-development/",
+      "confidence": "high"
+    },
+    "fee_retake": {
+      "value": "$270",
+      "source": "https://nursingexams.org/ancc/ancc-retake-policy/",
+      "confidence": "medium",
+      "note": "ANCC retake fee for NPD-BC. Retake allowed no sooner than 60 days after a failed attempt; no more than 3 attempts in any 12-month period."
+    },
+    "pass_rate_latest": {
+      "value": "76% (most recently reported pass rate per 2024 ANCC certification data); 6,574 active NPD-BC credential holders",
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "medium",
+      "note": "Secondary aggregator (pocketprep.com) cites 2024 ANCC Certification Data: 1,316 examinees, 1,006 passed (76%). Direct PDF read recommended to upgrade confidence to high."
+    },
+    "renewal": {
+      "value": "5-year cycle. Renew by completing professional development requirements documented in the ANCC Certification Renewal Handbook (effective 2025-09-10) — specifically 75 contact hours of continuing education in nursing professional development plus one additional professional development category (academic credits, presentations, publications, preceptorship, professional service, or an evidence-based practice or research project), or by retaking and passing the current NPD-BC exam.",
+      "source": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf",
+      "confidence": "high"
+    },
+    "fee_renewal_ana_member": {
+      "value": "$250",
+      "source": "https://www.nursingworld.org/our-certifications/nursing-professional-development/",
+      "confidence": "high"
+    },
+    "fee_renewal_nonmember": {
+      "value": "$350",
+      "source": "https://www.nursingworld.org/our-certifications/nursing-professional-development/",
+      "confidence": "high"
+    },
+    "common_confusions": {
+      "value": [
+        {"credential": "NPDA-BC", "disambiguation": "Nursing Professional Development Advanced - Board Certified, issued by the Competency & Credentialing Institute (CCI), targets advanced NPD practitioners and uses a separate eligibility track. NPD-BC is ANCC's specialty board certification for the NPD practitioner at the staff-development and educator level."},
+        {"credential": "RN-BC (legacy)", "disambiguation": "ANCC previously awarded the NPD specialty under the RN-BC credential label. Existing RN-BC holders in NPD retain the title until renewal; new candidates are credentialed as NPD-BC. The exam content and eligibility rules are otherwise the same NPD specialty."},
+        {"credential": "NE-BC / NEA-BC", "disambiguation": "Nurse Executive credentials, also ANCC, test leadership of nursing operations (budgets, staffing, governance) rather than the staff-education and learning-design focus of NPD-BC. Many candidates Google one when they mean the other."},
+        {"credential": "Certified Nurse Educator (CNE)", "disambiguation": "Issued by the National League for Nursing (NLN), CNE targets academic faculty teaching pre-licensure or graduate nursing students. NPD-BC targets nurses educating practicing staff inside healthcare organizations."}
+      ],
+      "source": "https://www.cc-institute.org/npda-bc/",
+      "confidence": "high"
+    },
+    "recent_changes": {
+      "value": "The current NPD-BC Test Content Outline took effect 2025-02-26 (six domains, 125 scored items). ANCC Certification Renewal Requirements handbook effective 2025-09-10 governs the current renewal cycle.",
+      "source": "https://www.nursingworld.org/globalassets/08282024-exam-24-npd-tco-website.pdf",
+      "confidence": "high"
+    },
+    "credential_holders": {
+      "value": 6574,
+      "source": "https://www.pocketprep.com/exams/ancc-npd-bc/",
+      "confidence": "medium",
+      "note": "Pocket Prep cites 2024 ANCC Certification Data showing 6,574 active NPD-BC credential holders."
+    }
+  },
+  "blueprint": [
+    {"domain": "Educational Process Standards", "weight_pct": 26, "scored_items": 32, "source": "https://www.nursingworld.org/globalassets/08282024-exam-24-npd-tco-website.pdf", "confidence": "high"},
+    {"domain": "Leadership", "weight_pct": 27, "scored_items": 34, "source": "https://www.nursingworld.org/globalassets/08282024-exam-24-npd-tco-website.pdf", "confidence": "high"},
+    {"domain": "Ethical, Legal, and Regulatory Standards", "weight_pct": 15, "scored_items": 19, "source": "https://www.nursingworld.org/globalassets/08282024-exam-24-npd-tco-website.pdf", "confidence": "high"},
+    {"domain": "Evidence-based Practice and Research", "weight_pct": 6, "scored_items": 7, "source": "https://www.nursingworld.org/globalassets/08282024-exam-24-npd-tco-website.pdf", "confidence": "high"},
+    {"domain": "Technology", "weight_pct": 15, "scored_items": 19, "source": "https://www.nursingworld.org/globalassets/08282024-exam-24-npd-tco-website.pdf", "confidence": "high"},
+    {"domain": "Program/Project Management and Process Improvement", "weight_pct": 11, "scored_items": 14, "source": "https://www.nursingworld.org/globalassets/08282024-exam-24-npd-tco-website.pdf", "confidence": "high"}
+  ],
+  "pass_rate_history": [
+    {"year": 2024, "pass_rate_pct": 76, "examinees": 1316, "passed": 1006, "source": "https://www.pocketprep.com/exams/ancc-npd-bc/", "confidence": "medium", "note": "Pocket Prep cites 2024 ANCC Certification Data. Direct read of the ANCC PDF recommended."}
+  ],
+  "discrepancies": [
+    {
+      "field": "exam_question_count",
+      "values": [
+        {"src": "ANCC NPD-BC credential page (issuing body, primary)", "v": 150},
+        {"src": "ANCC NPD-BC Test Content Outline PDF effective 2025-02-26 (primary)", "v": 150},
+        {"src": "src/_data/certs.js (internal project file, stale)", "v": 175}
+      ],
+      "resolution": "Use 150 - both ANCC primary sources agree. The certs.js value of 175 is stale (likely template carryover from a different ANCC credential) and should be corrected to 150 in a follow-up commit. This rendered page will display 150 to match ANCC."
+    },
+    {
+      "field": "exam_time_limit",
+      "values": [
+        {"src": "ANCC NPD-BC credential page (primary)", "v": "3 hours"},
+        {"src": "Secondary aggregators (some)", "v": "3.5 hours"}
+      ],
+      "resolution": "Use 3 hours per ANCC's NPD-BC credential page. The 3.5-hour figure appears to come from generic ANCC-exam aggregator templates and is not consistent with the NPD-BC page or the Test Content Outline PDF."
+    }
+  ],
+  "sources_index": [
+    {"title": "Nursing Professional Development Certification (NPD-BC) | ANCC", "url": "https://www.nursingworld.org/our-certifications/nursing-professional-development/", "accessed": "2026-05-20"},
+    {"title": "ANCC NPD-BC Test Content Outline (effective 2025-02-26)", "url": "https://www.nursingworld.org/globalassets/08282024-exam-24-npd-tco-website.pdf", "accessed": "2026-05-20"},
+    {"title": "ANCC Certification Renewal Handbook (effective 2025-09-10)", "url": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf", "accessed": "2026-05-20"},
+    {"title": "2025 ANCC Certification Data", "url": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf", "accessed": "2026-05-20"},
+    {"title": "ANCC NPD-BC - Pocket Prep (2024 ANCC data citation)", "url": "https://www.pocketprep.com/exams/ancc-npd-bc/", "accessed": "2026-05-20"},
+    {"title": "NPDA-BC | Competency & Credentialing Institute (disambiguation source)", "url": "https://www.cc-institute.org/npda-bc/", "accessed": "2026-05-20"},
+    {"title": "ANPD Certification Preparation | Association for Nursing Professional Development", "url": "https://www.anpd.org/Professional-Development/Certification-Preparation", "accessed": "2026-05-20"},
+    {"title": "ANCC Retake Policy | nursingexams.org (secondary)", "url": "https://nursingexams.org/ancc/ancc-retake-policy/", "accessed": "2026-05-20"},
+    {"title": "NPD-BC Exam - boardcerts.com (secondary corroborating)", "url": "https://www.boardcerts.com/exams/npd-bc", "accessed": "2026-05-20"}
+  ]
+}
