@@ -1,0 +1,129 @@
+{
+  "code": "CSC",
+  "researched_at": "2026-05-20T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "American Association of Critical-Care Nurses Certification Corporation (AACN Certification Corporation)",
+      "source": "https://www.aacn.org/certification/get-certified/csc-adult",
+      "confidence": "high"
+    },
+    "credential_name": {
+      "value": "Cardiac Surgery Certification (CSC, Adult)",
+      "source": "https://www.aacn.org/certification/get-certified/csc-adult",
+      "confidence": "high"
+    },
+    "credential_description": {
+      "value": "CSC is a subspecialty certification for already-certified nurses who provide direct care to acutely/critically ill adult cardiac surgery patients in the first 48 hours postoperatively. It is attached to an underlying clinical specialty certification (e.g., CCRN, PCCN) rather than standing alone.",
+      "source": "https://www.aacn.org/certification/get-certified/csc-adult",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "AACN does not publish a launch year for the CSC subspecialty on its current pages; left null rather than guessing."
+    },
+    "eligibility": {
+      "value": "A current, unencumbered U.S. RN or APRN license is required, plus a current nationally accredited clinical nursing specialty certification (to which the CSC credential is attached). Clinical practice hours must meet ONE of two options. Two-Year Option: 1,750 hours in direct care of acutely/critically ill adult patients over the previous two years, with 875 in the most recent year, of which 875 must be in care of acutely/critically ill adult cardiac surgery patients within the first 48 hours postoperatively. Five-Year Option: at least 2,000 hours over the previous five years, with 144 in the most recent year, of which 1,000 must be in care of acutely/critically ill adult cardiac surgery patients within the first 48 hours postoperatively. Hours must be completed in a U.S./Canada-based or comparable facility and be verifiable by a clinical supervisor or professional colleague.",
+      "source": "https://www.aacn.org/certification/get-certified/csc-adult",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based, multiple-choice exam administered through AACN's testing service (PSI). The exam contains 90 total items, of which 75 are scored and 15 are unscored pretest items, with a 2-hour time limit. A paper-based option is also available through AACN.",
+      "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 90,
+      "scored_items": 75,
+      "unscored_items": 15,
+      "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores",
+      "confidence": "high",
+      "note": "Matches certs.js canonical value of 90."
+    },
+    "time_limit": {
+      "value": "2 hours",
+      "source": "https://www.mometrix.com/academy/csc-exam/",
+      "confidence": "medium"
+    },
+    "passing_score": {
+      "value": "Cut (passing) score of 55 correct out of 75 scored items, effective 01/31/2022. The passing score is a raw number, not a percentage, set via the modified-Angoff method with PSI psychometricians.",
+      "raw_cut_score": 55,
+      "scored_items": 75,
+      "effective_date": "2022-01-31",
+      "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores",
+      "confidence": "high"
+    },
+    "fee": {
+      "value": "Initial exam fee: $145 for AACN members, $235 for nonmembers. Renewal-by-exam fee: $120 for members, $165 for nonmembers. Renewal-by-CERPs (synergy/processing) fee: $75 for members, $130 for nonmembers.",
+      "initial_member": 145,
+      "initial_nonmember": 235,
+      "renewal_exam_member": 120,
+      "renewal_exam_nonmember": 165,
+      "renewal_cerp_member": 75,
+      "renewal_cerp_nonmember": 130,
+      "source": "https://www.aacn.org/certification/get-certified/csc-adult",
+      "confidence": "high"
+    },
+    "renewal": {
+      "value": "CSC certification is valid for three years, beginning the first day of the month the candidate passed the exam. Renewal options: (1) Renewal by Synergy CERPs requires 25 Category A Clinical Judgment CERPs within the three-year cycle plus continued clinical practice (432 hours of direct care of adult postoperative cardiac patients, with 144 hours within the most recent 12 months); or (2) Renewal by exam (retake the CSC exam).",
+      "cycle_years": 3,
+      "cerp_requirement": "25 Category A Clinical Judgment CERPs",
+      "clinical_practice_hours": "432 hours over 3 years, 144 in most recent 12 months",
+      "source": "https://www.aacn.org/certification/certification-renewal/csc-adult",
+      "confidence": "high"
+    },
+    "common_confusions": {
+      "value": "CSC vs. CMC: both are AACN subspecialty add-on credentials administered identically (90 items, 75 scored). CMC (Cardiac Medicine Certification) covers acutely/critically ill adult cardiac patients broadly, while CSC is specific to the first 48 hours after cardiac surgery. CSC vs. CCRN: CCRN is a standalone broad critical-care credential; CSC is a subspecialty that attaches to an existing certification like CCRN or PCCN and cannot stand alone.",
+      "source": "https://www.aacn.org/certification/get-certified/cmc-and-csc-frequently-asked-questions",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "BLS OEWS does not break out cardiac surgery nurses specifically; no CSC-specific salary figure verifiable, left null."
+    },
+    "recent_changes": {
+      "value": "First-time pass rate fell sharply from 69.70% (2023) to 51.30% (2024) and 52.20% (2025), likely reflecting updated exam content following the 2020 National Practice Analysis of Cardiac Surgery Nurses. Current passing (cut) score of 55 has been in effect since 01/31/2022.",
+      "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {"domain": "Procedures", "weight_pct": 19, "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/cscexamhandbook.pdf", "confidence": "medium", "note": "CABG, MAZE, valve repair, surgical treatment of lung/esophageal cancer, vascular surgeries."},
+    {"domain": "Complications", "weight_pct": 31, "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/cscexamhandbook.pdf", "confidence": "medium", "note": "Cardiovascular, pulmonary, endocrine, hematology/immunology, neuro, GI, renal, multisystem, behavioral."},
+    {"domain": "Therapeutic Interventions", "weight_pct": 36, "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/cscexamhandbook.pdf", "confidence": "medium", "note": "Chest tubes, medications, pacing, ventilation, blood glucose management, pain management."},
+    {"domain": "Monitoring and Diagnostics", "weight_pct": 15, "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/cscexamhandbook.pdf", "confidence": "medium", "note": "Capnography, pulse oximetry, CVP, coagulation labs, ABGs, ECG interpretation."}
+  ],
+  "pass_rate_history": [
+    {"year": 2025, "pass_rate_pct": 52.20, "candidates_tested": 1184, "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores", "confidence": "high"},
+    {"year": 2024, "pass_rate_pct": 51.30, "candidates_tested": 934, "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores", "confidence": "high"},
+    {"year": 2023, "pass_rate_pct": 69.70, "candidates_tested": 1021, "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores", "confidence": "high"}
+  ],
+  "discrepancies": [
+    {
+      "field": "blueprint_weights",
+      "detail": "The mounted Content Outline CSV lists blueprint weights as Procedures 11%, Complications 33%, Therapeutic Interventions 43%, Monitoring & Diagnostics 13%. The current AACN-sourced blueprint (CSC Exam Handbook / Mometrix corroboration) lists 19% / 31% / 36% / 15%. Used the AACN-aligned weights (19/31/36/15) as the more authoritative current values; flagged for user review.",
+      "resolution": "Used AACN/handbook weights (19/31/36/15)."
+    },
+    {
+      "field": "fee",
+      "detail": "An initial web search surfaced $120/$165 fees, but those are AACN's renewal-by-exam fees. The official CSC Get Certified page lists the initial exam fee as $145 (member) / $235 (nonmember).",
+      "resolution": "Used official initial fee $145/$235 for the page exam-fee figures."
+    },
+    {
+      "field": "question_count",
+      "detail": "certs.js canonical value is 90, matching AACN (90 total, 75 scored). No conflict.",
+      "resolution": "Used 90."
+    }
+  ],
+  "sources_index": [
+    {"title": "CSC Certification - AACN (Get Certified)", "url": "https://www.aacn.org/certification/get-certified/csc-adult", "accessed": "2026-05-20"},
+    {"title": "Certification Exam Statistics and Cut Scores - AACN", "url": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores", "accessed": "2026-05-20"},
+    {"title": "CSC Certification Renewal - AACN", "url": "https://www.aacn.org/certification/certification-renewal/csc-adult", "accessed": "2026-05-20"},
+    {"title": "FAQ About CMC and CSC Certification - AACN", "url": "https://www.aacn.org/certification/get-certified/cmc-and-csc-frequently-asked-questions", "accessed": "2026-05-20"},
+    {"title": "Free CSC Practice Test 2026 | Cardiac Surgery Nursing - Mometrix", "url": "https://www.mometrix.com/academy/csc-exam/", "accessed": "2026-05-20"},
+    {"title": "CSC Exam Handbook (PDF) - AACN", "url": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/cscexamhandbook.pdf", "accessed": "2026-05-20"}
+  ]
+}
