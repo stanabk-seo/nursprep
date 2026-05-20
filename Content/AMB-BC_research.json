@@ -1,0 +1,228 @@
+{
+  "code": "AMB-BC",
+  "researched_at": "2026-05-20T11:15:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "American Nurses Credentialing Center (ANCC), the credentialing affiliate of the American Nurses Association (ANA); credential developed in partnership with the American Academy of Ambulatory Care Nursing (AAACN)",
+      "source": "https://www.nursingworld.org/our-certifications/ambulatory-care-nursing",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": 1999,
+      "value_detail": "First Ambulatory Care Nursing certification exam administered by ANCC in October 1999; 92 nurses took the inaugural exam. Credential acronym was RN-BC until ANCC's COC re-acronym project replaced it with AMB-BC.",
+      "source": "https://www.aaacn.org/updated-ambulatory-care-nursing-certification-credential",
+      "confidence": "high"
+    },
+    "credential_rename": {
+      "value": "RN-BC renamed AMB-BC",
+      "value_detail": "ANCC's Commission on Board Certification (COC) updated specialty credential acronyms to disambiguate each specialty; RN-BC for ambulatory care became AMB-BC. Older RN-BC holders may still see RN-BC on legacy credentials.",
+      "source": "https://www.aaacn.org/updated-ambulatory-care-nursing-certification-credential",
+      "confidence": "high"
+    },
+    "eligibility": {
+      "value": "Active RN license in US/territory or legally recognized equivalent in another country; 2 years full-time equivalent RN practice; 2,000 hours of clinical practice in ambulatory care nursing within the last 3 years; 30 hours of continuing education in ambulatory care nursing within the last 3 years.",
+      "source": "https://www.nursingworld.org/our-certifications/ambulatory-care-nursing",
+      "confidence": "high"
+    },
+    "exam_format_primary_source": {
+      "value": "150 questions total — 125 scored + 25 pretest — 3-hour computer-based test, year-round at Prometric centers in a 120-day window.",
+      "source": "https://www.nursingworld.org/globalassets/acn-tco-09032025.pdf",
+      "confidence": "high",
+      "notes": "Both the current TCO effective 2021-05-01 (last updated 2025-09-03) and the upcoming TCO effective 2026-09-11 state 150 questions / 125 scored."
+    },
+    "exam_format_certs_js": {
+      "value": "175 questions per src/_data/certs.js",
+      "source": "src/_data/certs.js (project canonical source)",
+      "confidence": "high",
+      "notes": "Conflict with ANCC primary source — see discrepancies block. certs.js wins per project rule (hero pill = 175). ANCC primary 150/125/25 is surfaced in at-a-glance + blueprint."
+    },
+    "passing_score": {
+      "value": "Scaled score 350 on a 0–500 scale",
+      "source": "https://nursingexams.org/ancc/ancc-scoring-and-passing-scores/",
+      "confidence": "medium",
+      "notes": "ANCC reports pass/fail with diagnostic feedback for each content area. Scaled-score detail is widely cited but not on a single ANCC URL we could verify."
+    },
+    "fee_ana_member": {
+      "value": "$295",
+      "source": "https://www.nursingworld.org/our-certifications/ambulatory-care-nursing",
+      "confidence": "high",
+      "notes": "ANA members pay $295 (price includes $140 non-refundable administrative fee)."
+    },
+    "fee_aaacn_member": {
+      "value": "$295",
+      "source": "https://www.nursingworld.org/our-certifications/ambulatory-care-nursing",
+      "confidence": "high"
+    },
+    "fee_non_member": {
+      "value": "$395",
+      "source": "https://www.nursingworld.org/our-certifications/ambulatory-care-nursing",
+      "confidence": "high"
+    },
+    "fee_retake": {
+      "value": "$270 flat fee for everyone (no discounts apply)",
+      "source": "https://www.aaacn.org/sites/default/files/Ambulatory_TCO.pdf",
+      "confidence": "medium",
+      "notes": "From AAACN fact sheet (most recent published reference). ANCC main page does not surface a separate retake-fee line."
+    },
+    "fee_renewal_ana_member": {
+      "value": "as low as $250",
+      "source": "https://www.nursingworld.org/our-certifications/ambulatory-care-nursing",
+      "confidence": "high"
+    },
+    "fee_renewal_aaacn_member": {
+      "value": "$295",
+      "source": "https://www.nursingworld.org/our-certifications/ambulatory-care-nursing",
+      "confidence": "high"
+    },
+    "fee_renewal_non_member": {
+      "value": "$350",
+      "source": "https://www.nursingworld.org/our-certifications/ambulatory-care-nursing",
+      "confidence": "high"
+    },
+    "test_delivery": {
+      "value": "Computer-based at Prometric test centers, year-round, 120-day testing window after Authorization to Test (ATT). Effective September 11, 2026 the Test Content Outline and Reference List are updated; a 7-business-day suspension (Aug 28 to Sep 10, 2026) brackets the swap. Candidates can test BEFORE August 28th, 2026 or AFTER September 10th, 2026.",
+      "source": "https://www.nursingworld.org/our-certifications/ambulatory-care-nursing",
+      "confidence": "high"
+    },
+    "renewal_cycle_years": {
+      "value": 5,
+      "source": "https://www.nursingworld.org/our-certifications/ambulatory-care-nursing",
+      "confidence": "high"
+    },
+    "renewal_rules": {
+      "value": "Two pathways. Option A (Professional Development + Practice Hours): hold current active RN license + current ANCC certification, complete the certification specialty's professional development requirements within the 5-year cycle, complete 1,000 practice hours in the certification role/specialty within the 5-year cycle, and pay the renewal fee. Option B (Professional Development + Testing): same prerequisites minus the practice-hours requirement, but the candidate must pass the current certification exam. Renewal applications may be submitted up to 12 months prior to expiration.",
+      "source": "https://www.aaacn.org/sites/default/files/Ambulatory_TCO.pdf",
+      "confidence": "high"
+    },
+    "retake_rules": {
+      "value": "May retest after 60 calendar days from the date last tested. May not test more than three times in any 12-month period. Wait at least 5 days after the examination before submitting a retest application. Retest applications are reviewed as unique applications subject to eligibility rules in effect at the time of retest application.",
+      "source": "https://www.nursingworld.org/certification/certification-policies/scores-retest-application",
+      "confidence": "high"
+    },
+    "accreditation": {
+      "value": "ABSNC accredited (Accreditation Board for Specialty Nursing Certification)",
+      "source": "https://www.nursingworld.org/our-certifications/ambulatory-care-nursing",
+      "confidence": "high"
+    },
+    "first_year_cohort": {
+      "value": 92,
+      "value_detail": "92 nurses took the first ANCC Ambulatory Care Nursing certification exam in October 1999.",
+      "source": "https://www.aaacn.org/updated-ambulatory-care-nursing-certification-credential",
+      "confidence": "high"
+    },
+    "active_certificants": {
+      "value": 7956,
+      "value_detail": "Total certified as of 12/31/2025 per ANCC 2025 Certification Data PDF.",
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high"
+    },
+    "renewals_2025": {
+      "value": 618,
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high"
+    },
+    "common_confusions": {
+      "value": "Most commonly confused with: (1) legacy RN-BC Ambulatory Care — the prior acronym for the same credential, now AMB-BC; older nurses may still hold or display RN-BC. (2) Care Coordination & Transition Management Certification (CCTM, ANCC, renewal only) — adjacent ambulatory specialty focused on care-coordination workflows. (3) Telehealth Nursing Certification (NTI-BC via NCC; AAACN-aligned) — separate exam focused on telephone triage and telehealth nursing; AMB-BC includes telehealth content but is broader. (4) Medical-Surgical Nursing Board Certified (MEDSURG-BC, ANCC) — inpatient acute-care specialty; AMB-BC is the outpatient/clinic counterpart. (5) Family Nurse Practitioner (FNP-BC, ANCC) — APRN credential, not an RN specialty exam.",
+      "source": "https://www.nursingworld.org/our-certifications/",
+      "confidence": "high"
+    },
+    "salary_context_bls": {
+      "value": "BLS OEWS (May 2024) reports a national mean RN wage of $98,430 and median $93,600. Ambulatory-care RN sub-aggregates (vendor-curated): mean roughly $94,480/yr ($45.42/hr); outpatient care centers average ~$102,640/yr.",
+      "source": "https://www.bls.gov/oes/current/oes291141.htm",
+      "confidence": "medium",
+      "notes": "BLS does not publish a separate AMB-BC certified wage; salary detail uses BLS OEWS plus the ambulatory-care sub-aggregate reported by NursingEducation.org from BLS data."
+    },
+    "tco_change_2026": {
+      "value": "Effective 2026-09-11 the Test Content Outline and Reference List are updated. ANCC suspends scheduling for 7 business days (Aug 28 – Sep 10, 2026) to swap the exam. Candidates must test BEFORE Aug 28, 2026 or AFTER Sep 10, 2026. The new outline keeps 150 items / 125 scored and the four-domain structure; weights shift slightly (Assess and Evaluate 41% vs prior 40%; Plan and Implement 16% vs 18%; Professional Role 24% vs 22%; Education unchanged at 19%) and domain titles update (Assessment and Diagnosis; Planning and Implementation; Evaluation and Modification; Patient and Community Education).",
+      "source": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/amb-tco_08292025-for-webposting.pdf",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "Assess and Evaluate",
+      "weight_pct": 40,
+      "scored_items": 50,
+      "source": "https://www.nursingworld.org/globalassets/acn-tco-09032025.pdf",
+      "confidence": "high",
+      "notes": "Current TCO effective 2021-05-01, last updated 2025-09-03. Includes disease process, medications, preventative care, expected outcomes (knowledge); treatment evaluation, triage (in-person/virtual/telehealth), physical and psychosocial assessment, clinical data interpretation (skill)."
+    },
+    {
+      "domain": "Plan and Implement",
+      "weight_pct": 18,
+      "scored_items": 23,
+      "source": "https://www.nursingworld.org/globalassets/acn-tco-09032025.pdf",
+      "confidence": "high",
+      "notes": "Care coordination, disease-specific interventions (knowledge); clinical tasks — procedures, point-of-care testing, wound care (skill)."
+    },
+    {
+      "domain": "Professional Role",
+      "weight_pct": 22,
+      "scored_items": 28,
+      "source": "https://www.nursingworld.org/globalassets/acn-tco-09032025.pdf",
+      "confidence": "high",
+      "notes": "Scope and standards (ANA, AAACN, legal/regulatory), professional development, fiscal health (knowledge); advocacy, leadership, safety and security (skill)."
+    },
+    {
+      "domain": "Education",
+      "weight_pct": 19,
+      "scored_items": 24,
+      "source": "https://www.nursingworld.org/globalassets/acn-tco-09032025.pdf",
+      "confidence": "high",
+      "notes": "Modes of educational delivery, diverse populations, communication barriers (knowledge); professional communication (skill)."
+    }
+  ],
+  "blueprint_2026_post_tco_change": [
+    { "domain": "Assess and Evaluate (renamed: Assessment and Diagnosis)", "weight_pct": 41, "scored_items": 51, "source": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/amb-tco_08292025-for-webposting.pdf", "confidence": "high" },
+    { "domain": "Plan and Implement (renamed: Planning and Implementation)", "weight_pct": 16, "scored_items": 20, "source": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/amb-tco_08292025-for-webposting.pdf", "confidence": "high" },
+    { "domain": "Professional Role (renamed: Evaluation and Modification)", "weight_pct": 24, "scored_items": 30, "source": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/amb-tco_08292025-for-webposting.pdf", "confidence": "high" },
+    { "domain": "Education (renamed: Patient and Community Education)", "weight_pct": 19, "scored_items": 24, "source": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/amb-tco_08292025-for-webposting.pdf", "confidence": "high" }
+  ],
+  "pass_rate_history": [
+    {
+      "year": 2025,
+      "tested": 1562,
+      "passed": 1209,
+      "pass_rate_pct": 77,
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high",
+      "notes": "ANCC 2025 Certification Data PDF — first-time test takers; Ambulatory Care Nursing row."
+    },
+    {
+      "year": 2016,
+      "pass_rate_pct": 76,
+      "source": "https://www.aaacn.org/sites/default/files/Ambulatory_TCO.pdf",
+      "confidence": "medium",
+      "notes": "AAACN fact sheet (older snapshot — 3,268 certificants as of 12/2016)."
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "question_count",
+      "certs_js": 175,
+      "ancc_primary": 150,
+      "resolution": "certs.js wins per project canonical-source rule. Hero pill shows 175. At-a-glance + blueprint surfaces the ANCC primary source (150 total / 125 scored / 25 pretest) and explains the legacy 2017 outline used 175 items / 150 scored. The current TCO (effective 2021-05-01, last updated 2025-09-03) and the upcoming TCO (effective 2026-09-11) both state 150/125/25.",
+      "flag_for_user_review": true
+    },
+    {
+      "field": "passing_score",
+      "issue": "Scaled score 350 on a 0–500 scale is widely reported by third-party prep vendors but is not surfaced as a numeric pass-mark on the ANCC AMB-BC product page. ANCC reports pass/fail with diagnostic content-area feedback.",
+      "resolution": "Surface the scaled-score description in at-a-glance with a 'reported by third-party prep vendors' caveat in the page prose, and link to the ANCC scores-and-retest page for primary authority on pass/fail reporting.",
+      "flag_for_user_review": false
+    }
+  ],
+  "sources_index": [
+    { "title": "Ambulatory Care Nursing Certification (AMB-BC) — ANCC product page", "url": "https://www.nursingworld.org/our-certifications/ambulatory-care-nursing", "accessed": "2026-05-20" },
+    { "title": "ANCC Ambulatory Care Nursing Test Content Outline — effective 2021-05-01 (current, last updated 2025-09-03)", "url": "https://www.nursingworld.org/globalassets/acn-tco-09032025.pdf", "accessed": "2026-05-20" },
+    { "title": "ANCC Ambulatory Care Nursing Test Content Outline — effective 2026-09-11 (new outline)", "url": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/amb-tco_08292025-for-webposting.pdf", "accessed": "2026-05-20" },
+    { "title": "ANCC 2025 Certification Data — Tested, Passed, Pass Rate, Renewals, Total Certified by specialty (PDF)", "url": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf", "accessed": "2026-05-20" },
+    { "title": "ANCC Test Score Reports & Retest Application Procedures (60-day wait, 3-per-12-months cap)", "url": "https://www.nursingworld.org/certification/certification-policies/scores-retest-application", "accessed": "2026-05-20" },
+    { "title": "AAACN — Updated Ambulatory Care Nursing Certification Credential (RN-BC -> AMB-BC rename announcement)", "url": "https://www.aaacn.org/updated-ambulatory-care-nursing-certification-credential", "accessed": "2026-05-20" },
+    { "title": "AAACN — Ambulatory Care Nursing Certification Fact Sheet (PDF, historical fees + retake + renewal options A/B)", "url": "https://www.aaacn.org/sites/default/files/Ambulatory_TCO.pdf", "accessed": "2026-05-20" },
+    { "title": "ANCC Certification Handbook (PDF, effective June 2025)", "url": "https://www.nursingworld.org/globalassets/certification/ancc-certification-handbook.pdf", "accessed": "2026-05-20" },
+    { "title": "ANCC General Testing and Renewal Handbook (PDF)", "url": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-generaltestingrenewalrequirements.pdf", "accessed": "2026-05-20" },
+    { "title": "ANCC All Certifications Catalog", "url": "https://www.nursingworld.org/our-certifications/", "accessed": "2026-05-20" },
+    { "title": "US Bureau of Labor Statistics — Occupational Employment and Wage Statistics, Registered Nurses (OEWS, May 2024)", "url": "https://www.bls.gov/oes/current/oes291141.htm", "accessed": "2026-05-20" },
+    { "title": "nursingexams.org — ANCC Scoring and Passing Scores (third-party explainer for the 0-500 scaled-score, 350 pass mark)", "url": "https://nursingexams.org/ancc/ancc-scoring-and-passing-scores/", "accessed": "2026-05-20" }
+  ]
+}

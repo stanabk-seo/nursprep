@@ -1,0 +1,38 @@
+NursPrep page-builder run — AMB-BC
+Started: 2026-05-20T11:00:00Z
+Operator: nursprep-skill (Opus 4.7, 1M)
+Workspace: /tmp/nursprep-work-1779275153 (parent-agent clone of staging branch; npm install pre-run)
+
+Stages:
+  Stage 1 Resolve: code=AMB-BC, body=ANCC, cat=community, certs.js questions=175, csv keyword="amb bc".
+    Outline cell read from mounted Content Outline Data.csv (read-only access via mounted path).
+  Stage 2 Research: Content/AMB-BC_research.json written (12 sources indexed).
+    Key findings: 7,956 active certificants as of 12/31/2025; 2025 first-time pass rate 77% (1,209/1,562 per ANCC 2025 Cert Data PDF); credential launched October 1999 with 92 first-cohort passers; RN-BC -> AMB-BC rename via ANCC COC.
+    September 11, 2026 TCO change captured: new outline keeps 150/125/25 structure, renames domains (Assessment and Diagnosis / Planning and Implementation / Evaluation and Modification / Patient and Community Education) and shifts weights (40->41%, 18->16%, 22->24%, 19->19%). Suspension Aug 28 – Sep 10, 2026.
+    Discrepancy logged: certs.js says questions=175 (legacy 2017 outline); ANCC current+new TCO says 150 (125 scored + 25 pretest).
+      Resolution per skill rules: certs.js wins for hero pill (175). ANCC primary 150/125/25 surfaced in at-a-glance + blueprint + cost factBox.
+    Fields surfaced with caveats: passing_score (scaled 350 on 0-500) labeled as third-party-prep characterization; ANCC primary reports pass/fail with diagnostic.
+  Stage 3 Brief: Content Briefs/AMB-BC_Content_Brief.md written (2,417 words).
+    SEO outline from CSV rewritten from scratch (5 defects identified — never named ANCC, generic Intro/Conclusion headings, stale 175-q blueprint, treated as course not exam, no comparison table).
+    Critical disambiguation: AMB-BC vs legacy RN-BC, vs CCTM, vs Telehealth Nursing Certification, vs MEDSURG-BC, vs FNP-BC.
+    SEO meta within band; URL slug /certifications/amb-bc/.
+  Stage 4 Data file: src/_data/exams/amb-bc.js written (362 lines).
+    All 12 required sections present (overview, eligibility, blueprint, cost, passrate, plan, sample, keyterms, compare, faq, sources, cta).
+    Hero pill = 175 items (certs.js wins per project canonical-source rule).
+    ataGlance "Total items" row = 150 — 125 scored + 25 pretest (ANCC primary source).
+    Blueprint domains use current TCO (effective 2021-05-01, last updated 2025-09-03); blueprint prose surfaces the Sep 11, 2026 TCO change with new domain names and weights.
+    passrate.rows seeded with two ANCC/AAACN-cited snapshots (2016: 76%; 2025: 77%).
+    Sample item = telephone-triage chest-pain scenario (high-yield Assess and Evaluate domain).
+  Stage 5 Build & validate:
+    npx @11ty/eleventy: PASS, 20 files written, AMB-BC page at _site/certifications/amb-bc/index.html.
+    validate-build.py: PASS, 78,268 bytes, all 12 sections present, 1 JSON-LD block.
+  Stage 6 Commit: see git log on staging branch.
+  Stage 7 Push: pushed to origin/staging.
+
+State at end: AMB-BC status=done (after final state.py done).
+
+Anomalies / blockers:
+  - certs.js shows AMB-BC questions=175 (matches ANCC's legacy 2017 outline of 175 items / 150 scored). The current ANCC TCO (effective 2021-05-01) and the upcoming TCO (effective 2026-09-11) both state 150 items / 125 scored / 25 pretest. Per project canonical-source rule, certs.js wins on the headline 175 figure (hero pill). The ANCC primary 150/125/25 is surfaced explicitly in at-a-glance, blueprint prose, cost factBox, FAQ ("How many questions"), and study plan ("125 scored items in 3 hours"). Flagged in research.json discrepancies for user editorial review.
+  - Passing score (scaled 350 on 0-500) is widely reported by third-party prep vendors but ANCC's product page only describes pass/fail with diagnostic content-area feedback. Surfaced with a "third-party prep vendors describe" caveat in the passrate factBox and FAQ.
+
+End of run.
