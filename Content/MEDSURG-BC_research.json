@@ -1,0 +1,158 @@
+{
+  "code": "MEDSURG-BC",
+  "name": "Medical-Surgical Nursing — Board Certified",
+  "researched_at": "2026-05-20T08:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "American Nurses Credentialing Center (ANCC)",
+      "source": "https://www.nursingworld.org/our-certifications/medical-surgical-nurse/",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "ANCC has offered a Medical-Surgical Nursing exam for decades (predecessor was RN-BC Medical-Surgical Nursing). The MEDSURG-BC credential name itself reflects ANCC's 2018 'Board-Certified' suffix rebrand; a specific launch year for the credential was not located on the issuing body page during this run."
+    },
+    "credential_awarded": {
+      "value": "MEDSURG-BC (Medical-Surgical Nurse — Board Certified)",
+      "source": "https://www.nursingworld.org/our-certifications/medical-surgical-nurse/",
+      "confidence": "high"
+    },
+    "active_certificants": {
+      "value": 31688,
+      "as_of": "2024",
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "medium",
+      "note": "Total MEDSURG-BC credential holders reported in 2024 ANCC Certification Data."
+    },
+    "eligibility": {
+      "value": "Hold a current, active RN license within a state or territory of the United States (or the professional, legally recognized equivalent in another country); have practiced the equivalent of 2 years full-time as a registered nurse; have a minimum of 2,000 hours of clinical practice in the specialty area of medical-surgical nursing within the last 3 years; and have completed 30 hours of continuing education in medical-surgical nursing within the last 3 years.",
+      "source": "https://www.nursingworld.org/our-certifications/medical-surgical-nurse/",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based, competency-based, multiple-choice. Delivered by Prometric at test centers nationwide and via remote-proctored option. 150 items total (125 scored + 25 pretest), 3-hour time limit. Year-round testing within a 120-day window after approval.",
+      "source": "https://www.nursingworld.org/our-certifications/medical-surgical-nurse/",
+      "confidence": "high",
+      "note": "ANCC primary source explicitly states 150 questions (125 scored + 25 pretest). Internal certs.js shows 175 — see discrepancies below. Page content will trust certs.js per skill rules."
+    },
+    "exam_vendor": {
+      "value": "Prometric",
+      "source": "https://www.prometric.com/ancc",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 150,
+      "scored": 125,
+      "pretest": 25,
+      "source": "https://www.nursingworld.org/our-certifications/medical-surgical-nurse/",
+      "confidence": "high",
+      "note": "Per ANCC issuing body. certs.js lists 175; discrepancy logged."
+    },
+    "time_limit": {
+      "value": "3 hours",
+      "source": "https://www.nursingworld.org/our-certifications/medical-surgical-nurse/",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Scaled score of 350 on a 0-500 scale",
+      "source": "https://www.boardcerts.com/exams/medsurg-bc",
+      "confidence": "medium",
+      "note": "ANCC uses a uniform 0-500 scaled score across its certification exams with 350 as the cut score; corroborated across multiple ANCC-cert references."
+    },
+    "fee_ana_member": {
+      "value": "$295",
+      "source": "https://www.nursingworld.org/our-certifications/medical-surgical-nurse/",
+      "confidence": "high",
+      "note": "Initial certification; price includes $140 non-refundable administrative fee."
+    },
+    "fee_nonmember": {
+      "value": "$395",
+      "source": "https://www.nursingworld.org/our-certifications/medical-surgical-nurse/",
+      "confidence": "high"
+    },
+    "fee_renewal_ana_member": {
+      "value": "$250",
+      "source": "https://www.nursingworld.org/our-certifications/medical-surgical-nurse/",
+      "confidence": "high"
+    },
+    "fee_renewal_nonmember": {
+      "value": "$350",
+      "source": "https://www.nursingworld.org/our-certifications/medical-surgical-nurse/",
+      "confidence": "high"
+    },
+    "fee_retake": {
+      "value": "$270",
+      "source": "https://nursingexams.org/ancc/ancc-retake-policy/",
+      "confidence": "medium",
+      "note": "ANCC standard retake fee. Retake allowed no sooner than 60 days after a failed attempt; maximum three attempts in a 12-month window."
+    },
+    "pass_rate_latest": {
+      "value": 75,
+      "as_of": "2024",
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high",
+      "note": "In 2024 ANCC certification data: 4,672 examinees; 3,487 passed = ~75% pass rate."
+    },
+    "renewal": {
+      "value": "5-year cycle. Renew by completing 75 hours of continuing education in medical-surgical nursing PLUS at least one additional professional development category (e.g. additional 75 CE hours, 5 semester credits in specialty coursework, 5 clock-hours of presentations, a problem-solving project, publication, research/dissertation/thesis, mentorship of 120+ hours, or precepting), OR by retaking the certification exam.",
+      "source": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf",
+      "confidence": "high",
+      "note": "At least 60 of the 75 CE hours must be formally approved (ANCC, AMA PRA Category 1, or accepted accreditor)."
+    },
+    "renewal_cycle_years": {
+      "value": 5,
+      "source": "https://www.nursingworld.org/our-certifications/medical-surgical-nurse/",
+      "confidence": "high"
+    },
+    "common_confusions": {
+      "value": [
+        {"credential": "CMSRN (MSNCB)", "disambiguation": "Certified Medical-Surgical Registered Nurse from the Medical-Surgical Nursing Certification Board (MSNCB) is the competing med-surg credential. CMSRN requires 2,000 hours over 5 years and a 150-item exam; MEDSURG-BC is the ANCC counterpart requiring 2 years of RN practice plus 30 CE hours in the specialty."},
+        {"credential": "RN-BC Medical-Surgical Nursing", "disambiguation": "The legacy ANCC credential — MEDSURG-BC is the current rebranded designation following ANCC's 2018 transition from 'RN-BC' to specialty-suffixed 'Board Certified' credentials. Existing RN-BC holders converted at renewal."},
+        {"credential": "PCCN", "disambiguation": "Progressive Care Certified Nurse from AACN targets nurses caring for acutely (but not critically) ill adult patients on step-down units. MEDSURG-BC scope is the broader medical-surgical floor; PCCN is more acute."}
+      ],
+      "source": "https://www.examedge.com/blogs/ancc-vs-msncb-which-to-take-for-medical-surgical-certification.cfm",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": "U.S. registered nurses earned a median wage of $93,600 in May 2024 (BLS OEWS); national mean was $98,430. Medical-surgical RNs typically fall near this benchmark, with certified med-surg nurses often commanding a modest premium above non-certified peers due to validated specialty competency.",
+      "source": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
+      "confidence": "high"
+    },
+    "recent_changes": {
+      "value": "Test Content Outline updated effective September 10, 2024 (PDF dated October 29, 2025). Current TCO uses three domains: Assessment and Diagnosis (39%), Planning/Implementation/Evaluation (40%), and Professional Role (21%). ANCC Certification Renewal Requirements handbook effective September 10, 2025 governs the current renewal cycle.",
+      "source": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/medsurg-tco_10.29.25.pdf",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {"domain": "Assessment and Diagnosis", "weight_pct": 39, "scored_items": 49, "source": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/medsurg-tco_10.29.25.pdf", "confidence": "high", "note": "Effective September 10, 2024."},
+    {"domain": "Planning, Implementation, and Evaluation", "weight_pct": 40, "scored_items": 50, "source": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/medsurg-tco_10.29.25.pdf", "confidence": "high"},
+    {"domain": "Professional Role", "weight_pct": 21, "scored_items": 26, "source": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/medsurg-tco_10.29.25.pdf", "confidence": "high"}
+  ],
+  "pass_rate_history": [
+    {"year": 2024, "pass_rate_pct": 75, "examinees": 4672, "passed": 3487, "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf", "confidence": "high"}
+  ],
+  "discrepancies": [
+    {
+      "field": "exam_question_count",
+      "values": [
+        {"src": "ANCC primary page (nursingworld.org/our-certifications/medical-surgical-nurse)", "v": 150, "note": "125 scored + 25 pretest"},
+        {"src": "internal certs.js", "v": 175}
+      ],
+      "resolution": "Per skill rules, trust certs.js for page rendering (175). Note: ANCC's own page and the September 2024 Test Content Outline both publish 150 items — the internal data may pre-date the 2024 TCO revision. Flag for user review on next maintenance pass."
+    }
+  ],
+  "sources_index": [
+    {"title": "Medical-Surgical Nursing Certification (MEDSURG-BC) — ANCC", "url": "https://www.nursingworld.org/our-certifications/medical-surgical-nurse/", "accessed": "2026-05-20"},
+    {"title": "MEDSURG-BC Test Content Outline (effective Sept 10, 2024; updated Oct 29, 2025)", "url": "https://www.nursingworld.org/globalassets/certification/certification-specialty-pages/resources/test-content-outlines/medsurg-tco_10.29.25.pdf", "accessed": "2026-05-20"},
+    {"title": "2024 ANCC Certification Data", "url": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf", "accessed": "2026-05-20"},
+    {"title": "ANCC Certification Renewal Requirements Handbook (effective Sept 10, 2025)", "url": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf", "accessed": "2026-05-20"},
+    {"title": "MEDSURG-BC Exam — boardcerts.com", "url": "https://www.boardcerts.com/exams/medsurg-bc", "accessed": "2026-05-20"},
+    {"title": "ANCC Retake Policy — nursingexams.org", "url": "https://nursingexams.org/ancc/ancc-retake-policy/", "accessed": "2026-05-20"},
+    {"title": "ANCC vs MSNCB: Which to Take for Med-Surg Certification — ExamEdge", "url": "https://www.examedge.com/blogs/ancc-vs-msncb-which-to-take-for-medical-surgical-certification.cfm", "accessed": "2026-05-20"},
+    {"title": "Registered Nurses — BLS Occupational Outlook Handbook (May 2024 OEWS)", "url": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm", "accessed": "2026-05-20"},
+    {"title": "Prometric — ANCC Exam Scheduling", "url": "https://www.prometric.com/ancc", "accessed": "2026-05-20"}
+  ]
+}
