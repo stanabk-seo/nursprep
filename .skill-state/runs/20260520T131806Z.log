@@ -1,0 +1,55 @@
+NursPrep page builder run — CV-BC
+Started:    2026-05-20 (UTC)
+Exam:       CV-BC (Cardiac-Vascular Nursing — Board Certified, ANCC)
+Outcome:    SUCCESS
+
+Stages (all done):
+  research          ✓  Content/CV-BC_research.json
+  brief             ✓  Content Briefs/CV-BC_Content_Brief.md
+  data_file         ✓  src/_data/exams/cv-bc.js
+  build_validated   ✓  _site/certifications/cv-bc/index.html (74,011 bytes, 12 sections, 1 JSON-LD block)
+  committed         ✓  (this commit)
+
+Key facts verified against primary sources:
+  - Awarding body:        ANCC (Accredited by ABSNC)
+  - Format:               Prometric, 150 items (125 scored + 25 pretest), 3 hrs
+  - Passing score:        scaled 350 on 0–500
+  - Eligibility:          RN + 2 yrs FT + 2,000 cardiac-vascular hrs + 30 cardiac-vascular CE hrs (last 3 yrs)
+  - Fees:                 $295 ANA / $340 SVN / $340 PCNA / $395 non-member ($140 admin fee included)
+  - Renewal fees:         $250 ANA / $295 SVN / $295 PCNA / $350 non-member
+  - 2025 pass rate:       67%  (754 / 1,120 first-time)
+  - Total certified:      6,573 active as of 2025-12-31; 771 renewals in 2025
+  - Renewal cycle:        5 years; 75 CV CE hours (60 formally approved) + 1 of 8 PD categories
+  - TCO effective date:   2025-12-05 (built from 2023-2024 Cardiac-Vascular Nursing RDS, 267 respondents)
+  - Blueprint weights:
+      Assessment and Diagnosis            22% (27 scored)
+      Planning and Implementation         35% (44 scored)
+      Evaluation and Modification         18% (23 scored)
+      Patient and Community Education     25% (31 scored)
+
+Research gaps left as null (NOT invented):
+  - facts.year_launched   (ANCC does not publish a launch year for this credential)
+  - facts.retest_fee      (specific CV-BC retest fee not on credential page)
+
+Primary sources (all 10):
+  1. ANCC CV-BC credential page
+  2. ANCC Cardiac-Vascular Nursing Test Content Outline (effective 2025-12-05)
+  3. ANCC 2025 Certification Data
+  4. ANCC 2023 Cardiac-Vascular Nursing Role Delineation Study Executive Summary
+  5. ANCC Certification Renewal Handbook (effective 2025-09-10)
+  6. ANCC General Certification Handbook
+  7. ANCC CV-BC Test Reference List (2025-09-03)
+  8. Society for Vascular Nursing (SVN)
+  9. Preventive Cardiovascular Nurses Association (PCNA)
+  10. US BLS OEWS — Registered Nurses (May 2024)
+
+CSV outline was rewritten from scratch:
+  - Confused CV-BC with CNOR (CCI) and CDCES (CBDCE) — unrelated credentials
+  - Did not name ANCC
+  - Used generic "Introduction / Benefits / Conclusion" headings
+  - Skipped the four-domain ANCC Test Content Outline
+  - Listed no fee table or pass-rate section
+  - Treated the credential as a course rather than an exam
+
+certs.js cross-check:
+  certs.js lists CV-BC at 150 questions — MATCH with ANCC TCO. No reconciliation needed.

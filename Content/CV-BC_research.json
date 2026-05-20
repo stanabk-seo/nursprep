@@ -1,0 +1,286 @@
+{
+  "code": "CV-BC",
+  "name": "Cardiac-Vascular Nursing — Board Certified",
+  "researched_at": "2026-05-20T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "American Nurses Credentialing Center (ANCC)",
+      "source": "https://www.nursingworld.org/our-certifications/cardiac-vascular-nurse/",
+      "confidence": "high"
+    },
+    "credential_awarded": {
+      "value": "CV-BC (Cardiac-Vascular Nurse – Board Certified)",
+      "source": "https://www.nursingworld.org/our-certifications/cardiac-vascular-nurse/",
+      "confidence": "high"
+    },
+    "accreditation": {
+      "value": "Accredited by the Accreditation Board for Specialty Nursing Certification (ABSNC).",
+      "source": "https://www.nursingworld.org/our-certifications/cardiac-vascular-nurse/",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "ANCC does not publish a specific launch year for the Cardiac-Vascular Nursing credential on the certification page. Earlier ANCC labeling used RN-BC for this specialty; the credential was standardized under the CV-BC label. Set to null rather than guess."
+    },
+    "eligibility": {
+      "value": "Hold a current, active RN license in a US state or territory (or the legally recognized equivalent in another country); have practiced the equivalent of 2 years full-time as a registered nurse; have a minimum of 2,000 hours of clinical practice in cardiac-vascular nursing within the last 3 years; have completed 30 hours of continuing education in cardiac-vascular nursing within the last 3 years.",
+      "source": "https://www.nursingworld.org/our-certifications/cardiac-vascular-nurse/",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based test at Prometric centers; 150 questions (125 scored + 25 unscored pretest); 3-hour time limit; available year-round during a 120-day testing window after eligibility approval.",
+      "source": "https://www.nursingworld.org/our-certifications/cardiac-vascular-nurse/",
+      "confidence": "high"
+    },
+    "test_vendor": {
+      "value": "Prometric (https://www.prometric.com/ancc)",
+      "source": "https://www.nursingworld.org/our-certifications/cardiac-vascular-nurse/",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 150,
+      "scored": 125,
+      "pretest": 25,
+      "source": "https://www.nursingworld.org/globalassets/cardvac-tco_09042025-for-webposting.pdf",
+      "confidence": "high"
+    },
+    "time_limit": {
+      "value": "3 hours",
+      "source": "https://www.nursingworld.org/our-certifications/cardiac-vascular-nurse/",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Scaled score of 350 on a 0–500 scale (ANCC standard scaled passing score for board certifications).",
+      "source": "https://www.nursingworld.org/globalassets/certification/ancc-certification-handbook.pdf",
+      "confidence": "medium",
+      "note": "ANCC uses a uniform scaled passing score of 350 across its board certifications per the ANCC Certification Handbook."
+    },
+    "fee": {
+      "value": {
+        "non_member": 395,
+        "ana_member": 295,
+        "svn_member": 340,
+        "pcna_member": 340,
+        "admin_fee_included": 140,
+        "currency": "USD"
+      },
+      "source": "https://www.nursingworld.org/our-certifications/cardiac-vascular-nurse/",
+      "confidence": "high"
+    },
+    "renewal_fee": {
+      "value": {
+        "non_member": 350,
+        "ana_member": 250,
+        "svn_member": 295,
+        "pcna_member": 295,
+        "admin_fee_included": 140,
+        "currency": "USD"
+      },
+      "source": "https://www.nursingworld.org/our-certifications/cardiac-vascular-nurse/",
+      "confidence": "high"
+    },
+    "retest_fee": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "The specific CV-BC retest fee is not listed on the credential page. Not citing without primary-source confirmation."
+    },
+    "pass_rate_2025": {
+      "value": 67,
+      "tested": 1120,
+      "passed": 754,
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high",
+      "note": "First-time test takers, 2025 ANCC Certification Data. Listed as 'Cardiac-Vascular Nursing' under RN Specialty Nursing."
+    },
+    "total_certified": {
+      "value": 6573,
+      "as_of": "2025-12-31",
+      "renewals_2025": 771,
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high"
+    },
+    "renewal_cycle_years": {
+      "value": 5,
+      "source": "https://www.nursingworld.org/our-certifications/cardiac-vascular-nurse/",
+      "confidence": "high"
+    },
+    "renewal_ce_hours": {
+      "value": "75 contact hours of continuing education in cardiac-vascular nursing; at least 60 of the 75 must be formally approved CE (e.g., ANCC-accredited or AMA PRA Category 1).",
+      "source": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf",
+      "confidence": "high"
+    },
+    "renewal_pd_categories": {
+      "value": "In addition to 75 CE hours, complete at least 1 of 8 professional development categories: academic credits, presentations/lectures, publications/research, preceptorship of students, professional service, practice hours (1,000+ in specialty within renewal cycle), quality improvement projects, or re-examination.",
+      "source": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": "BLS OEWS May 2024 — Registered Nurses (29-1141) mean annual wage approximately $94,480; range roughly $63,720 (10th pctl) to $132,680 (90th pctl). Cardiac-vascular RNs working in cath labs, CTICU/CVICU, electrophysiology, and structural-heart programs often earn above the RN mean.",
+      "source": "https://www.bls.gov/oes/current/oes291141.htm",
+      "confidence": "medium"
+    },
+    "tco_effective_date": {
+      "value": "December 5, 2025",
+      "source": "https://www.nursingworld.org/globalassets/cardvac-tco_09042025-for-webposting.pdf",
+      "confidence": "high",
+      "note": "Current Test Content Outline took effect 2025-12-05, built from the 2023-2024 Cardiac-Vascular Nursing Role Delineation Study (267 ANCC-certified CV-BC respondents)."
+    },
+    "rds_year": {
+      "value": "2023-2024",
+      "respondents": 267,
+      "source": "https://www.nursingworld.org/globalassets/certification/exam-47-cv-rds-executive-summary_final-09262024.pdf",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "Assessment and Diagnosis",
+      "scored_items": 27,
+      "weight_pct": 22,
+      "subtopics": "Anatomy and physiology; pathophysiology; nursing diagnosis identification; patient interview (history, chief complaint, social determinants of health); cardiac-vascular assessment techniques and tools (Doppler, stroke scale); data collection and interpretation (diagnostic tests, laboratory results, cardiac rhythms).",
+      "source": "https://www.nursingworld.org/globalassets/cardvac-tco_09042025-for-webposting.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Planning and Implementation",
+      "scored_items": 44,
+      "weight_pct": 35,
+      "subtopics": "Evidence-based practice guidelines (ACC/AHA guidelines, quality measures); scope and standards of practice; legal and ethical considerations (informed consent, advance directives); invasive/non-invasive procedures (peripheral, cardiac, structural); surgeries (coronary/vascular bypass, transplant); pharmacologic therapies; non-pharmacologic and complementary therapies; risk-reduction measures (VTE prophylaxis, infection prevention); prioritization and care coordination (interdisciplinary teams, discharge planning); interventions (targeted temperature management, cardioversion).",
+      "source": "https://www.nursingworld.org/globalassets/cardvac-tco_09042025-for-webposting.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Evaluation and Modification",
+      "scored_items": 23,
+      "weight_pct": 18,
+      "subtopics": "Expected outcomes; drug interactions (drug-drug, drug-food); recognition and treatment of adverse reactions and events (heparin-induced thrombocytopenia, hypotension); recognition and treatment of urgent conditions (pseudoaneurysm, hypertensive crisis); recognition and treatment of emergent conditions (pulmonary emboli, stroke).",
+      "source": "https://www.nursingworld.org/globalassets/cardvac-tco_09042025-for-webposting.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Patient and Community Education",
+      "scored_items": 31,
+      "weight_pct": 25,
+      "subtopics": "Cardiac-vascular risk factors (ethnicity, smoking); chronic disease management; cardiac-vascular education topics (procedures, medications); self-management strategies (daily weights, blood pressure logs); community resources (cardiac rehabilitation, anticoagulation clinic); individualized education planning and implementation (addressing barriers, health literacy); outpatient monitoring (remote telemetry, point-of-care testing); health promotion (wellness counseling, health fairs).",
+      "source": "https://www.nursingworld.org/globalassets/cardvac-tco_09042025-for-webposting.pdf",
+      "confidence": "high"
+    }
+  ],
+  "pass_rate_history": [
+    {
+      "year": 2025,
+      "pass_rate_pct": 67,
+      "tested": 1120,
+      "passed": 754,
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high"
+    }
+  ],
+  "common_confusions": [
+    {
+      "credential": "CCRN (Adult / Pediatric / Neonatal)",
+      "issuing_body": "AACN Certification Corporation",
+      "scope": "Critical-care RN certification for acutely/critically ill patients across ICUs (including CTICU and CVICU). Broader scope than CV-BC; CCRN-certified nurses may also pursue CCRN sub-specialty add-ons for cardiac medicine and cardiac surgery.",
+      "source": "https://www.aacn.org/certification/get-certified/ccrn-adult"
+    },
+    {
+      "credential": "CMC (Cardiac Medicine Certification, AACN sub-specialty)",
+      "issuing_body": "AACN Certification Corporation",
+      "scope": "Sub-specialty add-on credential for CCRN/PCCN/ACCNS holders who care for acutely ill cardiac-medicine patients (not surgical). Different scope and prerequisite than CV-BC.",
+      "source": "https://www.aacn.org/certification/get-certified/cmc-adult"
+    },
+    {
+      "credential": "CSC (Cardiac Surgery Certification, AACN sub-specialty)",
+      "issuing_body": "AACN Certification Corporation",
+      "scope": "Sub-specialty add-on credential for CCRN/PCCN/ACCNS holders who care for adult cardiac-surgery patients in the first 48 hours post-op. Different scope than CV-BC.",
+      "source": "https://www.aacn.org/certification/get-certified/csc-adult"
+    },
+    {
+      "credential": "PCCN (Progressive Care Certified Nurse)",
+      "issuing_body": "AACN Certification Corporation",
+      "scope": "Certification for RNs caring for acutely ill adult patients on telemetry, step-down, and intermediate-care units. Overlaps with CV-BC scope but is broader and is not cardiac-specific.",
+      "source": "https://www.aacn.org/certification/get-certified/pccn"
+    },
+    {
+      "credential": "Certified Vascular Nurse (CVN, ANCC renewal only)",
+      "issuing_body": "ANCC (renewal only)",
+      "scope": "Legacy ANCC Certified Vascular Nurse credential; ANCC retired initial testing for this specialty (renewal only). Distinct from CV-BC, which covers cardiac AND vascular nursing under one credential.",
+      "source": "https://www.nursingworld.org/our-certifications/certified-vascular-nurse-renewal/"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "question_count",
+      "internal_certs_js_value": 150,
+      "ancc_published_value": 150,
+      "resolution": "Match. certs.js entry of 150 questions agrees with ANCC primary source (Test Content Outline effective 2025-12-05 and CV-BC credential page). No reconciliation needed."
+    }
+  ],
+  "recent_changes": [
+    {
+      "change": "Test Content Outline effective December 5, 2025",
+      "note": "Current 4-domain blueprint (Assessment & Diagnosis 22%, Planning & Implementation 35%, Evaluation & Modification 18%, Patient & Community Education 25%) was issued from the 2023-2024 Cardiac-Vascular Nursing Role Delineation Study (267 ANCC-certified CV-BC respondents).",
+      "source": "https://www.nursingworld.org/globalassets/cardvac-tco_09042025-for-webposting.pdf"
+    },
+    {
+      "change": "ANCC Certification Renewal Handbook effective September 10, 2025",
+      "note": "75 CE hours within the 5-year cycle, with 60 of those formally approved, plus one of eight professional-development categories.",
+      "source": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf"
+    }
+  ],
+  "sources_index": [
+    {
+      "title": "ANCC – Cardiac-Vascular Nursing Certification (CV-BC) credential page",
+      "url": "https://www.nursingworld.org/our-certifications/cardiac-vascular-nurse/",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "ANCC – Cardiac-Vascular Nursing Test Content Outline (effective 2025-12-05; PDF updated 2025-08-29)",
+      "url": "https://www.nursingworld.org/globalassets/cardvac-tco_09042025-for-webposting.pdf",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "ANCC – 2025 Certification Data (first-time pass rates and total certified)",
+      "url": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "ANCC – 2023 Cardiac-Vascular Nursing Role Delineation Study Executive Summary",
+      "url": "https://www.nursingworld.org/globalassets/certification/exam-47-cv-rds-executive-summary_final-09262024.pdf",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "ANCC – Certification Renewal Handbook (effective 2025-09-10)",
+      "url": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "ANCC – General Certification Handbook (PDF)",
+      "url": "https://www.nursingworld.org/globalassets/certification/ancc-certification-handbook.pdf",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "ANCC – Cardiac-Vascular Nursing Test Reference List (2025-09-03)",
+      "url": "https://www.nursingworld.org/globalassets/carvac-ref-list-2025_09032025.pdf",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "Society for Vascular Nursing (SVN) – ANCC Certification page",
+      "url": "https://www.svnnet.org/page/Certification",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "Preventive Cardiovascular Nurses Association (PCNA)",
+      "url": "https://pcna.net/",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "US Bureau of Labor Statistics — Occupational Employment and Wage Statistics, Registered Nurses (May 2024)",
+      "url": "https://www.bls.gov/oes/current/oes291141.htm",
+      "accessed": "2026-05-20"
+    }
+  ]
+}
