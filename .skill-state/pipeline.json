@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-05-19T20:42:04.491907Z",
-  "last_updated": "2026-05-20T13:17:45.142176Z",
+  "last_updated": "2026-05-20T13:18:53.540261Z",
   "staging_branch": "staging",
   "exams": [
     {
@@ -314,18 +314,18 @@
       "code": "CV-BC",
       "csv_keyword": "cv bc",
       "has_outline": true,
-      "status": "in_progress",
+      "status": "done",
       "stages": {
         "research": "done",
         "brief": "done",
         "data_file": "done",
         "build_validated": "done",
-        "committed": "pending"
+        "committed": "done"
       },
       "attempts": 1,
       "last_error": null,
       "last_attempt_at": "2026-05-20T13:09:24.471951Z",
-      "completed_at": null
+      "completed_at": "2026-05-20T13:18:53.540254Z"
     },
     {
       "code": "CWCN",
