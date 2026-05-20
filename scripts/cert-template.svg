@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="{{ACRONYM}} - {{NAME}}">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2f4ff"/>
+      <stop offset="100%" stop-color="#fbfbfd"/>
+    </linearGradient>
+    <linearGradient id="badgeFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#163bf3"/>
+      <stop offset="100%" stop-color="#0c114d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative top-right dot pattern -->
+  <g fill="#bdc7fb" opacity="0.55">
+    <circle cx="1050" cy="60" r="3"/>
+    <circle cx="1080" cy="60" r="3"/>
+    <circle cx="1110" cy="60" r="3"/>
+    <circle cx="1140" cy="60" r="3"/>
+    <circle cx="1050" cy="90" r="3"/>
+    <circle cx="1080" cy="90" r="3"/>
+    <circle cx="1110" cy="90" r="3"/>
+    <circle cx="1050" cy="120" r="3"/>
+    <circle cx="1080" cy="120" r="3"/>
+  </g>
+
+  <!-- NURSPREP wordmark top-left -->
+  <text x="60" y="75" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#687b8c" letter-spacing="2">NURSPREP</text>
+
+  <!-- Issuing body top-right (small) -->
+  <text x="1140" y="75" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="#163bf3" text-anchor="end" letter-spacing="1">{{BODY}}</text>
+
+  <!-- BIG ACRONYM BADGE (centered, auto-sized) -->
+  <g transform="translate(600 215)">
+    <rect x="{{BADGE_X}}" y="-65" width="{{BADGE_W}}" height="130" rx="20" fill="url(#badgeFill)"/>
+    <text x="0" y="22" font-family="Inter, system-ui, sans-serif" font-size="88" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4">{{ACRONYM}}</text>
+  </g>
+
+  <!-- Red accent bar under badge -->
+  <rect x="560" y="295" width="80" height="5" rx="2.5" fill="#ff341a"/>
+
+  <!-- Full name -->
+  <text x="600" y="355" font-family="Inter, system-ui, sans-serif" font-size="30" font-weight="700" fill="#0c114d" text-anchor="middle">{{NAME}}</text>
+
+  <!-- ========== STAT CARDS ========== -->
+  <!-- Pass rate card -->
+  <g transform="translate(160 420)">
+    <rect width="260" height="130" rx="14" fill="#ffffff" stroke="#bdc7fb" stroke-width="2"/>
+    <text x="130" y="55" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="800" fill="#163bf3" text-anchor="middle">{{PASS_RATE}}</text>
+    <text x="130" y="82" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#687b8c" text-anchor="middle" letter-spacing="2">PASS RATE</text>
+    <text x="130" y="108" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#687b8c" text-anchor="middle">{{PASS_RATE_SUB}}</text>
+  </g>
+
+  <!-- Renewal card -->
+  <g transform="translate(470 420)">
+    <rect width="260" height="130" rx="14" fill="#ffffff" stroke="#bdc7fb" stroke-width="2"/>
+    <text x="130" y="55" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="800" fill="#163bf3" text-anchor="middle">{{RENEWAL}}</text>
+    <text x="130" y="82" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#687b8c" text-anchor="middle" letter-spacing="2">RENEWAL CYCLE</text>
+    <text x="130" y="108" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#687b8c" text-anchor="middle">CE hours or re-exam</text>
+  </g>
+
+  <!-- Fee card -->
+  <g transform="translate(780 420)">
+    <rect width="260" height="130" rx="14" fill="#ffffff" stroke="#bdc7fb" stroke-width="2"/>
+    <text x="130" y="55" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="800" fill="#163bf3" text-anchor="middle">{{FEE}}</text>
+    <text x="130" y="82" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#687b8c" text-anchor="middle" letter-spacing="2">EXAM FEE</text>
+    <text x="130" y="108" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#687b8c" text-anchor="middle">Member rate</text>
+  </g>
+
+  <!-- Bottom signature strip -->
+  <text x="600" y="600" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#163bf3" text-anchor="middle" letter-spacing="2">BOARD CERTIFICATION · {{BODY}}</text>
+</svg>
