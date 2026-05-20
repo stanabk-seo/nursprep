@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-05-19T20:42:04.491907Z",
-  "last_updated": "2026-05-20T07:53:39.197718Z",
+  "last_updated": "2026-05-20T07:54:01.537475Z",
   "staging_branch": "staging",
   "exams": [
     {
@@ -212,18 +212,18 @@
       "code": "NPD-BC",
       "csv_keyword": "npd bc",
       "has_outline": true,
-      "status": "in_progress",
+      "status": "done",
       "stages": {
         "research": "done",
         "brief": "done",
         "data_file": "done",
         "build_validated": "done",
-        "committed": "pending"
+        "committed": "done"
       },
       "attempts": 1,
       "last_error": null,
       "last_attempt_at": "2026-05-20T07:45:22.657765Z",
-      "completed_at": null
+      "completed_at": "2026-05-20T07:54:01.537467Z"
     },
     {
       "code": "PMH-BC",
