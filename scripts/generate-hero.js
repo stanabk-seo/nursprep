@@ -43,10 +43,18 @@ function getField(entries, labelRegex) {
   const hit = entries.find((e) => labelRegex.test(e.k));
   return hit ? hit.v : null;
 }
+// Badge auto-width based on acronym length so a short code (CAPA) and a long
+// code (NEA-BC) both sit proportionally inside the pill. Origin is at the
+// SVG group's translate (600,215), so x must be negative to center the badge.
+function badgeBox(acronym) {
+  const charWidth = 62; // heuristic at font-size 88, weight 900
+  const padding = 60;
+  const w = acronym.length * charWidth + padding * 2;
+  return { w, x: -w / 2 };
+}
+
 function fillTemplate(tpl, data) {
-  const len = data.ACRONYM.length;
-  const w = len <= 4 ? 200 : len <= 6 ? 240 : len <= 8 ? 280 : 320;
-  const x = 60;
+  const box = badgeBox(data.ACRONYM);
   return tpl
     .replace(/\{\{ACRONYM\}\}/g, data.ACRONYM)
     .replace(/\{\{NAME\}\}/g, data.NAME)
@@ -56,8 +64,8 @@ function fillTemplate(tpl, data) {
     .replace(/\{\{RENEWAL\}\}/g, data.RENEWAL)
     .replace(/\{\{FEE\}\}/g, data.FEE)
     .replace(/\{\{SLUG\}\}/g, data.SLUG)
-    .replace(/\{\{BADGE_W\}\}/g, w)
-    .replace(/\{\{BADGE_X\}\}/g, x);
+    .replace(/\{\{BADGE_W\}\}/g, box.w)
+    .replace(/\{\{BADGE_X\}\}/g, box.x);
 }
 
 function render(slug) {
