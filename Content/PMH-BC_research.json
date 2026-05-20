@@ -1,0 +1,262 @@
+{
+  "code": "PMH-BC",
+  "name": "Psychiatric-Mental Health Nurse — Board Certified",
+  "researched_at": "2026-05-20T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "American Nurses Credentialing Center (ANCC)",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nursing-certification/",
+      "confidence": "high"
+    },
+    "credential_awarded": {
+      "value": "PMH-BC (Psychiatric Mental Health Nurse – Board Certified)",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nursing-certification/",
+      "confidence": "high"
+    },
+    "accreditation": {
+      "value": "Accredited by the Accreditation Board for Specialty Nursing Certification (ABSNC)",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nursing-certification/",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "ANCC does not publish a specific launch year for PMH-BC on the certification page. The credential replaced legacy RN-BC labeling for psychiatric-mental health nursing under ANCC's portfolio. Set to null rather than guess."
+    },
+    "eligibility": {
+      "value": "Hold a current, active RN license in a US state/territory (or legally recognized equivalent in another country); two years of full-time RN practice; minimum 2,000 hours of clinical practice in psychiatric-mental health nursing within the last 3 years; 30 hours of continuing education in psychiatric-mental health nursing within the last 3 years.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nursing-certification/",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based test at Prometric centers; 150 questions (125 scored + 25 unscored pretest); 3-hour time limit; available year-round during a 120-day testing window after eligibility approval.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nursing-certification/",
+      "confidence": "high"
+    },
+    "test_vendor": {
+      "value": "Prometric (https://www.prometric.com/ancc)",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nursing-certification/",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 150,
+      "scored": 125,
+      "pretest": 25,
+      "source": "https://www.nursingworld.org/globalassets/1.-psychiatric-mental-health-nursing-pmhn-tco_08282025-for-webposting.pdf",
+      "confidence": "high"
+    },
+    "time_limit": {
+      "value": "3 hours",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nursing-certification/",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Scaled score of 350 on a 0–500 scale (ANCC standard scaled passing score for board certifications).",
+      "source": "https://www.nursingworld.org/globalassets/certification/ancc-certification-handbook.pdf",
+      "confidence": "medium",
+      "note": "ANCC uses a uniform scaled passing score of 350 across its board certifications per the ANCC Certification Handbook."
+    },
+    "fee": {
+      "value": {
+        "non_member": 395,
+        "ana_member": 295,
+        "apna_member": 220,
+        "ispn_member": 340,
+        "admin_fee_included": 140,
+        "currency": "USD"
+      },
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nursing-certification/",
+      "confidence": "high"
+    },
+    "renewal_fee": {
+      "value": {
+        "non_member": 350,
+        "ana_member": 250,
+        "apna_member": 250,
+        "ispn_member": 295,
+        "admin_fee_included": 140,
+        "currency": "USD"
+      },
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nursing-certification/",
+      "confidence": "high"
+    },
+    "retest_fee": {
+      "value": 270,
+      "source": "https://nursingexams.org/ancc/ancc-cost/",
+      "confidence": "medium"
+    },
+    "pass_rate_2025": {
+      "value": 71,
+      "tested": 1366,
+      "passed": 972,
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high",
+      "note": "First-time test takers, 2025 ANCC Certification Data. Listed as 'Psychiatric-Mental Health Nursing' under RN Specialty Nursing."
+    },
+    "total_certified": {
+      "value": 10900,
+      "as_of": "2025-12-31",
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high"
+    },
+    "renewals_2025": {
+      "value": 1195,
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high"
+    },
+    "renewal_cycle": {
+      "value": "5 years",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nursing-certification/",
+      "confidence": "high"
+    },
+    "renewal_ce_hours": {
+      "value": "75 contact hours of continuing education in psychiatric-mental health nursing; at least 60 of the 75 must be formally approved CE (e.g., ANCC-accredited or AMA PRA Category 1).",
+      "source": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf",
+      "confidence": "high"
+    },
+    "renewal_pd_categories": {
+      "value": "Must complete at least 1 of 8 professional development categories: academic credits, presentations/lectures, publications/research, precepting students, professional service, practice hours (1,000+ in specialty), or re-examination (in addition to the 75 CE hours).",
+      "source": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": "BLS OEWS May 2024 — psychiatric/substance-abuse hospital RNs earn approximately $98,680 mean annual wage (vs ~$94,480 general RN mean). Range roughly $63,720 (10th pctl) to $132,680 (90th pctl).",
+      "source": "https://www.bls.gov/oes/current/oes291141.htm",
+      "confidence": "medium"
+    },
+    "tco_effective_date": {
+      "value": "September 16, 2024",
+      "source": "https://www.nursingworld.org/globalassets/1.-psychiatric-mental-health-nursing-pmhn-tco_08282025-for-webposting.pdf",
+      "confidence": "high",
+      "note": "Test Content Outline effective date; PDF was updated 2025-08-28 for web posting but content effective 2024-09-16."
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "Assessment and Diagnosis",
+      "scored_items": 28,
+      "weight_pct": 22,
+      "subtopics": "Developmental stages (Erikson, Piaget); physiological causes of psychiatric symptoms (UTI, thyroid dysfunction); psychiatric disorders (thought, mood, neurocognitive, personality, addictions); coping/defense mechanisms; assessment tools (mental status exam, safety risk assessment, trauma history, diagnostic studies).",
+      "source": "https://www.nursingworld.org/globalassets/1.-psychiatric-mental-health-nursing-pmhn-tco_08282025-for-webposting.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Planning",
+      "scored_items": 26,
+      "weight_pct": 21,
+      "subtopics": "Client-centered care (strengths-based, client-stated goals, support network); educational concepts (motivation, readiness, group dynamics); cultural competence (gender-sensitive care, religious beliefs, ethnicity, SES); communication barrier management (cognition, literacy, language, vision); treatment planning (SMART goals, interdisciplinary interventions).",
+      "source": "https://www.nursingworld.org/globalassets/1.-psychiatric-mental-health-nursing-pmhn-tco_08282025-for-webposting.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Implementation",
+      "scored_items": 58,
+      "weight_pct": 46,
+      "subtopics": "Treatment modalities (recovery model, trauma-informed care, CBT); integrative interventions (mindfulness, relaxation, aromatherapy); neurostimulation (TMS, ECT); care coordination; therapeutic environment (milieu, safety); therapeutic communication (active listening, motivational interviewing); medication management (reconciliation, adverse reactions, lab values); psychoeducational group facilitation; health promotion; emergent situation and crisis management.",
+      "source": "https://www.nursingworld.org/globalassets/1.-psychiatric-mental-health-nursing-pmhn-tco_08282025-for-webposting.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Evaluation",
+      "scored_items": 13,
+      "weight_pct": 10,
+      "subtopics": "Legal/ethical considerations (self-determination, informed consent, documentation); process improvement (quality variances, serious reportable events); outcome measurement, ongoing assessment (symptom reduction), and care-plan revision.",
+      "source": "https://www.nursingworld.org/globalassets/1.-psychiatric-mental-health-nursing-pmhn-tco_08282025-for-webposting.pdf",
+      "confidence": "high"
+    }
+  ],
+  "pass_rate_history": [
+    {
+      "year": 2025,
+      "pass_rate_pct": 71,
+      "tested": 1366,
+      "passed": 972,
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high"
+    }
+  ],
+  "common_confusions": [
+    {
+      "credential": "PMHNP-BC (Psychiatric-Mental Health Nurse Practitioner – Board Certified)",
+      "issuing_body": "ANCC",
+      "scope": "Advanced practice nurse practitioner (APRN) credential across the lifespan; requires master's/DNP in psychiatric NP track. Distinct from PMH-BC, which is an RN-level specialty certification.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/"
+    },
+    {
+      "credential": "PMHCNS-BC (Psychiatric-Mental Health Clinical Nurse Specialist – Board Certified)",
+      "issuing_body": "ANCC (renewal only)",
+      "scope": "Adult or Child/Adolescent Psychiatric-Mental Health Clinical Nurse Specialist credentials. ANCC retired initial testing for these but maintains renewals. Different scope from RN-level PMH-BC.",
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf"
+    },
+    {
+      "credential": "Legacy RN-BC (in psychiatric-mental health nursing)",
+      "issuing_body": "ANCC",
+      "scope": "Older labeling convention; ANCC has standardized this RN specialty credential under the PMH-BC label.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nursing-certification/"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "question_count",
+      "internal_certs_js_value": 175,
+      "ancc_published_value": 150,
+      "resolution": "Use 150 per ANCC primary source (PMH-BC Test Content Outline effective 2024-09-16 and certification page state 150 questions / 3 hours). certs.js entry of 175 should be reconciled in a follow-up commit.",
+      "source": "https://www.nursingworld.org/globalassets/1.-psychiatric-mental-health-nursing-pmhn-tco_08282025-for-webposting.pdf"
+    }
+  ],
+  "recent_changes": [
+    {
+      "change": "Test Content Outline effective September 16, 2024",
+      "note": "Current 4-domain blueprint (Assessment/Diagnosis 22%, Planning 21%, Implementation 46%, Evaluation 10%) was issued with TCO updated 2025-08-28 for web posting.",
+      "source": "https://www.nursingworld.org/globalassets/1.-psychiatric-mental-health-nursing-pmhn-tco_08282025-for-webposting.pdf"
+    },
+    {
+      "change": "ANCC Certification Renewal Handbook effective September 10, 2025",
+      "note": "75 CE hours within the 5-year cycle, with 60 of those formally approved, plus one of eight professional-development categories.",
+      "source": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf"
+    }
+  ],
+  "sources_index": [
+    {
+      "title": "ANCC – Psychiatric-Mental Health Nursing Certification (PMH-BC) credential page",
+      "url": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nursing-certification/",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "ANCC – Psychiatric-Mental Health Nursing Test Content Outline (effective 2024-09-16; updated 2025-08-28)",
+      "url": "https://www.nursingworld.org/globalassets/1.-psychiatric-mental-health-nursing-pmhn-tco_08282025-for-webposting.pdf",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "ANCC – 2025 Certification Data (first-time pass rates and total certified)",
+      "url": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "ANCC – Certification Renewal Handbook (effective 2025-09-10)",
+      "url": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "ANCC – General Certification Handbook (PDF)",
+      "url": "https://www.nursingworld.org/globalassets/certification/ancc-certification-handbook.pdf",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "American Psychiatric Nurses Association (APNA) – ANCC Certification Discounts",
+      "url": "https://www.apna.org/ancc-certification-discounts/",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "ANCC – PMH-BC Test Reference List (updated 2025-09-09)",
+      "url": "https://www.nursingworld.org/globalassets/psych-mh-ref-list-psych-mh-2023_09092025-for-webposting.pdf",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "US Bureau of Labor Statistics — Occupational Employment and Wage Statistics, Registered Nurses (May 2024)",
+      "url": "https://www.bls.gov/oes/current/oes291141.htm",
+      "accessed": "2026-05-20"
+    }
+  ]
+}
