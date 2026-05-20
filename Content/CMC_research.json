@@ -1,0 +1,151 @@
+{
+  "code": "CMC",
+  "researched_at": "2026-05-20T15:30:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "AACN Certification Corporation (the certification arm of the American Association of Critical-Care Nurses)",
+      "source": "https://www.aacn.org/certification/get-certified/cmc-adult",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "Specific CMC launch year not consistently published on AACN public-facing pages."
+    },
+    "eligibility": {
+      "value": "Candidates must hold an active, current, unencumbered RN or APRN license in the US (or equivalent in countries where AACN-issued credentials are recognized) AND hold a current adult acute/critical-care certification from AACN Certification Corporation (CCRN, PCCN, CCRN-E, or ACCNS-AG). In addition, candidates must complete clinical practice in the care of acutely/critically ill adult cardiac patients: either 875 hours in the most recent year preceding application with a total of 1,750 hours in the last 2 years, OR 2,000 hours in the previous 5 years with 144 of those in the year preceding application.",
+      "source": "https://www.aacn.org/certification/get-certified/cmc-adult",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based exam delivered at PSI test centers or via AACN Live Remote Proctoring. 90 multiple-choice items (single best answer). 2-hour time limit. No scheduled breaks.",
+      "source": "https://www.aacn.org/certification/get-certified/cmc-adult",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 90,
+      "scored_items": null,
+      "pretest_items": null,
+      "source": "https://www.aacn.org/certification/get-certified/cmc-adult",
+      "confidence": "high",
+      "note": "AACN publishes 90 total items for CMC. Specific scored/pretest split not consistently published for subspecialty exams."
+    },
+    "time_limit_minutes": {
+      "value": 120,
+      "source": "https://www.aacn.org/certification/get-certified/cmc-adult",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Scaled, criterion-referenced passing score. AACN reports pass/fail on screen at exam completion. AACN does not publish a fixed raw cut-score for CMC.",
+      "source": "https://www.aacn.org/certification/get-certified/cmc-adult",
+      "confidence": "high"
+    },
+    "fee": {
+      "value": "AACN member: $180. Non-member: $265. Re-take fee at same rate as initial. Subspecialty pricing is lower than the core CCRN/PCCN exams because the CMC builds on an existing AACN credential.",
+      "source": "https://www.aacn.org/certification/get-certified/cmc-adult",
+      "confidence": "high"
+    },
+    "pass_rate_recent": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "AACN does not consistently publish year-by-year first-time pass rates for the CMC subspecialty exam."
+    },
+    "renewal": {
+      "value": "CMC certification is valid for 3 years and is synchronized with the candidate's underlying CCRN or PCCN renewal cycle. Two renewal pathways: (1) Renewal by Synergy CERPs - complete 432 hours of direct cardiac patient care during the cycle (144 hours in the year before renewal) plus the required Synergy CERPs split across Categories A, B, and C; (2) Renewal by exam - re-sit the CMC exam. The CMC and its underlying credential (CCRN or PCCN) must be renewed together.",
+      "source": "https://www.aacn.org/certification/renewal/renew-your-cmc",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": "BLS-reported median RN wage was $93,600 (May 2024). Cardiac-focused RNs in step-down, PCU, and CVICU settings typically earn 5-15% above the median in metropolitan US markets, though BLS does not break out cardiac subspecialty wages separately.",
+      "source": "https://www.bls.gov/oes/current/oes291141.htm",
+      "confidence": "medium"
+    },
+    "common_confusions": {
+      "value": "CMC vs CSC: CMC validates cardiac medicine (non-surgical) subspecialty care; CSC (Cardiac Surgery Certification) validates the first 48-hour post-cardiac-surgery recovery scope. Both are AACN subspecialty add-ons requiring CCRN or PCCN as a base. CMC vs CV-BC: CV-BC is an ANCC cardiac-vascular nursing certification at the broader specialty level and does not require an underlying AACN credential. CMC vs CCRN: CCRN is the AACN core adult critical-care certification; CMC is layered on top to recognize cardiac subspecialty practice.",
+      "source": "https://www.aacn.org/certification/get-certified/cmc-adult",
+      "confidence": "high"
+    },
+    "recent_changes": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "No AACN-announced blueprint revision verified for CMC in 2024-2026 cycle."
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "Acute Coronary Syndromes",
+      "weight_pct": null,
+      "item_count": null,
+      "source": "https://www.aacn.org/certification/get-certified/cmc-adult",
+      "confidence": "low",
+      "note": "AACN publishes a CMC test plan listing content categories including ACS, Heart Failure, Cardiomyopathies, Dysrhythmias, Hemodynamic Monitoring, Cardiogenic Shock & Mechanical Support, Vascular Disease, and Pulmonary Hypertension - but consolidated percentage weights are not consistently published for CMC; treat as null."
+    },
+    {
+      "domain": "Heart Failure & Cardiomyopathies",
+      "weight_pct": null,
+      "item_count": null,
+      "source": "https://www.aacn.org/certification/get-certified/cmc-adult",
+      "confidence": "low"
+    },
+    {
+      "domain": "Dysrhythmias & Conduction Disorders",
+      "weight_pct": null,
+      "item_count": null,
+      "source": "https://www.aacn.org/certification/get-certified/cmc-adult",
+      "confidence": "low"
+    },
+    {
+      "domain": "Hemodynamic Monitoring & Cardiogenic Shock",
+      "weight_pct": null,
+      "item_count": null,
+      "source": "https://www.aacn.org/certification/get-certified/cmc-adult",
+      "confidence": "low"
+    },
+    {
+      "domain": "Vascular Disease & Pulmonary Hypertension",
+      "weight_pct": null,
+      "item_count": null,
+      "source": "https://www.aacn.org/certification/get-certified/cmc-adult",
+      "confidence": "low"
+    }
+  ],
+  "pass_rate_history": [],
+  "discrepancies": [
+    "certs.js lists CMC questions = 90 (canonical, kept). No verified discrepancy with AACN public pages."
+  ],
+  "sources_index": [
+    {
+      "title": "AACN Certification Corporation - CMC (Adult Cardiac Medicine)",
+      "url": "https://www.aacn.org/certification/get-certified/cmc-adult",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "AACN - Renew Your CMC Certification",
+      "url": "https://www.aacn.org/certification/renewal/renew-your-cmc",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "AACN - Eligibility & Practice Hour Requirements",
+      "url": "https://www.aacn.org/certification/eligibility",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "AACN - Synergy CERP categories",
+      "url": "https://www.aacn.org/certification/renewal/synergy-cerps",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "US Bureau of Labor Statistics - OEWS Registered Nurses (May 2024)",
+      "url": "https://www.bls.gov/oes/current/oes291141.htm",
+      "accessed": "2026-05-20"
+    },
+    {
+      "title": "AACN - Subspecialty Certification Overview (CMC / CSC)",
+      "url": "https://www.aacn.org/certification/subspecialty-certification",
+      "accessed": "2026-05-20"
+    }
+  ]
+}

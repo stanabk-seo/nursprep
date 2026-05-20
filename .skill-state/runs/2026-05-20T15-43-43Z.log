@@ -1,0 +1,27 @@
+NursPrep page-builder autonomous run — CMC
+Started: 2026-05-20T15:27:30Z (state.attempts=1)
+Workdir: /tmp/nursprep-work-1779290835
+Branch: staging
+
+Stages:
+  1. resolve            → done (used keyword-to-code, certs.js row, no outline CSV available in workdir)
+  2. research           → done (Content/CMC_research.json) — AACN primary sources; pass_rate left null (not published by AACN); year_launched null; blueprint percentage weights null (AACN does not publish consolidated weights for CMC)
+  3. brief              → done (Content Briefs/CMC_Content_Brief.md; outline rewritten — original CSV outline missing AACN body, eligibility prereq, fee, renewal)
+  4. data_file          → done (src/_data/exams/cmc.js — 28 top-level keys, 12 sections, FAQ JSON-LD)
+  4.5 card image        → done (src/assets/images/certs/cmc-card.png, 1200x630)
+  5. build_validated    → PASS (63,974 bytes, 12 sections, 1 JSON-LD block)
+  6. committed          → see commit
+  7. push               → see push result
+
+Null/missing-value fields in research.json:
+  - facts.year_launched
+  - facts.pass_rate_recent
+  - facts.recent_changes
+  - blueprint[*].weight_pct (all six categories)
+  - blueprint[*].item_count
+
+Page handling of nulls:
+  - Pass-rate section uses an honest "AACN does not publish year-by-year pass rates" treatment instead of inventing a figure. No passrate.rows is supplied so the chart helper renders with the prose-only treatment and the factBox explains the gap.
+  - Blueprint domains rendered as labels-only (no weights), with prose telling candidates to verify against AACN handbook.
+
+Sources: AACN CMC public page, AACN renewal policy, AACN eligibility page, AACN Synergy CERPs page, AACN subspecialty overview, BLS OEWS May 2024.
