@@ -1,0 +1,166 @@
+{
+  "code": "CWCN",
+  "researched_at": "2026-05-20T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "Wound, Ostomy and Continence Nursing Certification Board (WOCNCB)",
+      "source": "https://www.wocncb.org/certification/wound-ostomy-continence",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "Specific CWCN launch year not published by WOCNCB on public-facing pages."
+    },
+    "eligibility": {
+      "value": "Active, unrestricted RN license in the US or its territories AND a Baccalaureate (BSN) or higher degree in nursing. Candidates choose ONE of two pathways: (1) Traditional Pathway - graduation from an accredited WOC Nursing Education Program (WOCNEP) within the past 5 years, OR (2) Experiential Pathway - completion of 50 CE hours in wound care plus 1,500 direct patient-care hours in wound care within the past 5 years, with at least 375 of those hours completed in the 12 months immediately preceding application.",
+      "source": "https://www.wocncb.org/certification/wound-ostomy-continence/eligibility",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based exam delivered through PSI testing centers. 120 multiple-choice questions (110 scored + 10 unscored pretest items). 2-hour time limit. Offered year-round during a 6-month eligibility window after application approval.",
+      "source": "https://www.wocncb.org/certification/wound-ostomy-continence/exam",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 120,
+      "scored_items": 110,
+      "pretest_items": 10,
+      "source": "https://www.wocncb.org/UserFiles/file/WOCNCBCWCN2024TestSpecifications_Final.pdf",
+      "confidence": "high"
+    },
+    "time_limit_minutes": {
+      "value": 120,
+      "source": "https://www.wocncb.org/certification/wound-ostomy-continence/exam",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Scaled score of 500 (criterion-referenced).",
+      "source": "https://www.mometrix.com/academy/cwcn-practice-test/",
+      "confidence": "medium",
+      "note": "WOCNCB uses a 500 scaled passing score across its specialty exams; not a raw count."
+    },
+    "fee": {
+      "value": "$395 USD for a single specialty exam application. Discounted bundles: 2 specialties $510, 3 specialties $610, 4 specialties $670. Failed first attempts receive a $100 discount on the next retake (one-time). Developing-country applicants may pay $100 per specialty.",
+      "source": "https://www.wocncb.org/certification/fees",
+      "confidence": "high"
+    },
+    "renewal": {
+      "value": "Recertification is required every 5 years. Two pathways: (1) Re-take the certification exam, OR (2) Complete the Professional Growth Program (PGP) - submit an online portfolio totaling 80 PGP points, of which at least 10 must be continuing education hours in the clinical specialty (wound care). WOCNCB charges no annual maintenance fees.",
+      "source": "https://www.wocncb.org/recertification",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": "BLS-reported wound care nurse pay averages approximately $94,480/year (about $45.42/hour) with a lower-end of ~$63,720 and an upper-end near $132,680. Industry surveys: PayScale lists ~$85,000-$87,490 base; Indeed reports ~$99,434; ZipRecruiter reports ~$101,711. Outpatient care centers pay highest, averaging ~$102,640.",
+      "source": "https://research.com/careers/how-to-become-a-wound-care-nurse-wocn-salary-and-career-paths",
+      "confidence": "medium"
+    },
+    "common_confusions": {
+      "value": "CWCN vs CWOCN: CWCN focuses solely on wound care; CWOCN (Certified Wound, Ostomy, and Continence Nurse) covers all three specialties. CWCN vs WCC: CWCN is WOCNCB-issued and requires a BSN; WCC (Wound Care Certified) is issued by the NAWCO and accepts a wider range of clinicians (RNs, LPNs, PTs, MDs). CWCN vs CWS: CWS (Certified Wound Specialist) is an interdisciplinary credential from the American Board of Wound Management for any healthcare professional with a bachelor's degree.",
+      "source": "https://www.wocncb.org/certification/wound-ostomy-continence",
+      "confidence": "high"
+    },
+    "recent_changes": {
+      "value": "WOCNCB published an updated Detailed Content Outline in 2024 (effective for the 2024 exam cycle) reaffirming the five-domain blueprint with task-level weights for Assessment, Intervention, Treatment, Care Planning, and Education & Referral.",
+      "source": "https://www.wocncb.org/UserFiles/file/WOCNCBCWCN2024TestSpecifications_Final.pdf",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "Assessment",
+      "weight_pct": 23.54,
+      "item_count": 26,
+      "source": "https://www.wocncb.org/UserFiles/file/WOCNCBCWCN2024TestSpecifications_Final.pdf",
+      "confidence": "high",
+      "tasks": [
+        "Assess comprehensive factors affecting wounds (7.55%, 8 items)",
+        "Obtain patient health history through interviews and records (7.17%, 8 items)",
+        "Perform focused assessments to determine skin status and wound etiology (8.82%, 10 items)"
+      ]
+    },
+    {
+      "domain": "Intervention",
+      "weight_pct": 16.55,
+      "item_count": 18,
+      "source": "https://www.wocncb.org/UserFiles/file/WOCNCBCWCN2024TestSpecifications_Final.pdf",
+      "confidence": "high",
+      "tasks": [
+        "Recommend and/or provide appropriate interventions to promote optimal wound management (8.44%, 9 items)",
+        "Implement prevention measures to promote optimal skin health and prevent injury (8.11%, 9 items)"
+      ]
+    },
+    {
+      "domain": "Treatment",
+      "weight_pct": 29.49,
+      "item_count": 32,
+      "source": "https://www.wocncb.org/UserFiles/file/WOCNCBCWCN2024TestSpecifications_Final.pdf",
+      "confidence": "high",
+      "tasks": [
+        "Recommend and/or perform wound bed preparation (7.43%, 8 items)",
+        "Recommend and/or perform debridement to promote wound healing (7.45%, 8 items)",
+        "Knowledge and application of topical therapies (7.52%, 8 items)",
+        "Knowledge and application of advanced/adjunctive therapies (7.10%, 8 items)"
+      ]
+    },
+    {
+      "domain": "Care Planning",
+      "weight_pct": 11.79,
+      "item_count": 13,
+      "source": "https://www.wocncb.org/UserFiles/file/WOCNCBCWCN2024TestSpecifications_Final.pdf",
+      "confidence": "high",
+      "tasks": [
+        "Develop a patient-centered plan of care using history and assessment (5.65%, 6 items)",
+        "Evaluate the patient-centered plan of care through periodic assessment (6.14%, 7 items)"
+      ]
+    },
+    {
+      "domain": "Education and Referral",
+      "weight_pct": 18.63,
+      "item_count": 21,
+      "source": "https://www.wocncb.org/UserFiles/file/WOCNCBCWCN2024TestSpecifications_Final.pdf",
+      "confidence": "high",
+      "tasks": [
+        "Educate patients and caregivers using the individualized skin and wound care plan (6.57%, 7 items)",
+        "Educate other healthcare professionals on skin and wound care management (5.93%, 7 items)",
+        "Multidisciplinary care collaboration and referrals (6.13%, 7 items)"
+      ]
+    }
+  ],
+  "pass_rate_history": [
+    {
+      "year": 2024,
+      "pass_rate_pct": 68.3,
+      "candidates": 1417,
+      "source": "https://wocncb.org/certification/wound-ostomy-continence/exam",
+      "confidence": "medium",
+      "note": "Reported via woundeducators.com summary of WOCNCB published statistics."
+    }
+  ],
+  "question_complexity_mix": {
+    "recall_pct": 25,
+    "application_pct": 61,
+    "analysis_pct": 14,
+    "source": "https://www.wocncb.org/UserFiles/file/WOCNCBCWCN2024TestSpecifications_Final.pdf",
+    "confidence": "high"
+  },
+  "discrepancies": [
+    {
+      "topic": "Pass rate (current vs. 2024)",
+      "details": "Mometrix cites a current pass rate of approximately 71%; woundeducators.com cites 68.3% for 2024 (1,417 candidates). Both are reported by third parties summarizing WOCNCB statistics."
+    }
+  ],
+  "sources_index": [
+    {"title": "WOCNCB - WOC Certification Overview", "url": "https://www.wocncb.org/certification/wound-ostomy-continence", "accessed": "2026-05-20"},
+    {"title": "WOCNCB - WOC Eligibility", "url": "https://www.wocncb.org/certification/wound-ostomy-continence/eligibility", "accessed": "2026-05-20"},
+    {"title": "WOCNCB - WOC Exam", "url": "https://www.wocncb.org/certification/wound-ostomy-continence/exam", "accessed": "2026-05-20"},
+    {"title": "WOCNCB - Fees", "url": "https://www.wocncb.org/certification/fees", "accessed": "2026-05-20"},
+    {"title": "WOCNCB - Recertification", "url": "https://www.wocncb.org/recertification", "accessed": "2026-05-20"},
+    {"title": "WOCNCB - CWCN 2024 Detailed Content Outline (PDF)", "url": "https://www.wocncb.org/UserFiles/file/WOCNCBCWCN2024TestSpecifications_Final.pdf", "accessed": "2026-05-20"},
+    {"title": "Mometrix - Free CWCN Practice Test", "url": "https://www.mometrix.com/academy/cwcn-practice-test/", "accessed": "2026-05-20"},
+    {"title": "WoundEducators - How Hard Is Wound Care Certification?", "url": "https://woundeducators.com/how-hard-is-wound-care-certification/", "accessed": "2026-05-20"},
+    {"title": "Vivian Health - CWCN Complete Guide", "url": "https://www.vivian.com/certifications/cwcn/", "accessed": "2026-05-20"},
+    {"title": "Research.com - Wound Care Nurse Career & Salary", "url": "https://research.com/careers/how-to-become-a-wound-care-nurse-wocn-salary-and-career-paths", "accessed": "2026-05-20"}
+  ]
+}
