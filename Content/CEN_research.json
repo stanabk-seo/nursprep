@@ -1,0 +1,119 @@
+{
+  "code": "CEN",
+  "researched_at": "2026-05-21T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "Board of Certification for Emergency Nursing (BCEN)",
+      "source": "https://bcen.org/cen/",
+      "confidence": "high"
+    },
+    "credential_full_name": {
+      "value": "Certified Emergency Nurse (CEN)",
+      "source": "https://bcen.org/cen/",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": 1980,
+      "note": "BCEN was established in 1980 ('Est. 1980' per BCEN logo/footer) and CEN is its founding, longest-running credential. Exact first CEN administration year not stated verbatim on a single fetched page; year reflects BCEN founding.",
+      "source": "https://bcen.org/about-us/",
+      "confidence": "medium"
+    },
+    "eligibility": {
+      "value": "Current, unencumbered Registered Nurse (RN) license in the United States, a U.S. Territory, Canada, or Australia. A foreign nursing certificate equivalent to a U.S. RN license is also acceptable (verified through TruMerit). No clinical-setting requirement. Any active restriction, suspension, or probation on a nursing license disqualifies a candidate.",
+      "source": "https://bcen.org/cen/eligibility/",
+      "confidence": "high"
+    },
+    "experience_recommendation": {
+      "value": "BCEN recommends at least two years of experience in the specialty area before scheduling, but this is not required.",
+      "source": "https://bcen.org/cen/eligibility/",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based at Pearson VUE test centers; also offered via Live Remote Proctoring. 175 total questions (150 scored, 25 unscored pretest). Time limit 3 hours.",
+      "source": "https://bcen.org/cen/faqs/",
+      "confidence": "high"
+    },
+    "question_count_total": { "value": 175, "source": "https://bcen.org/cen/faqs/", "confidence": "high" },
+    "question_count_scored": { "value": 150, "source": "https://bcen.org/cen/faqs/", "confidence": "high" },
+    "question_count_pretest": { "value": 25, "source": "https://bcen.org/cen/faqs/", "confidence": "high" },
+    "time_limit_hours": { "value": 3, "source": "https://bcen.org/cen/faqs/", "confidence": "high" },
+    "passing_score": {
+      "value": null,
+      "note": "BCEN uses a scaled passing score set by a criterion-referenced standard-setting study; the exact raw scored-item cut score for CEN is not published as a fixed number on the fetched pages. Marked null rather than guessed.",
+      "source": "https://bcen.org/cen/faqs/",
+      "confidence": "missing"
+    },
+    "fee_nonmember": { "value": 380, "source": "https://bcen.org/cen/cost/", "confidence": "high" },
+    "fee_member": { "value": 285, "note": "ENA (Emergency Nurses Association) member rate", "source": "https://bcen.org/cen/cost/", "confidence": "high" },
+    "fee_military": { "value": 195, "note": "Active-duty, reservist, and veteran rate on initial, retest, and recertification applications", "source": "https://bcen.org/cen/cost/", "confidence": "high" },
+    "fee_retest": { "value": 200, "source": "https://bcen.org/cen/cost/", "confidence": "high" },
+    "fee_test_assurance_nonmember": { "value": 450, "note": "Initial exam with optional Test Assurance (second attempt if first is unsuccessful)", "source": "https://bcen.org/cen/cost/", "confidence": "high" },
+    "fee_test_assurance_member": { "value": 355, "source": "https://bcen.org/cen/cost/", "confidence": "high" },
+    "renewal": {
+      "value": "CEN is valid for four years. Renew via Recertification by CE Attestation (100 contact hours within the 4-year period; at least 75 hours of clinical content specific to the specialty, up to 25 may be non-clinical; at least 50 hours from an accredited provider such as BCEN Learn, AACN, ANCC, ENA, ABA, STN, or ASTNA) OR via Recertification by Examination.",
+      "source": "https://bcen.org/recertify/",
+      "confidence": "high"
+    },
+    "renewal_years": { "value": 4, "source": "https://bcen.org/recertify/", "confidence": "high" },
+    "renewal_ce_hours": { "value": 100, "source": "https://bcen.org/recertify/", "confidence": "high" },
+    "renewal_ce_specialty_hours": { "value": 75, "source": "https://bcen.org/recertify/", "confidence": "high" },
+    "common_confusions": {
+      "value": "CEN (board certification, ED breadth) vs. TCRN (BCEN trauma-continuum certification), CPEN (BCEN pediatric ED), CFRN (BCEN flight transport), and TNCC/ENPC (ENA provider courses, not certifications).",
+      "source": "https://bcen.org/cen/",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": "U.S. Bureau of Labor Statistics OEWS (May 2024) reports a mean annual wage of about $98,430 for registered nurses; emergency-department RNs and certified nurses frequently command pay above the median.",
+      "source": "https://www.bls.gov/oes/current/oes291141.htm",
+      "confidence": "medium"
+    },
+    "recent_changes": {
+      "value": "BCEN published an updated CEN Examination Content Outline effective July 6, 2026, expanding to 11 subject areas: Gastrointestinal becomes its own section (split from GI/GU/Gyn/OB), Maxillofacial and Ocular is renamed Head, Eye, Ear, Nose, Throat Emergencies, and Professional Issues is reorganized into Prioritization (triage, mass casualty, throughput) and Legal/ethical issues. The exam stays 175 items / 150 scored / 3 hours.",
+      "source": "https://bcen.org/evolving-excellence-updating-the-cen-exam/",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    { "domain": "Cardiovascular Emergencies", "scored_items": 19, "weight_pct": 13, "source": "https://bcen.org/wp-content/uploads/2021/05/CEN-Content-Outline-Effective-01-2022.pdf", "confidence": "high" },
+    { "domain": "Respiratory Emergencies", "scored_items": 18, "weight_pct": 12, "source": "https://bcen.org/wp-content/uploads/2021/05/CEN-Content-Outline-Effective-01-2022.pdf", "confidence": "high" },
+    { "domain": "Neurological Emergencies", "scored_items": 18, "weight_pct": 12, "source": "https://bcen.org/wp-content/uploads/2021/05/CEN-Content-Outline-Effective-01-2022.pdf", "confidence": "high" },
+    { "domain": "Gastrointestinal, Genitourinary, Gynecology, and Obstetrical Emergencies", "scored_items": 18, "weight_pct": 12, "source": "https://bcen.org/wp-content/uploads/2021/05/CEN-Content-Outline-Effective-01-2022.pdf", "confidence": "high" },
+    { "domain": "Psychosocial and Medical Emergencies", "scored_items": 25, "weight_pct": 17, "note": "Sum of Mental Health Emergencies (11) + Medical Emergencies, Communicable Diseases & Environment/Toxicology (14) per the 01-2022 outline grouping reported by Pocket Prep.", "source": "https://www.pocketprep.com/exams/bcen-cen/", "confidence": "medium" },
+    { "domain": "Maxillofacial, Ocular, Orthopedic, and Wound Emergencies", "scored_items": 24, "weight_pct": 16, "note": "Sum of Musculoskeletal and Wound (13) + Maxillofacial and Ocular (11).", "source": "https://www.pocketprep.com/exams/bcen-cen/", "confidence": "medium" },
+    { "domain": "Professional Issues", "scored_items": 14, "weight_pct": 9, "source": "https://bcen.org/wp-content/uploads/2021/05/CEN-Content-Outline-Effective-01-2022.pdf", "confidence": "high" },
+    { "domain": "Mental Health Emergencies", "scored_items": 11, "weight_pct": 7, "source": "https://www.pocketprep.com/exams/bcen-cen/", "confidence": "medium" }
+  ],
+  "blueprint_note": "Official 01-2022 CEN Content Outline scored-item counts (sum to 150): Cardiovascular 19, Respiratory 18, Neurological 18, GI/GU/Gyn/OB 18, Mental Health 11, Medical 14, Musculoskeletal & Wound 13, Maxillofacial & Ocular 11, Environment/Toxicology & Communicable Diseases 14, Professional Issues 14. The data file uses the canonical 10-domain split with raw scored-item counts to avoid double-counting. New 11-area outline effective 2026-07-06.",
+  "blueprint_canonical_2022": [
+    { "domain": "Cardiovascular Emergencies", "scored_items": 19 },
+    { "domain": "Respiratory Emergencies", "scored_items": 18 },
+    { "domain": "Neurological Emergencies", "scored_items": 18 },
+    { "domain": "Gastrointestinal, Genitourinary, Gynecology, and Obstetrical Emergencies", "scored_items": 18 },
+    { "domain": "Medical Emergencies", "scored_items": 14 },
+    { "domain": "Environment, Toxicology, and Communicable Disease Emergencies", "scored_items": 14 },
+    { "domain": "Professional Issues", "scored_items": 14 },
+    { "domain": "Musculoskeletal and Wound Emergencies", "scored_items": 13 },
+    { "domain": "Mental Health Emergencies", "scored_items": 11 },
+    { "domain": "Maxillofacial and Ocular Emergencies", "scored_items": 11 }
+  ],
+  "pass_rate_history": [
+    { "year": 2025, "exams_delivered": 8889, "exams_passed": 4198, "exams_failed": 3974, "pass_rate_pct": 51, "note": "Pass rate = exams passed / (passed + failed) = 4198 / 8172 = 51.4%. Using delivered as denominator yields 47%. Reported figures are BCEN ABSNC-mandated statistics for Jan 1 – Dec 31, 2025.", "source": "https://bcen.org/about-us/certification-exam-statistics/", "confidence": "high" }
+  ],
+  "certificants": { "value": 41636, "year": 2025, "source": "https://bcen.org/about-us/certification-exam-statistics/", "confidence": "high" },
+  "discrepancies": [
+    "Question count: certs.js lists CEN at 175 items, which matches BCEN (175 total / 150 scored). No conflict.",
+    "Pass rate denominator: BCEN reports 8,889 exams delivered but 4,198 passed + 3,974 failed = 8,172. The 717-exam gap (no-shows/incomplete) means pass rate is 51% on completed exams or 47% on delivered. Page uses 51% (completed) and footnotes the basis."
+  ],
+  "sources_index": [
+    { "title": "BCEN — Certified Emergency Nurse (CEN) program page", "url": "https://bcen.org/cen/", "accessed": "2026-05-21" },
+    { "title": "BCEN — CEN Eligibility", "url": "https://bcen.org/cen/eligibility/", "accessed": "2026-05-21" },
+    { "title": "BCEN — CEN FAQs (exam format, 175/150 items, 3 hours)", "url": "https://bcen.org/cen/faqs/", "accessed": "2026-05-21" },
+    { "title": "BCEN — The Cost of a CEN Specialization (fee table)", "url": "https://bcen.org/cen/cost/", "accessed": "2026-05-21" },
+    { "title": "BCEN — Recertification (CE requirements & deadlines)", "url": "https://bcen.org/recertify/", "accessed": "2026-05-21" },
+    { "title": "BCEN — Certification Exam Statistics (2025: 8,889 delivered, 4,198 passed, 41,636 certificants)", "url": "https://bcen.org/about-us/certification-exam-statistics/", "accessed": "2026-05-21" },
+    { "title": "BCEN — CEN Examination Content Outline, effective 01-2022 (PDF)", "url": "https://bcen.org/wp-content/uploads/2021/05/CEN-Content-Outline-Effective-01-2022.pdf", "accessed": "2026-05-21" },
+    { "title": "BCEN — Evolving Excellence: Updating the CEN Exam (July 6, 2026 outline)", "url": "https://bcen.org/evolving-excellence-updating-the-cen-exam/", "accessed": "2026-05-21" },
+    { "title": "Pocket Prep — BCEN CEN exam blueprint summary (corroborating scored-item counts)", "url": "https://www.pocketprep.com/exams/bcen-cen/", "accessed": "2026-05-21" },
+    { "title": "U.S. Bureau of Labor Statistics — OEWS Registered Nurses (May 2024)", "url": "https://www.bls.gov/oes/current/oes291141.htm", "accessed": "2026-05-21" }
+  ]
+}
