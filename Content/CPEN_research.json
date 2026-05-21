@@ -1,0 +1,124 @@
+{
+  "code": "CPEN",
+  "researched_at": "2026-05-21T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "Board of Certification for Emergency Nursing (BCEN)",
+      "note": "BCEN is the sole owner of CPEN as of June 2016. From its 2009 launch through 2016 the credential was co-sponsored 50-50 with the Pediatric Nursing Certification Board (PNCB). The project's certs.js lists the body as 'BCEN/PNCB', reflecting that shared history; the page treats BCEN as the current issuing body and explains the PNCB origin.",
+      "source": "https://bcen.org/cpen/",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": 2009,
+      "note": "CPEN program introduced January 2009; first exam offered January 21, 2009, as a 50-50 BCEN/PNCB partnership.",
+      "source": "https://bcen.org/cpen/program-overview/",
+      "confidence": "high"
+    },
+    "sole_ownership_change": {
+      "value": "June 2016",
+      "note": "BCEN and PNCB amicably dissolved their 50-50 partnership in June 2016; BCEN became the sole owner of CPEN.",
+      "source": "https://bcen.org/news-releases/cpen-certification-to-be-solely-owned-by-bcen/",
+      "confidence": "high"
+    },
+    "eligibility": {
+      "value": "Current, unencumbered Registered Nurse (RN) license in the United States, a U.S. territory, Canada, or Australia. A foreign nursing certificate equivalent to a U.S. RN license is acceptable if verified through TruMerit. No minimum-hours requirement.",
+      "source": "https://bcen.org/cpen/eligibility/",
+      "confidence": "high"
+    },
+    "experience_recommendation": {
+      "value": "BCEN recommends at least two years of experience in pediatric emergency nursing, but it is not required.",
+      "source": "https://bcen.org/cpen/eligibility/",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based, 175 multiple-choice items (150 scored + 25 unscored pretest), 3-hour time limit. Delivered through Pearson VUE testing centers and via Live Remote Proctoring (LRP).",
+      "note": "Total item count 175 confirmed by certs.js (canonical) and corroborating sources. Some secondary sources state '50 non-scored' items; the BCEN-aligned figure used across the project's BCEN exams (CEN, TCRN) is 25 pretest / 150 scored, which is recorded here. Discrepancy logged.",
+      "source": "https://bcen.org/cpen/about-the-exam/",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Criterion-referenced (scaled) passing standard. Candidates must answer approximately 110 of the 150 scored items correctly (~73%), per secondary sources; BCEN reports results as a scaled score with a fixed passing point.",
+      "note": "Exact scaled cut score is set by BCEN's passing-point study and not published as a raw number on BCEN's public pages; the ~110/150 figure comes from a corroborating prep source, so confidence is medium.",
+      "source": "https://open-exam-prep.com/practice/cpen-pediatric",
+      "confidence": "medium"
+    },
+    "fee_initial_nonmember": {
+      "value": 380,
+      "source": "https://bcen.org/cpen/cost/",
+      "confidence": "high"
+    },
+    "fee_initial_ena_member": {
+      "value": 285,
+      "source": "https://bcen.org/cpen/cost/",
+      "confidence": "high"
+    },
+    "fee_military": {
+      "value": 195,
+      "note": "Reduced application fee for active-duty service members, reservists, and veterans on initial, retest, and recertification applications. $265 with BCEN Test Assurance.",
+      "source": "https://bcen.org/cpen/cost/",
+      "confidence": "high"
+    },
+    "fee_retest": {
+      "value": 200,
+      "note": "Discounted retest fee available up to one year after the initial exam date. $0 retest if the candidate purchased BCEN Test Assurance.",
+      "source": "https://bcen.org/cpen/cost/",
+      "confidence": "high"
+    },
+    "test_assurance": {
+      "value": "Optional add-on (initial exam $450, ENA member $355, military $265) giving a free second attempt if the first attempt is unsuccessful.",
+      "source": "https://bcen.org/cpen/cost/",
+      "confidence": "high"
+    },
+    "renewal": {
+      "value": "CPEN certification is valid for four years. Recertify by completing 100 continuing education (CE) contact hours and attesting to an active, unencumbered RN license, OR by retaking and passing the current CPEN exam.",
+      "source": "https://bcen.org/recertify/",
+      "confidence": "high"
+    },
+    "accreditation": {
+      "value": "Accredited by the Accreditation Board for Specialty Nursing Certification (ABSNC) and accepted by the ANCC Magnet Recognition Program.",
+      "source": "https://bcen.org/cpen/cost/",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": "U.S. Bureau of Labor Statistics OEWS (May 2024) reports a mean annual wage of $98,430 for registered nurses; pediatric and emergency RNs with specialty certification typically command a premium over the median.",
+      "note": "General RN figure; no CPEN-specific salary published. Confidence medium.",
+      "source": "https://www.bls.gov/oes/current/oes291141.htm",
+      "confidence": "medium"
+    }
+  },
+  "blueprint": [
+    {"domain": "Triage Process", "scored_items": 20, "weight_pct": 13, "source": "Content Outline Data.csv (cpen exam) corroborated by https://bcen.org/cpen/about-the-exam/", "confidence": "medium"},
+    {"domain": "Assessment", "scored_items": 25, "weight_pct": 17, "source": "Content Outline Data.csv (cpen exam) corroborated by https://bcen.org/cpen/about-the-exam/", "confidence": "medium"},
+    {"domain": "System-Focused Emergencies", "scored_items": 56, "weight_pct": 37, "source": "Content Outline Data.csv (cpen exam) corroborated by https://bcen.org/cpen/about-the-exam/", "confidence": "medium"},
+    {"domain": "Special Considerations", "scored_items": 25, "weight_pct": 17, "source": "Content Outline Data.csv (cpen exam) corroborated by https://bcen.org/cpen/about-the-exam/", "confidence": "medium"},
+    {"domain": "Multi-System Considerations", "scored_items": 12, "weight_pct": 8, "source": "Content Outline Data.csv (cpen exam) corroborated by https://bcen.org/cpen/about-the-exam/", "confidence": "medium"},
+    {"domain": "Professional Issues", "scored_items": 12, "weight_pct": 8, "source": "Content Outline Data.csv (cpen exam) corroborated by https://bcen.org/cpen/about-the-exam/", "confidence": "medium"}
+  ],
+  "blueprint_note": "Scored items sum to 150. Percentages are computed from the scored-item counts (rounded; sum to 100). The CSV outline labels the largest domain 'Additional Medical Emergencies'; BCEN's content outline calls the equivalent domain 'System-Focused Emergencies' (respiratory, cardiac, neurologic, GI, GU, ENT, musculoskeletal, integumentary, hematology/oncology, endocrine). The BCEN naming is used. Effective content-outline date not published on BCEN's public pages.",
+  "pass_rate_history": [
+    {"year": 2024, "pass_rate_pct": 63.6, "passed": 673, "candidates": 1058, "source": "https://cpen101.com/cpen-pass-rates/", "confidence": "medium"}
+  ],
+  "common_confusions": [
+    {"credential": "CPN (Certified Pediatric Nurse)", "issuer": "PNCB", "disambiguation": "CPN validates general pediatric nursing across inpatient and outpatient settings; CPEN validates pediatric EMERGENCY nursing. Different exam, different board (PNCB vs BCEN)."},
+    {"credential": "CEN (Certified Emergency Nurse)", "issuer": "BCEN", "disambiguation": "CEN covers adult and pediatric emergency nursing across the whole ED; CPEN focuses exclusively on pediatric emergency care."},
+    {"credential": "ENPC (Emergency Nursing Pediatric Course)", "issuer": "ENA", "disambiguation": "ENPC is a provider course, not a board certification; CPEN is a board certification earned by passing an exam."},
+    {"credential": "CPNP / pediatric NP credentials", "issuer": "PNCB / AANPCB", "disambiguation": "These are advanced-practice (nurse practitioner) credentials; CPEN is an RN-level specialty certification."}
+  ],
+  "discrepancies": [
+    "Issuing body: certs.js lists 'BCEN/PNCB'; BCEN has been sole owner since June 2016. Trusting certs.js for the displayed body label per project rules, but the page narrative explains BCEN is the current sole issuer and PNCB was the original co-sponsor.",
+    "Pretest/scored split: some secondary sources say 50 non-scored items; BCEN's standard format across its exams is 25 pretest / 150 scored. Used 25/150 to match project's other BCEN data files (cen.js, tcrn.js).",
+    "Passing score: ~110/150 from a prep-vendor source (medium confidence); BCEN does not publish an exact raw passing number, reporting a scaled score instead."
+  ],
+  "sources_index": [
+    {"title": "BCEN — CPEN Certification (program landing page)", "url": "https://bcen.org/cpen/", "accessed": "2026-05-21"},
+    {"title": "BCEN — CPEN Exam Fees & Discounts", "url": "https://bcen.org/cpen/cost/", "accessed": "2026-05-21"},
+    {"title": "BCEN — CPEN Eligibility", "url": "https://bcen.org/cpen/eligibility/", "accessed": "2026-05-21"},
+    {"title": "BCEN — About the CPEN Exam", "url": "https://bcen.org/cpen/about-the-exam/", "accessed": "2026-05-21"},
+    {"title": "BCEN — Pediatric Emergency Excellence: CPEN Program Overview", "url": "https://bcen.org/cpen/program-overview/", "accessed": "2026-05-21"},
+    {"title": "BCEN — CPEN Certification to be Solely Owned by BCEN (news release)", "url": "https://bcen.org/news-releases/cpen-certification-to-be-solely-owned-by-bcen/", "accessed": "2026-05-21"},
+    {"title": "BCEN — How to Recertify (recertification requirements)", "url": "https://bcen.org/recertify/", "accessed": "2026-05-21"},
+    {"title": "BCEN — Certification Exam Statistics", "url": "https://bcen.org/about-us/certification-exam-statistics/", "accessed": "2026-05-21"},
+    {"title": "CPEN 101 — CPEN Pass Rates", "url": "https://cpen101.com/cpen-pass-rates/", "accessed": "2026-05-21"},
+    {"title": "U.S. Bureau of Labor Statistics — OEWS Registered Nurses (May 2024)", "url": "https://www.bls.gov/oes/current/oes291141.htm", "accessed": "2026-05-21"}
+  ]
+}

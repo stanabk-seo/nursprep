@@ -1,0 +1,15 @@
+CPEN run log — 2026-05-21T18-14-13Z
+=====================================
+Exam: CPEN (Certified Pediatric Emergency Nurse), body BCEN (certs.js: BCEN/PNCB)
+Work dir: /tmp/nursprep-work-5 (staging clone)
+
+Stage 1 Resolve: OK. keyword 'cpen exam' -> CPEN. certs.js: questions=175, cat=critical, body=BCEN/PNCB.
+Stage 2 Research: OK. Content/CPEN_research.json written. Primary source BCEN (cpen, cost, eligibility, about-the-exam, program-overview, recertify, news release); secondary CPEN-101 (pass rate), BLS OEWS.
+Stage 3 Brief: OK. Content Briefs/CPEN_Content_Brief.md (~1,405 words). CSV outline rewritten (generic headings, missing BCEN, course framing).
+Stage 4 Data file: OK. src/_data/exams/cpen.js (342 lines). Loads clean; blueprint sums to 150; 10 FAQ items; 11 TOC sections.
+Stage 4.5 Card: OK. src/assets/images/certs/cpen-card.png (1200x630). Worked around stale /tmp/nursprep-card-svgs (owned by 'nobody', unwritable) by temporarily redirecting TMP_SVG_DIR, generating, then reverting scripts/generate-hero.js via git checkout.
+Stage 5 Build+validate: OK. _site/certifications/cpen/index.html = 61,948 bytes. validate-build.py PASS (12 sections, 1 JSON-LD block).
+
+Facts marked medium-confidence / caveated: passing score (~110/150, secondary source; BCEN reports scaled score), blueprint percentages (computed from CSV scored-item counts), 2024 pass rate (CPEN-101 secondary).
+Discrepancies: body BCEN/PNCB in certs.js vs BCEN sole owner since 2016 (page explains history); 25 vs 50 pretest items (used 25/150 to match other BCEN data files).
+No fatal blockers. No facts set to null.
