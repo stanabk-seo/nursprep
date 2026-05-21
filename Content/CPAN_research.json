@@ -1,0 +1,130 @@
+{
+  "code": "CPAN",
+  "name": "Certified Post Anesthesia Nurse",
+  "researched_at": "2026-05-21T19:15:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "American Board of Perianesthesia Nursing Certification (ABPANC)",
+      "source": "https://www.cpancapa.org/become-certified/about-exams/",
+      "confidence": "high"
+    },
+    "professional_society": {
+      "value": "American Society of PeriAnesthesia Nurses (ASPAN) is the affiliated membership/professional society; ABPANC is the separate certifying body that owns the CPAN credential.",
+      "source": "https://www.cpancapa.org/become-certified/schedule-fees/",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": 1986,
+      "note": "ABPANC was established as a not-for-profit in 1985 and administered the CPAN exam for the first time in 1986.",
+      "source": "https://www.cpancapa.org/become-certified/cpan-or-capa/cpan/",
+      "confidence": "high"
+    },
+    "scope": {
+      "value": "CPAN validates expertise caring for patients in the immediate Postanesthesia Phase I (PACU) recovery period after sedation, analgesia, and anesthesia.",
+      "source": "https://www.cpancapa.org/become-certified/cpan-or-capa/",
+      "confidence": "high"
+    },
+    "eligibility": {
+      "value": "Current unrestricted (unencumbered) RN license in the US or a US territory using the NCLEX, AND at least 1,200 hours of direct clinical experience obtained within the two years prior to applying for initial certification. Direct experience means bedside interaction with the patient and/or family (educators, managers, and CNS roles count if they involve bedside interaction).",
+      "source": "https://www.cpancapa.org/become-certified/eligibility/",
+      "confidence": "high"
+    },
+    "exam_vendor": {
+      "value": "PSI (PSI Test Centers and remote/Live Remote Proctoring options).",
+      "source": "https://www.cpancapa.org/become-certified/schedule-fees/",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based, 185 questions total: 140 scored multiple-choice items plus 45 unscored pretest items. Up to 3 hours to complete. Offered in two annual windows: March 15-May 15 (spring) and September 15-November 15 (fall).",
+      "source": "https://www.cpancapa.org/become-certified/about-exams/",
+      "confidence": "high"
+    },
+    "question_count_canonical": {
+      "value": 180,
+      "note": "certs.js (project canonical) lists 180 questions for CPAN; ABPANC's current handbook lists 185 total (140 scored + 45 pretest). Page text uses the ABPANC 185/140 breakdown; certs.js value retained as catalog field. See discrepancies.",
+      "source": "src/_data/certs.js",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Total scale score of 450 or higher on a 200-800 scale. Raw passing point is set by a modified-Angoff study and equated across forms; candidates typically need roughly 105-108 of 140 scored items correct depending on form difficulty.",
+      "source": "https://www.cpancapa.org/become-certified/about-exams/",
+      "confidence": "high"
+    },
+    "fee": {
+      "value": "$350 for ASPAN members; $424 regular (non-member). International applicant fee is $350. Retake fee equals the initial application fee.",
+      "source": "https://www.cpancapa.org/become-certified/schedule-fees/",
+      "confidence": "high"
+    },
+    "test_assured": {
+      "value": "Optional Test Assured add-on lets a candidate who fails the first attempt retake the exam once at no additional charge within the following 12 months.",
+      "source": "https://www.cpancapa.org/become-certified/about-exams/",
+      "confidence": "high"
+    },
+    "retake_policy": {
+      "value": "A candidate who fails may re-apply in the next available testing window (not the same window). ABPANC does not cap the number of retakes; fees and procedures are the same as for first-time applicants.",
+      "source": "https://www.cpancapa.org/become-certified/about-exams/",
+      "confidence": "high"
+    },
+    "renewal": {
+      "value": "CPAN certification is valid for 3 years. Recertify by (a) earning 70 contact hours of continuing education (reduced from 90 hours effective 2024-01-01) plus a minimum of 900 hours of perianesthesia nursing practice during the 3-year cycle, OR (b) retaking and passing the exam (exam option available through 2026-11-15).",
+      "source": "https://www.cpancapa.org/recertify/eligibility/",
+      "confidence": "high"
+    },
+    "accreditation": {
+      "value": "ABPANC's CPAN program is accredited by the Accreditation Board for Specialty Nursing Certification (ABSNC).",
+      "source": "https://www.cpancapa.org/about/accreditation/",
+      "confidence": "medium"
+    },
+    "active_certificants": {
+      "value": "6,855 active CPAN credentials (plus 945 dual CPAN/CAPA), as of August 9, 2024.",
+      "source": "https://www.cpancapa.org/become-certified/about-exams/",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": "U.S. registered nurses earned a mean annual wage of about $93,600 (BLS OEWS, May 2024). PACU/perianesthesia RNs in certified roles typically earn at or above this benchmark; ABPANC does not publish a CPAN-specific wage figure.",
+      "source": "https://www.bls.gov/oes/current/oes291141.htm",
+      "confidence": "medium"
+    },
+    "common_confusions": {
+      "value": "CPAN vs CAPA (CAPA = Certified Ambulatory Perianesthesia Nurse, covers Preanesthesia / Phase II / extended care; CPAN covers Phase I PACU). CPAN vs CRNA (CRNA = Certified Registered Nurse Anesthetist, an advanced-practice provider who administers anesthesia; CPAN is an RN recovery-care credential). CPAN vs CPN (CPN = Certified Pediatric Nurse, an unrelated PNCB credential often confused due to the similar acronym).",
+      "source": "https://www.cpancapa.org/become-certified/cpan-or-capa/",
+      "confidence": "high"
+    },
+    "recent_changes": {
+      "value": "Recertification contact-hour requirement reduced from 90 to 70 hours effective 2024-01-01. Current exam blueprint is based on the 2020-2021 Role Delineation Study and is in effect for the 2023-2027 exam cycle.",
+      "source": "https://www.cpancapa.org/become-certified/about-exams/",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    { "domain": "Anesthesia", "weight_pct": 24, "source": "https://www.boardcerts.com/exams/cpan/cpan-exam-preparation", "confidence": "medium" },
+    { "domain": "Physiology", "weight_pct": 18, "source": "https://www.boardcerts.com/exams/cpan/cpan-exam-preparation", "confidence": "medium" },
+    { "domain": "Perianesthesia Monitoring and Intervention", "weight_pct": 35, "source": "https://www.boardcerts.com/exams/cpan/cpan-exam-preparation", "confidence": "medium" },
+    { "domain": "Perianesthesia Care Considerations", "weight_pct": 14, "source": "https://www.boardcerts.com/exams/cpan/cpan-exam-preparation", "confidence": "medium" },
+    { "domain": "Professional Nursing Practice and Guidelines", "weight_pct": 9, "source": "https://www.boardcerts.com/exams/cpan/cpan-exam-preparation", "confidence": "medium" }
+  ],
+  "blueprint_note": "Blueprint weights sum to 100%. ABPANC's own About-Exams page reports scaled scores 'in each of the three domains' for failing candidates, while the published content outline (mirrored by BoardCerts and prep vendors) lists five content areas. The five-area percentage breakdown is the candidate-facing study blueprint; the three-domain score report is an internal scoring grouping. Effective 2023-2027 cycle (2020-2021 Role Delineation Study).",
+  "pass_rate_history": [
+    { "year": "Spring 2025", "pass_rate_pct": 62, "tested": 830, "passed": 515, "failed": 315, "source": "https://www.cpancapa.org/become-certified/about-exams/", "confidence": "high" },
+    { "year": "Fall 2024", "pass_rate_pct": 68, "tested": 789, "passed": 534, "failed": 255, "source": "https://www.cpancapa.org/become-certified/about-exams/", "confidence": "high" },
+    { "year": "Spring 2024", "pass_rate_pct": 64, "tested": 759, "passed": 484, "failed": 275, "source": "https://www.cpancapa.org/become-certified/about-exams/", "confidence": "high" },
+    { "year": "Fall 2023", "pass_rate_pct": 63, "source": "https://www.cpancapa.org/become-certified/about-exams/", "confidence": "high" },
+    { "year": "Spring 2023", "pass_rate_pct": 63, "source": "https://www.cpancapa.org/become-certified/about-exams/", "confidence": "high" }
+  ],
+  "discrepancies": [
+    "Question count: certs.js (project canonical) = 180; ABPANC current handbook = 185 total (140 scored + 45 pretest). Page uses the ABPANC 185/140 figures for accuracy while leaving certs.js catalog value unchanged, per skill conflict-resolution rule (trust certs.js as catalog field, note here).",
+    "Eligibility hours: one secondary search snippet referenced '1,800 hours of direct perianesthesia clinical experience.' ABPANC's official Eligibility page states 1,200 hours of direct clinical experience within the prior 2 years. Used the official 1,200-hour figure; the 1,800 figure appears to be outdated or conflated with dual-certification phrasing.",
+    "Blueprint domains: ABPANC About-Exams page references 'three domains' for score reporting whereas the candidate content outline lists five content areas. Used the five-area percentage blueprint for the study guide and explained the three-domain scoring grouping in blueprint_note."
+  ],
+  "sources_index": [
+    { "title": "ABPANC - About the Exams (composition, scoring, retake, pass-rate tables)", "url": "https://www.cpancapa.org/become-certified/about-exams/", "accessed": "2026-05-21" },
+    { "title": "ABPANC - Eligibility Requirements (RN license + 1,200 clinical hours)", "url": "https://www.cpancapa.org/become-certified/eligibility/", "accessed": "2026-05-21" },
+    { "title": "ABPANC - Schedules and Fees ($350 ASPAN / $424 regular, PSI windows)", "url": "https://www.cpancapa.org/become-certified/schedule-fees/", "accessed": "2026-05-21" },
+    { "title": "ABPANC - Recertification Eligibility (3-year cycle, 70 contact hours, 900 practice hours)", "url": "https://www.cpancapa.org/recertify/eligibility/", "accessed": "2026-05-21" },
+    { "title": "ABPANC - CPAN or CAPA? (scope and Phase I vs Phase II distinction)", "url": "https://www.cpancapa.org/become-certified/cpan-or-capa/", "accessed": "2026-05-21" },
+    { "title": "ABPANC - CPAN Certification history (first administered 1986)", "url": "https://www.cpancapa.org/become-certified/cpan-or-capa/cpan/", "accessed": "2026-05-21" },
+    { "title": "ABPANC - Test Assured Program", "url": "https://www.cpancapa.org/become-certified/test-assured/", "accessed": "2026-05-21" },
+    { "title": "BoardCerts - CPAN Exam Preparation and Blueprint (five content areas with weights)", "url": "https://www.boardcerts.com/exams/cpan/cpan-exam-preparation", "accessed": "2026-05-21" },
+    { "title": "U.S. Bureau of Labor Statistics - Registered Nurses OEWS (May 2024)", "url": "https://www.bls.gov/oes/current/oes291141.htm", "accessed": "2026-05-21" }
+  ]
+}

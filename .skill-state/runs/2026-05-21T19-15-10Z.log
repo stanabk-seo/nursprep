@@ -1,0 +1,28 @@
+NursPrep page-builder run log
+exam: CPAN (Certified Post Anesthesia Nurse)
+started: 2026-05-21T19-15-10Z
+working_dir: /tmp/nursprep-run2 (sandbox)
+stages:
+  resolve        OK  - certs.js row: body=ABPANC cat=periop questions=180; CSV keyword "cpan exam"
+  research       OK  - Content/CPAN_research.json (primary: ABPANC cpancapa.org; secondary: BoardCerts, BLS)
+  brief          OK  - Content Briefs/CPAN_Content_Brief.md (~2014 words; CSV outline REWRITTEN - was mislabeled "Certified Pediatric Nurse")
+  data_file      OK  - src/_data/exams/cpan.js (347 lines, 12 sections, blueprint sums 100)
+  card_image     OK  - src/assets/images/certs/cpan-card.png (1200x630; pass=62% renew=3yrs fee=$350)
+  build          OK  - npx @11ty/eleventy -> _site/certifications/cpan/index.html (64,333 bytes)
+  validate       PASS - all 12 sections, 1 JSON-LD block
+key_facts:
+  awarding_body: ABPANC (ASPAN = affiliated society); vendor PSI
+  eligibility: unrestricted RN + 1,200 direct clinical hours / prior 2 yrs
+  exam: 185 items (140 scored + 45 pretest), 3 hr, pass = 450 scale score (200-800)
+  fee: $350 ASPAN member / $424 regular / $350 international
+  pass_rate: Spring 2025 = 62% (515/830); Fall 2024 68%; Spring 2024 64%
+  renewal: 3-year cycle; 70 CE hours (was 90, changed 2024-01-01) + 900 practice hours, or re-exam
+  blueprint: Anesthesia 24 / Physiology 18 / Monitoring & Intervention 35 / Care Considerations 14 / Professional Practice 9
+discrepancies:
+  - question count: certs.js=180 vs ABPANC handbook=185; page uses 185/140, catalog field left unchanged
+  - eligibility hours: one secondary snippet said 1,800; official ABPANC page says 1,200 (used 1,200)
+  - blueprint: ABPANC reports 3 scoring domains vs 5-area study outline; used 5-area weights, noted nuance
+facts_marked_null: none
+notes:
+  - card image generated via standalone wrapper because hardcoded /tmp/nursprep-card-svgs is root-owned/unwritable;
+    output PNG is identical to committed generate-hero.js (same template, same fill logic).
