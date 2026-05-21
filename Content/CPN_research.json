@@ -1,0 +1,107 @@
+{
+  "code": "CPN",
+  "name": "Certified Pediatric Nurse",
+  "researched_at": "2026-05-21T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "Pediatric Nursing Certification Board (PNCB)",
+      "source": "https://www.pncb.org/certifications/certified-pediatric-nurse",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": 1989,
+      "source": "https://www.pncb.org/about",
+      "confidence": "medium"
+    },
+    "active_holders": {
+      "value": 30000,
+      "note": "More than 30,000 nurses actively hold CPN; PNCB certifies more than 56,000 professionals across its four credentials.",
+      "source": "https://www.pncb.org/about",
+      "confidence": "medium"
+    },
+    "eligibility": {
+      "value": "Current, valid, unrestricted RN license in the US, Canada, or a US territory, PLUS one of two experience pathways: (1) at least 1,800 hours of pediatric clinical experience completed within the past 24 months, OR (2) at least five years as an RN in pediatric nursing with 3,000 pediatric hours in the last five years, including at least 1,000 hours within the past 24 months. Eligible experience includes direct patient care and indirect roles (teaching, administration, clinical research, consultation). No minimum degree beyond RN licensure (diploma, ADN, BSN, MSN all accepted).",
+      "source": "https://www.pncb.org/cpn-exam-faqs",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based, multiple-choice, delivered at Prometric testing centers in the US and abroad. 175 total items (150 scored + 25 unscored pretest). 3-hour time limit.",
+      "source": "https://www.pncb.org/cpn-exam-administration",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 175,
+      "scored": 150,
+      "pretest": 25,
+      "source": "https://www.pncb.org/cpn-exam-scoring",
+      "confidence": "high"
+    },
+    "time_limit": {
+      "value": "3 hours",
+      "source": "https://www.pncb.org/cpn-exam-administration",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Scaled score of 400. PNCB scales raw scores from 200 (0 correct) to 800 (all correct); 400 is the cut point across all exam forms.",
+      "source": "https://www.pncb.org/cpn-exam-scoring",
+      "confidence": "high"
+    },
+    "fee": {
+      "value": "$300 initial exam fee (includes a $100 non-refundable registration fee). Retake fee is $245.",
+      "initial": 300,
+      "registration_nonrefundable": 100,
+      "retake": 245,
+      "source": "https://www.pncb.org/cpn-certification-steps",
+      "confidence": "high"
+    },
+    "scheduling": {
+      "value": "After PNCB reviews the online application, candidates receive an Approval & Scheduling Notice with a 90-day window to schedule and test at Prometric. Failed candidates may reapply after results are released and receive a new 90-day window.",
+      "source": "https://www.pncb.org/cpn-exam-administration",
+      "confidence": "high"
+    },
+    "renewal": {
+      "value": "CPN must be renewed ANNUALLY. CPNs recertify each year between November 1 and January 31 by submitting an online application attesting to 15 contact hours (or PNCB-accepted equivalents) completed that year. Acceptable activities include CE/CNE/CME, clinical practice hours (200 practice hours = 5 contact hours; 400 = 10 contact hours), Professional Practice Learning, academic credit, or teaching. PNCB audits a random sample of renewals.",
+      "cycle_years": 1,
+      "contact_hours": 15,
+      "source": "https://www.pncb.org/cpn-recertification",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": "US Bureau of Labor Statistics (BLS) Occupational Employment and Wage Statistics, Registered Nurses (May 2024): $98,430 mean annual RN wage. Pediatric nursing certification is associated with eligibility for clinical-ladder pay differentials at many children's hospitals.",
+      "source": "https://www.bls.gov/oes/current/oes291141.htm",
+      "confidence": "medium"
+    }
+  },
+  "blueprint": [
+    {"domain": "Health Promotion", "weight_pct": 23, "source": "https://www.pncb.org/sites/default/files/resources/2022_CPN_Exam_Content_Outline_FINAL.pdf", "confidence": "medium"},
+    {"domain": "Assessment (physical and psychosocial)", "weight_pct": 35, "source": "https://www.pncb.org/sites/default/files/resources/2022_CPN_Exam_Content_Outline_FINAL.pdf", "confidence": "medium"},
+    {"domain": "Planning and Management", "weight_pct": 33, "source": "https://www.pncb.org/sites/default/files/resources/2022_CPN_Exam_Content_Outline_FINAL.pdf", "confidence": "medium"},
+    {"domain": "Professional Responsibilities", "weight_pct": 9, "source": "https://www.pncb.org/sites/default/files/resources/2022_CPN_Exam_Content_Outline_FINAL.pdf", "confidence": "medium"}
+  ],
+  "blueprint_note": "Domain weights derived from secondary summaries of the PNCB 2022 CPN Exam Content Outline (based on PNCB's 2021-2022 Job Task Analysis). The four percentages sum to 100. PNCB's primary pages are JS-rendered and the content-outline PDF could not be fetched directly, so weights carry medium confidence. Cross-thread topics named by PNCB: safety, growth and development, and evidence-based practice.",
+  "pass_rate_history": [
+    {"year": 2022, "pass_rate_pct": 76, "source": "https://cpn101.com/cpn-exam-pass-rate/", "confidence": "medium"},
+    {"year": 2024, "pass_rate_pct": null, "source": "https://www.pncb.org/sites/default/files/resources/PNCB_Exam_Statistics_2024_FINAL.pdf", "confidence": "missing", "note": "PNCB publishes a 2024 exam statistics PDF, but the exact CPN figure could not be extracted (PDF not fetchable in this environment). A secondary source describes a recent-year pass rate 'around 79%' but with no year attribution, so it is not used as a verified figure."}
+  ],
+  "common_confusions": [
+    {"credential": "CPNP-PC / CPNP-AC", "note": "Pediatric Nurse Practitioner certifications (Primary Care / Acute Care), also issued by PNCB, but for APRNs with a graduate degree -- not the RN-level CPN."},
+    {"credential": "PMHS", "note": "Pediatric Primary Care Mental Health Specialist, a PNCB specialty credential, not the generalist CPN."},
+    {"credential": "CPEN", "note": "Certified Pediatric Emergency Nurse, issued by BCEN -- emergency-specific, distinct from the broad inpatient/outpatient CPN."}
+  ],
+  "discrepancies": [
+    {"field": "pass_rate", "detail": "Firmly cited 2022 CPN pass rate is ~76%. A separate secondary source mentions 'around 79% in recent years' without a year, so 76% (2022) is treated as the headline verified figure and later years left null."},
+    {"field": "question_count", "detail": "certs.js (canonical) lists 175 questions; PNCB sources also state 175 (150 scored + 25 pretest). No conflict."}
+  ],
+  "sources_index": [
+    {"title": "PNCB -- Certified Pediatric Nurse (CPN) overview", "url": "https://www.pncb.org/certifications/certified-pediatric-nurse", "accessed": "2026-05-21"},
+    {"title": "PNCB -- CPN Exam FAQs (eligibility)", "url": "https://www.pncb.org/cpn-exam-faqs", "accessed": "2026-05-21"},
+    {"title": "PNCB -- CPN Exam Administration", "url": "https://www.pncb.org/cpn-exam-administration", "accessed": "2026-05-21"},
+    {"title": "PNCB -- CPN Exam Scoring", "url": "https://www.pncb.org/cpn-exam-scoring", "accessed": "2026-05-21"},
+    {"title": "PNCB -- CPN Certification Steps (fees, scheduling)", "url": "https://www.pncb.org/cpn-certification-steps", "accessed": "2026-05-21"},
+    {"title": "PNCB -- CPN Recertification (annual renewal, 15 contact hours)", "url": "https://www.pncb.org/cpn-recertification", "accessed": "2026-05-21"},
+    {"title": "PNCB -- 2022 CPN Exam Content Outline (blueprint)", "url": "https://www.pncb.org/sites/default/files/resources/2022_CPN_Exam_Content_Outline_FINAL.pdf", "accessed": "2026-05-21"},
+    {"title": "PNCB -- About / organization history (founded 1975, CPN since 1989)", "url": "https://www.pncb.org/about", "accessed": "2026-05-21"},
+    {"title": "CPN101 -- CPN Exam Pass Rate (secondary, 2022 ~76%)", "url": "https://cpn101.com/cpn-exam-pass-rate/", "accessed": "2026-05-21"},
+    {"title": "US BLS -- OEWS Registered Nurses (May 2024)", "url": "https://www.bls.gov/oes/current/oes291141.htm", "accessed": "2026-05-21"}
+  ]
+}
