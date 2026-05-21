@@ -1,0 +1,96 @@
+{
+  "code": "CIC",
+  "name": "Certification in Infection Control",
+  "researched_at": "2026-05-21T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "Certification Board of Infection Control and Epidemiology, Inc. (CBIC)",
+      "source": "https://www.cbic.org/CBIC/CIC-Certification/About-the-Examination.htm",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": 1983,
+      "note": "CBIC was created in 1981 by APIC; the first CIC examination was administered in 1983.",
+      "source": "https://apic.org/history-of-cbic/",
+      "confidence": "high"
+    },
+    "eligibility": {
+      "value": "No nursing-specific or fixed degree gate. CBIC recommends post-secondary education in a health-related field and requires that the candidate be directly responsible for infection prevention and control program activities. Work experience: at least 1 year full-time OR 2 years part-time OR 3,000 hours of infection prevention work within the previous 3 years. Activity must span the five core IPC areas plus at least two of the remaining three components.",
+      "source": "https://www.cbic.org/CBIC/Candidate-Handbook/Eligibility-Guidelines.htm",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based multiple-choice; 150 items total, 135 scored and 15 unscored pretest. Delivered at Prometric test centers or via Prometric ProProctor remote proctoring. Forward navigation only (no skipping or returning to prior items) effective 2025-01-02.",
+      "source": "https://www.cbic.org/CBIC/CIC-Certification/About-the-Examination.htm",
+      "confidence": "high"
+    },
+    "time_limit": {
+      "value": "Two 90-minute sections (180 minutes of testing) plus a 10-minute tutorial, an optional 16-minute break after Section 1, and a 5-minute survey. First 75 questions must be completed within the first 90-minute section.",
+      "source": "https://www.cbic.org/CBIC/CIC-Certification/About-the-Examination.htm",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Scaled score of at least 700 on a 300-900 scale. Passing candidates receive a Pass message with no numeric score; failing candidates receive a scaled score of 300-699.",
+      "source": "https://www.cbic.org/CBIC/CIC-Certification/About-the-Examination.htm",
+      "confidence": "high"
+    },
+    "fee": {
+      "value": "$445 USD examination fee (current, per the CBIC About-the-Examination page).",
+      "source": "https://www.cbic.org/CBIC/CIC-Certification/About-the-Examination.htm",
+      "confidence": "high"
+    },
+    "pass_rate": {
+      "value": null,
+      "note": "CBIC does not publicly publish a CIC first-time or overall pass rate. Left null per no-invention rule.",
+      "source": null,
+      "confidence": "missing"
+    },
+    "renewal": {
+      "value": "Certification is valid for five years; all certifications expire December 31 at the end of the five-year cycle. Effective 2026-01-01, recertification is by Infection Prevention Units (IPU portfolio) or by retaking the proctored CIC examination. Both the IPU portfolio and the recertification exam cost $430.",
+      "source": "https://www.cbic.org/CBIC/Recertification.htm",
+      "confidence": "high"
+    },
+    "common_confusions": {
+      "value": "CIC is often confused with a-IPC (CBIC's entry-level Associate credential with no experience requirement, no renewal) and LTC-CIP (CBIC's long-term-care infection prevention credential). 'Infection preventionist' is the job role; CIC is the board credential earned by that role.",
+      "source": "https://www.cbic.org/CBIC/Get-Certified/Get-Started/a-IPC.htm",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": null,
+      "note": "BLS does not maintain a discrete 'infection preventionist' OEWS occupation code; not reliably citable as a single figure. Left null.",
+      "source": null,
+      "confidence": "missing"
+    },
+    "recent_changes": {
+      "value": "Forward-navigation exam format introduced 2025-01-02 (no skipping/returning to items). Examination fee listed at $445 on the CBIC About page (a January 2025 fee schedule PDF listed $430). Recertification model moved to IPUs / exam effective 2026-01-01. Current content outline derives from the 2020 practice analysis (published in the 2021 content outline).",
+      "source": "https://www.cbic.org/CBIC/CIC-Certification/About-the-Examination.htm",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    { "domain": "Identification of Infectious Disease Processes", "scored_items": 22, "weight_pct": 16, "source": "https://www.cbic.org/CBIC/PDFs/2021-CIC-Examintion-Content-Outline1.pdf", "confidence": "high" },
+    { "domain": "Surveillance and Epidemiologic Investigation", "scored_items": 24, "weight_pct": 18, "source": "https://www.cbic.org/CBIC/PDFs/2021-CIC-Examintion-Content-Outline1.pdf", "confidence": "high" },
+    { "domain": "Preventing/Controlling the Transmission of Infectious Agents", "scored_items": 25, "weight_pct": 19, "source": "https://www.cbic.org/CBIC/PDFs/2021-CIC-Examintion-Content-Outline1.pdf", "confidence": "high" },
+    { "domain": "Cleaning, Sterilization, Disinfection, Asepsis", "scored_items": 15, "weight_pct": 11, "source": "https://www.cbic.org/CBIC/PDFs/2021-CIC-Examintion-Content-Outline1.pdf", "confidence": "high" },
+    { "domain": "Environment of Care", "scored_items": 14, "weight_pct": 10, "source": "https://www.cbic.org/CBIC/PDFs/2021-CIC-Examintion-Content-Outline1.pdf", "confidence": "high" },
+    { "domain": "Management and Communications", "scored_items": 13, "weight_pct": 10, "source": "https://www.cbic.org/CBIC/PDFs/2021-CIC-Examintion-Content-Outline1.pdf", "confidence": "high" },
+    { "domain": "Employee/Occupational Health", "scored_items": 11, "weight_pct": 8, "source": "https://www.cbic.org/CBIC/PDFs/2021-CIC-Examintion-Content-Outline1.pdf", "confidence": "high" },
+    { "domain": "Education and Research", "scored_items": 11, "weight_pct": 8, "source": "https://www.cbic.org/CBIC/PDFs/2021-CIC-Examintion-Content-Outline1.pdf", "confidence": "high" }
+  ],
+  "blueprint_note": "Scored item counts are from CBIC's 2021 content outline (built on the 2020 practice analysis) and sum to 135 scored items. Percentages are computed (scored_items / 135) and rounded; they are NursPrep-derived approximations, not CBIC-published percentages.",
+  "pass_rate_history": [],
+  "discrepancies": [
+    "Exam fee: CBIC's About-the-Examination page lists $445; the January 6, 2025 CBIC fee-schedule PDF lists $430. Used $445 as the most current issuing-body figure; flagged for user review.",
+    "Outline keyword 'infection preventionist certification' framed the topic generically (IPCO, nursing-home training). Per the conflict-resolution rule, certs.js is canonical: this page documents the CBIC CIC credential ('Certification in Infection Control'), 150 items, not a generic IPCO course."
+  ],
+  "sources_index": [
+    { "title": "CBIC — About the CIC Exam", "url": "https://www.cbic.org/CBIC/CIC-Certification/About-the-Examination.htm", "accessed": "2026-05-21" },
+    { "title": "CBIC — CIC Eligibility Guidelines", "url": "https://www.cbic.org/CBIC/Candidate-Handbook/Eligibility-Guidelines.htm", "accessed": "2026-05-21" },
+    { "title": "CBIC — 2021 CIC Examination Content Outline (2020 practice analysis)", "url": "https://www.cbic.org/CBIC/PDFs/2021-CIC-Examintion-Content-Outline1.pdf", "accessed": "2026-05-21" },
+    { "title": "CBIC — CIC Recertification by Proctored Examination / IPUs", "url": "https://www.cbic.org/CBIC/Recertification.htm", "accessed": "2026-05-21" },
+    { "title": "CBIC — Examination Fees (effective Jan 6, 2025)", "url": "https://www.cbic.org/CBIC/PDFs/CBIC-Examination-Fees_01.06.2025.pdf", "accessed": "2026-05-21" },
+    { "title": "CBIC — a-IPC (Associate Infection Prevention and Control)", "url": "https://www.cbic.org/CBIC/Get-Certified/Get-Started/a-IPC.htm", "accessed": "2026-05-21" },
+    { "title": "APIC — History of CBIC", "url": "https://apic.org/history-of-cbic/", "accessed": "2026-05-21" },
+    { "title": "CBIC — Exam & Certification FAQ", "url": "https://www.cbic.org/CBIC/Exam-and-Certification-FAQ.htm", "accessed": "2026-05-21" }
+  ]
+}
