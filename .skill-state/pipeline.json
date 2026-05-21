@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-05-19T20:42:04.491907Z",
-  "last_updated": "2026-05-21T13:13:52.913261Z",
+  "last_updated": "2026-05-21T17:22:00.103766Z",
   "staging_branch": "staging",
   "exams": [
     {
@@ -467,17 +467,17 @@
       "code": "OCN",
       "csv_keyword": "ocn exam",
       "has_outline": true,
-      "status": "pending",
+      "status": "in_progress",
       "stages": {
-        "research": "pending",
-        "brief": "pending",
-        "data_file": "pending",
-        "build_validated": "pending",
-        "committed": "pending"
+        "research": "done",
+        "brief": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
       },
-      "attempts": 0,
+      "attempts": 1,
       "last_error": null,
-      "last_attempt_at": null,
+      "last_attempt_at": "2026-05-21T17:15:12.913044Z",
       "completed_at": null
     },
     {

@@ -1,0 +1,131 @@
+{
+  "code": "OCN",
+  "researched_at": "2026-05-21T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "Oncology Nursing Certification Corporation (ONCC)",
+      "source": "https://www.oncc.org/oncology-certified-nurse-ocn",
+      "confidence": "high"
+    },
+    "credential_full_name": {
+      "value": "Oncology Certified Nurse (OCN)",
+      "source": "https://www.oncc.org/oncology-certified-nurse-ocn",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": null,
+      "note": "ONCC's own pages do not state the exact first OCN administration year on the fetched pages. OCN is widely described as ONCC's foundational/longest-running credential and ONCC was incorporated in 1984, but no verbatim launch year was confirmed from a primary source, so left null rather than guessed.",
+      "source": "https://www.oncc.org/about-oncc",
+      "confidence": "missing"
+    },
+    "eligibility": {
+      "value": "All criteria must be met at time of application and examination: (1) a current, active, unencumbered RN license in the US, its territories, or Canada; (2) a minimum of 2,000 hours of adult oncology nursing practice within the four years (48 months) prior to application (practice may be clinical, administration, education, research, or consultation); (3) a minimum of two years (24 months) of experience as an RN within the four years prior to application; and (4) a minimum of 10 contact hours of nursing continuing education in oncology (or an academic elective in oncology nursing) within the three years (36 months) prior to application.",
+      "source": "https://www.oncc.org/oncology-certified-nurse-ocn",
+      "confidence": "high"
+    },
+    "experience_requirement": {
+      "value": "2,000 hours adult oncology nursing practice in prior 48 months + 24 months RN experience in prior 48 months + 10 oncology CE contact hours in prior 36 months. Unlike some BCEN exams these are hard eligibility gates, not recommendations.",
+      "source": "https://www.oncc.org/oncology-certified-nurse-ocn",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based test delivered through PSI (psiexams.com). 165 multiple-choice questions, of which 145 are scored and 20 are unscored pretest items. Time limit 3 hours. Same-day (immediate) test results. Authorization to Test (ATT) opens an almost-immediate 90-day testing window.",
+      "source": "https://www.oncc.org/oncology-certified-nurse-ocn",
+      "confidence": "high"
+    },
+    "question_count_total": { "value": 165, "source": "https://www.oncc.org/oncology-certified-nurse-ocn", "confidence": "high" },
+    "question_count_scored": { "value": 145, "source": "https://www.testprepreview.com/oncologycertifiednurse.htm", "confidence": "medium", "note": "ONCC page states 165 questions; the 145-scored / 20-pretest split is reported by corroborating prep sources (TestPrepReview) and is the long-standing ONCC structure, but the split was not stated verbatim on the fetched ONCC page." },
+    "question_count_pretest": { "value": 20, "source": "https://www.testprepreview.com/oncologycertifiednurse.htm", "confidence": "medium" },
+    "time_limit_hours": { "value": 3, "source": "https://www.oncc.org/oncology-certified-nurse-ocn", "confidence": "high" },
+    "passing_score": {
+      "value": "Scaled score of at least 55 (on ONCC's scaled-score system). The cut score is set by a criterion-referenced Passing Score Study using the judgment of panels of oncology nursing professionals; it is not a simple percentage of items correct.",
+      "scaled_min": 55,
+      "source": "https://www.oncc.org/2025-OCN-passing-score-task-force",
+      "confidence": "medium",
+      "note": "Scaled minimum of 55 reported by corroborating prep sources and consistent with ONCC's published scaled-score scale; ONCC's task-force page confirms a passing-score study process. Treated as medium confidence."
+    },
+    "fee_nonmember": { "value": 420, "source": "https://www.oncc.org/oncology-certified-nurse-ocn", "confidence": "high" },
+    "fee_member": { "value": 300, "note": "ONS (Oncology Nursing Society) / APHON member rate", "source": "https://www.oncc.org/oncology-certified-nurse-ocn", "confidence": "high" },
+    "fee_doubletake": { "value": 100, "note": "Optional DoubleTake add-on (a retake option if the candidate does not pass the first attempt) costs an additional $100 and must be selected/paid when registering for the initial exam.", "source": "https://www.oncc.org/oncology-certified-nurse-ocn", "confidence": "high" },
+    "fee_retake": {
+      "value": null,
+      "note": "Standard retake fee not stated as a single number on fetched ONCC pages; DoubleTake ($100 add-on) is the published discounted-retake mechanism. Left null rather than guessed.",
+      "source": "https://www.oncc.org/oncology-certified-nurse-ocn",
+      "confidence": "missing"
+    },
+    "renewal": {
+      "value": "OCN certification is valid for four years. Most candidates renew via Option 1 (Practice Hours + Professional Development Points) under ONCC's ILNA (Individual Learning Needs Assessment) model: hold current OCN; current active unencumbered RN license; 12 months RN experience within prior 36 months; 1,000 hours of adult oncology nursing practice within prior 30 months; and submit professional-development points matching the subject areas and weighting of the current Test Content Outline. Options 2 (Practice Hours + retest) and 3 (Points + retest) are also available.",
+      "source": "https://www.oncc.org/certification-renewal-guide",
+      "confidence": "high"
+    },
+    "renewal_years": { "value": 4, "source": "https://www.oncc.org/oncology-certified-nurse-ocn", "confidence": "high" },
+    "renewal_points": {
+      "value": 100,
+      "note": "ONCC's renewal guide states AOCN/AOCNS/CPON learning plans require 50 points; the standard ILNA learning plan for OCN and other RN-level credentials is 100 points, and the renewal guide describes a 100-point plan for nurses who do not take the assessment. Exact per-individual point total is set by each nurse's Test/Assessment Results Report. Treated as medium confidence.",
+      "source": "https://www.oncc.org/certification-renewal-guide",
+      "confidence": "medium"
+    },
+    "renewal_practice_hours": { "value": 1000, "note": "1,000 hours adult oncology nursing practice within 30 months prior to renewal application (Option 1).", "source": "https://www.oncc.org/certification-renewal-guide", "confidence": "high" },
+    "common_confusions": {
+      "value": "OCN (RN-level adult oncology, ONCC) is conflated with BMTCN (ONCC blood & marrow transplant), CBCN (ONCC breast care), CPHON (ONCC pediatric hematology/oncology), AOCNP (ONCC advanced-practice NP credential), and TCTCN (ONCC transplant/cellular therapy). OCN is the foundational adult oncology RN credential; the others are population- or practice-level specific.",
+      "source": "https://www.oncc.org/oncology-certified-nurse-ocn",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": "U.S. Bureau of Labor Statistics OEWS (May 2024) reports a mean annual wage of about $98,430 for registered nurses; oncology and certified specialty nurses frequently earn above the median, and many cancer centers offer certification differentials.",
+      "source": "https://www.bls.gov/oes/current/oes291141.htm",
+      "confidence": "medium"
+    },
+    "recent_changes": {
+      "value": "ONCC published an updated OCN Test Content Outline (2026 edition, copyright 2025) effective for current testing, built on the 2020/2021 role delineation study of basic adult oncology nursing practice. The six subject areas and their weights are unchanged from the prior 2025 outline. ONCC also convened a 2025 OCN Passing Score Task Force to review the cut score.",
+      "source": "https://www.oncc.org/sites/default/files/2025-11/2026_OCN_Test_Content_Outline.pdf",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    { "domain": "Care Continuum", "weight_pct": 14, "source": "https://www.oncc.org/sites/default/files/2025-11/2026_OCN_Test_Content_Outline.pdf", "confidence": "high" },
+    { "domain": "Oncology Nursing Practice", "weight_pct": 15, "source": "https://www.oncc.org/sites/default/files/2025-11/2026_OCN_Test_Content_Outline.pdf", "confidence": "high" },
+    { "domain": "Treatment Modalities", "weight_pct": 20, "source": "https://www.oncc.org/sites/default/files/2025-11/2026_OCN_Test_Content_Outline.pdf", "confidence": "high" },
+    { "domain": "Symptom Management and Supportive Care", "weight_pct": 25, "source": "https://www.oncc.org/sites/default/files/2025-11/2026_OCN_Test_Content_Outline.pdf", "confidence": "high" },
+    { "domain": "Oncologic Emergencies", "weight_pct": 16, "source": "https://www.oncc.org/sites/default/files/2025-11/2026_OCN_Test_Content_Outline.pdf", "confidence": "high" },
+    { "domain": "Psychosocial Dimensions of Care", "weight_pct": 10, "source": "https://www.oncc.org/sites/default/files/2025-11/2026_OCN_Test_Content_Outline.pdf", "confidence": "high" }
+  ],
+  "blueprint_note": "Weights are percentages from the official ONCC 2026 OCN Test Content Outline (copyright ONCC 2025) and sum to 100%. Verified verbatim from the PDF: I. Care Continuum 14%, II. Oncology Nursing Practice 15%, III. Treatment Modalities 20%, IV. Symptom Management and Supportive Care 25%, V. Oncologic Emergencies 16%, VI. Psychosocial Dimensions of Care 10%. These match the Content Outline Data.csv outline exactly.",
+  "pass_rate_history": [
+    {
+      "year": 2024,
+      "pass_rate_pct": 62,
+      "note": "ONCC publishes annual Examination Statistics and Pass Rates; the 2024 PDF is image-based and the exact OCN figure could not be machine-extracted. Corroborating sources report an overall OCN pass rate of about 62% (first-time ~65%) in recent years. Treated as medium confidence; verify against ONCC's 2024 Examination Statistics PDF.",
+      "source": "https://www.oncc.org/sites/default/files/2025-02/2024_Examination_Statistics_and_Pass%20Rates.pdf",
+      "confidence": "medium"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "question_count",
+      "detail": "src/_data/certs.js lists OCN questions: 165 (canonical project source). ONCC confirms 165 total. Agreement, no conflict. Page uses 165 total with a 145-scored / 20-pretest split.",
+      "resolution": "Trust certs.js and ONCC: 165 total."
+    },
+    {
+      "field": "blueprint_percentages",
+      "detail": "An early web-search snippet reported Care Continuum 19% / Oncology Nursing Practice 17% / Treatment Modalities 19% / Psychosocial 12%, which conflicts with the official ONCC PDF (14/15/20/10).",
+      "resolution": "Discarded the search-snippet numbers; used the official 2026 ONCC Test Content Outline PDF, which sums cleanly to 100% and matches the project's CSV outline."
+    },
+    {
+      "field": "pass_rate",
+      "detail": "Sources vary: ~62% overall (with ~65% first-time) per most prep sources, vs. a looser 70-80% claim from one secondary source.",
+      "resolution": "Used ~62% (most-cited, recent) at medium confidence; flagged the 70-80% claim as unreliable."
+    }
+  ],
+  "sources_index": [
+    { "title": "Oncology Certified Nurse (OCN) - ONCC", "url": "https://www.oncc.org/oncology-certified-nurse-ocn", "accessed": "2026-05-21" },
+    { "title": "2026 OCN Test Content Outline (PDF) - ONCC", "url": "https://www.oncc.org/sites/default/files/2025-11/2026_OCN_Test_Content_Outline.pdf", "accessed": "2026-05-21" },
+    { "title": "Certification Renewal Guide - ONCC", "url": "https://www.oncc.org/certification-renewal-guide", "accessed": "2026-05-21" },
+    { "title": "2025 OCN Passing Score Task Force - ONCC", "url": "https://www.oncc.org/2025-OCN-passing-score-task-force", "accessed": "2026-05-21" },
+    { "title": "2024 Examination Statistics and Pass Rates (PDF) - ONCC", "url": "https://www.oncc.org/sites/default/files/2025-02/2024_Examination_Statistics_and_Pass%20Rates.pdf", "accessed": "2026-05-21" },
+    { "title": "Testing and Renewal - ONCC", "url": "https://www.oncc.org/testing-and-renewal", "accessed": "2026-05-21" },
+    { "title": "Oncology Certified Nurse (OCN) Complete Guide - Vivian Health", "url": "https://www.vivian.com/certifications/ocn/", "accessed": "2026-05-21" },
+    { "title": "Oncology Nurse Certification (OCN) Exam Review - TestPrepReview", "url": "https://www.testprepreview.com/oncologycertifiednurse.htm", "accessed": "2026-05-21" },
+    { "title": "BLS OEWS Registered Nurses (May 2024)", "url": "https://www.bls.gov/oes/current/oes291141.htm", "accessed": "2026-05-21" }
+  ]
+}
