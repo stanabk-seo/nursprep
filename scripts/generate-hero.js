@@ -12,6 +12,7 @@
 //   node scripts/generate-hero.js tcrn cfrn     # specific slugs
 
 const fs = require("fs");
+const os = require("os");
 const path = require("path");
 const { execSync } = require("child_process");
 
@@ -19,7 +20,7 @@ const ROOT = path.resolve(__dirname, "..");
 const EXAMS_DIR = path.join(ROOT, "src", "_data", "exams");
 const TEMPLATE = path.join(__dirname, "cert-template.svg");
 const OUT_DIR = path.join(ROOT, "src", "assets", "images", "certs");
-const TMP_SVG_DIR = "/tmp/nursprep-card-svgs";
+const TMP_SVG_DIR = fs.mkdtempSync(path.join(os.tmpdir(), "nursprep-card-svgs-"));
 
 function normalizePassRate(raw) {
   if (!raw) return { main: "n/a", sub: "" };

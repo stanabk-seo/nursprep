@@ -1,0 +1,260 @@
+{
+  "code": "CCRN",
+  "name": "Critical Care Registered Nurse",
+  "researched_at": "2026-09-04T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "AACN Certification Corporation, the credentialing arm of the American Association of Critical-Care Nurses (AACN)",
+      "source": "https://www.aacn.org/certification/get-certified/ccrn-adult",
+      "confidence": "high"
+    },
+    "credential_scope": {
+      "value": "CCRN is a specialty certification for RNs and APRNs who provide direct care to acutely/critically ill patients, regardless of physical unit location. Eligibility is judged on patient acuity, not on the name of the unit.",
+      "source": "https://www.aacn.org/certification/ccrn-or-pccn",
+      "confidence": "high"
+    },
+    "populations": {
+      "value": ["Adult", "Pediatric", "Neonatal"],
+      "note": "CCRN is awarded per patient population. A candidate sits the exam matching the population they care for, and eligible practice hours must be accrued with that same population.",
+      "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "confidence": "high"
+    },
+    "eligibility_pathways": {
+      "value": [
+        {"pathway": "Direct Care", "credential_shown": "CCRN", "who": "RNs/APRNs primarily or exclusively providing direct care to acutely/critically ill patients", "source": "https://www.aacn.org/certification/get-certified/ccrn-adult"},
+        {"pathway": "Knowledge Professional", "credential_shown": "CCRN-K", "who": "RNs/APRNs who influence care of acutely/critically ill patients but do not primarily provide direct care — clinical educator, manager/supervisor, director, academic faculty, nursing administrator, case manager, transitional care coordinator", "source": "https://www.aacn.org/certification/get-certified/ccrn-k-adult"},
+        {"pathway": "Tele-critical Care", "credential_shown": "CCRN-E", "who": "RNs/APRNs caring for acutely/critically ill adult patients from a centralized or remote tele-critical care setting networked to the bedside via audiovisual and computer systems", "source": "https://www.aacn.org/certification/get-certified/ccrn-e-adult"}
+      ],
+      "note": "CCRN-K and CCRN-E are eligibility pathways to the same CCRN exam and content, not separate exams. All three pathways carry the same $260/$375 application fee.",
+      "confidence": "high"
+    },
+    "eligibility_license": {
+      "value": "Current, unencumbered U.S. RN or APRN license (includes District of Columbia and the U.S. territories of Guam, Virgin Islands, American Samoa and Northern Mariana Islands). Unencumbered means the license is not subject to formal board of nursing discipline and carries no provisions or conditions limiting practice. Certificants must notify AACN Certification Corporation within 30 days if provisions are placed on their license.",
+      "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "confidence": "high"
+    },
+    "eligibility_hours_direct_care": {
+      "value": {
+        "two_year_option": {"total_hours": 1750, "window_years": 2, "recent_year_hours": 875},
+        "five_year_option": {"total_hours": 2000, "window_years": 5, "recent_year_hours": 144}
+      },
+      "note": "Hours must be direct care of acutely/critically ill patients in the population matching the exam. A majority of total hours, and of the hours in the year before application, must focus on critically ill patients. Shadowing/orientation hours where another nurse holds the assignment do not count; orientation hours where the candidate is the assigned nurse do count. Hours must be completed in a U.S.- or Canada-based facility, or one comparable to the U.S. standard as evidenced by Magnet designation or Joint Commission International accreditation. Managers, educators, preceptors and APRNs may count hours supervising nurses or students at the bedside if actively involved in direct patient care.",
+      "source": "https://www.aacn.org/certification/get-certified/ccrn-adult",
+      "confidence": "high"
+    },
+    "eligibility_hours_ccrn_k": {
+      "value": {"total_hours": 1040, "window_years": 2, "recent_year_hours": 260},
+      "note": "Knowledge Professional pathway hours are those in which the nurse applies knowledge to influence patients, nurses and/or organizations in a way that positively affects care of acutely/critically ill patients.",
+      "source": "https://www.aacn.org/certification/get-certified/ccrn-k-adult",
+      "confidence": "high"
+    },
+    "eligibility_hours_ccrn_e": {
+      "value": {
+        "two_year_option": {"total_hours": 1750, "window_years": 2, "recent_year_hours": 875},
+        "five_year_option": {"total_hours": 2000, "window_years": 5, "recent_year_hours": 144}
+      },
+      "note": "Same hour thresholds as the Direct Care pathway, but hours are accrued in a tele-critical care setting or in a combination of tele-critical care and direct care.",
+      "source": "https://www.aacn.org/certification/get-certified/ccrn-e-adult",
+      "confidence": "high"
+    },
+    "practice_verification": {
+      "value": "Candidates must supply the name and contact details of a professional associate — a clinical supervisor or an RN/physician colleague — who will verify clinical hours in writing if the application is selected for audit.",
+      "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based, multiple-choice. 150 items in a 3-hour session: 125 scored and 25 unscored pretest items used to gather statistical data for future exams. Delivered at PSI test centers or via Live Remote Proctoring from a quiet, private location. Paper-and-pencil testing is available for group applicants and candidates testing outside the U.S.",
+      "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "confidence": "high"
+    },
+    "exam_vendor": {
+      "value": "PSI (test centers and Live Remote Proctoring)",
+      "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 150,
+      "scored": 125,
+      "pretest": 25,
+      "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores",
+      "confidence": "high"
+    },
+    "time_limit": {
+      "value": "3 hours",
+      "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": {"adult": 83, "pediatric": 83, "neonatal": 84},
+      "scale": "raw number of scored items correct out of 125",
+      "effective_date": "2025-11-12",
+      "note": "The cut score is a raw count, not a percentage. It is set by the modified Angoff method with a Score Evaluation Committee of subject matter experts working with PSI psychometricians, and it changes when the exam is revised or re-equated.",
+      "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores",
+      "confidence": "high"
+    },
+    "score_reporting": {
+      "value": "For computer-based exams, results appear on screen at the end of the session and a detailed score report is emailed within 24 hours. Paper-and-pencil results arrive by mail 6 to 8 weeks after testing. Wall certificates are mailed roughly 4 to 6 weeks after testing and can also be self-printed from the AACN dashboard.",
+      "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "confidence": "high"
+    },
+    "fee_member": {"value": 260, "currency": "USD", "source": "https://www.aacn.org/certification/get-certified/ccrn-adult", "confidence": "high"},
+    "fee_nonmember": {"value": 375, "currency": "USD", "source": "https://www.aacn.org/certification/get-certified/ccrn-adult", "confidence": "high"},
+    "fee_retest": {"value": {"member": 185, "nonmember": 290}, "currency": "USD", "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf", "confidence": "high"},
+    "fee_renewal_by_cerps": {"value": {"member": 150, "nonmember": 230}, "currency": "USD", "source": "https://www.aacn.org/certification/certification-renewal/ccrn-adult", "confidence": "high"},
+    "fee_renewal_by_exam": {"value": {"member": 185, "nonmember": 290}, "currency": "USD", "source": "https://www.aacn.org/certification/certification-renewal/ccrn-adult", "confidence": "high"},
+    "fee_discounts": {
+      "value": "Group discounts are available for 10 or more candidates applying together, and employers may pre-purchase exam vouchers at a further discounted rate through the Organization Discount Program. A $15 fee applies to returned checks.",
+      "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "confidence": "high"
+    },
+    "testing_windows": {
+      "value": "No fixed testing windows. AACN uses continuous computer-based testing scheduled through PSI. After a successful application the candidate receives a confirmation email with an eligibility period in which the exam must be taken — normally 90 days, currently extended to 180 days.",
+      "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "confidence": "high"
+    },
+    "retake_policy": {
+      "value": "A candidate may apply for and take the same certification exam up to four times in a rolling 12-month period. After 12 months a new honor statement must be signed.",
+      "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "confidence": "high"
+    },
+    "renewal_cycle_years": {
+      "value": 3,
+      "note": "The certification period starts on the first day of the month in which the exam is passed and ends three years later. Certificants have up to 90 days past the expiration date to submit renewal, but CERPs and practice hours cannot be accrued during that grace period. Renewal opens 4 months before the scheduled renewal date, and notifications begin 4 months out.",
+      "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "confidence": "high"
+    },
+    "renewal_requirements": {
+      "value": "Renewal by Synergy CERPs: 100 Continuing Education Recognition Points — at least 60 in Category A (Clinical Judgment, Clinical Inquiry), at least 10 in Category B (Advocacy/Moral Agency, Caring Practices, Response to Diversity, Facilitation of Learning), at least 10 in Category C (Collaboration, Systems Thinking), plus 20 in any category. Renewal by Exam: pass the current CCRN exam before the scheduled renewal date, applying at least 30 days beforehand. Both options additionally require 432 clinical practice hours across the three-year renewal period, with 144 of those hours in the 12 months before the scheduled renewal date. Evidence must be retained for up to 3 years after the renewal date for audit.",
+      "source": "https://www.aacn.org/certification/certification-renewal/ccrn-adult",
+      "confidence": "high"
+    },
+    "renewal_alternate_statuses": {
+      "value": "Inactive status (up to 3 years to complete requirements), Alumnus status (for nurses still in nursing but no longer influencing acute/critical care; no hour or CERP requirement; renewable every 3 years) and Retired status (renewable every 3 years, no requirements).",
+      "source": "https://www.aacn.org/certification/certification-renewal/ccrn-adult",
+      "confidence": "high"
+    },
+    "framework": {
+      "value": "The AACN Synergy Model for Patient Care is the organizing framework for all AACN Certification Corporation exams. It describes eight patient characteristics (resiliency, vulnerability, stability, complexity, resource availability, participation in care, participation in decision-making, predictability) and eight nurse competencies (clinical judgment, advocacy/moral agency, caring practices, collaboration, systems thinking, response to diversity, facilitation of learning, clinical inquiry).",
+      "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "confidence": "high"
+    },
+    "test_plan_basis": {
+      "value": "The test plan is built by an expert CCRN panel from a study of practice (job analysis) conducted at least every five years. Required clinical practice hours correspond to the third stage of competence in Benner's Stages of Clinical Competence.",
+      "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "confidence": "high"
+    },
+    "magnet_recognition": {
+      "value": "CCRN is accepted by the Magnet Recognition Program.",
+      "source": "https://www.aacn.org/certification/get-certified/ccrn-adult",
+      "confidence": "high"
+    },
+    "active_certificants": {
+      "value": {"adult": 102129, "pediatric": 8953, "neonatal": null},
+      "as_of": "2025",
+      "note": "Neonatal set to null — see discrepancies. AACN's 2025 table appears to transpose the Renewed and Total Certificants columns for the CCRN (Neonatal) row.",
+      "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores",
+      "confidence": "high"
+    },
+    "ccrn_vs_pccn": {
+      "value": "CCRN covers critically ill, unstable patients with a typical assignment of one nurse to one or two patients, in settings such as critical care units, ICUs, emergency departments, PACU/recovery, trauma units and critical care transport/flight. PCCN covers acutely ill, moderately stable patients with potential to become unstable, with a typical assignment of one nurse to three or four patients, in progressive care, telemetry, stepdown, intermediate care, observation, cardiac cath lab, cardiac rehabilitation and interventional radiology. Eligibility turns on patient acuity, not unit name.",
+      "source": "https://www.aacn.org/certification/ccrn-or-pccn",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": "BLS does not publish a critical-care-specific RN occupation code. The median annual wage for registered nurses was $97,550 in May 2025, with the lowest 10% under $68,940 and the highest 10% above $137,470. RN employment is projected to grow 6% from 2025 to 2035.",
+      "ccrn_premium": null,
+      "note": "No primary source quantifies a CCRN-specific pay differential. Any salary premium claim should be omitted.",
+      "source": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
+      "confidence": "medium"
+    },
+    "common_confusions": {
+      "value": [
+        {"credential": "CRRN", "disambiguation": "CRRN is the Certified Rehabilitation Registered Nurse credential from the Rehabilitation Nursing Certification Board (RNCB), the credentialing arm of the Association of Rehabilitation Nurses. Different body, different specialty, different exam. Only the letter order distinguishes it from CCRN."},
+        {"credential": "PCCN", "disambiguation": "PCCN is AACN's Progressive Care Certified Nurse credential for acutely ill but moderately stable adult patients. Same certifying body, lower acuity, different test plan."},
+        {"credential": "CCRN-K", "disambiguation": "CCRN-K is not a separate exam. It is the Knowledge Professional eligibility pathway to the same CCRN exam, for nurses who influence critical care without primarily delivering it."},
+        {"credential": "CCRN-E", "disambiguation": "CCRN-E is the Tele-critical Care eligibility pathway to the same CCRN exam, for nurses working from a remote tele-critical care hub."},
+        {"credential": "CMC / CSC", "disambiguation": "CMC (Cardiac Medicine) and CSC (Cardiac Surgery) are AACN subspecialty certifications layered on top of CCRN or PCCN, not alternatives to them."},
+        {"credential": "CRNA", "disambiguation": "CRNA is a Certified Registered Nurse Anesthetist — an advanced practice role requiring a doctoral anesthesia program, unrelated to CCRN. High-volume 'crna salary' search demand should not be targeted from a CCRN page."}
+      ],
+      "source": "https://www.aacn.org/certification/get-certified",
+      "confidence": "high"
+    },
+    "recent_changes": {
+      "value": "Revised CCRN test plans took effect for exams taken on and after November 12, 2025 (the Pediatric test plan page states November 19, 2025). New cut scores took effect 2025-11-12: 83/125 for Adult and Pediatric, 84/125 for Neonatal. AACN is also transitioning to generic-only medication names in exams and practice products; candidates may still see both generic and trade names during the transition. The candidate eligibility period is temporarily extended from 90 to 180 days.",
+      "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {"domain": "Clinical Judgment", "weight_pct": 80, "population": "all", "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf", "confidence": "high"},
+    {"domain": "Clinical Judgment — Cardiovascular", "weight_pct": 13, "population": "adult", "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf", "confidence": "high"},
+    {"domain": "Clinical Judgment — Respiratory", "weight_pct": 12, "population": "adult", "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf", "confidence": "high"},
+    {"domain": "Clinical Judgment — Endocrine, Hematology/Immunology, Gastrointestinal, Renal/Genitourinary, Integumentary", "weight_pct": 21, "population": "adult", "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf", "confidence": "high"},
+    {"domain": "Clinical Judgment — Musculoskeletal, Neurological, Behavioral/Psychosocial", "weight_pct": 18, "population": "adult", "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf", "confidence": "high"},
+    {"domain": "Clinical Judgment — Multisystem", "weight_pct": 16, "population": "adult", "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf", "confidence": "high"},
+    {"domain": "Professional Caring and Ethical Practice", "weight_pct": 20, "population": "all", "subdomains": ["Advocacy/Moral Agency", "Caring Practices", "Clinical Inquiry", "Collaboration", "Facilitation of Learning", "Response to Diversity", "Systems Thinking"], "subdomain_weights": null, "source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf", "confidence": "high"}
+  ],
+  "blueprint_by_population": {
+    "adult": {"effective": "2025-11-12", "cardiovascular": 13, "respiratory": 12, "endo_heme_gi_renal_integ": 21, "msk_neuro_behavioral": 18, "multisystem": 16, "professional_caring_ethical_practice": 20},
+    "pediatric": {"effective": "2025-11-19", "cardiovascular": 11, "respiratory": 13, "endo_heme_gi_renal_integ": 25, "msk_neuro_behavioral": 15, "multisystem": 17, "professional_caring_ethical_practice": 20},
+    "neonatal": {"effective": "2025-11-12", "cardiovascular": 10, "respiratory": 15, "endo_heme_gi_renal_integ": 20, "msk_neuro_behavioral": 13, "multisystem": 20, "professional_caring_ethical_practice": 20}
+  },
+  "blueprint_total_scored_items": 125,
+  "blueprint_note": "Weights are percentages of the whole exam, published in the CCRN Exam Handbook - Direct Care (July 2026 edition). AACN states the sum of category percentages may not equal 100 due to rounding: adult sums to 100, pediatric to 101 and neonatal to 98. AACN does not publish per-subdomain weights inside Professional Caring and Ethical Practice, nor scored-item counts per category.",
+  "blueprint_source_dco": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+  "pass_rate_history": [
+    {"year": 2025, "population": "adult", "cohort": "first_time", "candidates": 17151, "pass_rate_pct": 72.02, "new_certificants": 15312, "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores", "confidence": "high"},
+    {"year": 2024, "population": "adult", "cohort": "first_time", "candidates": 19483, "pass_rate_pct": 72.74, "new_certificants": 13135, "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores", "confidence": "high"},
+    {"year": 2023, "population": "adult", "cohort": "first_time", "candidates": 17279, "pass_rate_pct": 81.2, "new_certificants": 11765, "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores", "confidence": "high"},
+    {"year": 2025, "population": "pediatric", "cohort": "first_time", "candidates": 1474, "pass_rate_pct": 68.72, "new_certificants": 1242, "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores", "confidence": "high"},
+    {"year": 2024, "population": "pediatric", "cohort": "first_time", "candidates": 1303, "pass_rate_pct": 67.0, "new_certificants": 1082, "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores", "confidence": "high"},
+    {"year": 2023, "population": "pediatric", "cohort": "first_time", "candidates": 1213, "pass_rate_pct": 77.2, "new_certificants": 811, "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores", "confidence": "high"},
+    {"year": 2025, "population": "neonatal", "cohort": "first_time", "candidates": 305, "pass_rate_pct": 60.29, "new_certificants": 259, "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores", "confidence": "high"},
+    {"year": 2024, "population": "neonatal", "cohort": "first_time", "candidates": 305, "pass_rate_pct": 65.57, "new_certificants": 245, "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores", "confidence": "high"},
+    {"year": 2023, "population": "neonatal", "cohort": "first_time", "candidates": 356, "pass_rate_pct": 72.2, "new_certificants": 208, "source": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores", "confidence": "high"}
+  ],
+  "sources_index": [
+    {"title": "AACN — CCRN (Adult) Direct Care Eligibility Pathway (fees, clinical hour options, licensure, Magnet acceptance)", "url": "https://www.aacn.org/certification/get-certified/ccrn-adult", "accessed": "2026-09-04"},
+    {"title": "AACN — CCRN Exam Handbook, Direct Care Pathway, July 2026 edition (exam format, 150/125/25 item split, test plans for adult, pediatric and neonatal, fee table, retake policy, renewal period, Synergy Model)", "url": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf", "accessed": "2026-09-04"},
+    {"title": "AACN — Certification Exam Statistics and Cut Scores (2023-2025 pass rates, certificant counts, cut scores effective 11/12/2025)", "url": "https://www.aacn.org/certification/preparation-tools-and-handbooks/exam-stats-and-scores", "accessed": "2026-09-04"},
+    {"title": "AACN — CCRN (Adult) renewal, Direct Care Eligibility Pathway (100 CERPs by category, 432/144 practice hours, renewal fees, alternate statuses)", "url": "https://www.aacn.org/certification/certification-renewal/ccrn-adult", "accessed": "2026-09-04"},
+    {"title": "AACN — Should I Apply for the CCRN or PCCN Certification Exam? (acuity, nurse-to-patient ratio and practice-area comparison)", "url": "https://www.aacn.org/certification/ccrn-or-pccn", "accessed": "2026-09-04"},
+    {"title": "AACN — CCRN (Adult) Knowledge Professional Eligibility Pathway, CCRN-K (1,040/260 hours, eligible roles)", "url": "https://www.aacn.org/certification/get-certified/ccrn-k-adult", "accessed": "2026-09-04"},
+    {"title": "AACN — CCRN (Adult) Tele-critical Care Eligibility Pathway, CCRN-E (tele-critical care hour rules)", "url": "https://www.aacn.org/certification/get-certified/ccrn-e-adult", "accessed": "2026-09-04"},
+    {"title": "AACN — Certification Exam Policy Handbook (scheduling, rescheduling, exam-day policy, ADA accommodations)", "url": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/certpolicyhndbk.pdf", "accessed": "2026-09-04"},
+    {"title": "AACN — CCRN Renewal Handbook, Direct Care Pathway (CERP categories and renewal audit rules)", "url": "https://www.aacn.org/-/media/aacn-website/certification/cert-renewal/renew-handbooks/ccrnrenewalhandbook.pdf", "accessed": "2026-09-04"},
+    {"title": "AACN — Synergy Model for Patient Care (organizing framework for all AACN certification exams)", "url": "https://www.aacn.org/nursing-excellence/aacn-standards/synergy-model", "accessed": "2026-09-04"},
+    {"title": "US Bureau of Labor Statistics — Registered Nurses, Occupational Outlook Handbook (May 2025 median wage $97,550; 6% projected growth 2025-2035)", "url": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm", "accessed": "2026-09-04"}
+  ],
+  "discrepancies": [
+    {
+      "field": "fee_member / fee_nonmember",
+      "description": "Third-party pages in the content brief disagree with AACN and with each other: ccrnacademy.com cites $230/$335, nicolekupchikconsulting.com cites $255/$370, vivian.com cites $260/$375. AACN's own CCRN (Adult) page and the July 2026 exam handbook both state $260 member and $375 nonmember. The two lower figures are stale. Note that this site's existing pccn.js still carries the older $255/$370 AACN pricing and should be re-checked."
+    },
+    {
+      "field": "test_plan_effective_date",
+      "description": "Within the same handbook PDF, the Adult and Neonatal test plans say 'Applies to exams taken on and after November 12, 2025' while the Pediatric test plan says November 19, 2025. The cut-score table on the AACN exam statistics page gives 11/12/2025 for all three populations. Page text uses November 12, 2025 for the adult exam and does not assert a single date for all populations."
+    },
+    {
+      "field": "active_certificants (neonatal)",
+      "description": "AACN's 2025 statistics table lists CCRN (Neonatal) as 2,047 renewed and 443 total certificants, while 2024 lists 433 renewed and 1,955 total. The 2025 row appears to have the Renewed and Total Certificants values transposed. Neonatal certificant count is therefore recorded as null and is not published on the page."
+    },
+    {
+      "field": "blueprint percentage sums",
+      "description": "Pediatric category percentages sum to 101 and neonatal to 98. AACN prints the note 'The sum of these percentages may not equal 100 due to rounding' beneath each test plan, so this is expected rather than an error."
+    },
+    {
+      "field": "next exam revision date",
+      "description": "The content brief lists 'next certification date Nov 19, 2026' and 'exam launch date Nov. 19, 2026' attributed to aacn.org. That date belongs to AACN's revised CMC and CSC exams, not to CCRN. No CCRN revision is scheduled for November 2026; the current CCRN test plans took effect November 2025."
+    }
+  ],
+  "gaps": [
+    "Number of PSI testing locations. The brief cites '300-plus' from vivian.com; AACN does not publish a location count and PSI's network size was not verifiable from a primary source. The page says 'PSI test centers nationwide' without a number.",
+    "CCRN-specific salary premium. No primary source quantifies a pay differential for CCRN holders over non-certified critical care RNs. Only the BLS RN-wide median is stated; no dollar or percentage premium is claimed.",
+    "Per-subdomain weights inside Professional Caring and Ethical Practice. AACN lists the seven subdomains but publishes only the combined 20%.",
+    "Scored-item counts per blueprint category. AACN publishes percentages of the whole exam, not item counts per category, so item-level counts are not derived on the page.",
+    "Separate pass rates for the CCRN-K and CCRN-E eligibility pathways. AACN reports CCRN (Adult) as a single aggregate, so no pathway-level pass rate is stated.",
+    "Year the CCRN credential was first offered. Not stated on any AACN page fetched; no launch year is claimed on the page.",
+    "Employer reimbursement rates for the CCRN fee. Commonly reported anecdotally but not sourced; the page phrases this as 'many employers reimburse' without a figure."
+  ]
+}

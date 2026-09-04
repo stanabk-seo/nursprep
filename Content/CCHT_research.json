@@ -1,0 +1,329 @@
+{
+  "code": "CCHT",
+  "name": "Certified Clinical Hemodialysis Technician",
+  "researched_at": "2026-09-04T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "Nephrology Nursing Certification Commission (NNCC)",
+      "source": "https://www.nncc-exam.org/certification/ccht",
+      "confidence": "high"
+    },
+    "credential_level": {
+      "value": "Entry-level certification for clinical hemodialysis technicians / dialysis patient care technicians. This is a TECHNICIAN credential, not an RN or APRN certification. NNCC's own FAQ describes CCHT as 'an entry level certification credential' and CCHT-A as the advanced tier.",
+      "source": "https://www.nncc-exam.org/certification/ccht-a",
+      "confidence": "high"
+    },
+    "testing_partner": {
+      "value": "Center for Nursing Education and Testing (C-NET) develops and administers NNCC exams; PSI provides test-development and test-center support. Applications are mailed directly to C-NET for processing (800-463-0786, info@cnetnurse.com).",
+      "source": "https://www.nncc-exam.org/certification/ccht",
+      "confidence": "high"
+    },
+    "organization_founded": {
+      "value": 1987,
+      "note": "NNCC was established in 1987 to develop and implement nephrology nursing certification examinations. NNCC is a charter member of the American Board of Nursing Specialties (ABNS).",
+      "source": "https://www.nncc-exam.org/sites/default/files/prepguide/cchtPrepGuide.pdf",
+      "confidence": "high"
+    },
+    "active_certificants": {
+      "value": 38990,
+      "as_of": "2025-12-31",
+      "note": "Figure 5 of the NNCC 2025-2026 Annual Report: Certified Clinical Hemodialysis Technicians (CCHTs) by state, N = 38,990. By comparison CCHT-A = 152, CNN = 2,303, CDN = 2,303, CNN-NP = 159, CD-LPN/LVN = 8.",
+      "source": "https://www.nncc-exam.org/about/annualReport.pdf",
+      "confidence": "high"
+    },
+    "exams_administered_2025": {
+      "value": 7091,
+      "note": "Figure 1 of the NNCC 2025-2026 Annual Report: 7,091 CCHT examinations administered Jan-Dec 2025, out of 7,913 NNCC examinations total (CNN 381, CDN 356, CCHT-A 44, CNN-NP 41). CCHT is by far NNCC's highest-volume exam.",
+      "source": "https://www.nncc-exam.org/about/annualReport.pdf",
+      "confidence": "high"
+    },
+    "eligibility": {
+      "value": "Four requirements, all verified on the NNCC CCHT page: (1) minimum of a high school diploma or GED, with a copy of a government-approved diploma submitted; the name on the diploma must match the name on the application, or proof of name change must be attached. (2) Successful completion of a clinical hemodialysis technician training program that included both classroom instruction and supervised clinical experience, verified by the educator's signature or a certificate of completion. (3) Documented clinical, hands-on patient care experience: applicants not yet employed as a technician report training-program clinical hours and the training facility, with the facility administrator or manager signing to verify the experience was supervised by an RN; applicants employed as a clinical hemodialysis technician within the last 18 months report the employer and obtain the supervisor's signature. Applicants unemployed for 18 months or longer must show proof of current retraining and hands-on experience. (4) Compliance with federal and state regulations for hemodialysis patient care technicians, including the training and experience requirements of the CMS Conditions for Coverage for End Stage Renal Disease Facilities and of the state of practice.",
+      "source": "https://www.nncc-exam.org/certification/ccht",
+      "confidence": "high"
+    },
+    "experience_requirement": {
+      "value": null,
+      "recommended_hours": 1000,
+      "recommended_months": 6,
+      "note": "There is NO mandatory clinical-hours minimum for CCHT. NNCC states it is 'recommended, but not required, that an applicant have a minimum of six (6) months (or 1,000 hours) of clinical experience.' Do not present 1,000 hours as a gate.",
+      "source": "https://www.nncc-exam.org/certification/ccht",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based testing (CBT) by appointment at approved test centers, open testing year-round. There are no fixed testing windows. NNCC explicitly does not offer at-home or internet-proctored testing. An approved application produces a permit carrying a 90-day testing window.",
+      "source": "https://www.nncc-exam.org/resources/exam-sites",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 150,
+      "note": "NNCC does not publish a scored-vs-pretest split for CCHT; the blueprint distributes all 150 items across the four practice areas.",
+      "source": "https://www.nncc-exam.org/certification/ccht",
+      "confidence": "high"
+    },
+    "time_limit": {
+      "value": "3 hours",
+      "source": "https://www.nncc-exam.org/certification/ccht",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Standard (scaled) score of 95, which NNCC states is achieved by answering 74% of the test questions correctly.",
+      "scaled_score": 95,
+      "approx_pct_correct": 74,
+      "source": "https://www.nncc-exam.org/certification/ccht",
+      "confidence": "high"
+    },
+    "fee_exam": {
+      "value": 225,
+      "currency": "USD",
+      "note": "Includes a $50 non-refundable exam application processing fee.",
+      "source": "https://www.nncc-exam.org/certification/ccht",
+      "confidence": "high"
+    },
+    "fee_schedule_initial": {
+      "value": [
+        {"item": "Exam Fee", "amount": 225},
+        {"item": "CBT 90-day Extension", "amount": 125},
+        {"item": "Expedited Review", "amount": 75},
+        {"item": "Returned Check / Cancelled Payment Fee", "amount": 50},
+        {"item": "Late Fee", "amount": 50},
+        {"item": "Incomplete Application Fee", "amount": 50},
+        {"item": "Exam Application Processing Fee (non-refundable, included in exam fee)", "amount": 50},
+        {"item": "Duplicate Wallet Card or Certificate", "amount": 25},
+        {"item": "Certification Validation Letter (except to State Boards of Nursing)", "amount": 20},
+        {"item": "Online Practice Exam", "amount": 30}
+      ],
+      "source": "https://www.nncc-exam.org/certification/ccht",
+      "confidence": "high"
+    },
+    "fee_schedule_recert": {
+      "value": [
+        {"item": "Recert by Exam Fee", "amount": 225},
+        {"item": "Recert by Continuing Education Fee", "amount": 100},
+        {"item": "Emeritus Fee", "amount": 100},
+        {"item": "Expedited Review", "amount": 75},
+        {"item": "Late Fee", "amount": 50},
+        {"item": "Incomplete Application Fee", "amount": 50}
+      ],
+      "source": "https://www.nncc-exam.org/recertification/ccht",
+      "confidence": "high"
+    },
+    "official_practice_exam": {
+      "value": "The CCHT Practice Test costs $30, contains 50 multiple-choice questions, and is delivered by C-NET with 90 days of access. It runs in Practice Mode (answer plus rationale after each item) or Test Mode (results held to the end); both produce a score report broken down by blueprint area. Several scrambled versions of the same 50 questions are available for retesting. None of the practice items appear on the live exam.",
+      "note": "NNCC offers the practice exam FREE to approved CCHT-A applicants, but that concession is stated on the CCHT-A page only — for CCHT the published price is $30.",
+      "source": "https://www.nncc-exam.org/certification/ccht",
+      "confidence": "high"
+    },
+    "application_process": {
+      "value": "Download and complete the CCHT exam application, gather the diploma copy and the required educator / supervisor / facility-administrator signatures, and mail the packet with the fee directly to C-NET, NNCC's testing partner. Allow up to 4 weeks from receipt for the permit to be issued, pending approval. Expedited review ('FastTrack') costs $75 and issues the permit within 1-3 business days. Once the permit is issued, schedule a CBT appointment inside the permit's 90-day testing window; a $125 fee extends that window by another 90 days.",
+      "source": "https://www.nncc-exam.org/certification/ccht",
+      "confidence": "high"
+    },
+    "application_online_option": {
+      "value": "NNCC publishes an online application form for CCHT recertification (forms.nncc-exam.org). For the initial CCHT certification exam, the NNCC page links only to a downloadable PDF application, unlike CCHT-A which has an online certification application.",
+      "source": "https://www.nncc-exam.org/recertification/ccht",
+      "confidence": "medium"
+    },
+    "renewal_cycle_years": {
+      "value": 3,
+      "note": "Initial certification is effective for three years from the last day of the month in which the applicant passed the exam.",
+      "source": "https://www.nncc-exam.org/recertification/ccht",
+      "confidence": "high"
+    },
+    "renewal_requirements": {
+      "value": "Two pathways, both requiring 3,000 hours of dialysis technician work experience during the three-year certification period, verified by a current or previous supervisor. Pathway 1 - Recertify by Continuing Education/Clinical Experience: 30 contact hours of approved CE within the cycle, of which a minimum of 10 contact hours must be nephrology-specific ($100 fee). Pathway 2 - Recertify by Examination: retake and pass the CCHT exam at a CBT center before the expiration date ($225 fee); the CE submission is waived but all other requirements still apply.",
+      "source": "https://www.nncc-exam.org/recertification/ccht",
+      "confidence": "high"
+    },
+    "renewal_ce_sources": {
+      "value": "Acceptable CE sources are nursing continuing education programs, independent study programs offering nursing contact hours, and academic credit (coursework in a health/science degree program; 5 contact hours per semester credit, 3 per quarter credit — usable for only one recertification period). Preceptors may claim a maximum of 8 contact hours for 160 precepting hours in the cycle. NNCC strongly recommends but does not require that CE be approved by an ANCC-COA accredited organization, the American Association of Critical-Care Nurses (AACN), the Council of Continuing Education, or any State Board of Nursing.",
+      "source": "https://www.nncc-exam.org/recertification/ccht",
+      "confidence": "high"
+    },
+    "renewal_timing": {
+      "value": "CE-pathway applications must be postmarked by the last day of the month in which certification expires to avoid a late fee. NNCC review can take up to 8 weeks, so NNCC recommends submitting at least 3 months before expiration. Renewal reminders are sent approximately every 30 days starting 120 days before expiration. Updated wallet cards are mailed within 60 days of the National Office receiving the application; wall certificates are issued only once and are not reissued on recertification.",
+      "source": "https://www.nncc-exam.org/recertification/ccht",
+      "confidence": "high"
+    },
+    "lapsed_certification": {
+      "value": "Late recertification applications are accepted for up to 18 months past the expiration date with a $50 late fee, but all eligibility requirements must still have been met during the expired 3-year period. A technician who did not log 3,000 hours in the cycle is not eligible for recertification; if they worked as a dialysis technician within the last 18 months they may re-apply using the initial CCHT exam application, and if more than 18 months have passed they are treated as a new technician and must complete re-training before applying.",
+      "source": "https://www.nncc-exam.org/recertification/ccht",
+      "confidence": "high"
+    },
+    "emeritus_status": {
+      "value": "Technicians who have maintained an active credential, are over 50 years of age, and have retired from active practice may apply for Emeritus status with a one-time $100 fee. The emeritus credential acknowledges the prior active credential but returning to active practice requires meeting current eligibility criteria and certifying by examination.",
+      "source": "https://www.nncc-exam.org/recertification/ccht",
+      "confidence": "high"
+    },
+    "refund_policy": {
+      "value": "Written refund requests must be submitted by the payee and received by NNCC no later than two weeks before the close of the 90-day testing window printed on the permit. Refunds are issued minus the application processing fee and other non-refundable fees. Recertification application fees are non-refundable.",
+      "source": "https://www.nncc-exam.org/policies",
+      "confidence": "high"
+    },
+    "appeal_policy": {
+      "value": "A candidate who has been denied certification, failed an examination, or had certification revoked may appeal in writing to the NNCC President within 30 days of notification. A three-member committee reviews the appeal at a regularly scheduled NNCC meeting and the final decision is communicated in writing within 30 days of that meeting.",
+      "source": "https://www.nncc-exam.org/policies",
+      "confidence": "high"
+    },
+    "retake_policy": {
+      "value": null,
+      "note": "NNCC does not publish a retake waiting period or an attempt cap for CCHT on any page reviewed (CCHT, deadlines-and-policies, policies). Do not state a number. Candidates should contact C-NET at 800-463-0786.",
+      "source": null,
+      "confidence": "none"
+    },
+    "verification_directory": {
+      "value": "NNCC maintains a public Certified Directory for verifying CCHT status; certification expiration dates also appear on the certification wallet card. NNCC does not issue a certification number — some states issue their own registration or certification numbers, which is a separate state-level credential from the NNCC certification.",
+      "source": "https://www.nncc-exam.org/certification/ccht",
+      "confidence": "high"
+    },
+    "advanced_credential": {
+      "value": "CCHT-A (Certified Clinical Hemodialysis Technician - Advanced) requires 5 years of continuous employment and a minimum of 5,000 hours as a clinical dialysis technician, 30 contact hours of relevant CE in the previous 3 years, and current national certification as a CCHT, CHT, or CCNT. A CCHT cannot convert to CCHT-A by recertification — the CCHT-A exam must be taken and passed. NNCC's FailSafe policy automatically recertifies the CCHT credential of a current certificant who takes but does not pass the CCHT-A exam. The CCHT-A exam is also 150 questions in 3 hours, but its standard score of 95 corresponds to 70% correct rather than 74%.",
+      "source": "https://www.nncc-exam.org/certification/ccht-a",
+      "confidence": "high"
+    },
+    "ccht_a_promotional_fee": {
+      "value": "Starting 2026-04-01 and 'for a limited time only', NNCC reduced the CCHT-A exam fee from $225 to $100. This is a CCHT-A promotion and does not apply to the CCHT exam.",
+      "source": "https://www.nncc-exam.org/certification/ccht-a",
+      "confidence": "high"
+    },
+    "official_references": {
+      "value": [
+        "Medical Education Institute, Inc. (2018). Core Curriculum for the Dialysis Technician: A Comprehensive Review of Hemodialysis, 6th ed. Madison, WI: MEI.",
+        "Kallenbach, J.Z. (2016). Review of Hemodialysis for Nurses and Dialysis Personnel, 9th ed. St. Louis, MO: Elsevier/Mosby.",
+        "Centers for Medicare and Medicaid Services (CMS). End-Stage Kidney Disease Program Interpretive Guidance Version 1.1",
+        "NNCC (2023). Water for Dialysis: What You Need to Know. Pitman, NJ: NNCC."
+      ],
+      "note": "These are the core and additional references NNCC publishes for the CCHT exam. NNCC explicitly cautions against third-party 'tricks of testing' prep sites.",
+      "source": "https://www.nncc-exam.org/certification/ccht",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": null,
+      "note": "No BLS occupation code is specific to clinical hemodialysis technicians, and no primary-source wage figure for CCHT holders was verified. The content brief also directs the page to avoid specific salary figures. Omit salary claims from the page.",
+      "source": null,
+      "confidence": "none"
+    },
+    "pass_rate_by_attempt": {
+      "value": null,
+      "note": "NNCC publishes a single overall percentage per credential per year. It does not break out first-time versus repeat candidates for CCHT, so no first-time pass rate can be stated.",
+      "source": null,
+      "confidence": "none"
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "Clinical",
+      "weight_pct_range": "48-52%",
+      "weight_pct": 50,
+      "items_range": "71-78 of 150",
+      "note": "Cannulation, machine setup to prescription, vital signs and weights, intradialytic monitoring, aseptic technique, access assessment, initiation and discontinuation of treatment, heparin protocol, hypotension and cramping protocols, recognizing and reporting complications. 44 activity statements — the largest activity set in the blueprint.",
+      "source": "https://www.nncc-exam.org/sites/default/files/blueprints/cchtExamBlueprint_2021.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Technical",
+      "weight_pct_range": "21-25%",
+      "weight_pct": 23,
+      "items_range": "32-38 of 150",
+      "note": "Machine pressure and alarm tests, independent conductivity and pH verification, dialysate temperature, water treatment system monitoring, ion exchange and adsorption principles, quality-control checks, mixing concentrates, troubleshooting malfunctions, processing lab samples, documenting adverse equipment events. 12 activity statements.",
+      "source": "https://www.nncc-exam.org/sites/default/files/blueprints/cchtExamBlueprint_2021.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Environment",
+      "weight_pct_range": "13-17%",
+      "weight_pct": 15,
+      "items_range": "19-25 of 150",
+      "note": "Standard and dialysis precautions, equipment cleaning and disinfection, chemical surface disinfection, infection-control precautions and vaccination, body mechanics, fall-risk environment, facility start-up and shut-down, emergency exit pathways, fire and natural-disaster response, evacuation drills. 15 activity statements.",
+      "source": "https://www.nncc-exam.org/sites/default/files/blueprints/cchtExamBlueprint_2021.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Role Responsibilities",
+      "weight_pct_range": "10-14%",
+      "weight_pct": 12,
+      "items_range": "15-20 of 150",
+      "note": "Privacy, confidentiality and dignity, documentation, caregiver/patient boundaries, adherence support, communication technique, hand-off reporting, cultural diversity, care-team roles, reinforcing patient education, precepting, de-escalation. 17 activity statements.",
+      "source": "https://www.nncc-exam.org/sites/default/files/blueprints/cchtExamBlueprint_2021.pdf",
+      "confidence": "high"
+    }
+  ],
+  "blueprint_total_items": 150,
+  "blueprint_note": "Weights are published as ranges, not fixed percentages. The weight_pct values above are the midpoints of NNCC's published ranges and sum to 100; the authoritative figures are the ranges. Blueprint adopted 2001, 2011, 2018 (blueprint PDF) / accepted 2001, 2012, 2018 (specifications PDF); both documents are dated 2021 on the NNCC site and no newer revision was published as of the access date.",
+  "blueprint_cognitive_levels": [
+    {"level": "Knowledge", "weight_pct_range": "8-12%", "items_range": "13-17", "note": "Specifications PDF states 8-13%; blueprint PDF states 8-12%."},
+    {"level": "Comprehension", "weight_pct_range": "23-27%", "items_range": "35-39", "note": "Specifications PDF states 23-28%; blueprint PDF states 23-27%."},
+    {"level": "Application", "weight_pct_range": "63-67%", "items_range": "95-99", "note": "Both documents agree. Roughly two-thirds of the exam requires applying knowledge to a new clinical situation rather than recalling a fact."}
+  ],
+  "blueprint_source_pdfs": [
+    "https://www.nncc-exam.org/sites/default/files/blueprints/cchtExamBlueprint_2021.pdf",
+    "https://www.nncc-exam.org/sites/default/files/cchtSpecifications_2021_08272021.pdf"
+  ],
+  "pass_rate_history": [
+    {
+      "year": 2025,
+      "cohort": "all_participants",
+      "candidates": 7091,
+      "passed": null,
+      "pass_rate_pct": 65,
+      "note": "NNCC 2025-2026 Annual Report, Figure 2 ('Percentage of Participants Passing Certification Examinations in 2025'), read alongside Figure 1 exam volumes. Same-year comparators: CNN 56%, CDN 65%, CNN-NP 39%, CCHT-A 61%. Passed count is not published; 65% of 7,091 implies roughly 4,600 passes but NNCC does not state that number, so it is left null.",
+      "source": "https://www.nncc-exam.org/about/annualReport.pdf",
+      "confidence": "medium"
+    }
+  ],
+  "sources_index": [
+    {"title": "NNCC — CCHT certification page (eligibility, 150 items/3 hours, standard score 95 = 74%, standard fee schedule, practice test, references, FAQ)", "url": "https://www.nncc-exam.org/certification/ccht", "accessed": "2026-09-04"},
+    {"title": "NNCC — CCHT Test Blueprint 2021 PDF (ideal distribution of 150 items by practice area and cognitive level)", "url": "https://www.nncc-exam.org/sites/default/files/blueprints/cchtExamBlueprint_2021.pdf", "accessed": "2026-09-04"},
+    {"title": "NNCC / C-NET — CCHT Test Specifications 2021 PDF (blueprint category weights plus 88 activity statements)", "url": "https://www.nncc-exam.org/sites/default/files/cchtSpecifications_2021_08272021.pdf", "accessed": "2026-09-04"},
+    {"title": "NNCC — CCHT Recertification page (3-year cycle, 3,000 hours, 30 contact hours with 10 nephrology-specific, recert fee schedule, emeritus status, timing)", "url": "https://www.nncc-exam.org/recertification/ccht", "accessed": "2026-09-04"},
+    {"title": "NNCC — Recertification hub (confirms CCHT recertifies every three years)", "url": "https://www.nncc-exam.org/recertification", "accessed": "2026-09-04"},
+    {"title": "NNCC — 2025-2026 Annual Report PDF (Figure 1 exam volumes, Figure 2 pass percentages, Figure 5 CCHT certificant count 38,990)", "url": "https://www.nncc-exam.org/about/annualReport.pdf", "accessed": "2026-09-04"},
+    {"title": "NNCC — Exam Sites (computer-based testing, open year-round, all NNCC exams)", "url": "https://www.nncc-exam.org/resources/exam-sites", "accessed": "2026-09-04"},
+    {"title": "NNCC — Policies (refunds and the 90-day permit window, right of appeal, late recertification up to 18 months, incomplete application fee)", "url": "https://www.nncc-exam.org/policies", "accessed": "2026-09-04"},
+    {"title": "NNCC — CCHT-A certification page (5 years / 5,000 hours, FailSafe policy, CCHT-A 70% pass threshold, limited-time $100 fee)", "url": "https://www.nncc-exam.org/certification/ccht-a", "accessed": "2026-09-04"},
+    {"title": "NNCC — Certification hub (role-based credential map: CNN-NP, CNN, CDN, CD-LPN/CD-LVN, CCHT-A, CCHT)", "url": "https://www.nncc-exam.org/certification", "accessed": "2026-09-04"},
+    {"title": "NNCC — CCHT Certification Preparation Guide PDF (NNCC founded 1987, C-NET partnership, ABNS charter membership)", "url": "https://www.nncc-exam.org/sites/default/files/prepguide/cchtPrepGuide.pdf", "accessed": "2026-09-04"},
+    {"title": "BONENT — Certified Hemodialysis Technologist/Technician (CHT) credential, the main alternative to CCHT", "url": "https://bonent.org/certified-hemodialysis-technologist-technician-cht/", "accessed": "2026-09-04"},
+    {"title": "BONENT — Eligibility and fees (annual certification fee model, differs from NNCC's 3-year cycle)", "url": "https://bonent.org/eligibility-fees/", "accessed": "2026-09-04"}
+  ],
+  "discrepancies": [
+    {
+      "field": "passing_score",
+      "description": "The content brief flagged '74% vs 95' as a conflict. They are not in conflict — they are the same standard restated. NNCC sets a standard (scaled) score of 95, and states that score is reached by answering 74% of items correctly. The brief also quoted an nncc-exam.org sentence giving 70%; that sentence is on the CCHT-A page, not the CCHT page. 70% is the CCHT-A threshold, 74% is the CCHT threshold. Use 74% for CCHT."
+    },
+    {
+      "field": "experience_requirement",
+      "description": "The brief's fact table lists '2,000 hours' as the CCHT experience requirement, attributed to nncc-exam.org. That is wrong for CCHT. The CCHT page recommends but does not require 6 months / 1,000 hours. 2,000 hours is the requirement for CNN-NP and CD-LPN/CD-LVN. The page must not present any hours figure as mandatory for initial CCHT certification."
+    },
+    {
+      "field": "employment_duration_requirement",
+      "description": "The brief lists 'five (5) or more years' as an employment requirement sourced to msbn.ms.gov. Five years plus 5,000 hours is the CCHT-A eligibility rule, not CCHT. Do not apply it to CCHT."
+    },
+    {
+      "field": "application_fees",
+      "description": "The brief's '$50 initial application fee', '$75 reinstatement fee' and '$50 endorsement fee' come from the Mississippi Board of Nursing, which are state-level dialysis technician registration fees, not NNCC certification fees. NNCC's $50 is an exam application processing fee already included in the $225 exam fee. Mixing state registration fees into an NNCC fee table would be a factual error."
+    },
+    {
+      "field": "reminder_notice_period",
+      "description": "The brief lists a '90 days' text message reminder notice. NNCC's CCHT recertification page states reminders are sent approximately every 30 days starting 120 days prior to expiration. The 90-day figure on NNCC pages refers to the permit testing window and to practice-test access duration, not to renewal reminders."
+    },
+    {
+      "field": "blueprint_cognitive_levels",
+      "description": "The CCHT Test Specifications PDF and the CCHT Test Blueprint PDF give slightly different cognitive-level bands (Knowledge 8-13% vs 8-12%; Comprehension 23-28% vs 23-27%). Application is 63-67% in both. The blueprint PDF is the item-distribution document and is preferred where they differ. The page does not depend on these bands."
+    },
+    {
+      "field": "practice_exam_fee",
+      "description": "NNCC offers the online practice exam free to approved CCHT-A applicants. That concession appears only on the CCHT-A page. The CCHT page still lists $30, so the page states $30 for CCHT."
+    }
+  ],
+  "gaps": [
+    "Retake waiting period and maximum number of attempts for the CCHT exam — not published on the CCHT page, the deadlines-and-policies page, or the policies page. Left null; the page directs candidates to C-NET rather than stating a number.",
+    "Number of CCHT candidates who passed in 2025 — NNCC publishes the percentage (65%) and the volume (7,091) but not the pass count. Left null rather than multiplied out.",
+    "First-time versus repeat-candidate pass rates — NNCC does not disaggregate. The page describes 65% as an overall participant pass rate, not a first-time rate.",
+    "Multi-year CCHT pass-rate trend — only the current NNCC annual report (2025-2026) was retrievable at the stable /about/annualReport.pdf URL, which is overwritten each year. Prior-year CCHT percentages could not be verified, so pass_rate_history holds a single year.",
+    "Scored-versus-pretest item split — NNCC does not disclose whether any of the 150 CCHT items are unscored pretest items. No claim made either way.",
+    "Salary data for CCHT holders — no primary source and no BLS occupation code specific to hemodialysis technicians. Omitted from the page entirely, consistent with the brief's instruction to avoid salary figures.",
+    "Average preparation time and the effect of structured study on pass rates — no NNCC candidate-survey data exists. The 8-week study plan on the page is presented as a schedule built from the published blueprint weights, not as an evidence-backed predictor of passing.",
+    "Whether an online (non-PDF) application exists for initial CCHT certification — NNCC links an online form for CCHT recertification and for CCHT-A certification, but only a downloadable PDF for initial CCHT certification. Stated conservatively on the page."
+  ]
+}
