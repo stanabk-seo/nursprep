@@ -1,0 +1,301 @@
+{
+  "code": "PMHNP-BC",
+  "name": "Psychiatric-Mental Health Nurse Practitioner (Across the Lifespan) - Board Certified",
+  "researched_at": "2026-09-04T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "American Nurses Credentialing Center (ANCC), a subsidiary of the American Nurses Association (ANA)",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "credential_full_title": {
+      "value": "Psychiatric-Mental Health Nurse Practitioner (Across the Lifespan) Certification; credential awarded is PMHNP-BC. Formerly known as Family Psychiatric-Mental Health Nurse Practitioner.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "credential_level": {
+      "value": "Advanced practice registered nurse (APRN) / nurse practitioner credential. Aligns with the Consensus Model for APRN Regulation: Licensure, Accreditation, Certification and Education. Distinct from ANCC's RN-level PMH-BC (Psychiatric-Mental Health Nursing) credential.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "accreditation": {
+      "value": "Accredited by the Accreditation Board for Specialty Nursing Certification (ABSNC) and the National Commission for Certifying Agencies (NCCA).",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "eligibility_license": {
+      "value": "Hold a current, active RN license in a state or territory of the United States, or the professional, legally recognized equivalent in another country.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "eligibility_degree": {
+      "value": "Hold a PMHNP (Across the Lifespan) master's, post-graduate certificate, or Doctor of Nursing Practice (DNP) from an institution with a program accredited by CCNE, ACEN, or the NLN Commission for Nursing Education Accreditation (CNEA). For post-graduate certificate applicants, only PGC APRN program accreditation is accepted.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "eligibility_clinical_hours": {
+      "value": 500,
+      "unit": "faculty-supervised clinical hours",
+      "note": "A minimum of 500 faculty-supervised clinical hours must be included in the PMHNP (Across the Lifespan) program. ANCC does not require post-graduation practice hours for initial certification.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "eligibility_aprn_core_courses": {
+      "value": "Three separate, comprehensive, graduate-level APRN Core courses: (1) advanced physiology/pathophysiology including general principles across the life span; (2) advanced health assessment covering all human systems plus advanced assessment techniques, concepts, and approaches; (3) advanced pharmacology covering pharmacodynamics, pharmacokinetics, and pharmacotherapeutics of all broad categories of agents.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "eligibility_required_content": {
+      "value": "Coursework content in health promotion and/or maintenance, and in differential diagnosis and disease management including the use and prescription of pharmacologic and nonpharmacologic interventions.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "eligibility_psychotherapy_modalities": {
+      "value": 2,
+      "unit": "psychotherapeutic treatment modalities",
+      "note": "Clinical training in at least two psychotherapeutic treatment modalities is required. This is the requirement most specific to PMHNP-BC among ANCC NP certifications.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "eligibility_att_before_graduation": {
+      "value": "Candidates may be authorized to test after all coursework and faculty-supervised clinical hours are complete, prior to degree conferral, provided all other requirements are met and the Validation of Education (VOE) form plus official or unofficial transcripts are on file. Certification is issued only after the final degree-conferred official transcript is received.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based, multiple-choice examination delivered at Prometric test centers. Applications accepted year round; candidates test within a 120-day window.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "exam_vendor": {
+      "value": "Prometric (https://www.prometric.com/ancc)",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 175,
+      "scored": 150,
+      "pretest": 25,
+      "source": "https://www.nursingworld.org/globalassets/study-aids/exam-35-pmhnp-tco_2026-brand-update_final.pdf",
+      "confidence": "high"
+    },
+    "time_limit": {
+      "value": "3.5 hours",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Scaled score of 350 or higher on a scale with a maximum of 500. Raw score is converted to the scaled score; the minimum passing score is set by a subject-matter-expert panel using the Modified Angoff Method.",
+      "source": "https://www.nursingworld.org/globalassets/certification/ancc-certification-handbook.pdf",
+      "confidence": "high"
+    },
+    "testing_window": {
+      "value": "120 days from the Authorization to Test (ATT) notice. One-time extension to a new 120-day window is available for a $100 exam re-assignment fee; the new window must begin less than 6 months from the last day of the prior window.",
+      "source": "https://www.nursingworld.org/globalassets/certification/ancc-certification-handbook.pdf",
+      "confidence": "high"
+    },
+    "fee_initial": {
+      "value": {
+        "non_member": 395,
+        "ana_member": 295,
+        "aanp_member": 340,
+        "aanp_student_member": 290,
+        "apna_member": 220,
+        "ispn_member": 340,
+        "gapna_member": 340,
+        "admin_fee_included": 140,
+        "currency": "USD"
+      },
+      "note": "All initial-application prices include a $140 non-refundable administrative fee. ANA e-membership is excluded from the ANA-member rate and discounts cannot be combined. Discounts must be claimed within 5 business days of ANCC receiving the application.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "fee_renewal": {
+      "value": {
+        "non_member": 375,
+        "ana_member": 275,
+        "aanp_member": 295,
+        "apna_member": 250,
+        "ispn_member": 320,
+        "gapna_member": 320,
+        "admin_fee_included": 140,
+        "currency": "USD"
+      },
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "retest_fee": {
+      "value": null,
+      "note": "ANCC does not publish a separate PMHNP-BC retest price. Retest applications are reviewed as unique applications subject to the eligibility requirements and fee schedule in effect at submission, so the initial-application fee table applies. Do not state a distinct retest figure.",
+      "source": "https://www.nursingworld.org/certification/certification-policies/scores-retest-application/",
+      "confidence": "high"
+    },
+    "retest_policy": {
+      "value": "Candidates who do not pass may retest after 60 calendar days from the date last tested, and may not test more than three times in any 12-month period. Failing score reports include diagnostic information for each content area. Retest applications must be submitted at least 5 days after the examination.",
+      "source": "https://www.nursingworld.org/certification/certification-policies/scores-retest-application/",
+      "confidence": "high"
+    },
+    "certification_validity_years": {
+      "value": 5,
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "renewal_requirements_current": {
+      "value": "Under the ANCC Certification Renewal Handbook effective 2025-09-10 (Version 2, 2026-02-10): 75 continuing education contact hours (CE CH) directly related to the full scope of the certification role and specialty, at least 60 of which must be formally approved CE; APRN certificants must complete at least 25 of the 75 hours in advanced pharmacology; plus completion of at least one of the eight certification renewal professional development categories in its entirety. Applies to renewal applications submitted before 2027-02-01.",
+      "source": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf",
+      "confidence": "high"
+    },
+    "renewal_requirements_2027": {
+      "value": "The 2027 ANCC Certification Renewal Handbook (published July 2026, effective for renewal applications submitted on or after 2027-02-01) keeps the five-year cycle and the competence-based continuing-education-plus-professional-development model: a minimum of 75 approved or accredited CE contact hours relevant to the certification role, population and/or setting, with a minimum of 25 of the 75 in pharmacology for APRN certificants, plus one Selected Professional Development activity completed in its entirety from three categories - additional continuing education, practice, or scholarship.",
+      "source": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certification-renewal-handbook_2027.pdf",
+      "confidence": "high"
+    },
+    "renewal_transition": {
+      "value": "Certificants renewing before 2027-02-01 use the current handbook; certificants renewing on or after 2027-02-01 use the 2027 handbook. ANCC describes the 2027 framework as a clearer, more flexible renewal framework published in advance so certificants can prepare.",
+      "source": "https://www.nursingworld.org/certification/renewals/",
+      "confidence": "high"
+    },
+    "renewal_general_eligibility": {
+      "value": "Hold a current ANCC certification eligible for renewal; maintain a current, active RN license (or internationally recognized equivalent); complete renewal activities during the current five-year certification period; submit the renewal application before the certification expires. Renewal applications may be submitted up to one year before expiration. For APRNs, an expired certification may affect eligibility to practice depending on state licensure requirements.",
+      "source": "https://www.nursingworld.org/certification/renewals/",
+      "confidence": "high"
+    },
+    "active_certificants": {
+      "value": 58578,
+      "as_of": "2025-12-31",
+      "note": "Total certificants in the Psychiatric-Mental Health Nurse Practitioner (across the life span) program. 5,464 renewals were processed in 2025.",
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high"
+    },
+    "role_delineation_study": {
+      "value": "ANCC conducted the PMHNP role delineation study in 2021-2022 with a 7-member content expert panel; the survey ran 2022-05-11 to 2022-06-12 and 215 of 258 respondents (83%) completed it. It produced 16 knowledge areas and 20 skills across the five content domains that underpin the current Test Content Outline.",
+      "source": "https://www.nursingworld.org/globalassets/pmhnp-rds-exec-report_10292025-for-webposting.pdf",
+      "confidence": "high"
+    },
+    "study_aids": {
+      "value": "ANCC publishes a PMHNP Test Content Outline, a Test Reference List (dated 2025-09-03), a Psychiatric-Mental Health NP Readiness Test, sample test questions with answers, and the role delineation study executive summary.",
+      "source": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/",
+      "confidence": "high"
+    },
+    "np_scope_state_variation": {
+      "value": "AANP classifies state NP practice environments as Full Practice (NPs evaluate, diagnose, order and interpret tests, and initiate and manage treatments including prescribing medications and controlled substances under exclusive state board of nursing authority), Reduced Practice (career-long regulated collaborative agreement required, or setting limits), and Restricted Practice (career-long supervision, delegation, or team management required).",
+      "state_counts": null,
+      "note": "AANP's page presents counts only through an interactive map and downloadable PDF, so no state counts are recorded here.",
+      "source": "https://www.aanp.org/advocacy/state/state-practice-environment",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": "BLS does not publish a PMHNP-specific occupation code. The median annual wage for nurse practitioners was $132,300 in May 2025; the median for the combined nurse anesthetists, nurse midwives, and nurse practitioners group was $134,920. Employment of nurse practitioners was 336,300 in May 2025, and overall employment in the group is projected to grow 36 percent from 2025 to 2035 with about 32,200 openings per year.",
+      "pmhnp_specific_value": null,
+      "source": "https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm",
+      "confidence": "high"
+    },
+    "common_confusions": {
+      "value": [
+        {"credential": "PMH-BC", "disambiguation": "PMH-BC (Psychiatric-Mental Health Nursing) is ANCC's RN-level specialty certification. It requires an active RN license, 2 years of full-time RN practice, 2,000 psychiatric-mental health practice hours, and 30 PMH continuing education hours in the last 3 years - no graduate degree. PMHNP-BC requires a PMHNP master's, post-graduate certificate, or DNP with 500 faculty-supervised clinical hours. PMH-BC nurses do not diagnose or prescribe; PMHNPs do, within state scope."},
+        {"credential": "Adult Psychiatric-Mental Health Nurse Practitioner", "disambiguation": "A legacy adult-only ANCC psychiatric NP credential now closed to new candidates (renewal only; 3,127 certificants as of 2025-12-31). PMHNP-BC is the across-the-lifespan successor."},
+        {"credential": "PMHCNS-BC (Adult and Child/Adolescent Psychiatric-Mental Health Clinical Nurse Specialist)", "disambiguation": "ANCC psychiatric CNS credentials, renewal only. PMHNP-BC is the nurse practitioner role under the APRN Consensus Model."},
+        {"credential": "FNP-BC", "disambiguation": "ANCC's Family Nurse Practitioner credential covers primary care across the lifespan, not psychiatric-mental health specialty practice. Some clinicians hold both (FNP-C/FNP-BC plus PMHNP-BC)."},
+        {"credential": "Psychiatrist (MD/DO)", "disambiguation": "A physician credential requiring medical school and psychiatry residency. A PMHNP is not a physician; a PMHNP with a DNP holds a doctoral nursing degree, not a medical degree."}
+      ],
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "Scientific Foundation",
+      "scored_items": 33,
+      "weight_pct": 22,
+      "source": "https://www.nursingworld.org/globalassets/study-aids/exam-35-pmhnp-tco_2026-brand-update_final.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Advanced Practice Skills",
+      "scored_items": 41,
+      "weight_pct": 27,
+      "source": "https://www.nursingworld.org/globalassets/study-aids/exam-35-pmhnp-tco_2026-brand-update_final.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Diagnosis and Treatment",
+      "scored_items": 33,
+      "weight_pct": 22,
+      "source": "https://www.nursingworld.org/globalassets/study-aids/exam-35-pmhnp-tco_2026-brand-update_final.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Psychotherapy and Related Theories",
+      "scored_items": 17,
+      "weight_pct": 11,
+      "source": "https://www.nursingworld.org/globalassets/study-aids/exam-35-pmhnp-tco_2026-brand-update_final.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Ethics, Legal Principles, and Cultural Care",
+      "scored_items": 26,
+      "weight_pct": 17,
+      "source": "https://www.nursingworld.org/globalassets/study-aids/exam-35-pmhnp-tco_2026-brand-update_final.pdf",
+      "confidence": "high"
+    }
+  ],
+  "blueprint_total_scored_items": 150,
+  "blueprint_note": "Test Content Outline effective 2023-04-28 (PDF re-issued 2026-07-28 as a brand update, not a content change). Percentages sum to 99 because ANCC rounds each domain; the scored-item counts sum exactly to 150. The examination is also developed against secondary classifications for body systems, drug agents, and age group per the APRN Consensus Model.",
+  "blueprint_source_tco": "https://www.nursingworld.org/globalassets/study-aids/exam-35-pmhnp-tco_2026-brand-update_final.pdf",
+  "pass_rate_history": [
+    {
+      "year": 2025,
+      "cohort": "first_time",
+      "candidates": 10743,
+      "passed": 8840,
+      "pass_rate_pct": 82,
+      "source": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf",
+      "confidence": "high"
+    }
+  ],
+  "pass_rate_note": "ANCC publishes only the most recent year on its public certification-data sheet; the PMHNP-BC credential page states the same 82% figure. Earlier-year PMHNP-BC pass rates were not retrievable from an ANCC primary source and are recorded as a gap.",
+  "sources_index": [
+    {"title": "ANCC - Psychiatric-Mental Health Nurse Practitioner (Across the Lifespan) Certification (PMHNP-BC) credential page: eligibility, fees, exam format, renewal fees, pass rate", "url": "https://www.nursingworld.org/our-certifications/psychiatric-mental-health-nurse-practitioner/", "accessed": "2026-09-04"},
+    {"title": "ANCC - PMHNP-BC Test Content Outline (effective 2023-04-28; PDF updated 2026-07-28): five domains, scored-item counts, percentages", "url": "https://www.nursingworld.org/globalassets/study-aids/exam-35-pmhnp-tco_2026-brand-update_final.pdf", "accessed": "2026-09-04"},
+    {"title": "ANCC - 2025 Certification Data (PDF): first-time tested/passed/pass rate, renewals, total certified as of 2025-12-31", "url": "https://www.nursingworld.org/globalassets/docs/ancc/ancc-cert-data-website.pdf", "accessed": "2026-09-04"},
+    {"title": "ANCC - Certification Handbook (effective June 2025, Version 4, 2026-01-23): scaled passing score of 350 on a 500-point scale, Modified Angoff standard setting, 120-day testing window", "url": "https://www.nursingworld.org/globalassets/certification/ancc-certification-handbook.pdf", "accessed": "2026-09-04"},
+    {"title": "ANCC - Certification Renewal Handbook (effective 2025-09-10, Version 2 2026-02-10): 75 CE CH, 60 formally approved, 25 pharmacology hours for APRNs, one of eight professional development categories", "url": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certrenewalrequirements.pdf", "accessed": "2026-09-04"},
+    {"title": "ANCC - 2027 Certification Renewal Handbook (published July 2026, effective 2027-02-01): 75 CE CH with 25 pharmacology for APRNs plus one Selected Professional Development activity", "url": "https://www.nursingworld.org/globalassets/certification/renewals/ancc-certification-renewal-handbook_2027.pdf", "accessed": "2026-09-04"},
+    {"title": "ANCC - Certification Renewal overview: which handbook applies and the 2027-02-01 cutover", "url": "https://www.nursingworld.org/certification/renewals/", "accessed": "2026-09-04"},
+    {"title": "ANCC - Test Score Reports and Retest Application Procedures: 60-day wait, maximum three attempts per 12 months", "url": "https://www.nursingworld.org/certification/certification-policies/scores-retest-application/", "accessed": "2026-09-04"},
+    {"title": "ANCC - PMHNP Role Delineation Study Executive Summary (September 2022): methods and the five competency areas behind the TCO", "url": "https://www.nursingworld.org/globalassets/pmhnp-rds-exec-report_10292025-for-webposting.pdf", "accessed": "2026-09-04"},
+    {"title": "ANCC - PMHNP-BC Test Reference List (2025-09-03): official recommended preparation resources", "url": "https://www.nursingworld.org/globalassets/psychiatric-mental-health-nurse-practitioner-ref-list-2025_09032025.pdf", "accessed": "2026-09-04"},
+    {"title": "AANP - State Practice Environment (updated 05/2026): full, reduced, and restricted practice definitions", "url": "https://www.aanp.org/advocacy/state/state-practice-environment", "accessed": "2026-09-04"},
+    {"title": "US Bureau of Labor Statistics - Occupational Outlook Handbook, Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners (May 2025 wages, 2025-2035 projections)", "url": "https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm", "accessed": "2026-09-04"}
+  ],
+  "discrepancies": [
+    {
+      "field": "blueprint",
+      "description": "The content brief's fact-check table lists scored-question counts of 33 (Scientific Foundation), 41 (Advanced Practice Skills), 33 (Diagnosis and Treatment), and 17 (Psychotherapy and Related Theories) from a prep vendor, and omits the fifth domain entirely. Those four counts sum to 124, not the 150 scored items on the exam. The ANCC Test Content Outline confirms the four figures and adds Ethics, Legal Principles, and Cultural Care at 26 items (17%), which completes the 150. Use the ANCC figures."
+    },
+    {
+      "field": "prescribing_authority",
+      "description": "The brief cites a third-party claim that PMHNPs have prescribing privileges in 21 states. AANP's State Practice Environment page does not publish a state count in fetchable text, and prescriptive authority is governed by each state's practice environment classification rather than a single national number. The claim is not repeated on the page."
+    },
+    {
+      "field": "role_delineation_study_date",
+      "description": "The RDS PDF filename on nursingworld.org contains 10292025, which reads as an October 2025 study. The document itself is the September 2022 executive summary for the 2021-2022 role delineation study. The date in the filename is a web-posting date, not a study date."
+    },
+    {
+      "field": "test_content_outline_date",
+      "description": "The TCO PDF footer reads 'Updated: July 28, 2026' while the header states an effective date of April 28, 2023. The July 2026 date reflects a brand refresh of the PDF; the blueprint effective date remains 2023-04-28."
+    },
+    {
+      "field": "internal_certs_js",
+      "description": "src/_data/certs.js has no PMHNP-BC row (the psychiatric entry there is PMH-BC, listed at 175 questions, which conflicts with ANCC's 150-question PMH-BC exam). PMHNP-BC genuinely is a 175-question exam. certs.js was not edited as part of this page."
+    }
+  ],
+  "gaps": [
+    "PMHNP-BC pass rates for years before 2025 are not published on ANCC's public certification-data sheet, so pass_rate_history holds a single year and the page shows no multi-year trend.",
+    "ANCC publishes no separate PMHNP-BC retest price; retest_fee is null and the page states only that a retest is a new application at the current fee schedule.",
+    "The number of US states in each AANP practice-environment tier is not available as text on AANP's page (interactive map plus PDF only), so no state count appears in the research or on the page.",
+    "BLS has no PMHNP-specific occupation code, so no PMHNP salary figure is recorded; only the nurse practitioner occupation median ($132,300, May 2025) is cited, and it is not presented as a psychiatric NP salary.",
+    "ANCC does not publish a domain-level breakdown of where the 25 unscored pretest items fall, so no per-domain pretest distribution is stated.",
+    "ANCC does not publish a first-time versus repeat-taker split for PMHNP-BC; the 82% figure is labelled first-time test takers on the 2025 data sheet."
+  ]
+}

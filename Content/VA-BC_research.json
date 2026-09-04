@@ -1,0 +1,317 @@
+{
+  "code": "VA-BC",
+  "name": "Vascular Access Board Certified",
+  "researched_at": "2026-09-04T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "Vascular Access Certification Corporation (VACC)",
+      "source": "https://www.vacert.org/about-us/",
+      "confidence": "high"
+    },
+    "issuing_body_parent": {
+      "value": "VACC describes itself as an independent non-profit organization dedicated to certifying professionals in vascular access. It is NOT a department of the Association for Vascular Access (AVA). AVA is a separate membership society; the only formal link visible on VACC primary sources is a discounted exam and recertification rate for AVA members and a footer link to avainfo.org. VACC is administered from 555 E Wells St, Suite 1100, Milwaukee, WI 53202.",
+      "note": "Widely repeated third-party claims that VACC is 'AVA's certifying arm' are not supported by VACC's own About Us page, which uses the word 'independent'. Page copy should avoid stating that AVA administers or owns the credential.",
+      "source": "https://www.vacert.org/about-us/",
+      "confidence": "high"
+    },
+    "credential_awarded": {
+      "value": "Vascular Access-Board Certified (VA-BC™)",
+      "source": "https://www.vacert.org/faq/",
+      "confidence": "high"
+    },
+    "multidisciplinary_scope": {
+      "value": "The credential is multidisciplinary, not RN-only. VACC lists candidate disciplines including RNs, LPNs/LVNs, MDs, PAs, NPs, pharmacists, radiology technicians, respiratory therapists, infection preventionists, EMS professionals, and healthcare educators who teach in these areas.",
+      "source": "https://www.vacert.org/about-us/",
+      "confidence": "high"
+    },
+    "eligibility": {
+      "value": "Four requirements, all of which must be met: (1) a minimum of post-secondary education (e.g., LPN, nursing diploma, associate's, bachelor's); (2) status as a credentialed healthcare professional in a clinical practice that requires vascular access skills (e.g., MD, PA, NP, RN, LPN/LVN, RRT, RT, EMT, and healthcare educators teaching in these areas); (3) a minimum of one year of professional experience, with practice in the area of vascular access required for initial certification; (4) attestation to one of two practice categories — a healthcare professional in the field of vascular access, or a professional in a complementary field such as educator, administrator, infection control professional, or nutrition support professional. Current clinical practice must include at least two of five defined activities.",
+      "source": "https://www.vacert.org/eligibility/",
+      "confidence": "high"
+    },
+    "eligibility_practice_activities": {
+      "value": [
+        "Assessing, planning, implementing, and evaluating the care and needs of patients and clients who require vascular access in the course of their care",
+        "Education of individuals in best practice as it pertains to vascular access",
+        "Development and revision of vascular access policies and procedures",
+        "Management of vascular access activities",
+        "Provision of consultation of vascular access activities"
+      ],
+      "note": "Candidates must attest to at least two of these five.",
+      "source": "https://www.vacert.org/eligibility/",
+      "confidence": "high"
+    },
+    "required_vascular_access_hours": {
+      "value": null,
+      "note": "VACC publishes no numeric practice-hour requirement for VA-BC. The only quantified experience requirement is 'a minimum of 1 year of professional experience' plus current vascular access practice. Any page copy citing an hour count (e.g., 1,000 or 1,600 hours) would be wrong — 1,600 hours in 2 years is the CRNI requirement from INCC, not VA-BC.",
+      "source": "https://www.vacert.org/eligibility/",
+      "confidence": "high"
+    },
+    "eligibility_exclusions": {
+      "value": "The certification is explicitly not intended for sales, marketing, or other non-clinical industry professionals. Attestations are subject to verification by VACC staff. Industry professionals are directed to the separate Vascular Access Industry Partner™ Program.",
+      "source": "https://www.vacert.org/eligibility/",
+      "confidence": "high"
+    },
+    "ava_membership_required": {
+      "value": false,
+      "note": "VACC states participation is voluntary and open to anyone meeting eligibility; AVA membership is not required, though it unlocks a discounted fee.",
+      "source": "https://www.vacert.org/faq/",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based, four-option multiple choice. 150 items total, of which 125 are scored. Items are written at three cognitive levels: recall, application, and analysis. A separate 15-minute tutorial precedes the exam and a separate 15-minute survey follows it; neither counts against testing time. Offered in English only, with US-based references reflecting US clinical practice.",
+      "source": "https://www.vacert.org/about-the-exam/",
+      "confidence": "high"
+    },
+    "exam_vendor": {
+      "value": "Prometric — test centers across the US (including US territories) and Canada plus select international sites, and ProProctor remote proctoring (the default option for candidates outside the US and Canada).",
+      "source": "https://www.vacert.org/about-the-exam/",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 150,
+      "scored": 125,
+      "pretest": 25,
+      "note": "VACC states 150 questions of which 125 are used in computing the score; it does not use the word 'pretest', so the 25 unscored items are described as unscored rather than pretest on the page.",
+      "source": "https://www.vacert.org/detail-content-outline/",
+      "confidence": "high"
+    },
+    "time_limit": {
+      "value": "2 hours 30 minutes",
+      "source": "https://www.vacert.org/about-the-exam/",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Scaled score of 90. Scale scores range from a low of 30 to a high of 140. A scale score is neither the number nor the percentage of questions answered correctly; the raw score equivalent of 90 varies by test form.",
+      "source": "https://www.vacert.org/faq/",
+      "confidence": "high"
+    },
+    "score_report": {
+      "value": "Passing candidates receive a report reading only PASS. Failing candidates receive their scaled score plus diagnostic feedback per content area, rated Proficient, Marginal, or Deficient.",
+      "source": "https://www.vacert.org/faq/",
+      "confidence": "high"
+    },
+    "fee_exam_early_nonmember": {
+      "value": 400,
+      "currency": "USD",
+      "note": "Early registration window: March 1–20 for June testing, September 1–20 for December testing.",
+      "source": "https://www.vacert.org/dates-and-deadlines/",
+      "confidence": "high"
+    },
+    "fee_exam_early_ava_member": {
+      "value": 300,
+      "currency": "USD",
+      "source": "https://www.vacert.org/dates-and-deadlines/",
+      "confidence": "high"
+    },
+    "fee_exam_final_nonmember": {
+      "value": 475,
+      "currency": "USD",
+      "note": "Final registration window: March 21–April 15 for June testing, September 21–October 15 for December testing.",
+      "source": "https://www.vacert.org/dates-and-deadlines/",
+      "confidence": "high"
+    },
+    "fee_exam_final_ava_member": {
+      "value": 375,
+      "currency": "USD",
+      "source": "https://www.vacert.org/dates-and-deadlines/",
+      "confidence": "high"
+    },
+    "fee_retest": {
+      "value": 375,
+      "member_value": 275,
+      "currency": "USD",
+      "note": "Retest after a failed attempt, same price in both early and final windows.",
+      "source": "https://www.vacert.org/dates-and-deadlines/",
+      "confidence": "high"
+    },
+    "fee_late_application": {
+      "value": 550,
+      "member_value": 450,
+      "currency": "USD",
+      "note": "Online applications only after the posted deadline. Late retest applications are $450 / $350 member.",
+      "source": "https://www.vacert.org/dates-and-deadlines/",
+      "confidence": "high"
+    },
+    "fee_admin_extras": {
+      "value": "Mailed or faxed applications add a $25 administrative fee. Withdrawal refunds return all but a $50 administrative fee. Transferring to another testing window costs $25 and is allowed a maximum of twice. Cancelling with Prometric fewer than 29 days out incurs a $25 fee collected by Prometric.",
+      "source": "https://www.vacert.org/faq/",
+      "confidence": "high"
+    },
+    "fee_recertification": {
+      "value": "Online recertification application: $340 non-member / $240 AVA member during early registration; $390 / $290 during final registration. Mail or fax adds $25 ($365/$265 early, $415/$315 final). Late application during the expiry month is $465 / $365. Late after suspension, before the next test cycle, is $540 / $440.",
+      "source": "https://www.vacert.org/dates-fees/",
+      "confidence": "high"
+    },
+    "voucher_program": {
+      "value": "VACC runs institutional voucher programs for both initial exam and recertification, which VACC describes as its lowest available rates. Per-voucher pricing is not published on the public pages.",
+      "source": "https://www.vacert.org/dates-and-deadlines/",
+      "confidence": "medium"
+    },
+    "exam_windows": {
+      "value": "Two windows per year: June 1–30 and December 1–31. Applications for the June seating run March 1 through April 15 (early rate through March 20); applications for the December seating run September 1 through October 15 (early rate through September 20). Prometric appointments may be scheduled from receipt of the Authorization to Test (ATT) letter through the first day of the window.",
+      "source": "https://www.vacert.org/dates-and-deadlines/",
+      "confidence": "high"
+    },
+    "att_letter": {
+      "value": "After eligibility confirmation, candidates receive an Authorization to Test (ATT) letter by email, typically within 2–5 business days. Photo ID with signature plus the ATT letter are required at the test site, and the name on both must match exactly.",
+      "source": "https://www.vacert.org/faq/",
+      "confidence": "high"
+    },
+    "retake_policy": {
+      "value": "A failed candidate may retake at the next regularly scheduled exam cycle (not the same window) with a new application and fee. There is no lifetime limit on attempts, but after three consecutive failed attempts a candidate must wait a minimum of one year before retesting.",
+      "source": "https://www.vacert.org/faq/",
+      "confidence": "high"
+    },
+    "renewal_cycle_years": {
+      "value": 3,
+      "source": "https://www.vacert.org/about-the-exam/",
+      "confidence": "high"
+    },
+    "renewal_requirements": {
+      "value": "Recertify by earning 30 continuing education credits, all related to vascular access, or by retaking the exam. CEs may be earned entirely online, must come from more than one activity, and must not all fall within a single calendar year of the three-year cycle. Renewal documents and fees are due June 1 for June-expiring credentials and December 1 for December-expiring credentials; applications are accepted within 10 months of the due date. VACC randomly audits a portion of recertification applications.",
+      "source": "https://www.vacert.org/faq/",
+      "confidence": "high"
+    },
+    "active_certificants": {
+      "value": 6295,
+      "as_of": "2026-09-04",
+      "source": "https://www.vacert.org/exam-summary/",
+      "confidence": "high"
+    },
+    "catheter_days_context": {
+      "value": "VACC cites 15 million catheter days each year in the US as the scale of the practice area VA-BC covers.",
+      "source": "https://www.vacert.org/",
+      "confidence": "high"
+    },
+    "accreditation": {
+      "value": "Accredited by the National Commission for Certifying Agencies (NCCA). Recognized by the American Nurses Credentialing Center (ANCC) for the Magnet Recognition Program as an NCCA-accredited board certification. Listed on the Veterans Administration approved listing for nursing certifications and approved for GI Bill reimbursement.",
+      "source": "https://www.vacert.org/faq/",
+      "confidence": "high"
+    },
+    "job_analysis": {
+      "value": "The current test specification is based on a job analysis (role delineation study) completed in 2025. VACC repeats this study every 4–5 years.",
+      "source": "https://www.vacert.org/about-the-exam/",
+      "confidence": "high"
+    },
+    "study_materials_policy": {
+      "value": "Because of NCCA accreditation requirements, VACC does not produce comprehensive study guides and does not endorse or sponsor any external review course. It publishes the Candidate Handbook, the test content outline, an exam reference list, and a paid practice-question set.",
+      "source": "https://www.vacert.org/how-to-study/",
+      "confidence": "high"
+    },
+    "exam_reference_list": {
+      "value": "Core references include the INS Infusion Therapy Standards of Practice (2024), AVA Clinical Practice Guidelines for Adults (2026), AVA pediatric CVC best practice guidelines, SHEA/IDSA CLABSI prevention strategies (2022 update), the WHO 2024 peripheral catheter infection guidelines, MAGIC appropriateness criteria, ASA Practice Guidelines for Central Venous Access, KDOQI vascular access guidelines, Joint Commission National Patient Safety Goals, and Moureau's Vessel Health and Preservation.",
+      "source": "https://www.vacert.org/exam-references/",
+      "confidence": "high"
+    },
+    "common_confusions": {
+      "value": [
+        {"credential": "CRNI", "disambiguation": "CRNI (Certified Registered Nurse Infusion) is issued by the Infusion Nurses Certification Corporation (INCC), the certifying body affiliated with the Infusion Nurses Society. It is RN-only and requires 1,600 hours of infusion therapy experience as an RN within the past two years. Its exam is 140 items with 120 scored over 2.5 hours across three content areas. VA-BC is multidisciplinary, device- and access-focused, and has no numeric hour requirement."},
+        {"credential": "PICC certification / PICC course", "disambiguation": "Insertion courses for peripherally inserted central catheters are education, not board certification. VA-BC is a psychometrically developed, NCCA-accredited exam credential."},
+        {"credential": "Vascular Access Industry Partner™", "disambiguation": "VACC's separate certificate program for non-clinical industry professionals, who are explicitly ineligible for VA-BC."},
+        {"credential": "AVA membership", "disambiguation": "Membership in the Association for Vascular Access is a professional society membership that discounts the VA-BC fee. It is not a credential and is not required to sit the exam."}
+      ],
+      "source": "https://www.ins1.org/crni/exam/overview/",
+      "confidence": "high"
+    },
+    "crni_comparison_detail": {
+      "value": {
+        "body": "Infusion Nurses Certification Corporation (INCC)",
+        "eligibility": "Current, active, unrestricted US RN license plus a minimum of 1,600 hours of infusion therapy experience as an RN within the past two years; hours need not be direct bedside care and may include education, administration, research, or clinical practice within the infusion specialty.",
+        "items": 140,
+        "scored_items": 120,
+        "time_limit": "2.5 hours",
+        "content_areas": [
+          {"area": "Principles of Practice", "questions": 35, "weight_pct": 29},
+          {"area": "Access Devices", "questions": 39, "weight_pct": 33},
+          {"area": "Infusion Therapies", "questions": 46, "weight_pct": 38}
+        ],
+        "accreditation": "NCCA and ABSNC accredited"
+      },
+      "source": "https://www.ins1.org/crni/exam/overview/",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": null,
+      "note": "No primary-source salary figure exists for VA-BC holders. BLS publishes no vascular-access occupation code, and because VA-BC spans RNs, physicians, PAs, radiologic technologists, paramedics, and respiratory therapists, a single RN wage figure would misrepresent the population. Third-party figures circulating in SERPs (e.g., a $103,000 average from credenzahealth.com) are unverified and are not used on the page.",
+      "source": null,
+      "confidence": "low"
+    }
+  },
+  "blueprint": [
+    {"domain": "Device Assessment and Selection", "category": "I", "weight_pct": 14, "scored_items": null, "source": "https://www.vacert.org/detail-content-outline/", "confidence": "high"},
+    {"domain": "Patient Assessment", "category": "II", "weight_pct": 18, "scored_items": null, "source": "https://www.vacert.org/detail-content-outline/", "confidence": "high"},
+    {"domain": "Preparation", "category": "III", "weight_pct": 11, "scored_items": null, "source": "https://www.vacert.org/detail-content-outline/", "confidence": "high"},
+    {"domain": "Insertion", "category": "IV", "weight_pct": 11, "scored_items": null, "source": "https://www.vacert.org/detail-content-outline/", "confidence": "high"},
+    {"domain": "Care and Maintenance", "category": "V", "weight_pct": 14, "scored_items": null, "source": "https://www.vacert.org/detail-content-outline/", "confidence": "high"},
+    {"domain": "Troubleshooting Complications and Interventions", "category": "VI", "weight_pct": 16, "scored_items": null, "source": "https://www.vacert.org/detail-content-outline/", "confidence": "high"},
+    {"domain": "Professional Development and Evidence-Based Practice", "category": "VII", "weight_pct": 8, "scored_items": null, "source": "https://www.vacert.org/detail-content-outline/", "confidence": "high"},
+    {"domain": "Legal and Ethical Considerations", "category": "VIII", "weight_pct": 8, "scored_items": null, "source": "https://www.vacert.org/detail-content-outline/", "confidence": "high"}
+  ],
+  "blueprint_total_scored_items": 125,
+  "blueprint_note": "Eight domains, weights published as percentages only; VACC does not publish scored-item counts per domain, so scored_items is null for every row. Percentages sum to 100. VACC's own table mislabels the eighth category 'IIX' — this is a typo for VIII and is corrected here. Weights derive from the 2025 job analysis and the 2025 VA-BC Test Content Outline.",
+  "blueprint_source_dco": "https://www.vacert.org/wp-content/uploads/2026/01/2025-VA-BC-Test-Content-Outline.pdf",
+  "pass_rate_history": [
+    {"year": 2025, "cohort": "all", "candidates": 1162, "passed": null, "pass_rate_pct": 84, "source": "https://www.vacert.org/exam-summary/", "confidence": "high"},
+    {"year": 2024, "cohort": "all", "candidates": 1132, "passed": null, "pass_rate_pct": 86, "source": "https://www.vacert.org/exam-summary/", "confidence": "high"},
+    {"year": 2023, "cohort": "all", "candidates": 1080, "passed": null, "pass_rate_pct": 88, "source": "https://www.vacert.org/exam-summary/", "confidence": "high"},
+    {"year": 2022, "cohort": "all", "candidates": 834, "passed": null, "pass_rate_pct": 85, "source": "https://www.vacert.org/exam-summary/", "confidence": "high"},
+    {"year": 2021, "cohort": "all", "candidates": 925, "passed": null, "pass_rate_pct": 89, "source": "https://www.vacert.org/exam-summary/", "confidence": "high"},
+    {"year": 2020, "cohort": "all", "candidates": 732, "passed": null, "pass_rate_pct": 77, "source": "https://www.vacert.org/exam-summary/", "confidence": "high"},
+    {"year": 2019, "cohort": "all", "candidates": 827, "passed": null, "pass_rate_pct": 77, "source": "https://www.vacert.org/exam-summary/", "confidence": "high"},
+    {"year": 2018, "cohort": "all", "candidates": 928, "passed": null, "pass_rate_pct": 81, "source": "https://www.vacert.org/exam-summary/", "confidence": "high"},
+    {"year": 2017, "cohort": "all", "candidates": 752, "passed": null, "pass_rate_pct": 80, "source": "https://www.vacert.org/exam-summary/", "confidence": "high"},
+    {"year": 2016, "cohort": "all", "candidates": 696, "passed": null, "pass_rate_pct": 83, "source": "https://www.vacert.org/exam-summary/", "confidence": "high"},
+    {"year": 2015, "cohort": "all", "candidates": 646, "passed": null, "pass_rate_pct": 85, "source": "https://www.vacert.org/exam-summary/", "confidence": "high"},
+    {"year": 2014, "cohort": "all", "candidates": 569, "passed": null, "pass_rate_pct": 87, "source": "https://www.vacert.org/exam-summary/", "confidence": "high"},
+    {"year": 2026, "cohort": "june_window", "candidates": null, "passed": 592, "pass_rate_pct": 88, "note": "Single-window result for the June 2026 seating; 695 additional certificants renewed by CE in the same window.", "source": "https://www.vacert.org/window-results/", "confidence": "high"}
+  ],
+  "sources_index": [
+    {"title": "VACC — Home (catheter days, active certificant count, Candidate Handbook link)", "url": "https://www.vacert.org/", "accessed": "2026-09-04"},
+    {"title": "VACC — About the Exam (150 items, 125 scored, 2.5 hours, June/December windows, Prometric, 3-year term)", "url": "https://www.vacert.org/about-the-exam/", "accessed": "2026-09-04"},
+    {"title": "VACC — Eligibility (four requirements, discipline list, two-of-five practice activities)", "url": "https://www.vacert.org/eligibility/", "accessed": "2026-09-04"},
+    {"title": "VACC — Detailed Content Outline (eight domains with percentage weights, cognitive levels)", "url": "https://www.vacert.org/detail-content-outline/", "accessed": "2026-09-04"},
+    {"title": "VACC — Dates, Deadlines & Fees (registration windows, exam and retest fees, testing environments)", "url": "https://www.vacert.org/dates-and-deadlines/", "accessed": "2026-09-04"},
+    {"title": "VACC — Recertification Dates and Fees (expiry schedule, recertification fee table)", "url": "https://www.vacert.org/dates-fees/", "accessed": "2026-09-04"},
+    {"title": "VACC — The Recertification Process (three-year cycle rationale, CE or exam pathways)", "url": "https://www.vacert.org/the-recertification-process/", "accessed": "2026-09-04"},
+    {"title": "VACC — FAQs (scaled passing score of 90, 30 CE requirement, retake policy, accreditation recognitions)", "url": "https://www.vacert.org/faq/", "accessed": "2026-09-04"},
+    {"title": "VACC — Exam Summary (annual exam volumes and pass rates 2014–2025, total certificants)", "url": "https://www.vacert.org/exam-summary/", "accessed": "2026-09-04"},
+    {"title": "VACC — Window Results (June 2026 seating: 592 passed, 88% pass rate, 695 CE renewals)", "url": "https://www.vacert.org/window-results/", "accessed": "2026-09-04"},
+    {"title": "VACC — About Us (independent non-profit status, multidisciplinary candidate list, practice settings)", "url": "https://www.vacert.org/about-us/", "accessed": "2026-09-04"},
+    {"title": "VACC — How to Study (NCCA firewall, no endorsed review courses, official study materials)", "url": "https://www.vacert.org/how-to-study/", "accessed": "2026-09-04"},
+    {"title": "VACC — Exam References (core guideline, review, and textbook reference list)", "url": "https://www.vacert.org/exam-references/", "accessed": "2026-09-04"},
+    {"title": "VACC — 2026 Candidate Handbook (PDF)", "url": "https://www.vacert.org/wp-content/uploads/2026/02/Candidate-Handbook-2026.pdf", "accessed": "2026-09-04"},
+    {"title": "VACC — 2025 VA-BC Test Content Outline (PDF)", "url": "https://www.vacert.org/wp-content/uploads/2026/01/2025-VA-BC-Test-Content-Outline.pdf", "accessed": "2026-09-04"},
+    {"title": "VACC — 2025 Job Analysis Report (PDF)", "url": "https://www.vacert.org/wp-content/uploads/2026/02/VACC-VA-BC-Job-Analysis-Report-2025.pdf", "accessed": "2026-09-04"},
+    {"title": "INCC / INS — CRNI Exam Overview (eligibility, 1,600 hours, 140/120 items, three content areas)", "url": "https://www.ins1.org/crni/exam/overview/", "accessed": "2026-09-04"},
+    {"title": "Association for Vascular Access — society site referenced by VACC for member discounts and resources", "url": "https://www.avainfo.org/", "accessed": "2026-09-04"}
+  ],
+  "discrepancies": [
+    {
+      "field": "issuing_body_parent",
+      "description": "The assignment brief and many third-party pages describe VACC as AVA's certifying arm. VACC's own About Us page calls VACC 'an independent non-profit organization'. Primary source wins: the page describes VACC as independent and AVA as a separate society offering a member discount."
+    },
+    {
+      "field": "blueprint",
+      "description": "VACC's detailed content outline table labels the eighth category 'IIX'. This is a typographical error for VIII; the eight categories and their percentages otherwise sum cleanly to 100%."
+    },
+    {
+      "field": "pass_rate",
+      "description": "Two views coexist on VACC's site: the calendar-year table on /exam-summary/ (2025: 84% of 1,162 exams) and the single-window announcement on /window-results/ (June 2026: 88%, 592 passers). They are not contradictory but measure different periods. The page leads with the calendar-year series and labels the window figure separately."
+    },
+    {
+      "field": "required_experience",
+      "description": "Third-party pages sometimes attach CRNI's 1,600-hour rule to VA-BC. VACC requires one year of professional experience plus current vascular access practice, with no hour count. Recorded as null rather than borrowed."
+    }
+  ],
+  "gaps": [
+    "Per-domain scored-item counts are not published; only percentage weights are available, so scored_items is null across the blueprint.",
+    "Passed counts by calendar year are not published — only exam volume and pass-rate percentage — so 'passed' is null in the annual pass_rate_history rows.",
+    "First-time versus repeat-taker pass rates are not broken out by VACC.",
+    "Voucher Program per-seat pricing is not published publicly; VACC only states it is the lowest available rate.",
+    "AVA membership dues are not verified from a primary source, so no dollar figure for the membership that unlocks the discount appears on the page.",
+    "No salary figure for VA-BC holders exists in a primary source; the credential spans multiple professions, so no wage number is stated.",
+    "Average preparation hours and study-time benchmarks are not published by VACC; the study plan is framed as a schedule, not as a VACC-endorsed workload.",
+    "The 2026 Candidate Handbook and 2025 Test Content Outline PDFs were not machine-parsed in this pass; page-level facts were taken from the corresponding HTML pages, which restate them. Sub-domain task statements should be verified against the PDF before adding deeper blueprint detail."
+  ]
+}

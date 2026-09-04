@@ -513,6 +513,142 @@
       "last_error": null,
       "last_attempt_at": "2026-05-21T19:09:01.370893Z",
       "completed_at": "2026-05-21T19:15:40.202470Z"
+    },
+    {
+      "code": "CCHT",
+      "csv_keyword": "ccht",
+      "has_outline": true,
+      "status": "done",
+      "attempts": 1,
+      "stages": {
+        "brief": "done",
+        "research": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "last_error": null,
+      "last_attempt_at": "2026-09-04T15:33:36Z",
+      "completed_at": "2026-09-04T15:33:36Z"
+    },
+    {
+      "code": "CCRN",
+      "csv_keyword": "ccrn",
+      "has_outline": true,
+      "status": "done",
+      "attempts": 1,
+      "stages": {
+        "brief": "done",
+        "research": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "last_error": null,
+      "last_attempt_at": "2026-09-04T15:33:36Z",
+      "completed_at": "2026-09-04T15:33:36Z"
+    },
+    {
+      "code": "CNML",
+      "csv_keyword": "cnml",
+      "has_outline": true,
+      "status": "done",
+      "attempts": 1,
+      "stages": {
+        "brief": "done",
+        "research": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "last_error": null,
+      "last_attempt_at": "2026-09-04T15:33:36Z",
+      "completed_at": "2026-09-04T15:33:36Z"
+    },
+    {
+      "code": "NIHSS",
+      "csv_keyword": "nihss",
+      "has_outline": true,
+      "status": "done",
+      "attempts": 1,
+      "stages": {
+        "brief": "done",
+        "research": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "last_error": null,
+      "last_attempt_at": "2026-09-04T15:33:36Z",
+      "completed_at": "2026-09-04T15:33:36Z"
+    },
+    {
+      "code": "PMHNP-BC",
+      "csv_keyword": "pmhnp_bc",
+      "has_outline": true,
+      "status": "done",
+      "attempts": 1,
+      "stages": {
+        "brief": "done",
+        "research": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "last_error": null,
+      "last_attempt_at": "2026-09-04T15:33:36Z",
+      "completed_at": "2026-09-04T15:33:36Z"
+    },
+    {
+      "code": "RNC-MNN",
+      "csv_keyword": "rnc_mnn",
+      "has_outline": true,
+      "status": "done",
+      "attempts": 1,
+      "stages": {
+        "brief": "done",
+        "research": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "last_error": null,
+      "last_attempt_at": "2026-09-04T15:33:36Z",
+      "completed_at": "2026-09-04T15:33:36Z"
+    },
+    {
+      "code": "RNC-NIC",
+      "csv_keyword": "rnc_nic",
+      "has_outline": true,
+      "status": "done",
+      "attempts": 1,
+      "stages": {
+        "brief": "done",
+        "research": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "last_error": null,
+      "last_attempt_at": "2026-09-04T15:33:36Z",
+      "completed_at": "2026-09-04T15:33:36Z"
+    },
+    {
+      "code": "VA-BC",
+      "csv_keyword": "va_bc",
+      "has_outline": true,
+      "status": "done",
+      "attempts": 1,
+      "stages": {
+        "brief": "done",
+        "research": "done",
+        "data_file": "done",
+        "build_validated": "done",
+        "committed": "done"
+      },
+      "last_error": null,
+      "last_attempt_at": "2026-09-04T15:33:36Z",
+      "completed_at": "2026-09-04T15:33:36Z"
     }
   ]
 }

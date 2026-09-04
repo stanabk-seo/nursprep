@@ -1,0 +1,292 @@
+{
+  "code": "CNML",
+  "name": "Certified Nurse Manager and Leader",
+  "researched_at": "2026-09-04T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "AONL Credentialing Center (AONL-CC)",
+      "note": "The CNML Examination and Program Handbook (revised 05/2025) states plainly: 'The CNML certification is developed and administered by the AONL Credentialing Center (AONL-CC).' The AONL-CC is an activity of the American Organization for Nursing Leadership (AONL); the AONL-CC Steering Committee governs both the CNML and CENP programs.",
+      "source": "https://www.aonl.org/system/files/media/file/2025/06/CNML-Handbook.pdf",
+      "confidence": "high"
+    },
+    "issuing_body_parent": {
+      "value": "American Organization for Nursing Leadership (AONL), a subsidiary of the American Hospital Association (AHA). AONL was named the American Organization of Nurse Executives (AONE) until 2019.",
+      "source": "https://www.aonl.org/initiatives/certification",
+      "confidence": "high"
+    },
+    "consulting_agencies": {
+      "value": "AONL-CC contracts with the American Hospital Association Certification Center (AHA-CC) for project management and quality assurance. The AHA-CC in turn engages PSI for development, administration, scoring, score reporting and analysis of the CNML Examination.",
+      "source": "https://www.aonl.org/system/files/media/file/2025/06/CNML-Handbook.pdf",
+      "confidence": "high"
+    },
+    "aacn_relationship": {
+      "value": "AACN Certification Corporation is NOT a current partner in the CNML program.",
+      "note": "CNML launched in 2008 as a joint offering of the AONE Credentialing Center and AACN Certification Corporation (the certification arm of the American Association of Critical-Care Nurses); older CNML handbooks carried a section headed 'ABOUT THE AONE-CC AND THE AACN CERT CORP'. The current handbook (revised 05/2025) contains no mention of AACN and names AONL-CC as sole developer/administrator. AACN Certification Corporation's current programme list (CCRN, PCCN, CMC, CSC, ACNPC-AG, ACNPC, ACCNS-AG, ACCNS-P, ACCNS-N, CCNS) does not include CNML. Separately, 'AACN' also abbreviates the American Association of Colleges of Nursing, which certifies the Clinical Nurse Leader (CNL) through the Commission on Nurse Certification - a different credential entirely.",
+      "source": "https://www.aacn.org/about-aacn/about-aacn-cert-corp",
+      "confidence": "high"
+    },
+    "stale_claim_watch": {
+      "value": "The CNML FAQ page still carries the meta description 'Find information about the Certified Nurse Manager and Leader (CNML) credential, offered by AONL & AACN.' That description is stale relative to the body of the same page and to the 05/2025 handbook. Do not repeat it.",
+      "source": "https://www.aonl.org/initiatives/cnml-faq",
+      "confidence": "high"
+    },
+    "eligibility": {
+      "value": "Hold a valid and unrestricted Registered Nurse licence; hold a baccalaureate degree or higher, with at least one degree in nursing from an accredited institution; and satisfy one of two work-experience options - Option 1: at least 2,080 hours of experience in a nurse manager / primary unit leader role, or Option 2: at least 4,160 hours of experience in a comprehensive nursing leadership support role.",
+      "source": "https://www.aonl.org/initiatives/cnml-faq",
+      "confidence": "high"
+    },
+    "eligibility_recency": {
+      "value": "No defined time limit on when the qualifying experience occurred, but AONL states the practice should be recent enough that it was guided by the AONL competencies.",
+      "source": "https://www.aonl.org/initiatives/cnml-faq",
+      "confidence": "high"
+    },
+    "eligibility_audit": {
+      "value": "10% of applications are selected each year for a verification audit. Applicants who cannot demonstrate they meet all eligibility requirements are not permitted to test.",
+      "source": "https://www.aonl.org/system/files/media/file/2025/06/CNML-Handbook.pdf",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based, multiple-choice. Delivered by PSI at PSI test centres in all 50 states and internationally, and by PSI online remote proctoring. A non-scientific, silent, non-programmable calculator without paper tape or alpha keypad is permitted and is checked before admission.",
+      "source": "https://www.aonl.org/initiatives/cnml",
+      "confidence": "high"
+    },
+    "exam_vendor": {
+      "value": "PSI (test centres and online remote proctoring), engaged via the AHA Certification Center",
+      "source": "https://www.aonl.org/initiatives/certification",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 115,
+      "scored": 100,
+      "pretest": 15,
+      "source": "https://www.aonl.org/system/files/media/file/2025/06/CNML-Handbook.pdf",
+      "confidence": "high"
+    },
+    "time_limit": {
+      "value": "2 hours",
+      "source": "https://www.aonl.org/system/files/media/file/2025/06/CNML-Handbook.pdf",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "75 of the 100 scored items answered correctly",
+      "note": "AONL states this passing score affects exams beginning 10/30/2023 and remains in effect until the next exam form is developed. The standard is set by the modified Angoff method with equating across forms, so the raw cut can move when a new form is published.",
+      "source": "https://www.aonl.org/initiatives/cnml-faq",
+      "confidence": "high"
+    },
+    "fee_member": {
+      "value": 300,
+      "currency": "USD",
+      "note": "$300 for AONL members. Both the CNML programme page and the CNML FAQ agree on this figure.",
+      "source": "https://www.aonl.org/initiatives/cnml",
+      "confidence": "high"
+    },
+    "fee_nonmember": {
+      "value": null,
+      "currency": "USD",
+      "note": "UNRESOLVED CONFLICT INSIDE AONL'S OWN SITE. The CNML programme page states '$300 AONL member | $425 non-member'. The CNML FAQ states 'Exam: $300 AONL | $450 non-member'. The CNML handbook carries no fee schedule at all ('FEE SCHEDULE - Refer to the AONL-CC website'). Do not publish a single non-member figure; present the range and tell readers to confirm at the application screen.",
+      "source": "https://www.aonl.org/initiatives/cnml-faq",
+      "confidence": "low"
+    },
+    "scheduling_window": {
+      "value": "An application is valid for 90 days after registration and payment. The candidate must schedule and sit the exam inside that window or forfeit the application and all fees.",
+      "source": "https://www.aonl.org/initiatives/cnml-faq",
+      "confidence": "high"
+    },
+    "testing_windows": {
+      "value": null,
+      "note": "AONL publishes no fixed testing windows for CNML. Scheduling is candidate-initiated with PSI inside the 90-day application window, at test centres or by online remote proctoring. ADA special administrations are the one exception AONL describes with a set administration date. Phrase as 'no fixed testing windows' rather than asserting 'year-round testing', which AONL never states in those words.",
+      "source": "https://www.aonl.org/initiatives/cnml-faq",
+      "confidence": "medium"
+    },
+    "retake_policy": {
+      "value": "No sooner than 90 days after the most recent exam date. A candidate may apply for and take the same certification exam up to 4 times in a 2-year period.",
+      "source": "https://www.aonl.org/initiatives/cnml-faq",
+      "confidence": "high"
+    },
+    "renewal_cycle_years": {
+      "value": 3,
+      "note": "Initial certification and each recertification are valid for three years, expiring on the last day of the month in which certification expires.",
+      "source": "https://www.aonl.org/initiatives/cnml/recertification",
+      "confidence": "high"
+    },
+    "renewal_requirements": {
+      "value": "Two routes. Method 1 - complete at least 45 hours of eligible continuing professional development (CPD) activities within the three years before the expiration date, reported under AONL's activity and content codes, plus the recertification fee. Method 2 - retake and pass the CNML Examination no more than one year before the expiration date; exam fees apply and the passing score report must accompany the application. Certificants must continue to hold a valid, unrestricted RN licence either way.",
+      "source": "https://www.aonl.org/certification/cnml/recertification-methods",
+      "confidence": "high"
+    },
+    "renewal_fees": {
+      "value": "Up to one year before expiration: $200 AONL member, $275 non-member. Within 30 days after expiration (grace period, late fee applied): $250 AONL member, $325 non-member. The processing fee does not apply when renewing by re-examination.",
+      "source": "https://www.aonl.org/certification/cnml/recertification-methods",
+      "confidence": "high"
+    },
+    "renewal_deadlines": {
+      "value": "Recertification applications are accepted no earlier than one year before, and no later than 30 days after, the expiration date. Applications more than 30 days past expiration are delinquent and are not accepted; the credential can then be regained only by retaking and passing the exam.",
+      "source": "https://www.aonl.org/initiatives/cnml/recertification",
+      "confidence": "high"
+    },
+    "accreditation": {
+      "value": "The CNML programme meets the standards of, and is accredited by, the National Commission for Certifying Agencies (NCCA) and the Accreditation Board for Specialty Nursing Certification (ABSNC).",
+      "source": "https://www.aonl.org/initiatives/cnml-faq",
+      "confidence": "high"
+    },
+    "international_candidates": {
+      "value": "Foreign-educated RNs use the AONL International Credentials Evaluation Service, offered in collaboration with TruMerit and CGFNS International, Inc., to verify education, licensure/registration and employment credentials for CNML eligibility. Eligible candidates may test outside the United States for an additional fee.",
+      "source": "https://www.aonl.org/initiatives/certification",
+      "confidence": "high"
+    },
+    "verification": {
+      "value": "AONL runs a public CNML verification portal through the AHA association-management system, so employers can confirm a credential.",
+      "source": "https://www.aonl.org/initiatives/cnml",
+      "confidence": "high"
+    },
+    "prep_resources": {
+      "value": "CNML Candidate Handbook; CNML Practice Exam (sold through the PSI online store, discounted AONL member rate); CNML Essentials Review Course, in-person and on-demand, worth a maximum of 7.0 contact hours; Nurse Manager Examination Reading List; AONL Nurse Leader Competency self-assessment. AONL is accredited as a provider of nursing continuing professional development by the ANCC Commission on Accreditation and is approved by the California Board of Registered Nursing, provider number 15740.",
+      "source": "https://www.aonl.org/initiatives/cnml-prepare",
+      "confidence": "high"
+    },
+    "practice_exam_fee": {
+      "value": null,
+      "note": "AONL states only that 'AONL members receive a discounted member rate' and links to the gated PSI online store. Third-party pages cite $115 member / $200 non-member, but no AONL page confirms it. Left null.",
+      "source": "https://www.aonl.org/initiatives/cnml-prepare",
+      "confidence": "low"
+    },
+    "review_course_fee": {
+      "value": null,
+      "note": "No fee published on the CNML preparation page. Third-party and AONL event-listing figures ($395 member / $580 non-member) vary by cohort and date and were not confirmed against a stable AONL page. Left null.",
+      "source": "https://www.aonl.org/education/cnml-review",
+      "confidence": "low"
+    },
+    "salary_context": {
+      "value": null,
+      "note": "No primary source publishes a CNML-specific salary. BLS has no CNML or nurse-manager-certified occupation code. Do not state a salary premium for CNML on the page.",
+      "source": null,
+      "confidence": "low"
+    },
+    "common_confusions": {
+      "value": [
+        {"credential": "CENP", "disambiguation": "CENP (Certified in Executive Nursing Practice) is the other AONL-CC credential. CENP is built on the AONL Nurse Executive Competencies and targets executive-scope nurse leaders; CNML is built on the AONL Nurse Manager Competencies and targets the nurse manager with full clinical and administrative accountability for a unit or department."},
+        {"credential": "NE-BC", "disambiguation": "NE-BC (Nurse Executive - Board Certified) is issued by the American Nurses Credentialing Center, not by AONL. It covers a similar unit-to-department leadership scope to CNML but sits on a different competency framework, a 175-item exam and a 5-year renewal cycle."},
+        {"credential": "NEA-BC", "disambiguation": "NEA-BC (Nurse Executive, Advanced - Board Certified) is the ANCC system-level executive credential, closer in scope to CENP than to CNML."},
+        {"credential": "CNL", "disambiguation": "CNL (Clinical Nurse Leader) is a master's-prepared clinical role credential from the Commission on Nurse Certification, an arm of the American Association of Colleges of Nursing. Searchers often type 'CNL' when they mean CNML; the two are unrelated."},
+        {"credential": "AACN credentials", "disambiguation": "AACN Certification Corporation (American Association of Critical-Care Nurses) issues CCRN, PCCN, CMC, CSC and the ACNPC/ACCNS family. It co-launched CNML with AONE in 2008 but is not a current CNML partner."}
+      ],
+      "source": "https://www.aonl.org/initiatives/certification",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "Communication and Relationship Building",
+      "subdomains": ["Relationship Management", "Effective Communication", "Influencing Behaviors"],
+      "scored_items": 25,
+      "weight_pct": 25,
+      "source": "https://www.aonl.org/system/files/media/file/2025/06/CNML-Handbook.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Health Care Environment & Clinical Principles",
+      "subdomains": ["Nursing Practice and Application", "Economics and Policy", "Regulation", "Evidence Based Practice", "Patient Safety and Quality"],
+      "scored_items": 18,
+      "weight_pct": 18,
+      "source": "https://www.aonl.org/system/files/media/file/2025/06/CNML-Handbook.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Leadership",
+      "subdomains": ["Systems and Complex Adaptive Thinking", "Change Management", "Diversity, Equity, Belonging and Inclusion", "Decision Making", "Transformation and Innovation"],
+      "scored_items": 25,
+      "weight_pct": 25,
+      "source": "https://www.aonl.org/system/files/media/file/2025/06/CNML-Handbook.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Professionalism",
+      "subdomains": ["Professional Accountability", "Organizational Accountability", "Health Equity and Social Determinants of Health", "Governance"],
+      "scored_items": 14,
+      "weight_pct": 14,
+      "source": "https://www.aonl.org/system/files/media/file/2025/06/CNML-Handbook.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Business Skills and Principles",
+      "subdomains": ["Financial Management", "Strategic Management", "Human Resource Management"],
+      "scored_items": 18,
+      "weight_pct": 18,
+      "source": "https://www.aonl.org/system/files/media/file/2025/06/CNML-Handbook.pdf",
+      "confidence": "high"
+    }
+  ],
+  "blueprint_total_scored_items": 100,
+  "blueprint_note": "Item counts are taken directly from the CNML Examination Content Outline in the handbook revised 05/2025 and sum to exactly 100, so each item count equals its percentage weight of the scored exam. The handbook publishes no percentages of its own and no sub-domain weights; only the five domain-level counts are given.",
+  "blueprint_source_dco": "https://www.aonl.org/system/files/media/file/2025/06/CNML-Handbook.pdf",
+  "pass_rate_history": [
+    {"year": 2024, "cohort": "first_time", "candidates": 633, "passed": 411, "pass_rate_pct": 64.9, "source": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "confidence": "high"},
+    {"year": 2024, "cohort": "repeater", "candidates": 2, "passed": 0, "pass_rate_pct": 0, "source": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "confidence": "low"},
+    {"year": 2024, "cohort": "total", "candidates": 625, "passed": 411, "pass_rate_pct": 64.9, "source": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "confidence": "low"},
+    {"year": 2023, "cohort": "first_time", "candidates": 506, "passed": 345, "pass_rate_pct": 68.2, "source": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "confidence": "high"},
+    {"year": 2023, "cohort": "repeater", "candidates": 26, "passed": 17, "pass_rate_pct": 65.4, "source": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "confidence": "high"},
+    {"year": 2023, "cohort": "total", "candidates": 532, "passed": 362, "pass_rate_pct": 68, "source": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "confidence": "high"},
+    {"year": 2022, "cohort": "first_time", "candidates": 448, "passed": 319, "pass_rate_pct": 71, "source": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "confidence": "high"},
+    {"year": 2022, "cohort": "repeater", "candidates": 16, "passed": 10, "pass_rate_pct": 63, "source": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "confidence": "high"},
+    {"year": 2022, "cohort": "total", "candidates": 464, "passed": 329, "pass_rate_pct": 71, "source": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "confidence": "high"}
+  ],
+  "certificant_counts": [
+    {"year": 2022, "total_certificants": 2414, "source": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "confidence": "high"},
+    {"year": 2023, "total_certificants": 2572, "source": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "confidence": "high"},
+    {"year": 2024, "total_certificants": null, "note": "The 2024 block of the annual statistics PDF omits a total-certificant line, unlike 2022 and 2023.", "source": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "confidence": "high"}
+  ],
+  "recertification_volume": [
+    {"year": 2022, "recertified": 517, "not_recertified": 709, "total": 1226, "source": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "confidence": "high"},
+    {"year": 2023, "recertified": 834, "not_recertified": 527, "total": 1361, "source": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "confidence": "high"},
+    {"year": 2024, "recertified": 476, "not_recertified": 316, "total": 792, "source": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "confidence": "high"}
+  ],
+  "sources_index": [
+    {"title": "AONL - Certified Nurse Manager and Leader Certification (programme page: fee line, 115-question statement, PSI remote proctoring, calculator policy, verification portal)", "url": "https://www.aonl.org/initiatives/cnml", "accessed": "2026-09-04"},
+    {"title": "AONL - CNML Frequently Asked Questions (eligibility options, item count, 2-hour limit, 75/100 passing score, retake policy, 90-day application validity, testing locations, fees, accreditation, international candidates, recertification summary)", "url": "https://www.aonl.org/initiatives/cnml-faq", "accessed": "2026-09-04"},
+    {"title": "AONL - CNML Examination and Program Handbook, revised 05/2025 (authoritative: administering body, consulting agencies, eligibility, exam format, Angoff standard setting, full Examination Content Outline with scored-item counts)", "url": "https://www.aonl.org/system/files/media/file/2025/06/CNML-Handbook.pdf", "accessed": "2026-09-04"},
+    {"title": "AONL Credentialing Center - Annual Statistics 2022-2024, CNML (pass rates by cohort, certificant counts, recertification volumes)", "url": "https://www.aonl.org/system/files/media/file/2024/12/AnnualStatistics22.24-CNML.pdf", "accessed": "2026-09-04"},
+    {"title": "AONL - CNML Recertification (3-year cycle, submission window, delinquency rule)", "url": "https://www.aonl.org/initiatives/cnml/recertification", "accessed": "2026-09-04"},
+    {"title": "AONL - CNML Methods for Recertification (45 CPD hours, re-examination route, full recertification fee table)", "url": "https://www.aonl.org/certification/cnml/recertification-methods", "accessed": "2026-09-04"},
+    {"title": "AONL - CNML Certification Preparation (handbook, practice exam, reading list, review course contact hours, competency self-assessment)", "url": "https://www.aonl.org/initiatives/cnml-prepare", "accessed": "2026-09-04"},
+    {"title": "AONL - Credentialing Center Certification Programs (CNML built on AONL Nurse Manager Competencies, PSI partnership, NCCA and ABSNC accreditation, TruMerit/CGFNS international service)", "url": "https://www.aonl.org/initiatives/certification", "accessed": "2026-09-04"},
+    {"title": "AONL - Certified in Executive Nursing Practice (CENP scope, for the CNML-vs-CENP comparison)", "url": "https://www.aonl.org/initiatives/cenp", "accessed": "2026-09-04"},
+    {"title": "AACN - About AACN Certification Corporation (current programme list, confirming CNML is no longer among AACN's credentials)", "url": "https://www.aacn.org/about-aacn/about-aacn-cert-corp", "accessed": "2026-09-04"},
+    {"title": "TruMerit / CGFNS International - AONL International Credentials Evaluation Service", "url": "https://www.trumerit.org/services/credentials-evaluation/aonl/", "accessed": "2026-09-04"}
+  ],
+  "discrepancies": [
+    {
+      "field": "fee_nonmember",
+      "description": "AONL contradicts itself. The CNML programme page reads 'Exam fee $300 AONL member | $425 non-member'; the CNML FAQ reads 'Exam: $300 AONL | $450 non-member'. The handbook declines to publish a fee schedule. Third-party pages have copied both figures, which is why the $425/$450 split shows up across the SERP. Page must present a range, not a number."
+    },
+    {
+      "field": "blueprint",
+      "description": "AONL publishes two different blueprints. The CNML programme page and the CNML preparation page both describe 'four core principles' or 'four practice areas' - financial management; human resource management; performance improvement; and strategic management and technology - derived from the Nurse Manager Learning Domain Framework. The handbook revised 05/2025 publishes a five-domain Examination Content Outline (Communication and Relationship Building 25, Health Care Environment & Clinical Principles 18, Leadership 25, Professionalism 14, Business Skills and Principles 18). The handbook is the current, dated, item-level source and the four-area description is legacy marketing copy. Use the five-domain outline."
+    },
+    {
+      "field": "question_count_in_job_analysis_text",
+      "description": "The 'How was the exam content determined?' answer in the CNML FAQ says the resulting Examination Content Outline 'indicates a 150-item examination'. Every other AONL source, including the handbook, says 115 items with 100 scored. The 150 figure appears to be carried over from a job-analysis report template and should be ignored."
+    },
+    {
+      "field": "pass_rate_2024_totals",
+      "description": "The annual statistics PDF is internally inconsistent for 2024: 633 first-time plus 2 repeat candidates is 635, but the Total row reads 625 candidates, 411 passed, 224 failed (411 + 224 = 635). The first-time row (633 / 411 / 222 / 64.9%) is self-consistent and is the figure to publish; treat the 2024 repeater and total rows as unreliable."
+    },
+    {
+      "field": "administering_body",
+      "description": "The CNML FAQ's meta description still says the credential is 'offered by AONL & AACN'. The page body, the handbook and AACN's own current programme list all contradict it. AACN Certification Corporation co-launched CNML with AONE in 2008 but is not a current partner."
+    },
+    {
+      "field": "url_slug",
+      "description": "The content brief recommends the slug /cnml-certification/. The NursPrep site convention is /certifications/<code>/, so this page ships at /certifications/cnml/. Brief recommendation not followed by design."
+    }
+  ],
+  "gaps": [
+    "Non-member exam fee: no single verifiable figure. AONL's own pages say $425 and $450. Value left null; the page presents both and tells readers to confirm at the application screen.",
+    "CNML practice exam price: AONL says only 'discounted member rate' and links to a gated PSI store. Null.",
+    "CNML Essentials Review Course price: not published on a stable AONL page; varies by cohort. Null. Only the 7.0 maximum contact hours is verified.",
+    "Salary premium for CNML holders: no primary source. BLS publishes no CNML or certified-nurse-manager occupation code. Omitted from the page entirely.",
+    "Sub-domain weights: the handbook gives item counts only at the five domain levels, not for the A/B/C/D/E sub-domains. No sub-domain percentages published.",
+    "Testing windows: AONL publishes no fixed windows and never uses the phrase 'year-round'. Page describes the 90-day application-to-test window instead of claiming continuous testing.",
+    "2024 total certificant count: omitted from AONL's own statistics PDF. Only 2022 (2,414) and 2023 (2,572) are published.",
+    "Average preparation time and study-hour benchmarks: AONL publishes none. The 10-week plan on the page is presented as NursPrep guidance, not as an AONL figure."
+  ]
+}

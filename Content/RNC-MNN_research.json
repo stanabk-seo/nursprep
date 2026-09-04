@@ -1,0 +1,343 @@
+{
+  "code": "RNC-MNN",
+  "name": "RN Certified in Maternal Newborn Nursing",
+  "researched_at": "2026-09-04T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "National Certification Corporation (NCC)",
+      "source": "https://www.nccwebsite.org/certification-exams/details/4",
+      "confidence": "high"
+    },
+    "credential_full_name": {
+      "value": "RNC-MNN. NCC prints the credential line on the score report as \"RNC-MNN (Registered Nurse Certified - Maternal Newborn Nursing)\".",
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "NCC's public Statistics page carries MNN candidate volumes back to 2016 only. The year the MNN core exam launched is not stated in any NCC primary document reviewed."
+    },
+    "active_certificants": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "NCC does not publish an active-certificant count for RNC-MNN. Only annual candidates-tested volumes are published."
+    },
+    "exam_purpose_and_scope": {
+      "value": "Competency-based examination for licensed RNs in the US and Canada with a minimum of two years of specialty experience providing care to the childbearing family from birth to six weeks, within hospital or outpatient settings. The exam outline states the focus is primarily on the childbearing family from birth to six weeks across hospital and community settings.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/4",
+      "confidence": "high"
+    },
+    "eligibility": {
+      "value": "Current, active, unencumbered RN licensure in the U.S. or Canada; 24 months of specialty experience as a U.S. or Canadian RN comprised of a minimum of 2,000 hours (may have occurred at any point in the candidate's career); employment in the specialty sometime in the last 24 months. Both practice time and hours must be met - not an either/or criterion. Specialty experience may be direct patient care, education, administration, or research.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/4",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based exam delivered at a Computer Test Center (AMP/PSI assessment centers) or via Live Remote Proctoring (LRP). 175 multiple-choice items, of which 150 are scored and 25 are unscored pretest items. Each item has a stem and three answer options - one correct answer and two distractors. Answer options are alphabetized by first word; item order is randomized per candidate.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 175,
+      "scored": 150,
+      "pretest": 25,
+      "source": "https://www.nccwebsite.org/certification-exams/details/4",
+      "confidence": "high"
+    },
+    "time_limit": {
+      "value": "3 hours",
+      "source": "https://www.nccwebsite.org/certification-exams/details/4",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": "Criterion-referenced. There is no set percentage passing level. NCC calculates an ability level per candidate using item response theory (Rasch analysis) and compares it to a predetermined ability criterion set by the Content Team. Forms are equated to a common scale. Score reports give word descriptors (very weak, weak, average, strong, very strong) per content area - no percentages or standard scores.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "fee_total": {
+      "value": 325,
+      "currency": "USD",
+      "breakdown": "$50 non-refundable application submission fee + $275 testing fee. Same price for Computer Test Center and Live Remote Proctoring.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/4",
+      "confidence": "high"
+    },
+    "incomplete_application_fee": {
+      "value": 30,
+      "currency": "USD",
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "change_request_fee": {
+      "value": 125,
+      "currency": "USD",
+      "note": "Charged to test outside the current eligibility window, to change exam category, or after a missed testing date. Changing testing date or method inside the original 90-day window is free.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "withdrawal_refund": {
+      "value": 160,
+      "currency": "USD",
+      "note": "Test Center or LRP candidate who withdraws per policy receives $160 of the $325 paid, minus outstanding charges. Bulk-purchase voucher candidates cannot withdraw. Separately, an order can be cancelled outright within 6 hours of submission.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "hand_score_fee": {
+      "value": 55,
+      "currency": "USD",
+      "note": "Requested within 60 days of receiving the pass/fail report. Non-refundable.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "retest_policy": {
+      "value": "45-day wait from the exam date before a new application may be submitted. No limit on total retakes, but the same NCC exam may be taken a maximum of twice per calendar year. Full application and testing fees apply each time; no discounts.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "testing_windows": {
+      "value": "No application deadlines and no fixed testing windows - candidates may apply at any time. NCC takes 1 to 14 days to process and approve an application; eligible candidates are placed in the next available 90-day window. The exam must be scheduled within the first 30 days of that 90-day window. A minimum of 4 business days must fall between scheduling and the test date. LRP appointments are available 24 hours a day; test-center appointments run Monday through Saturday (occasionally Sunday) at 9:00 am and 1:30 pm at over 100 AMP assessment centers.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/4",
+      "confidence": "high"
+    },
+    "results_timing": {
+      "value": "No results are given at the test site. Official pass/fail results, followed 24 hours later by the score report, appear in the candidate's NCC account within 15 business days; up to 21 business days or longer when a new exam form or test grid is in use. The certification date is the date on the official results, not the exam date.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/4",
+      "confidence": "high"
+    },
+    "renewal_cycle_years": {
+      "value": 3,
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "renewal_process": {
+      "value": "NCC core maintenance is competency-assessment driven, not a flat CE count. Four steps: (1) hold a valid, current, unrestricted nursing license; (2) complete a Continuing Competency Assessment (CCA) at the start of each 3-year maintenance cycle; (3) receive an individualised Education Plan generated from the CCA specialty index report; (4) earn and document CE in the categories and hour amounts the Education Plan specifies. Only CE earned AFTER the CCA and matching the Education Plan counts. A maintenance application plus fee must be submitted before the maintenance due date; applications may be filed up to 12 months early. Maintenance applications are subject to random audit - outside CE requires certificates and course descriptions, while NCC-module CE is already on file and is not audited. Certification that is not maintained lapses.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/cca-steps.pdf",
+      "confidence": "high"
+    },
+    "cca_mechanics": {
+      "value": "The CCA is 125 items reflecting the topic content and distribution of the current core certification exam in the specialty. It is free, on-demand 24/7, carries no pass/fail or minimum score, allows 2 hours 15 minutes in a single no-exit session, and awards 5 NCC CE hours toward the same maintenance cycle. Results (specialty index report plus Education Plan) are available immediately in the certificant's NCC account. CCA results do not affect certification status.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/cca-steps.pdf",
+      "confidence": "high"
+    },
+    "cca_scoring_to_education_plan": {
+      "value": "Each specialty's CCA reports a specialty index rating from 1 to 10 per core competency category. A rating of 7.5 or higher in a category means no CE is required in that category. A rating below 7.5 generates a CE hour requirement for that category. A baseline requirement of 15 CE hours in any specialty-related content is the starting framework; certificants who score 7.5 or higher in every category still owe 15 baseline hours, and certificants with at least one 7.5 rating have baseline requirements between 5 and 15 hours. A certificant with no category at 7.5 or higher owes the full 50 hours. The 5 CE hours awarded for completing the CCA are then credited, so the worst case falls to 45 hours and the best case falls to 10 hours.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/cca-steps.pdf",
+      "confidence": "high"
+    },
+    "cca_competency_areas_mnn": {
+      "value": [
+        {"area": "Pregnancy, Birth Risk Factors and Complications", "max_ce_hours": 5},
+        {"area": "Postpartum Assessment, Management and Complications", "max_ce_hours": 20},
+        {"area": "Newborn Assessment, Management and Complications", "max_ce_hours": 20},
+        {"area": "Professional Practice", "max_ce_hours": 5}
+      ],
+      "note": "Four Maternal Newborn Nursing CCA competency categories totalling 50 weighted CE hours.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/cca-steps.pdf",
+      "confidence": "high"
+    },
+    "maintenance_fee": {
+      "value": 100,
+      "currency": "USD",
+      "discounts": "Using 15 hours of NCC CE modules lowers the fee to $80; 30 hours lowers it to $70; 45 hours lowers it to $60. Discounts do not apply to alternative maintenance.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/cca-steps.pdf",
+      "confidence": "high"
+    },
+    "alternative_maintenance": {
+      "value": "Certificants may opt out of the CCA using the alternative maintenance pathway. It requires 50 CE hours across all core content areas for the specialty in the amounts designated per category, allows no NCC-module discounts and no substitute activities such as preceptorship or CE presentation, requires uploaded course outlines and certificates, and costs a $175 maintenance fee. The opt-out is per cycle - a certificant may return to the CCA pathway the following cycle.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/cca-steps.pdf",
+      "confidence": "high"
+    },
+    "baseline_substitute_activities": {
+      "value": "Presenting an accredited CE course earns the presenter the same credit as attendees (usable once per certification period). A combined total of 10 hours may be substituted for precepting students in the certification specialty, editing a book, authoring a journal article or book chapter, or primary or secondary authorship of a book. These activities count toward baseline hours only and must fall outside expected employment responsibilities.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/cca-steps.pdf",
+      "confidence": "high"
+    },
+    "extension_and_reinstatement": {
+      "value": "A certificant who needs more time may request an extension online for a fee before the maintenance cycle ends. A certificant who does not file maintenance on time has one year to reinstate for a fee. Specific extension and reinstatement fee amounts were not published on the pages reviewed.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/cca-steps.pdf",
+      "confidence": "medium"
+    },
+    "accreditation": {
+      "value": "NCC core and subspecialty programs are accredited by the National Commission for Certifying Agencies (NCCA).",
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "certification_vs_licensure": {
+      "value": "NCC states that its certification carries no licensing authority and that the ability to practise as a nurse is regulated by state boards of nursing. NCC has no power to require states to recognise its certification.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "review_courses": {
+      "value": "NCC does not offer or sponsor review courses or review materials for its certification examinations, and does not release test questions. Any commercial RNC-MNN review course is independent of NCC.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "official_study_resources": {
+      "value": "The 2026 MNN Candidate Guide lists 20 reference texts, including Baker et al., Core Curriculum for Maternal-Newborn Nursing (6th ed., Elsevier, 2023); Simpson, Lowdermilk and Cashion (Eds.), AWHONN's Perinatal Nursing (5th ed., Wolters Kluwer, 2021); Davidson et al., Old's Maternal-Newborn Nursing and Women's Health Across the Life Span (12th ed., Pearson, 2024); Wambach and Spencer, Breastfeeding and Human Lactation (7th ed., Jones and Bartlett, 2026); Weiner et al. (Eds.), Textbook of Neonatal Resuscitation (9th ed., AAP/AHA, 2025); and Witt and Wallman, Tappero and Honeyfield's Physical Assessment of the Newborn (7th ed., Springer, 2024).",
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "common_confusions": {
+      "value": [
+        {"credential": "RNC-OB", "disambiguation": "NCC's Inpatient Obstetric Nursing credential. Its exam purpose covers the pregnant patient after 20 weeks of gestation through discharge, with labour and birth and fetal assessment as scored domains. RNC-MNN carries no labour-and-birth or fetal-monitoring domain - intrapartum content appears only as antenatal and intrapartum risk factors worth 7% of the exam."},
+        {"credential": "RNC-NIC", "disambiguation": "NCC's Neonatal Intensive Care Nursing credential, for RNs caring for acutely and critically ill neonates within an intensive care environment. RNC-MNN newborn content is the well or near-well newborn plus the complications a mother-baby nurse recognises and stabilises before transfer."},
+        {"credential": "RNC-LRN", "disambiguation": "NCC's Low Risk Neonatal Intensive Care Nursing credential - newborn-only scope. RNC-MNN pairs newborn content with maternal postpartum content in a single exam."},
+        {"credential": "C-EFM", "disambiguation": "NCC subspecialty in Electronic Fetal Monitoring. It is an add-on, does not require a CCA for maintenance, and sits alongside intrapartum practice rather than mother-baby practice."},
+        {"credential": "C-OBE", "disambiguation": "NCC's Obstetric Emergencies subspecialty, first reported in the 2025 statistics table (700 candidates, 78%)."},
+        {"credential": "WHNP-BC", "disambiguation": "NCC's Women's Health Care Nurse Practitioner board certification - an APRN credential requiring a graduate NP programme, not an RN specialty credential."}
+      ],
+      "source": "https://www.nccwebsite.org/maintain-your-certification",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "BLS publishes a single Registered Nurses occupation (SOC 29-1141) and no separate series for mother-baby, postpartum, or maternal newborn RNs. The current OEWS release is May 2025, but the median wage figure for that release was not captured from a primary BLS page during this pass, so no dollar figure is asserted. The brief's $73,000 figure (credenzahealth.com) is not primary and was not used."
+    },
+    "recent_changes": {
+      "value": "The 2026 Candidate Guide is the current MNN reference. The MNN pass rate fell from 90% in 2024 to 86% in 2025 - a smaller move than the drops NCC reported the same year for RNC-OB (86% to 65%) and RNC-NIC (76% to 68%). NCC introduced the Obstetric Emergencies (OBE) and Reproductive Health and Infertility (RHI) subspecialty exams in 2025.",
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "Pregnancy, Birth Risk Factors and Complications",
+      "weight_pct": 7,
+      "outline_code": "10.00",
+      "subdomains": ["Antenatal Factors", "Intrapartum Factors"],
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Maternal Postpartum Assessment, Management, and Education",
+      "weight_pct": 26,
+      "outline_code": "11.00",
+      "subdomains": [
+        "Physiologic Changes and Physical Assessment",
+        "Nursing Care",
+        "Psychosocial and Ethical Issues",
+        "Lactation, Newborn Feeding, and Nutrition"
+      ],
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Newborn Assessment and Management",
+      "weight_pct": 20,
+      "outline_code": "12.00",
+      "subdomains": [
+        "Transition to Extrauterine Life (birth to 4 hours)",
+        "Physical Assessment and Gestational Age Assessment (including Laboratory Values)",
+        "Newborn Care and Family Education",
+        "Resuscitation and Stabilization"
+      ],
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Maternal Postpartum Complications",
+      "weight_pct": 25,
+      "outline_code": "14.00",
+      "subdomains": [
+        "Hematologic",
+        "Cardiopulmonary",
+        "Infection",
+        "Diabetes",
+        "Psychological Conditions and Substance Use Disorders"
+      ],
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Newborn Complications",
+      "weight_pct": 22,
+      "outline_code": "15.00",
+      "subdomains": [
+        "Cardiovascular and Respiratory",
+        "Neurological and Gastrointestinal",
+        "Hematologic",
+        "Infectious Disease",
+        "Genetic, Metabolic, and Endocrine"
+      ],
+      "source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+      "confidence": "high"
+    }
+  ],
+  "blueprint_total_scored_items": 150,
+  "blueprint_note": "Percentages are from the 2026 MNN Candidate Guide content chart and exam outline and total 100%. NCC warns that the percentages represent a range of items per content area and may total more or less than 100, and do not necessarily reflect future exam forms. NCC does not publish scored-item counts per domain. The sample score report in the same guide merges Pregnancy, Birth Risk Factors and Complications with Maternal Postpartum Complications into a single 32% feedback line (7 + 25), so candidates see four feedback rows rather than five.",
+  "blueprint_source": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf",
+  "pass_rate_history": [
+    {"year": 2016, "cohort": "all", "candidates": 844, "pass_rate_pct": 87, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2017, "cohort": "all", "candidates": 916, "pass_rate_pct": 84, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2018, "cohort": "all", "candidates": 1259, "pass_rate_pct": 90, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2020, "cohort": "all", "candidates": 1233, "pass_rate_pct": 92, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2021, "cohort": "all", "candidates": 925, "pass_rate_pct": 93, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2022, "cohort": "all", "candidates": 1335, "pass_rate_pct": 90, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2023, "cohort": "all", "candidates": 761, "pass_rate_pct": 94, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2024, "cohort": "all", "candidates": 1696, "pass_rate_pct": 90, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"},
+    {"year": 2025, "cohort": "all", "candidates": 1656, "pass_rate_pct": 86, "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "confidence": "high"}
+  ],
+  "pass_rate_note": "NCC's Statistics page publishes candidates tested and percent passed only - no passed-candidate counts and no first-time versus repeater split. 2019 is absent from the NCC table for every exam, so the MNN series runs 2016-2018 then 2020-2025.",
+  "peer_pass_rates_2025": {
+    "RNC-MNN": {"candidates": 1656, "pass_rate_pct": 86},
+    "RNC-OB (INPT)": {"candidates": 2079, "pass_rate_pct": 65},
+    "RNC-NIC": {"candidates": 1928, "pass_rate_pct": 68},
+    "RNC-LRN": {"candidates": 201, "pass_rate_pct": 54},
+    "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics"
+  },
+  "sources_index": [
+    {"title": "NCC - Maternal Newborn Nursing exam detail page (purpose, eligibility, $325 fee, 175 items / 3 hours, 90-day window, scheduling and results rules)", "url": "https://www.nccwebsite.org/certification-exams/details/4", "accessed": "2026-09-04"},
+    {"title": "NCC - 2026 Candidate Guide: Maternal Newborn Nursing (RNC-MNN) PDF (fees and policies, exam format, five-domain content chart with 7/26/20/25/22 weights, full test content outline, competencies, study resources, sample questions, scoring, maintenance)", "url": "https://www.nccwebsite.org/content/documents/cms/mnn-candidate_guide.pdf", "accessed": "2026-09-04"},
+    {"title": "NCC - Four Steps to Continuing Competency / CCA brochure PDF (CCA mechanics, specialty index 7.5 threshold, MNN competency categories and hour weights, $100 / $80 / $70 / $60 maintenance fees, $175 alternative maintenance)", "url": "https://www.nccwebsite.org/content/documents/cms/cca-steps.pdf", "accessed": "2026-09-04"},
+    {"title": "NCC - Statistics (MNN candidates tested and percent passed, 2016-2025; peer INPT, NIC, LRN rows)", "url": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics", "accessed": "2026-09-04"},
+    {"title": "NCC - Maintain your Certification (three-year term for all NCC certifications, core versus subspecialty lists, audit and unencumbered-licence rules)", "url": "https://www.nccwebsite.org/maintain-your-certification", "accessed": "2026-09-04"},
+    {"title": "NCC - CORE RNC Examination Registration Catalog PDF (eligibility, overview, fees and policies for all core RNC exams)", "url": "https://www.nccwebsite.org/content/documents/cms/exam-core.pdf", "accessed": "2026-09-04"},
+    {"title": "NCC - Neonatal Intensive Care Nursing exam detail page (RNC-NIC purpose statement used for the RNC-MNN versus RNC-NIC distinction)", "url": "https://www.nccwebsite.org/certification-exams/details/5", "accessed": "2026-09-04"},
+    {"title": "NCC - CCA Education Plan Examples PDF (worked examples of specialty index to education plan conversion)", "url": "https://www.nccwebsite.org/content/documents/cms/cca-educationplans.pdf", "accessed": "2026-09-04"},
+    {"title": "NCC - Testing with Live Remote Proctoring", "url": "https://www.nccwebsite.org/certification-exams/testing-with-live-remote-proctoring", "accessed": "2026-09-04"}
+  ],
+  "discrepancies": [
+    {
+      "field": "eligibility_hours",
+      "description": "The content brief's aggregated claim table sources '2 years of specialty experience (with a minimum of 2,000 hours)' to credenzahealth.com and '24 months' to vivian.com. Both match NCC's own wording, so the figure is fine - but the brief omits NCC's two extra conditions: the 2,000 hours may be accumulated at any point in the candidate's career, and the candidate must additionally have been employed in the specialty sometime in the last 24 months."
+    },
+    {
+      "field": "exam_fee",
+      "description": "The brief lists '$325 exam fee' (credenzahealth.com, vivian.com) alongside '$50 application fee' and '$275 testing fee' (nccwebsite.org) as if they were competing figures. They are the same figure: $325 total = $50 + $275."
+    },
+    {
+      "field": "renewal_fees",
+      "description": "The brief lists '$100 renewal (continuing competence assessment)' and '$175 alternative maintenance' from credenzahealth.com. NCC's CCA brochure confirms both and adds the NCC-CE discount ladder ($80 / $70 / $60) that the brief attributes only to vivian.com. The brief's phrasing 'renewal fee (continuing competence assessment)' is misleading - the CCA itself is free; $100 is the maintenance application fee for certificants who use the CCA pathway."
+    },
+    {
+      "field": "exam_length_and_questions",
+      "description": "The brief cites '3 hours' and '175 questions' to credenzahealth.com. NCC confirms both and adds the 150 scored / 25 pretest split the third-party figure omits."
+    },
+    {
+      "field": "outline_numbering",
+      "description": "NCC's MNN test content outline numbers its five sections 10.00, 11.00, 12.00, 14.00 and 15.00 - 13.00 is skipped. This is an NCC numbering artefact, not a missing sixth domain."
+    },
+    {
+      "field": "salary",
+      "description": "The brief's '$73,000 typical salary' comes from credenzahealth.com, a non-primary aggregator, and is not supported by any BLS series specific to maternal newborn nursing. Not used."
+    },
+    {
+      "field": "brief_title_and_slug",
+      "description": "The brief recommends the URL slug /rnc-mnn-certification-guide/ and an H1 of 'Comprehensive Guide to RNC-MNN Certification for Maternal Newborn Nurses'. The NursPrep site convention is /certifications/rnc-mnn/ with the credential name as H1, so the slug recommendation was not followed. Brief headings and keyword placement were followed."
+    }
+  ],
+  "gaps": [
+    "Year the RNC-MNN credential launched - not published by NCC. Left null; the page does not state a launch year.",
+    "Number of active RNC-MNN certificants - NCC publishes annual candidate volumes only, no active-holder count. Left null.",
+    "Per-domain scored-item counts - NCC publishes percentage weights only, with an explicit caveat that they represent a range. Only percentages are used on the page.",
+    "Passed-candidate counts and any first-time versus repeater pass-rate split - NCC's Statistics page gives candidates tested and percent passed only. The page quotes percentages and candidate volumes, never a computed number of passers.",
+    "2019 MNN pass rate - absent from NCC's Statistics table, as it is for every NCC exam. The page's pass-rate series skips 2019 rather than interpolating.",
+    "Salary figures for maternal newborn or mother-baby RNs - BLS has no occupation code below Registered Nurses (SOC 29-1141), and the current May 2025 OEWS median was not captured from a primary BLS page this pass. No dollar figure appears on the page.",
+    "Extension and reinstatement fee amounts - NCC states both exist and are charged without publishing amounts on the pages reviewed. Described qualitatively.",
+    "Average or recommended study hours for RNC-MNN - no primary source publishes this. The study plan is presented as an editorial schedule, not an NCC recommendation."
+  ]
+}

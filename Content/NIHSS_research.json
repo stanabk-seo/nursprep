@@ -1,0 +1,279 @@
+{
+  "code": "NIHSS",
+  "name": "NIH Stroke Scale Certification",
+  "researched_at": "2026-09-04T00:00:00Z",
+  "research_note": "NIHSS is not a nursing board certification. It is a competency certification in administering the National Institutes of Health Stroke Scale, offered by multiple independent training providers. There is no credentialing body, no published passing standard, no published pass rate, and no single eligibility rule. Schema fields that assume a single credentialing body are recorded as null with the variation explained rather than being filled with a representative provider's figure.",
+  "facts": {
+    "credential_type": {
+      "value": "Competency certification in administering a clinical assessment instrument, not a board or specialty nursing certification. It confers no post-nominal credential and is not awarded by an accredited nursing certification board.",
+      "source": "https://store.education.heart.org/nih-stroke-scale-test-group-a",
+      "confidence": "high",
+      "note": "Provider pages describe the deliverable as a 'certificate of completion' or 'test completion certificate' used to document compliance, not a credential. Contrast with SCRN, which is issued by the American Board of Neuroscience Nursing (ABNN)."
+    },
+    "awarding_body": {
+      "value": null,
+      "note": "No single awarding body. The scale itself was developed with NINDS support and is published free by NINDS, but NINDS does not certify raters. Certification is delivered by independent training providers.",
+      "source": "https://www.ninds.nih.gov/health-information/stroke/assess-and-treat/nih-stroke-scale",
+      "confidence": "high"
+    },
+    "scale_developer": {
+      "value": "Developed through research supported by the National Institute of Neurological Disorders and Stroke (NINDS). First published by Brott T, Adams HP Jr, et al., 'Measurements of acute cerebral infarction: a clinical examination scale,' Stroke 1989;20(7):864-870.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/2749846/",
+      "confidence": "high"
+    },
+    "scale_lineage": {
+      "value": "Composite scale derived from the Toronto Stroke Scale, the Oxbury Initial Severity Scale, the Cincinnati Stroke Scale, and the Edinburgh-2 Coma Scale.",
+      "source": "https://www.sralab.org/rehabilitation-measures/national-institutes-health-stroke-scale",
+      "confidence": "high"
+    },
+    "item_count": {
+      "value": 15,
+      "note": "15 individually scored items. NINDS describes the scale as recording performance in 11 categories; the scored record splits category 1 into 1a/1b/1c and categories 5 and 6 into left and right limbs, producing 15 scored lines. Both descriptions are correct and refer to the same instrument.",
+      "source": "https://www.mdcalc.com/calc/715/nih-stroke-scale-score-nihss",
+      "secondary_source": "https://www.ninds.nih.gov/health-information/stroke/assess-and-treat/nih-stroke-scale",
+      "confidence": "high"
+    },
+    "score_range": {
+      "value": "0 to 42",
+      "note": "0 = no measurable deficit on any item. 42 = maximum score on every item. Higher scores indicate greater neurologic deficit.",
+      "source": "https://www.sralab.org/rehabilitation-measures/national-institutes-health-stroke-scale",
+      "confidence": "high"
+    },
+    "severity_bands": {
+      "value": "Two stratifications are in common use and they do not agree. See discrepancies.",
+      "brott_1989": "Mild 1-5; Mild to moderately severe 5-14; Severe 15-24; Very severe >25",
+      "common_clinical": "No stroke symptoms 0; Minor 1-4; Moderate 5-15; Moderate to severe 16-20; Severe 21-42",
+      "source": "https://www.sralab.org/rehabilitation-measures/national-institutes-health-stroke-scale",
+      "confidence": "medium"
+    },
+    "disposition_association": {
+      "value": "At admission, roughly 80% of stroke survivors scoring <5 are discharged home; scores of 6 to 13 typically require acute inpatient rehabilitation; scores >14 frequently require long-term skilled care.",
+      "source": "https://www.sralab.org/rehabilitation-measures/national-institutes-health-stroke-scale",
+      "underlying_studies": "Schlegel et al. Stroke 2003; Rundek et al. Neurology 2000",
+      "confidence": "medium",
+      "note": "Association observed in cohort studies, not a treatment rule."
+    },
+    "low_score_threshold": {
+      "value": "Patients scoring <4 are highly likely to have good clinical outcomes.",
+      "source": "https://www.mdcalc.com/calc/715/nih-stroke-scale-score-nihss",
+      "confidence": "high"
+    },
+    "administration_time": {
+      "value": "About 6 minutes at the bedside once the rater is trained.",
+      "source": "https://www.sralab.org/rehabilitation-measures/national-institutes-health-stroke-scale",
+      "confidence": "medium"
+    },
+    "scoring_rules": {
+      "value": [
+        "Score what you see, not what you think.",
+        "Score the first response, not the best response (exception: Item 9, Best Language).",
+        "Do not coach the patient."
+      ],
+      "source": "https://www.mdcalc.com/calc/715/nih-stroke-scale-score-nihss",
+      "confidence": "high"
+    },
+    "reliability": {
+      "value": "Test-retest ICC = 0.93 and interrater ICC = 0.95 (Goldstein & Samsa 1997; 4 patients assessed by 30 physicians and 29 study coordinators). Item-level agreement is weakest for facial palsy and limb ataxia (Goldstein et al. 1989: kappa 0.22 and -0.16 respectively).",
+      "source": "https://www.sralab.org/rehabilitation-measures/national-institutes-health-stroke-scale",
+      "confidence": "high",
+      "note": "The weak item-level agreement is the documented rationale for requiring standardized video-based rater certification."
+    },
+    "who_requires_certification": {
+      "value": "The employer or training provider sets the requirement. The Joint Commission's Comprehensive Stroke Center FAQ requires core stroke team members, as defined by the organization, to complete 8 hours of stroke education annually, and non-ED nurses caring for comprehensive stroke patients likewise 8 hours; ED nurses and non-nursing ED staff require 2 hours of cerebrovascular disease education annually. The FAQ does not name NIHSS certification as a mandatory item.",
+      "source": "https://www.jointcommission.org/standards/standard-faqs/advanced-dsc---comprehensive-stroke/delivering-or-facilitating-clinical-care-dsdf/000002144/",
+      "confidence": "high",
+      "note": "Applicable standard cited by TJC: DSDF.1 EP 7. Last updated 2021-03-04."
+    },
+    "eligibility": {
+      "value": null,
+      "note": "No provider publishes a licensure, degree, or practice-hour prerequisite. AHA states the target audience is emergency physicians, neurologists, nurses, clinical researchers, and medical students. Anyone can create an account and test. Whether a given clinician must hold NIHSS certification is an employer policy decision.",
+      "source": "https://store.education.heart.org/nih-stroke-scale-test-group-a",
+      "confidence": "high"
+    },
+    "test_group_structure": {
+      "value": "The AHA/ASA online training program is organized into sequential test groups A through F. Each group is equivalent in size and scope but uses different patient scenarios. A group must be passed before the next unlocks, a passed group should not be repeated, and a CE certificate may be claimed only once per group.",
+      "source": "https://store.education.heart.org/nih-stroke-scale-test-group-c",
+      "confidence": "high"
+    },
+    "test_group_intervals": {
+      "value": "After passing Group A, wait 6 months before Group B. After Group B, wait 12 months before Group C. Every subsequent group follows the same 12-month interval (C to D, D to E, E to F).",
+      "source": "https://store.education.heart.org/nih-stroke-scale-test-group-c",
+      "confidence": "high"
+    },
+    "certificate_validity": {
+      "value": "Varies by provider and by group. AHA states its test completion certificates are 'valid for up to one (1) year.' Apex Innovations states its certification exam is 'valid for 1 year or 2 years based on the patient group selected.'",
+      "source": "https://store.education.heart.org/nih-stroke-scale-test-group-a",
+      "secondary_source": "https://www.apexinnovations.com/products.html",
+      "confidence": "high",
+      "note": "No universal recertification cadence exists. Employers commonly set an annual or biennial requirement."
+    },
+    "fee": {
+      "value": null,
+      "note": "No single fee. Ranges from $0 (Apex Innovations) to $10.30 per test group (AHA Professional Education Hub). See providers.",
+      "confidence": "high"
+    },
+    "passing_standard": {
+      "value": null,
+      "note": "No provider publishes the score or agreement threshold required to pass a test group. Certification is granted on successful completion of the scored patient scenarios, but the cut point is not disclosed.",
+      "confidence": "high"
+    },
+    "pass_rate": {
+      "value": null,
+      "note": "No provider publishes pass rates, candidate volumes, or first-time-pass statistics for NIHSS certification. Any figure quoted elsewhere should be treated as unsourced.",
+      "confidence": "high"
+    },
+    "providers": {
+      "value": [
+        {
+          "provider": "American Heart Association / American Stroke Association",
+          "program": "NIH Stroke Scale Online Training Course, Test Groups A-F",
+          "product_number": "28-3269 (Group A)",
+          "fee_usd": 10.30,
+          "volume_pricing": "100 for $9.25 ea; 250 for $8.50 ea; 500 for $8.00 ea; 800 for $7.50 ea; 1,000 for $7.00 ea",
+          "ce": "2.00 ANCC contact hours for nurses; 2.00 AMA PRA Category 1 Credits for physicians",
+          "certificate_validity": "up to 1 year",
+          "developed_with": "American Academy of Neurology (AAN) and NINDS",
+          "original_release": "2004-08-23",
+          "url": "https://store.education.heart.org/nih-stroke-scale-test-group-a",
+          "confidence": "high"
+        },
+        {
+          "provider": "Apex Innovations",
+          "program": "NIH Stroke Scale Training and Certification",
+          "fee_usd": 0,
+          "ce": "3.00 ANCC contact hours; also 3.00 CME, 3.00 CPE and physical-therapy CE. Minimum 60 minutes of testing time.",
+          "certificate_validity": "1 year or 2 years depending on the patient group selected",
+          "original_release": "2008-09-11",
+          "last_review": "2024-05-15",
+          "url": "https://www.apexinnovations.com/products.html",
+          "ce_url": "https://www.apexinnovations.com/CEBreakdown.php?ID=10",
+          "confidence": "high",
+          "note": "Apex also markets NIHSS+, a newer app-based version with revalidated visual stimuli for the picture and naming items. NIHSS+ pricing was not published on a fetchable page."
+        },
+        {
+          "provider": "BlueCloudX (formerly BlueCloud)",
+          "program": "NIH Stroke Scale multilingual competency training and certification",
+          "fee_usd": null,
+          "ce": null,
+          "certificate_validity": null,
+          "url": "https://www.bluecloudx.net/nihss/",
+          "confidence": "medium",
+          "note": "Positioned primarily for clinical trial sites, sponsors and CROs; access is typically arranged through an institution or study sponsor rather than purchased individually. Fee, CE hours and validity are not published on the public page."
+        },
+        {
+          "provider": "Health systems and hospitals",
+          "program": "Internal competency programs, usually routing staff to one of the above platforms",
+          "fee_usd": 0,
+          "url": "https://exams.browardhealth.org/2023_NIH_Stroke_Scale_Training/NIH_Stroke_Scale_Training_and_Certification_Instructions.pdf",
+          "confidence": "medium",
+          "note": "Example: Broward Health directs staff to the Apex Innovations NIHSS course and self-submission of the 3-contact-hour CE certificate to CE Broker."
+        }
+      ],
+      "confidence": "high"
+    },
+    "scale_access": {
+      "value": "The NIH Stroke Scale itself is free. NINDS publishes the full scale and instructions as a downloadable PDF (March 2025 edition) and the AbilityLab instrument PDF is also public. Only the training and certification programs carry a fee.",
+      "source": "https://www.ninds.nih.gov/sites/default/files/2025-03/KnowStroke_NIHStrokeScale_March2025_508c.pdf",
+      "confidence": "high"
+    },
+    "known_limitations": {
+      "value": [
+        "Designed to measure baseline severity in acute stroke clinical trials, then adopted for routine clinical use (Kasner 2006).",
+        "Weighted toward left-hemisphere function: language carries up to 3 points plus dysarthria 2, while right-hemisphere signs are largely captured by the 2-point extinction/inattention item. Left-hemisphere strokes score higher than comparably sized right-hemisphere strokes.",
+        "Four items have poor reliability or are redundant: level of consciousness, facial weakness, ataxia and dysarthria (Kasner 2006).",
+        "Lacks validity in chronic hemiparetic stroke (Peters et al. 2015); a ceiling effect affecting about 20% of patients was observed at 6 months (Pickard et al. 2005).",
+        "Does not detect stroke mimics. MDCalc lists recrudescence of old stroke, Todd's paralysis, complex migraine and conversion disorder among the differentials to keep open."
+      ],
+      "source": "https://www.sralab.org/rehabilitation-measures/national-institutes-health-stroke-scale",
+      "secondary_source": "https://www.mdcalc.com/calc/715/nih-stroke-scale-score-nihss",
+      "confidence": "high"
+    },
+    "related_instruments": {
+      "value": [
+        {"instrument": "mNIHSS", "note": "Modified NIH Stroke Scale — a shortened, validated version of the full scale."},
+        {"instrument": "SCRN", "note": "Stroke Certified Registered Nurse, issued by the American Board of Neuroscience Nursing. A board certification; NIHSS administration is one competency inside its Hyperacute Care domain."},
+        {"instrument": "mRS", "note": "Modified Rankin Scale — functional outcome at 90 days, not acute severity."},
+        {"instrument": "GCS", "note": "Glasgow Coma Scale — level of consciousness only; NIHSS item 1a covers similar ground in 4 points."}
+      ],
+      "source": "https://www.mdcalc.com/calc/1756",
+      "confidence": "high"
+    },
+    "scrn_contrast": {
+      "value": "SCRN requires an active unrestricted RN license plus at least 2,080 hours of direct or indirect stroke nursing experience in the previous 3 years, is issued by the American Board of Neuroscience Nursing (ABNN), carries a post-nominal credential, and renews on a 5-year cycle. NIHSS certification has no licensure or experience prerequisite, no credentialing body, no post-nominal, and renews on whatever cadence the employer or provider sets.",
+      "source": "https://abnncertification.org/scrn/eligibility",
+      "internal_reference": "src/_data/exams/scrn.js",
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {"item": "1a", "name": "Level of Consciousness", "assesses": "Alertness and arousability; scored 3 only if the patient makes no movement other than reflex posturing to noxious stimulation", "max_points": 3, "pct_of_42": 7.1},
+    {"item": "1b", "name": "LOC Questions", "assesses": "Orientation — current month and the patient's age; only the first answer counts", "max_points": 2, "pct_of_42": 4.8},
+    {"item": "1c", "name": "LOC Commands", "assesses": "Command following — open and close the eyes, grip and release the non-paretic hand; pantomime is allowed", "max_points": 2, "pct_of_42": 4.8},
+    {"item": "2", "name": "Best Gaze", "assesses": "Horizontal eye movement only; partial gaze palsy that corrects with the oculocephalic reflex scores 1", "max_points": 2, "pct_of_42": 4.8},
+    {"item": "3", "name": "Visual Fields", "assesses": "Visual fields by confrontation in all four quadrants; bilateral blindness or bilateral hemianopia scores 3", "max_points": 3, "pct_of_42": 7.1},
+    {"item": "4", "name": "Facial Palsy", "assesses": "Symmetry of facial movement; use grimace to noxious stimulus if the patient is obtunded", "max_points": 3, "pct_of_42": 7.1},
+    {"item": "5a", "name": "Motor Arm — Left", "assesses": "Drift from 90 degrees sitting or 45 degrees supine over 10 seconds; amputation or joint fusion scores 0 and is annotated", "max_points": 4, "pct_of_42": 9.5},
+    {"item": "5b", "name": "Motor Arm — Right", "assesses": "Same 10-second drift test on the right arm, scored independently", "max_points": 4, "pct_of_42": 9.5},
+    {"item": "6a", "name": "Motor Leg — Left", "assesses": "Drift from 30 degrees supine over 5 seconds; amputation or joint fusion scores 0", "max_points": 4, "pct_of_42": 9.5},
+    {"item": "6b", "name": "Motor Leg — Right", "assesses": "Same 5-second drift test on the right leg, scored independently", "max_points": 4, "pct_of_42": 9.5},
+    {"item": "7", "name": "Limb Ataxia", "assesses": "Finger-nose-finger and heel-shin for unilateral cerebellar lesion; scored 0 if the patient is plegic or cannot understand", "max_points": 2, "pct_of_42": 4.8},
+    {"item": "8", "name": "Sensory", "assesses": "Sensation to pinprick or noxious stimulus; coma or quadriplegia with no response scores 2", "max_points": 2, "pct_of_42": 4.8},
+    {"item": "9", "name": "Best Language", "assesses": "Aphasia — describe the picture, name the items, read the sentences; the only item scored on best rather than first response", "max_points": 3, "pct_of_42": 7.1},
+    {"item": "10", "name": "Dysarthria", "assesses": "Articulation while reading the word list; intubated or physically unable to speak scores 0 and is annotated", "max_points": 2, "pct_of_42": 4.8},
+    {"item": "11", "name": "Extinction and Inattention", "assesses": "Neglect — visual, tactile, auditory, spatial or personal, including extinction to bilateral simultaneous stimulation", "max_points": 2, "pct_of_42": 4.8}
+  ],
+  "blueprint_total_points": 42,
+  "blueprint_note": "This is the structure of the scale itself, not an exam content outline. NIHSS certification has no published domain weighting because every test scenario requires the rater to score all 15 items. Percentages shown are each item's maximum contribution to the 42-point total, which is the closest honest analogue to a domain weight.",
+  "blueprint_source": "https://www.mdcalc.com/calc/715/nih-stroke-scale-score-nihss",
+  "blueprint_source_official": "https://www.ninds.nih.gov/sites/default/files/2025-03/KnowStroke_NIHStrokeScale_March2025_508c.pdf",
+  "pass_rate_history": [],
+  "pass_rate_note": "Empty by design. No NIHSS training provider publishes pass rates, candidate counts, or first-time-pass statistics. Unlike ABNN, BCEN or HPCC, these providers are not certification boards and have no accreditation requirement to report exam statistics. Do not substitute a figure from a prep vendor or a forum.",
+  "sources_index": [
+    {"title": "NINDS — NIH Stroke Scale (scale description, 11 recorded categories, item 1a scoring, links to the training course)", "url": "https://www.ninds.nih.gov/health-information/stroke/assess-and-treat/nih-stroke-scale", "accessed": "2026-09-04"},
+    {"title": "NINDS — NIH Stroke Scale PDF, March 2025 edition (full instrument and administration instructions)", "url": "https://www.ninds.nih.gov/sites/default/files/2025-03/KnowStroke_NIHStrokeScale_March2025_508c.pdf", "accessed": "2026-09-04"},
+    {"title": "AHA Professional Education Hub — NIH Stroke Scale Test Group A (fee $10.30, product 28-3269, volume pricing, 2.00 contact hours, certificate valid up to 1 year)", "url": "https://store.education.heart.org/nih-stroke-scale-test-group-a", "accessed": "2026-09-04"},
+    {"title": "AHA Professional Education Hub — NIH Stroke Scale Test Group C (Group A-F structure, 6-month then 12-month intervals, one CE certificate per group, ASA/AAN/NINDS development)", "url": "https://store.education.heart.org/nih-stroke-scale-test-group-c", "accessed": "2026-09-04"},
+    {"title": "AHA eLearning — NIH Stroke Scale course listing", "url": "https://elearning.heart.org/course/989", "accessed": "2026-09-04"},
+    {"title": "Apex Innovations — Products (NIHSS free program, 11-item examination framing, certification valid 1 or 2 years by patient group; NIHSS+ description)", "url": "https://www.apexinnovations.com/products.html", "accessed": "2026-09-04"},
+    {"title": "Apex Innovations — NIHSS CE breakdown (3.00 ANCC contact hours, 60-minute testing minimum, joint accreditation, 2008 release / 2024 review)", "url": "https://www.apexinnovations.com/CEBreakdown.php?ID=10", "accessed": "2026-09-04"},
+    {"title": "Apex Innovations — NIHSS+ platform", "url": "https://nihss.plus", "accessed": "2026-09-04"},
+    {"title": "BlueCloudX — NIH Stroke Scale multilingual competency training and certification", "url": "https://www.bluecloudx.net/nihss/", "accessed": "2026-09-04"},
+    {"title": "MDCalc — NIH Stroke Scale/Score (all 15 scored items with point values, scoring rules, <4 threshold, stroke mimics)", "url": "https://www.mdcalc.com/calc/715/nih-stroke-scale-score-nihss", "accessed": "2026-09-04"},
+    {"title": "MDCalc — Modified NIH Stroke Scale (mNIHSS)", "url": "https://www.mdcalc.com/calc/1756", "accessed": "2026-09-04"},
+    {"title": "Shirley Ryan AbilityLab RehabMeasures — NIHSS (15 items, 0-42 range, Brott severity strata, reliability ICCs, scale lineage, known limitations)", "url": "https://www.sralab.org/rehabilitation-measures/national-institutes-health-stroke-scale", "accessed": "2026-09-04"},
+    {"title": "Brott T, Adams HP Jr, et al. Measurements of acute cerebral infarction: a clinical examination scale. Stroke. 1989;20(7):864-870", "url": "https://pubmed.ncbi.nlm.nih.gov/2749846/", "accessed": "2026-09-04"},
+    {"title": "Goldstein LB, Samsa GP. Reliability of the NIH Stroke Scale. Stroke. 1997;28(2):307-310", "url": "https://pubmed.ncbi.nlm.nih.gov/9040680/", "accessed": "2026-09-04"},
+    {"title": "Kasner SE. Clinical interpretation and use of stroke scales. Lancet Neurol. 2006;5(7):603-612", "url": "https://pubmed.ncbi.nlm.nih.gov/16781990/", "accessed": "2026-09-04"},
+    {"title": "The Joint Commission — Staff education requirements for Comprehensive Stroke Program Certification (DSDF.1 EP 7)", "url": "https://www.jointcommission.org/standards/standard-faqs/advanced-dsc---comprehensive-stroke/delivering-or-facilitating-clinical-care-dsdf/000002144/", "accessed": "2026-09-04"},
+    {"title": "ABNN Certification — SCRN eligibility (2,080 hours stroke nursing in 3 years, unrestricted RN licence) — used for the NIHSS vs SCRN contrast", "url": "https://abnncertification.org/scrn/eligibility", "accessed": "2026-09-04"},
+    {"title": "ABNN Certification — About the SCRN credential", "url": "https://abnncertification.org/scrn/about", "accessed": "2026-09-04"},
+    {"title": "Broward Health — NIH Stroke Scale training and certification instructions (worked example of an employer routing staff to Apex)", "url": "https://exams.browardhealth.org/2023_NIH_Stroke_Scale_Training/NIH_Stroke_Scale_Training_and_Certification_Instructions.pdf", "accessed": "2026-09-04"}
+  ],
+  "discrepancies": [
+    {
+      "field": "item_count",
+      "description": "NINDS says providers 'record the person's performance in 11 categories' and Apex describes an '11-item neurological examination.' MDCalc, the AbilityLab RehabMeasures entry and the scored record itself list 15 items. Both are right: category 1 splits into 1a/1b/1c and categories 5 and 6 are scored separately for left and right limbs. The page should say 15 scored items across 11 numbered categories and explain the split rather than pick one number."
+    },
+    {
+      "field": "severity_bands",
+      "description": "Two stratifications circulate. Brott et al. 1989, as reproduced by AbilityLab: mild 1-5, mild to moderately severe 5-14, severe 15-24, very severe >25 (note the overlap at 5, which is in the original). The band set most often quoted clinically and in registry work: 0 no symptoms, 1-4 minor, 5-15 moderate, 16-20 moderate to severe, 21-42 severe. Neither NINDS nor the AHA course publishes an authoritative band table. Present both and attribute each."
+    },
+    {
+      "field": "certificate_validity",
+      "description": "AHA states its certificates are valid for up to one year and structures Group A to Group B at a 6-month interval, which does not align cleanly with a 12-month validity claim. Apex states 1 or 2 years depending on the patient group. Employers frequently impose their own cadence on top. There is no single correct renewal interval to publish."
+    },
+    {
+      "field": "provider_naming",
+      "description": "Search demand splits across 'AHA NIHSS certification', 'bluecloud NIHSS' and 'apex innovations NIHSS' as if these were competing credentials. They are three delivery platforms for training on the same public NINDS instrument. The page should say so explicitly."
+    }
+  ],
+  "gaps": [
+    "Passing standard for any provider's test group — not published by AHA, Apex or BlueCloudX. Left null.",
+    "Pass rates and candidate volumes — no provider publishes them. pass_rate_history is deliberately empty.",
+    "Number of patient scenarios per test group. A third-party content brief cites '3 sets of 6 patients each' plus 2 demonstration cases attributed to apexinnovations.com, but no fetchable Apex or AHA page states a scenario count. Not asserted anywhere on the page.",
+    "NIHSS+ (Apex) pricing and certificate validity — the site is a client-rendered app and served no readable pricing. Left null.",
+    "BlueCloudX fee, CE hours and certificate validity — not published on the public page; access appears to be arranged through an institution or study sponsor. Left null.",
+    "Whether The Joint Commission accepts NIHSS certification as satisfying part of the 8-hour annual stroke education requirement. The fetched CSC FAQ lists the hour requirement but does not enumerate acceptable content. Not asserted.",
+    "Time to complete each provider's course. Apex publishes a 60-minute minimum testing time and 3.00 contact hours; AHA designates 2.00 contact hours. Contact hours are an accreditation designation, not a measured completion time, so no 'takes about N hours' claim is made."
+  ]
+}

@@ -1,0 +1,627 @@
+{
+  "code": "RNC-NIC",
+  "name": "Registered Nurse Certified - Neonatal Intensive Care Nursing",
+  "researched_at": "2026-09-04T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "National Certification Corporation (NCC), 676 N. Michigan Ave Suite 3600, Chicago, IL 60611",
+      "source": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "confidence": "high"
+    },
+    "credential_full_name": {
+      "value": "Registered Nurse Certified - Neonatal Intensive Care Nursing (RNC-NIC). NCC's candidate guide renders the credential as 'Registered Nurse Certified – Neonatal Intensive Care Nursing'.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "exam_purpose_statement": {
+      "value": "NCC verbatim: the Neonatal Intensive Care Nursing Core Certification provides 'a competency-based examination that tests specialty knowledge and the application of that knowledge for, licensed registered nurses in the US and Canada with a minimum of two years of specialty experience in providing care to acutely and critically ill neonatal patients and their families within an intensive care environment.'",
+      "source": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "confidence": "high"
+    },
+    "acuity_level_mapping": {
+      "value": "NCC does NOT use the words 'Level III' or 'Level IV' anywhere in the RNC-NIC exam detail page or the 2026 candidate guide. The Level III/IV framing is an inference drawn from NCC's own division of labour: RNC-LRN is explicitly scoped to 'level II, chronic care, special care or step-down units', leaving RNC-NIC to cover the intensive care environment above that. Page copy must attribute Level III/IV as practice context, not as an NCC eligibility rule.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/3/maternal-newborn-nursing",
+      "confidence": "medium",
+      "inference": true
+    },
+    "year_launched": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "NCC's public statistics table for NIC starts at 2016. No primary source gives the launch year of the RNC-NIC credential. Left null; not stated on the page."
+    },
+    "active_certificants": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "NCC does not publish a certificant headcount for RNC-NIC on any public page. Only candidates-tested-per-year is published. Left null."
+    },
+    "eligibility": {
+      "value": "Current/active/unencumbered licensure as an RN in the U.S. or Canada; 24 months of specialty experience as a U.S. or Canadian RN comprised of a minimum of 2,000 hours (may have occurred at any point in the candidate's career); employment in the specialty sometime in the last 24 months. Both practice time AND hours must be met — NCC states 'This is not an either/or criterion.' Specialty experience may be direct patient care, education, administration or research.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "confidence": "high"
+    },
+    "eligibility_same_across_core": {
+      "value": "The 24-month / 2,000-hour rule is identical across all five NCC CORE RNC exams: Inpatient Antepartum Nursing, Inpatient Obstetric Nursing, Neonatal Intensive Care Nursing, Low-Risk Neonatal Intensive Care Nursing, and Maternal Newborn Nursing. The differentiator between them is the specialty in which the hours were earned, not the threshold.",
+      "source": "https://www.nccwebsite.org/certification-exams/exam-fees-and-eligibility",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based, multiple-choice. Delivered at PSI/AMP computer test centers (100+ AMP Assessment Centers, appointments Monday–Saturday and occasionally Sunday at 9:00 am and 1:30 pm) and via Live Remote Proctoring (LRP), which is available by appointment 24 hours a day. 175 items total: 150 scored + 25 unscored pretest items used to gather item-performance statistics. 3-hour time limit.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 175,
+      "source": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "confidence": "high",
+      "scored": 150,
+      "pretest": 25
+    },
+    "time_limit": {
+      "value": "3 hours",
+      "source": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "confidence": "high"
+    },
+    "answer_option_count": {
+      "value": 3,
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high",
+      "note": "NCC's five published sample questions in the 2026 NIC candidate guide each present three options (A, B, C) — one correct answer and two distractors."
+    },
+    "passing_score": {
+      "value": "Criterion-referenced. The passing score is a statistical ability level set by the NCC Content Team based on criticality of content and past item statistics — not a fixed percentage or raw cut score. An ability level is calculated from the number of items answered correctly (no penalty for wrong answers) and compared with the pass/fail standard. Different exam forms are equated to a common scale, so a candidate sitting a harder form needs fewer correct answers. NCC uses item response theory (Rasch analysis).",
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "score_report": {
+      "value": "No results are released immediately after testing in any format. Official pass/fail appears in the candidate's NCC account within 15 business days, with the score report following about 24 hours later. When a new exam form or test grid is introduced, official results can take 21 business days or longer. Date of certification is the date on the official results, not the exam date. Score reports give word descriptors by content area and group Psychosocial Support with Professional Issues into a single reported band (8%).",
+      "source": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "confidence": "high"
+    },
+    "content_area_report_grouping": {
+      "value": "The candidate-guide sample score report lists four reported bands: General Assessment (9%), General Management (39%), Assess & Manage Pathophysiologic States (44%), and Psychosocial Support; Professional Issues (8%). The 8% band is the 5% + 3% blueprint domains combined for reporting purposes. NCC warns these area results should be interpreted cautiously because of the small item counts.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "fee_total": {
+      "value": "$325 USD for Core RNC exams, composed of a $50 non-refundable application submission cost plus a $275 testing fee. The same fee applies to test-center and Live Remote Proctoring delivery. NCC subspecialty exams (C-EFM, C-NPT, C-ELBW, C-ONQS, C-NNIC, C-RHI, C-OBE) are $210 by contrast.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "confidence": "high",
+      "corroborating_source": "https://www.nccwebsite.org/certification-exams/exam-fees-and-eligibility"
+    },
+    "cancellation_window": {
+      "value": "6 hours after purchase to cancel the order self-service via 'Cancel Application' in the NCC account. After 6 hours an Exam Withdrawal Request is required for a partial refund.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "confidence": "high"
+    },
+    "withdrawal_refund": {
+      "value": "$160 of the $325 payment returned on an approved withdrawal, minus any outstanding charges.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "incomplete_application_fee": {
+      "value": "$30 non-refundable reprocessing fee for incomplete or incorrect applications. If documentation and the fee are not supplied within 14 days the application is marked ineligible.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "confidence": "high",
+      "corroborating_source": "https://www.nccwebsite.org/certification-exams/exam-fees-and-eligibility"
+    },
+    "change_request_fee": {
+      "value": "$125.00 to change eligibility window, method of testing, or exam category.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "confidence": "high"
+    },
+    "hand_score_fee": {
+      "value": "$55 for a hand-score request.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "third_party_notification_fee": {
+      "value": "$30 for any third-party notification of test results.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "application_processing_days": {
+      "value": "1 to 14 days to process, review and approve an application. There are no application deadlines — candidates may apply at any time.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "confidence": "high"
+    },
+    "scheduling_window_days": {
+      "value": 90,
+      "source": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "confidence": "high",
+      "note": "Eligible candidates are placed in the next available 90-day window. Exams must be scheduled within the first 30 days of that window or seats may be unavailable. A minimum of 4 business days must elapse between scheduling and the test date."
+    },
+    "testing_windows": {
+      "value": "Rolling, not fixed. NCC has no application deadlines and no fixed annual sittings for RNC-NIC; eligibility triggers a personal 90-day window. LRP appointments run 24 hours a day; test-center appointments run Monday through Saturday (occasionally Sunday) at 9:00 am and 1:30 pm.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "confidence": "high"
+    },
+    "retest_policy": {
+      "value": "A 45-day wait period applies before a failed candidate can reapply. The maximum number of attempts at the same exam in a calendar year is two. A new application and the full fee are required for each attempt; a candidate who does not reach the passing score is not eligible for a refund or credit toward a later NCC exam.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "renewal_cycle_years": {
+      "value": 3,
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "renewal_process": {
+      "value": "NCC maintenance runs on the Continuing Competency Assessment (CCA). At the start of each 3-year cycle the certificant takes the CCA, which produces a personalized Education Plan naming the specific content areas and CE hours that individual must complete. CE only counts toward maintenance if it is earned AFTER the CCA is taken and in the areas the new Education Plan defines. A maintenance application plus maintenance fee must be submitted by the maintenance due date, which is the last day the certification is active. Maintenance applications are subject to random audit.",
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high",
+      "note": "There is no universal CE hour figure for RNC-NIC. The requirement is individualised by the CCA, so page copy must not state a fixed number of hours."
+    },
+    "renewal_ce_hours": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "Not published — the CCA generates a per-certificant Education Plan. Any specific hour count would be invented. Left null."
+    },
+    "promotions": {
+      "value": "NCC is running a 'Second Chance FREE' promotion for the C-NNIC subspecialty exam from July 1 to August 31, 2026. This promotion applies to NNIC (Neonatal Neuro-Intensive Care), not to the RNC-NIC core exam.",
+      "source": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "confidence": "high",
+      "note": "Easy to misread — NNIC and NIC are different NCC exams."
+    },
+    "study_resources_named_by_ncc": {
+      "value": [
+        "Verklan, M. T., et al. (2021). Core curriculum for neonatal intensive care nursing (6th ed.). Elsevier.",
+        "Gardner, S. L., et al. (2021). Handbook of neonatal intensive care: An interprofessional approach (9th ed.). Elsevier.",
+        "Gleason, C. A., et al. (2023). Avery's diseases of the newborn (11th ed.). Elsevier.",
+        "Martin, R. J., et al. (2025). Fanaroff and Martin's neonatal-perinatal medicine: Diseases of the fetus and infant. Elsevier.",
+        "Aranda, J. V., & van den Anker, J. N. (Eds.). (2021). Yaffe and Aranda's neonatal and pediatric pharmacology (5th ed.). Wolters Kluwer.",
+        "Bissinger, R., et al. (2020). Golden hours: Care of the very low birth weight neonate (2nd ed.). NCC.",
+        "Eklund, N., et al. (2024). Neonatal imaging (2nd ed.). NCC.",
+        "Baker, A., et al. (2023). Core curriculum for maternal-newborn nursing (6th ed.). Elsevier."
+      ],
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    "common_confusions": {
+      "value": [
+        {
+          "credential": "CCRN (Neonatal)",
+          "body": "AACN",
+          "disambiguation": "The most-confused pair. CCRN (Neonatal) is issued by the American Association of Critical-Care Nurses, is built on the AACN Synergy Model, runs 150 items (125 scored) in 3 hours, and gates on 1,750 direct-care hours in 2 years (875 in the most recent year) or 2,000 hours in 5 years (144 in the most recent year). RNC-NIC is issued by NCC, runs 175 items (150 scored), and gates on 24 months plus 2,000 lifetime specialty hours. Holding one does not confer the other."
+        },
+        {
+          "credential": "RNC-LRN",
+          "body": "NCC",
+          "disambiguation": "Low-Risk Neonatal Intensive Care Nursing. NCC scopes it to 'acutely and chronically ill neonatal patients and their families within level II, chronic care, special care or step-down units' — the tier below RNC-NIC's intensive care environment."
+        },
+        {
+          "credential": "RNC-MNN",
+          "body": "NCC",
+          "disambiguation": "Maternal Newborn Nursing. NCC scopes it to 'the childbearing family from birth to six weeks within hospital or outpatient settings' — mother-baby and well-newborn, not neonatal intensive care."
+        },
+        {
+          "credential": "RNC-OB",
+          "body": "NCC",
+          "disambiguation": "Inpatient Obstetric Nursing. Scoped to the pregnant patient after 20 weeks of gestation through discharge. The patient is the pregnant person; for RNC-NIC the patient is the neonate."
+        },
+        {
+          "credential": "C-ELBW",
+          "body": "NCC",
+          "disambiguation": "Care of the Extremely Low Birth Weight Neonate — a $210 subspecialty add-on with no practice-hour requirement, not a core credential."
+        },
+        {
+          "credential": "C-NNIC",
+          "body": "NCC",
+          "disambiguation": "Neonatal Neuro-Intensive Care subspecialty. The acronym is one letter from NIC and appears in the same NCC statistics table; they are different exams with different fees and cohort sizes."
+        },
+        {
+          "credential": "C-NPT",
+          "body": "NCC",
+          "disambiguation": "Neonatal Pediatric Transport subspecialty, open to RNs, RTs, paramedics, EMTs and physicians."
+        },
+        {
+          "credential": "NNP-BC",
+          "body": "NCC",
+          "disambiguation": "Neonatal Nurse Practitioner — an APRN role credential requiring a graduate NNP program, not an RN-level specialty exam."
+        }
+      ],
+      "source": "https://www.nccwebsite.org/certification-exams/exam-fees-and-eligibility",
+      "confidence": "high"
+    },
+    "ccrn_neonatal_comparison": {
+      "value": "AACN CCRN (Neonatal): current unencumbered U.S. RN or APRN license; Two-Year Option 1,750 direct-care hours with acutely/critically ill neonatal patients in the previous 2 years, 875 of them in the most recent year; or Five-Year Option 2,000 hours over 5 years with 144 in the most recent year. Exam fee $260 AACN member / $375 nonmember. Exam is 150 items (125 scored, 25 pretest) in 3 hours, built on the AACN Synergy Model with roughly 80% Clinical Judgment and 20% Professional Caring and Ethical Practice. Certification runs 3 years and renews by 100 Synergy CERPs plus practice hours, or by re-examination.",
+      "source": "https://www.aacn.org/certification/get-certified/ccrn-neo",
+      "confidence": "high",
+      "corroborating_source": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf"
+    },
+    "accreditation": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "NCC's NCCA/ABSNC accreditation status for the RNC-NIC exam specifically was not confirmed on a primary NCC page during this pass. Omitted from page copy rather than asserted."
+    },
+    "salary_context_rn_median": {
+      "value": "RN median annual wage $93,600 (BLS Occupational Outlook Handbook, May 2024). Lowest 10% under $66,030; highest 10% over $135,320. BLS publishes no separate occupation code for NICU or neonatal RNs.",
+      "source": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
+      "confidence": "high"
+    },
+    "salary_context_nicu": {
+      "value": null,
+      "source": null,
+      "confidence": "missing",
+      "note": "No primary-source NICU-RN wage figure exists. Aggregator estimates were not used. Left null."
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "General Assessment",
+      "code": "10.00",
+      "weight_pct": 9,
+      "scored_items": null,
+      "subdomains": [
+        "Antepartum Risk Factors and Birth History",
+        "Physical and Gestational Age Assessment"
+      ],
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "General Management",
+      "code": "11.00",
+      "weight_pct": 39,
+      "scored_items": null,
+      "subdomains": [
+        "Resuscitation and Stabilization",
+        "Fluids, Electrolytes, and Glucose Homeostasis",
+        "Nutrition and Feeding",
+        "Oxygenation, Ventilation and Acid Base Homeostasis",
+        "Thermoregulation and Integumentary",
+        "Pharmacology, Pharmacokinetics and Pharmacodynamics",
+        "Neuroprotective and Neurodevelopmental Care"
+      ],
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Assess & Manage Pathophysiologic States",
+      "code": "12.00",
+      "weight_pct": 44,
+      "scored_items": null,
+      "subdomains": [
+        "Cardiovascular",
+        "Respiratory",
+        "Gastrointestinal/Genitourinary",
+        "Hematopoietic",
+        "Neurological/Neuromuscular/Musculoskeletal",
+        "Genetic, Metabolic and Endocrine",
+        "Head, Eyes, Ears, Nose and Throat",
+        "Infection and Immunology"
+      ],
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Psychosocial Support",
+      "code": "13.00",
+      "weight_pct": 5,
+      "scored_items": null,
+      "subdomains": [
+        "Discharge Management",
+        "Family Centered Care",
+        "Grieving",
+        "Palliative Care",
+        "Mental Health"
+      ],
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Professional Issues",
+      "code": "14.00",
+      "weight_pct": 3,
+      "scored_items": null,
+      "subdomains": [
+        "Evidence-Based Practice",
+        "Legal/Ethical",
+        "Patient Safety",
+        "Quality Improvement"
+      ],
+      "source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "confidence": "high"
+    }
+  ],
+  "blueprint_total_scored_items": 150,
+  "blueprint_note": "Weights are percentages of exam questions as printed in the 2026 NCC Neonatal Intensive Care Nursing Candidate Guide exam content outline. They sum to 100. NCC publishes percentages only — it does not publish per-domain scored-item counts — so scored_items is null for every domain rather than back-calculated from 150.",
+  "blueprint_source": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+  "pass_rate_history": [
+    {
+      "year": 2016,
+      "pass_rate_pct": 84,
+      "candidates": 1502,
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics",
+      "confidence": "high"
+    },
+    {
+      "year": 2017,
+      "pass_rate_pct": 86,
+      "candidates": 1481,
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics",
+      "confidence": "high"
+    },
+    {
+      "year": 2018,
+      "pass_rate_pct": 82,
+      "candidates": 1848,
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics",
+      "confidence": "high"
+    },
+    {
+      "year": 2020,
+      "pass_rate_pct": 80,
+      "candidates": 1696,
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics",
+      "confidence": "high"
+    },
+    {
+      "year": 2021,
+      "pass_rate_pct": 81,
+      "candidates": 1528,
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics",
+      "confidence": "high"
+    },
+    {
+      "year": 2022,
+      "pass_rate_pct": 79,
+      "candidates": 1997,
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics",
+      "confidence": "high"
+    },
+    {
+      "year": 2023,
+      "pass_rate_pct": 77,
+      "candidates": 1058,
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics",
+      "confidence": "high"
+    },
+    {
+      "year": 2024,
+      "pass_rate_pct": 76,
+      "candidates": 2470,
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics",
+      "confidence": "high"
+    },
+    {
+      "year": 2025,
+      "pass_rate_pct": 68,
+      "candidates": 1928,
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics",
+      "confidence": "high"
+    }
+  ],
+  "pass_rate_note": "NCC's public Statistics table (NIC rows) publishes 2016–2018 and 2020–2025. There is no 2019 row for any exam in the table — the year is simply absent, not zero. NIC has declined in eight of the nine published years, from 84% (2016) to 68% (2025); it is consistently the lowest-passing NCC CORE neonatal exam except RNC-LRN.",
+  "peer_pass_rates_2025": [
+    {
+      "exam": "NIC",
+      "label": "Neonatal Intensive Care Nursing",
+      "pass_rate_pct": 68,
+      "candidates": 1928,
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics"
+    },
+    {
+      "exam": "MNN",
+      "label": "Maternal Newborn Nursing",
+      "pass_rate_pct": 86,
+      "candidates": 1656,
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics"
+    },
+    {
+      "exam": "INPT",
+      "label": "Inpatient Obstetric Nursing",
+      "pass_rate_pct": 65,
+      "candidates": 2079,
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics"
+    },
+    {
+      "exam": "LRN",
+      "label": "Low-Risk Neonatal Intensive Care Nursing",
+      "pass_rate_pct": 54,
+      "candidates": 201,
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics"
+    },
+    {
+      "exam": "ELBW",
+      "label": "Care of the Extremely Low Birth Weight Neonate",
+      "pass_rate_pct": 72,
+      "candidates": 438,
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics"
+    },
+    {
+      "exam": "NNIC",
+      "label": "Neonatal Neuro-Intensive Care",
+      "pass_rate_pct": 83,
+      "candidates": 52,
+      "source": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics"
+    }
+  ],
+  "competing_credentials": [
+    {
+      "code": "RNC-NIC",
+      "body": "NCC",
+      "scope": "Acutely and critically ill neonates and their families in an intensive care environment",
+      "who": "NICU RNs with 24 months plus 2,000 specialty hours",
+      "fee": "$325",
+      "items": "175 (150 scored)"
+    },
+    {
+      "code": "RNC-LRN",
+      "body": "NCC",
+      "scope": "Acutely and chronically ill neonates in level II, chronic care, special care or step-down units",
+      "who": "Special-care nursery and step-down RNs",
+      "fee": "$325",
+      "items": "175 (150 scored)"
+    },
+    {
+      "code": "RNC-MNN",
+      "body": "NCC",
+      "scope": "The childbearing family from birth to six weeks, hospital or outpatient",
+      "who": "Mother-baby and postpartum RNs",
+      "fee": "$325",
+      "items": "175 (150 scored)"
+    },
+    {
+      "code": "RNC-OB",
+      "body": "NCC",
+      "scope": "The pregnant patient after 20 weeks of gestation through discharge",
+      "who": "L&D, antepartum, OB triage RNs",
+      "fee": "$325",
+      "items": "175 (150 scored)"
+    },
+    {
+      "code": "CCRN (Neonatal)",
+      "body": "AACN",
+      "scope": "Acutely/critically ill neonatal patients under the AACN Synergy Model",
+      "who": "NICU, cardiac, transport RNs meeting AACN direct-care hour options",
+      "fee": "$260 member / $375 nonmember",
+      "items": "150 (125 scored)"
+    },
+    {
+      "code": "C-ELBW",
+      "body": "NCC",
+      "scope": "Care of the extremely low birth weight neonate (subspecialty add-on)",
+      "who": "NICU clinicians of several disciplines",
+      "fee": "$210",
+      "items": null
+    },
+    {
+      "code": "C-NNIC",
+      "body": "NCC",
+      "scope": "Neonatal neuro-intensive care (subspecialty add-on)",
+      "who": "Neuro-NICU teams",
+      "fee": "$210",
+      "items": null
+    },
+    {
+      "code": "C-NPT",
+      "body": "NCC",
+      "scope": "Neonatal pediatric transport (subspecialty add-on)",
+      "who": "Transport RNs, RTs, paramedics",
+      "fee": "$210",
+      "items": null
+    },
+    {
+      "code": "NNP-BC",
+      "body": "NCC",
+      "scope": "Neonatal Nurse Practitioner — APRN role certification",
+      "who": "Graduates of an NNP program",
+      "fee": "$325",
+      "items": null
+    }
+  ],
+  "sources_index": [
+    {
+      "title": "NCC Exam Detail Page — Neonatal Intensive Care Nursing (RNC-NIC): purpose statement, eligibility, $325 fee, 90-day window, 175/150 item split, 3-hour limit, results timing",
+      "url": "https://www.nccwebsite.org/certification-exams/details/5/neonatal-intensive-care-nursing",
+      "accessed": "2026-09-04"
+    },
+    {
+      "title": "NCC 2026 Candidate Guide — Neonatal Intensive Care Nursing (RNC-NIC) [PDF]: exam content outline with domain percentages, competency statements, scoring method, sample questions, study resources, maintenance terms",
+      "url": "https://www.nccwebsite.org/content/documents/cms/nic-candidate_guide.pdf",
+      "accessed": "2026-09-04"
+    },
+    {
+      "title": "NCC Statistics — candidates tested and pass rates by exam, 2016–2025 (NIC rows)",
+      "url": "https://www.nccwebsite.org/certification-exams/other-helpful-information/statistics",
+      "accessed": "2026-09-04"
+    },
+    {
+      "title": "NCC Exam Fees and Eligibility — $325 core / $210 subspecialty, shared CORE RNC eligibility rule, subspecialty eligibility",
+      "url": "https://www.nccwebsite.org/certification-exams/exam-fees-and-eligibility",
+      "accessed": "2026-09-04"
+    },
+    {
+      "title": "NCC CORE RNC Examination Registration Catalog [PDF]",
+      "url": "https://www.nccwebsite.org/content/documents/cms/exam-core.pdf",
+      "accessed": "2026-09-04"
+    },
+    {
+      "title": "NCC — Testing with Live Remote Proctoring",
+      "url": "https://www.nccwebsite.org/certification-exams/testing-with-live-remote-proctoring",
+      "accessed": "2026-09-04"
+    },
+    {
+      "title": "NCC — Maintain your Certification (CCA and Education Plan)",
+      "url": "https://www.nccwebsite.org/maintain-your-certification",
+      "accessed": "2026-09-04"
+    },
+    {
+      "title": "NCC Exam Detail Page — Low Risk Neonatal Intensive Care Nursing (RNC-LRN) purpose statement (level II / special care / step-down scope)",
+      "url": "https://www.nccwebsite.org/certification-exams/details/3/maternal-newborn-nursing",
+      "accessed": "2026-09-04"
+    },
+    {
+      "title": "NCC Exam Detail Page — Maternal Newborn Nursing (RNC-MNN) purpose statement (birth to six weeks scope)",
+      "url": "https://www.nccwebsite.org/certification-exams/details/4/low-risk-neonatal-intensive-care-nursing",
+      "accessed": "2026-09-04"
+    },
+    {
+      "title": "AACN — CCRN (Neonatal) Direct Care Eligibility Pathway: hour options and $260/$375 fees",
+      "url": "https://www.aacn.org/certification/get-certified/ccrn-neo",
+      "accessed": "2026-09-04"
+    },
+    {
+      "title": "AACN — CCRN Exam Handbook, Direct Care Pathway [PDF]: 150 items, 125 scored, 3 hours, Synergy Model 80/20 split",
+      "url": "https://www.aacn.org/-/media/aacn-website/certification/get-certified/handbooks/ccrnexamhandbook.pdf",
+      "accessed": "2026-09-04"
+    },
+    {
+      "title": "AACN — CCRN (Neonatal) renewal: 3-year cycle, 100 Synergy CERPs or re-examination plus practice hours",
+      "url": "https://www.aacn.org/certification/certification-renewal/ccrn-neo",
+      "accessed": "2026-09-04"
+    },
+    {
+      "title": "U.S. Bureau of Labor Statistics — Registered Nurses, Occupational Outlook Handbook (May 2024 wages)",
+      "url": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
+      "accessed": "2026-09-04"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "content_brief_fee_table",
+      "note": "The content brief's 'facts to verify' table lists an examination fee of $325 (Mometrix) alongside a testing fee of $275 (NCC) and an application fee of $50 as if they were competing figures. They are not competing: NCC's $325 is the $50 application cost plus the $275 testing fee. Verified against the NCC exam detail page."
+    },
+    {
+      "field": "content_brief_unscored_questions",
+      "note": "The brief cites Mometrix for '15 unscored questions'. That is wrong. NCC states 175 items of which 150 are scored and 25 are unscored pretest items. Use 25."
+    },
+    {
+      "field": "content_brief_pass_rate",
+      "note": "The brief cites a 93% pass rate attributed to learn.nursegrid.com. That is a vendor course-completion claim, not an NCC exam statistic. NCC's own published RNC-NIC pass rate has not been at or above 93% in any year from 2016 to 2025; the 2025 figure is 68%. Do not repeat 93% on the page."
+    },
+    {
+      "field": "content_brief_experience_requirement",
+      "note": "The brief lists '2 years' and '2,000 hours' as separate rows sourced to Mometrix and ce.nemours.org, with Nemours phrasing it as '2 years (or 2,000 hours)'. The 'or' is wrong. NCC states explicitly: 'Both practice time and hours must be met. This is not an either/or criterion.'"
+    },
+    {
+      "field": "content_brief_exam_windows",
+      "note": "The brief's outline section 4 implies a registration/scheduling calendar. NCC has no application deadlines and no fixed sittings for RNC-NIC — eligibility opens a personal 90-day window. Page copy reflects the rolling model."
+    },
+    {
+      "field": "ncc_url_slug_mismatch",
+      "note": "Source-site oddity worth knowing: on nccwebsite.org, /certification-exams/details/3/maternal-newborn-nursing renders the Low Risk Neonatal Intensive Care Nursing page and /certification-exams/details/4/low-risk-neonatal-intensive-care-nursing renders the Maternal Newborn Nursing page. The RNC-NIC URL (/details/5/neonatal-intensive-care-nursing) is correct. Slugs and IDs are swapped for MNN and LRN, so cite by content, not by slug."
+    },
+    {
+      "field": "aacn_page_copy",
+      "note": "AACN's CCRN (Neonatal) Direct Care Eligibility Pathway page carries the Knowledge Professional pathway's description in its intro paragraph ('do not primarily or exclusively provide direct care'). The hour requirements listed below it are the Direct Care ones. Hour figures were taken from the requirement block, not the intro."
+    },
+    {
+      "field": "nnic_vs_nic",
+      "note": "NCC's site currently promotes a 'Second Chance FREE Promotion for NNIC July 1 through August 31 2026'. NNIC is the Neonatal Neuro-Intensive Care subspecialty (C-NNIC, $210), not RNC-NIC. The promotion does not apply to the core exam."
+    }
+  ],
+  "gaps": [
+    "year_launched — no primary source states when NCC first administered the RNC-NIC exam. Omitted from the page.",
+    "active_certificants — NCC publishes candidates tested per year but no count of currently certified RNC-NIC holders. Omitted from the page.",
+    "renewal_ce_hours — no universal figure exists; the CCA generates an individualised Education Plan. Page copy says 'CE hours defined by your CCA Education Plan' and states no number.",
+    "per-domain scored item counts — NCC publishes percentages only. The page shows percentages and does not convert them into item counts.",
+    "accreditation — NCCA/ABSNC accreditation status specific to the RNC-NIC exam was not confirmed against an NCC primary page; no accreditation claim appears on the page.",
+    "NICU-specific salary — BLS has no NICU RN occupation code. The page cites only the BLS all-RN median.",
+    "2019 pass rate — absent from NCC's statistics table entirely; the chart skips 2019 rather than showing a value."
+  ]
+}
