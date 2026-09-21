@@ -18,6 +18,7 @@ module.exports = [
   { code: "CNOR",  name: "Certified Perioperative Nurse",                  body: "CCI",     cat: "periop",    questions: 200, blurb: "The gold-standard credential for perioperative registered nurses working in the OR." },
   { code: "CAPA",  name: "Certified Ambulatory Perianesthesia Nurse",      body: "ABPANC",  cat: "periop",    questions: 180, blurb: "For RNs providing perianesthesia care in the preoperative and Phase II recovery phases." },
   { code: "CPAN",  name: "Certified Post Anesthesia Nurse",                body: "ABPANC",  cat: "periop",    questions: 180, blurb: "Recognizes expertise in caring for patients in the immediate Phase I recovery period." },
+  { code: "CRNFA", name: "Certified Registered Nurse First Assistant",            body: "NASC",    cat: "periop",    questions: null, blurb: "Portfolio-based credential for perioperative RNs who serve as first assistant during surgery. Requires CNOR and an accredited RNFA program." },
 
   // Pediatric & Family
   { code: "CPN",   name: "Certified Pediatric Nurse",               body: "PNCB",   cat: "pediatric", questions: 175, blurb: "For RNs providing direct care to children and adolescents across inpatient and outpatient settings." },
@@ -41,6 +42,10 @@ module.exports = [
   { code: "CDCES",      name: "Certified Diabetes Care and Education Specialist",      body: "CBDCE",   cat: "specialty", questions: 200, blurb: "For health professionals who provide diabetes self-management education and support." },
   { code: "PMH-BC",     name: "Psychiatric\u2011Mental Health Nurse — Board Certified", body: "ANCC",    cat: "specialty", questions: 175, blurb: "For RNs providing mental-health care across inpatient, outpatient, and community settings." },
   { code: "CIC",        name: "Certification in Infection Control",                    body: "CBIC",    cat: "specialty", questions: 150, blurb: "For professionals preventing and controlling infections across healthcare settings." },
+  { code: "CRNI",  name: "Certified Registered Nurse Infusion",                   body: "INCC",    cat: "specialty", questions: 140,  blurb: "The RN-only credential for infusion therapy \u2014 vascular access, infusion delivery, and related complications." },
+  { code: "CRNO",  name: "Certified Registered Nurse in Ophthalmology",            body: "NCBORN",  cat: "specialty", questions: 250,  blurb: "For RNs practicing in ophthalmic clinics, surgical suites, and eye-care settings." },
+  { code: "CDDN",  name: "Certified Developmental Disabilities Nurse",             body: "DDNA",    cat: "specialty", questions: null, blurb: "For RNs supporting people with intellectual and developmental disabilities across community and residential settings." },
+  { code: "CLPN",  name: "Certified Licensed Practical Nurse",                     body: "NADONA/LTC", cat: "specialty", questions: null, blurb: "Long-term-care specialty certification for licensed practical nurses \u2014 distinct from LPN licensure." },
   { code: "CCHT",     name: "Certified Clinical Hemodialysis Technician",            body: "NNCC",    cat: "specialty", questions: 150, blurb: "For dialysis technicians delivering hemodialysis treatment and monitoring patients during therapy." },
   { code: "PMHNP-BC", name: "Psychiatric-Mental Health Nurse Practitioner \u2014 Board Certified", body: "ANCC", cat: "specialty", questions: 175, blurb: "Advanced-practice credential for NPs diagnosing and treating mental-health conditions across the lifespan." },
   { code: "VA-BC",    name: "Vascular Access Board Certified",                        body: "VACC",    cat: "specialty", questions: 150, blurb: "Multi-disciplinary credential for clinicians who place, manage, and troubleshoot vascular access devices." },

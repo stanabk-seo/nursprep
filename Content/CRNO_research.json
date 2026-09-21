@@ -1,0 +1,416 @@
+{
+  "code": "CRNO",
+  "name": "Certified Registered Nurse in Ophthalmology",
+  "researched_at": "2026-09-21T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "National Certifying Board for Ophthalmic Registered Nurses (NCBORN)",
+      "source": "https://ptcny.com/test-sponsors/ncborn/",
+      "confidence": "high"
+    },
+    "issuing_body_parent": {
+      "value": "NCBORN is an independently incorporated organization supported by the American Society of Ophthalmic Registered Nurses (ASORN). NCBORN develops and implements the certifying process; ASORN publishes the study materials and hosts the certification pages.",
+      "source": "https://ptcny.com/test-sponsors/ncborn/",
+      "confidence": "high"
+    },
+    "exam_administrator": {
+      "value": "Professional Testing Corporation (PTC), 1350 Broadway Suite 800, New York, NY 10018. PTC handles applications, eligibility review, scheduling authorizations, transfers, hand scores, score reports, and the recertification-by-CE process.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "exam_vendor": {
+      "value": "Prometric computer-based test centers (scheduling at prometric.com/NCBORN). PTC is the test developer and administrator; Prometric is the delivery vendor. No live-remote-proctoring option is documented.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "credential_designation": {
+      "value": "Candidates who pass may use the designation CRNO after their name. NCBORN maintains a registry of Certified Registered Nurses in Ophthalmology.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "eligibility": {
+      "value": "Four requirements: (1) currently licensed as a Registered Nurse in the United States or the equivalent in another country; (2) at least two years of full-time experience, or the equivalent of 4,000 hours, in ophthalmic registered nursing practice; (3) a completed application; (4) payment of the required fee.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "eligibility_recency_window": {
+      "value": null,
+      "note": "The NCBORN Candidate Handbook attaches no recency window to the 4,000 hours; it does not say 'within the last N years'. Several secondary pages imply a window. Page must not assert one.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based examination composed of a maximum of 250 multiple-choice, objective questions with a total testing time of four (4) hours. Delivered at Prometric test centers during an established two-week testing window, daily excluding holidays. No breaks are scheduled.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 250,
+      "scored": null,
+      "pretest": null,
+      "note": "Handbook wording is 'a maximum of 250 multiple-choice, objective questions'. NCBORN does not disclose a scored/pretest split.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "time_limit": {
+      "value": "4 hours (240 minutes)",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": null,
+      "note": "NCBORN and PTC publish no passing score, score scale or cut score. The handbook says only that scores on the major content areas and on the total examination are reported, and that PTC automatically hand-scores any candidate within 3 points of passing. Do not state a passing percentage.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "score_reporting": {
+      "value": "PTC notifies candidates of official scores within approximately four weeks of the close of the testing period. Scores are reported for each major content area and for the total examination. Results are not released at the test center. Failed candidates may request a hand score within 90 days for $25; PTC automatically hand-scores any candidate within 3 points of passing.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "fee_member": {
+      "value": 350,
+      "currency": "USD",
+      "note": "ASORN member application fee. Includes testing-center fees and a non-refundable $75 administrative fee. Non-refundable and non-transferable.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "fee_nonmember": {
+      "value": 450,
+      "currency": "USD",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "fee_nova_member": {
+      "value": 400,
+      "currency": "USD",
+      "note": "Active members of the Nurses Organization of Veterans Affairs (NOVA) pay $50 less than the non-member rate, i.e. $400. NOVA and ASORN discounts cannot be combined.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "fee_retest_member": {
+      "value": 250,
+      "currency": "USD",
+      "note": "ASORN member retesting fee; valid only when retesting within two years of the previous examination.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "fee_retest_nonmember": {
+      "value": 350,
+      "currency": "USD",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "fee_transfer": {
+      "value": 182,
+      "currency": "USD",
+      "note": "One-time transfer to a future testing period; the request must reach PTC within 30 days of the originally scheduled testing period. A second transfer requires the full examination fee. The 2022 handbook listed $172; the 2023 handbook lists $182.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "fee_reschedule": {
+      "value": 50,
+      "currency": "USD",
+      "note": "Paid directly to Prometric when rescheduling 29 to 5 days before the appointment, within the same testing period. Rescheduling 30 or more days out is free; inside 5 days it is not permitted.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "fee_handscore": {
+      "value": 25,
+      "currency": "USD",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "fee_admin_nonrefundable": {
+      "value": 75,
+      "currency": "USD",
+      "note": "Retained from the application fee when a candidate is found ineligible or the application is incomplete 21 days before the testing window opens.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "renewal_cycle_years": {
+      "value": 5,
+      "note": "CRNO certification is recognized for five years, after which the certificant must either retake and pass the current examination or recertify by continuing education.",
+      "source": "https://asorn.org/certification/recertification/",
+      "confidence": "high"
+    },
+    "renewal_requirements_ce": {
+      "value": "75 contact hours (CH) obtained during the 5 years prior to the renewal date. At least 60 CH must be ophthalmology-specific (content outline Topics I to IV); all 75 may be ophthalmology-specific. Up to 15 CH may be academic coursework or Professional Issues (Topic V). Up to 5 CH may come from ophthalmology-specific courses the CRNO taught, capped at 1 CH per presentation.",
+      "source": "https://asorn.org/certification/recertification/",
+      "confidence": "high"
+    },
+    "renewal_ce_providers": {
+      "value": "Contact hours must come from organizations accredited by the American Nurses Credentialing Center's Commission on Accreditation (ANCC-COA); State Nurses Associations (SNA); a Registered Nurse or RN organization accredited as a Provider by a State Board of Registered Nursing (BRN); or organizations accredited by the Accreditation Council for Continuing Medical Education (ACCME) for ophthalmology-specific topics only.",
+      "source": "https://asorn.org/certification/recertification/",
+      "confidence": "high"
+    },
+    "renewal_deadlines": {
+      "value": "Recertification-by-CE applications must be received by July 31 for certifications expiring in August or September, and by January 31 for certifications expiring in February or March.",
+      "source": "https://asorn.org/certification/recertification/",
+      "confidence": "high"
+    },
+    "renewal_audit_rate": {
+      "value": "10% of recertification applications are audited; CH transcripts and supporting information must be supplied to NCBORN on request.",
+      "source": "https://asorn.org/certification/recertification/",
+      "confidence": "high"
+    },
+    "renewal_fee_member": {
+      "value": 350,
+      "currency": "USD",
+      "source": "https://asorn.org/certification/recertification/",
+      "confidence": "high"
+    },
+    "renewal_fee_nonmember": {
+      "value": 450,
+      "currency": "USD",
+      "source": "https://asorn.org/certification/recertification/",
+      "confidence": "high"
+    },
+    "lapse_policy": {
+      "value": "Recertification by continuing education must be completed before the current CRNO expires. Any lapse in certification status makes the candidate ineligible to recertify by continuing education, so a lapsed CRNO must retake and pass the examination.",
+      "source": "https://asorn.org/certification/recertification/",
+      "confidence": "high"
+    },
+    "retake_policy": {
+      "value": "The examination may be taken as often as desired upon filing a new application and fee. There is no limit on attempts, but candidates may not retest during the same testing period. The reduced retesting fee applies only within two years of the previous attempt.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "revocation_grounds": {
+      "value": "Certification is revoked for falsification of an application, revocation of the certificant's RN license, or misrepresentation of certification status. The NCBORN Appeals Committee provides the challenge mechanism.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "exam_windows": {
+      "value": "Two testing windows a year, each two weeks long, historically a spring window (March to April) and a fall window (September). In the 2023 cycle the windows were March 18 to April 1, 2023 (application deadline February 15, 2023) and September 2 to 16, 2023 (application deadline August 2, 2023). Applications are not accepted after the deadline.",
+      "note": "Dates are cycle-specific. The 2023 handbook is the most recent edition publicly retrievable; current-cycle dates must be read off ptcny.com/test-sponsors/NCBORN before publication.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "medium"
+    },
+    "current_cycle_exam_dates": {
+      "value": null,
+      "note": "2026 testing windows and application deadlines could not be retrieved; ptcny.com and asorn.org/certification returned empty bodies to the fetcher. Page describes the twice-yearly pattern only and points readers to PTC for live dates.",
+      "source": "https://ptcny.com/test-sponsors/ncborn/",
+      "confidence": "high"
+    },
+    "scheduling_authorization": {
+      "value": "PTC emails a Scheduling Authorization about eleven (11) weeks before the first day of the testing window, from notices@ptcny.com. Candidates cannot book with Prometric until it arrives. Appointments are first-come, first-served, and candidates who fail to book forfeit their fees.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "practice_test": {
+      "value": "NCBORN offers an optional online practice test of 75 questions with a 2-hour limit, sold through PTC. It returns overall and per-content-area performance but no answer key or rationales, and it runs on a different platform from the live exam.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "study_guide": {
+      "value": "The CRNO Examination Study Guide is sold by ASORN and contains three 250-question practice exams weighted like the live exam, supplemental questions per content area, and answers keyed to their location in ASORN publications. The handbook also lists Essentials of Ophthalmic Nursing Books 1 to 4, Ophthalmic Procedures in the Office and Clinic, Ophthalmic Procedures in the Operating Room and Ambulatory Surgery Center, Care and Handling of Ophthalmic Microsurgical Instruments, Scope and Standards of Ophthalmic Clinical Nursing Practice, Insight (the ASORN journal), and the AAO Ophthalmic Medical Assisting course.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "preparation_time": {
+      "value": "NCBORN states in the handbook that two years of ophthalmic nursing experience does not guarantee readiness and that the average nurse spends three or more months preparing for the examination.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "pass_rate": {
+      "value": null,
+      "note": "Neither NCBORN, ASORN nor PTC publishes CRNO pass-rate statistics. No primary-source figure exists. Third-party pages quoting '75%' are describing a supposed passing score, not a candidate pass rate, and are unsupported.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "active_certificants": {
+      "value": null,
+      "note": "NCBORN maintains a registry of CRNOs but publishes no certificant count.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": null,
+      "note": "No primary source found for the year the CRNO examination was first administered.",
+      "source": null,
+      "confidence": "low"
+    },
+    "accreditation": {
+      "value": null,
+      "note": "Third-party pages (raisingcareers.com) describe CRNO as an ABSNC-accredited certification. This could not be confirmed against absnc.org or any NCBORN or ASORN page; absnc.org returned empty to the fetcher. Do not state an accreditation claim on the page.",
+      "source": "https://www.raisingcareers.com/healthcare-careers/healthcare-certifications/certification-for-registered-nurse-in-ophthalmology-crno-asorn/",
+      "confidence": "low"
+    },
+    "common_confusions": {
+      "value": [
+        {
+          "credential": "COA (Certified Ophthalmic Assistant)",
+          "disambiguation": "IJCAHPO's entry-level credential for ophthalmic allied health personnel. COA is not a nursing credential and does not require an RN license. CRNO is an RN-only board certification."
+        },
+        {
+          "credential": "COT (Certified Ophthalmic Technician)",
+          "disambiguation": "IJCAHPO's intermediate technician credential. Eligibility runs through an ICA-accredited technician program or 2,000 hours employed as a COA under an ophthalmologist within the prior 24 months. A separate career ladder from CRNO."
+        },
+        {
+          "credential": "COMT (Certified Ophthalmic Medical Technologist)",
+          "disambiguation": "IJCAHPO's advanced technician credential; one route is 6,000 hours employed as a COT under an ophthalmologist within the prior 60 months. IJCAHPO technician credentials recertify every three years; CRNO recertifies every five."
+        },
+        {
+          "credential": "CRNP (Certified Registered Nurse Practitioner)",
+          "disambiguation": "An advanced-practice designation, not an ophthalmic specialty credential. Frequently mistyped for CRNO."
+        },
+        {
+          "credential": "CNOR",
+          "disambiguation": "CCI's perioperative RN certification. Ophthalmic OR nurses sometimes hold both, but CNOR covers all surgical specialties while CRNO is ophthalmology-specific across clinic, OR and ASC settings."
+        }
+      ],
+      "source": "https://www.jcahpo.org/certification/certifications/",
+      "confidence": "high"
+    },
+    "salary_context": {
+      "value": "BLS publishes no ophthalmic-nursing-specific occupation code. The median annual wage for registered nurses was $97,550 in May 2025, and RN employment is projected to grow 6 percent from 2025 to 2035. No verified CRNO-specific salary or pay differential exists.",
+      "source": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
+      "confidence": "high"
+    },
+    "salary_premium": {
+      "value": null,
+      "note": "The brief cites a '40 to 60 percent' salary increase from registerednursing.org and a $71,730 average from raisingcareers.com. Neither traces to a primary source and the two conflict with each other and with BLS. Omit any CRNO pay-premium claim.",
+      "source": null,
+      "confidence": "low"
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "Ocular Conditions",
+      "weight_pct": 15,
+      "scored_items": null,
+      "detail": "Developmental, congenital and hereditary, systemic and acquired ocular conditions, plus trauma and malignancies or tumors.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Pharmacology",
+      "weight_pct": 20,
+      "scored_items": null,
+      "detail": "Administration routes and techniques (topical, injection, oral) and types and effects of drugs, including anti-VEGF agents, prostaglandins, carbonic anhydrase inhibitors, viscoelastics and antimetabolites.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Nursing Assessment of the Ophthalmic Patient",
+      "weight_pct": 20,
+      "scored_items": null,
+      "detail": "Health history, basic diagnostic tests and techniques, special diagnostic tests and triage.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Clinical and Perioperative Procedures",
+      "weight_pct": 35,
+      "scored_items": null,
+      "detail": "Operative procedures (laser, intraocular, extraocular, refractive), perioperative care, discharge planning, complications, visual impairment and blindness, and trauma.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    },
+    {
+      "domain": "Professional Issues",
+      "weight_pct": 10,
+      "scored_items": null,
+      "detail": "Ethics, legal aspects, management and supervision, patient and staff education, and patient teaching.",
+      "source": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "confidence": "high"
+    }
+  ],
+  "blueprint_total_scored_items": null,
+  "blueprint_note": "Weights are stated in the handbook as approximate percentages of the examination, not as item counts. They sum to 100%. NCBORN publishes no per-domain item counts and no scored/pretest split.",
+  "blueprint_source_dco": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+  "pass_rate_history": [],
+  "sources_index": [
+    {
+      "title": "NCBORN Certification Examination for Ophthalmic Registered Nurses, Candidate Handbook 2023 (eligibility, fees, 250 items / 4 hours, content outline and weights, retake and revocation policy, testing windows)",
+      "url": "https://asorn.org/assets/PDF-Documents/NCBORN2023-Handbook.pdf",
+      "accessed": "2026-09-21"
+    },
+    {
+      "title": "ASORN / NCBORN, Recertification by Continuing Education (5-year cycle, 75 contact hours, 60 ophthalmology-specific, deadlines, audit rate, fees)",
+      "url": "https://asorn.org/certification/recertification/",
+      "accessed": "2026-09-21"
+    },
+    {
+      "title": "Professional Testing Corporation, NCBORN test-sponsor page (PTC administers the exam; current testing periods, deadlines and fees)",
+      "url": "https://ptcny.com/test-sponsors/ncborn/",
+      "accessed": "2026-09-21"
+    },
+    {
+      "title": "Prometric, NCBORN scheduling portal (test-center appointments, rescheduling, closures)",
+      "url": "https://www.prometric.com/NCBORN",
+      "accessed": "2026-09-21"
+    },
+    {
+      "title": "ASORN, certification program information and CRNO study materials",
+      "url": "https://asorn.org/certification/",
+      "accessed": "2026-09-21"
+    },
+    {
+      "title": "IJCAHPO, Certifications (COA, COT, COMT technician ladder, distinct from the CRNO nursing credential)",
+      "url": "https://www.jcahpo.org/certification/certifications/",
+      "accessed": "2026-09-21"
+    },
+    {
+      "title": "IJCAHPO, Criteria for Certification and Recertification, COA / COT / COMT / CCOA",
+      "url": "https://documents.jcahpo.org/documents/certification/criteria_for_certification.pdf",
+      "accessed": "2026-09-21"
+    },
+    {
+      "title": "US Bureau of Labor Statistics, Registered Nurses, Occupational Outlook Handbook ($97,550 median annual wage, May 2025; 6% projected growth 2025 to 2035)",
+      "url": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
+      "accessed": "2026-09-21"
+    },
+    {
+      "title": "NCBORN Candidate Handbook 2022 (PTC-hosted copy; used only to confirm the transfer fee rose from $172 to $182 and that eligibility and blueprint text is unchanged)",
+      "url": "https://ptcny.com/pdf/NCBORN.pdf",
+      "accessed": "2026-09-21"
+    }
+  ],
+  "discrepancies": [
+    {
+      "field": "fee_member",
+      "description": "The brief's table 5 lists an ASORN-member exam cost of $325 from raisingcareers.com, against $350 in the NCBORN handbook and on credenzahealth.com. $350 is the primary-source figure; $325 is stale or wrong."
+    },
+    {
+      "field": "fee_transfer",
+      "description": "Transfer fee is $172 in the 2022 handbook and $182 in the 2023 handbook. Use $182 and flag it as subject to change."
+    },
+    {
+      "field": "eligibility_hours",
+      "description": "The brief flags '4,000 hours vs 4000 hours' as a conflict between registerednursing.org and vivian.com. These are the same number written two ways; there is no substantive conflict. The handbook reads 'at least two years of full time or the equivalent (4,000 hours)'."
+    },
+    {
+      "field": "eligibility_recency_window",
+      "description": "The page brief for this build assumed 'ophthalmic nursing practice hours within a set window'. The NCBORN handbook attaches no recency window to the 4,000 hours, unlike BCEN or HPCC credentials. Do not invent one."
+    },
+    {
+      "field": "salary",
+      "description": "Brief cites $93,600 (registerednursing.org, a stale BLS May 2024 RN median) and $71,730 / $34.48 per hour (raisingcareers.com) for the same population. Current BLS RN median is $97,550 (May 2025). No CRNO-specific figure is verifiable."
+    },
+    {
+      "field": "pass_rate",
+      "description": "Third-party sources describe '75%' as a CRNO pass rate. The figure appears to be a misreading of a supposed passing score and is not published by NCBORN, ASORN or PTC in any form."
+    },
+    {
+      "field": "brief_source_contamination",
+      "description": "The brief's table 5 attributes 'two-year practice hours 1,750' and 'recent year practice hours 875' to www.aacn.org. Those are AACN CCRN eligibility figures, not CRNO. Page 7 of the analysed set is an AACN CCRN page and should not have contributed CRNO facts."
+    },
+    {
+      "field": "url_slug",
+      "description": "The brief recommends the slug /crno-certification-guide/. The NursPrep site convention is /certifications/{code}/, so the page ships at /certifications/crno/ with no custom slug."
+    }
+  ],
+  "gaps": [
+    "pass_rate: NCBORN, ASORN and PTC publish no CRNO pass-rate data in any year. No pass-rate bars are rendered on the page.",
+    "passing_score, cut score and score scale: not published. Page states only that subscores are reported per content area.",
+    "active_certificants: NCBORN maintains a CRNO registry but publishes no headcount.",
+    "year_launched: no primary source found for the first administration of the CRNO exam.",
+    "current_cycle_exam_dates: 2026 testing windows and application deadlines could not be retrieved; ptcny.com and asorn.org/certification returned empty bodies to the fetcher. Page describes the twice-yearly two-week-window pattern and points readers to PTC for live dates.",
+    "scored vs pretest item split: handbook says 'a maximum of 250' items and discloses no pretest count.",
+    "accreditation: ABSNC accreditation is claimed only by a third-party careers site and could not be confirmed on absnc.org, ncborn.org or asorn.org. Omitted from the page.",
+    "salary_premium: no verifiable CRNO pay differential. Page uses only the BLS RN median and says plainly that no ophthalmic-nursing-specific figure exists.",
+    "live remote proctoring: the handbook documents Prometric test centers only. No LRP option is confirmed; the page does not mention one."
+  ]
+}

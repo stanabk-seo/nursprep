@@ -103,7 +103,7 @@ eleventyComputed:
           {% for p in exam.blueprint.prose %}
             {% if loop.first %}<p>{{ p | safe }}</p>{% endif %}
           {% endfor %}
-          {{ ex.blueprintChart(exam.blueprint.domains) }}
+          {% if exam.blueprint.domains and exam.blueprint.domains.length %}{{ ex.blueprintChart(exam.blueprint.domains) }}{% endif %}
           {% for p in exam.blueprint.prose %}
             {% if not loop.first %}<p>{{ p | safe }}</p>{% endif %}
           {% endfor %}
@@ -129,7 +129,7 @@ eleventyComputed:
         <section id="passrate">
           <h2>{{ exam.passrate.heading }}</h2>
           {% for p in exam.passrate.prose %}<p>{{ p | safe }}</p>{% endfor %}
-          {{ ex.passChart(exam.passrate.rows, exam.passrate.target or 80, exam.passrate.footnote) }}
+          {% if exam.passrate.rows and exam.passrate.rows.length %}{{ ex.passChart(exam.passrate.rows, exam.passrate.target or 80, exam.passrate.footnote) }}{% endif %}
           {% if exam.passrate.factBox %}{{ ex.factBox(exam.passrate.factBox) }}{% endif %}
         </section>
         {% endif %}

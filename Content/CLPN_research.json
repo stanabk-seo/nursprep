@@ -1,0 +1,253 @@
+{
+  "code": "CLPN",
+  "name": "Certified Licensed Practical Nurse",
+  "researched_at": "2026-09-21T00:00:00Z",
+  "research_summary": "NADONA/LTC publishes almost no exam specifics for the CLPN. Its live CLPN exam page reads only 'Check back soon for more information.' The single substantive live page is the CLPN certification renewal page, which states the 3-year cycle and its hour requirements. Exam item count, time limit, passing score, pass rate, weighted blueprint, and quantified initial eligibility are NOT published by NADONA or any credible third party. Fees are available only from archived NADONA product pages and are dated, not confirmed current.",
+  "facts": {
+    "awarding_body": {
+      "value": "NADONA/LTC - National Association of Directors of Nursing Administration in Long Term Care",
+      "source": "https://www.nadona.org/clpn-exam",
+      "confidence": "high",
+      "note": "NADONA/LTC is the certifying body for CLPN. The content brief never named NADONA/LTC as the certifying body and mis-expanded NADONA as 'National Association of Directors of Nursing Administration', dropping 'in Long Term Care'."
+    },
+    "credential_type": {
+      "value": "Voluntary post-licensure specialty certification in long-term care nursing. CLPN is not a nursing licence and is not the NCLEX-PN.",
+      "source": "https://www.nadona.org/clpn-exam",
+      "confidence": "high",
+      "note": "Awarded to nurses who already hold an LPN/LVN licence. Licensure (NCLEX-PN plus state board of nursing) is the prerequisite; CLPN sits on top of it."
+    },
+    "credential_scope": {
+      "value": "Long-term care and skilled nursing. NADONA describes itself as 'the premier association for directors of nursing and infection preventionists in long-term care and skilled nursing facilities.'",
+      "source": "https://www.nadona.org/",
+      "confidence": "high"
+    },
+    "year_launched": {
+      "value": null,
+      "confidence": "none",
+      "note": "NADONA does not publish a launch year for CLPN. Earliest datable evidence of the exam product is a 2019-07-16 web archive capture, which establishes a floor, not a launch date. NADONA's About page says only 'Since 1986'."
+    },
+    "active_certificants": {
+      "value": null,
+      "confidence": "none",
+      "note": "No CLPN certificant count published by NADONA or any third party. An O*NET record citing 'Over 1800 DONs have been certified' refers to the CDONA program, not CLPN."
+    },
+    "eligibility": {
+      "value": "Active, current LPN or LVN licence plus practice in a long-term care setting. NADONA publishes no quantified minimum experience (no years, no hours) for initial CLPN certification.",
+      "source": "https://www.vivian.com/certifications/clpn-nadona/",
+      "confidence": "low",
+      "note": "Qualitative only. NADONA's live site states no eligibility criteria at all. The archived NADONA exam-qualifications application form collected credential type (RN/LPN/LVN/other), degree, school and graduation year, and stated no experience requirement. An O*NET record claiming 'more than two years of work experience required' also claims a 5-year renewal cycle, which contradicts NADONA's published 3-year cycle; that record is stale and was not used."
+    },
+    "eligibility_hours": {
+      "value": null,
+      "confidence": "none",
+      "note": "No initial long-term-care experience-hours requirement is published. The 1,000-hour figure that circulates online is the RENEWAL employment requirement, not entry eligibility. Do not repurpose it."
+    },
+    "exam_format": {
+      "value": "Online, registered and purchased through NADONA's MemberClicks portal after creating an account. Archived NADONA copy describes the exam as covering medical conditions encountered in long-term care and scenario items asking the nurse to select the best course of action within the LPN scope of practice.",
+      "source": "http://web.archive.org/web/20250115123730/https://nadona.org/product/long-term-care-cltc-lpn/",
+      "confidence": "medium",
+      "note": "Proctoring status and open-book policy are not published."
+    },
+    "exam_vendor": {
+      "value": "NADONA MemberClicks exam registration portal (nadona.memberclicks.net/exam_registration)",
+      "source": "https://www.nadona.org/clpn-exam",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": null,
+      "confidence": "none",
+      "note": "Not published. Any '150 questions' figure attached to CLPN online is almost certainly bleed-through from the NAPNES CLTC credential, which is a different certification from a different organisation."
+    },
+    "time_limit": {
+      "value": null,
+      "confidence": "none",
+      "note": "Not published by NADONA."
+    },
+    "passing_score": {
+      "value": null,
+      "confidence": "none",
+      "note": "Not published. An '80%' figure appears on theinspac.com but refers to the Post-Acute Care Certified LPN (PAC-LPN), a different credential from a different body. NADONA's LTC Nurse prep course separately requires 80% on its six post-tests - those are course post-tests, not the certification exam."
+    },
+    "pass_rate": {
+      "value": null,
+      "year": null,
+      "confidence": "none",
+      "note": "NADONA publishes no pass-rate data for CLPN or for any of its exams."
+    },
+    "blueprint_domains": {
+      "value": null,
+      "confidence": "none",
+      "note": "No weighted exam blueprint is published. The closest available proxy is the topic list from NADONA's archived CLPN prep course, which carries no percentage weights and is a course syllabus rather than an exam blueprint."
+    },
+    "prep_course_topics": {
+      "value": [
+        "Role of the LPN",
+        "Medical Conditions",
+        "Alzheimer's Disease, Dementia, Death and Dying",
+        "Medication and Skin",
+        "Incidents / Accidents, Plans",
+        "HR, Regulations and Scope of Practice"
+      ],
+      "source": "http://web.archive.org/web/20230608141339/https://nadona.org/product/clpn-certificate-of-mastery-class/",
+      "confidence": "medium",
+      "note": "Unweighted. From the archived 'CLPN Certificate of Mastery Class' prep-course description, not from an exam content outline."
+    },
+    "fee_member": {
+      "value": 200,
+      "currency": "USD",
+      "as_of": "2025-01-15",
+      "source": "http://web.archive.org/web/20250115123730/https://nadona.org/product/long-term-care-cltc-lpn/",
+      "confidence": "medium",
+      "note": "Read from the archived NADONA WooCommerce product variation data. NOT confirmed current - NADONA's live site publishes no CLPN exam price, and the CLPN exam was absent from its March 2025 store listing."
+    },
+    "fee_nonmember": {
+      "value": 300,
+      "currency": "USD",
+      "as_of": "2025-01-15",
+      "source": "http://web.archive.org/web/20250115123730/https://nadona.org/product/long-term-care-cltc-lpn/",
+      "confidence": "medium",
+      "note": "Same archived source and same caveat as fee_member. Earlier NADONA captures showed a flat $250 with no member tier, so this price has moved."
+    },
+    "fee_current": {
+      "value": null,
+      "confidence": "none",
+      "note": "No current CLPN exam fee is published on nadona.org. Candidates must create a MemberClicks account to see pricing."
+    },
+    "recert_fee_member": {
+      "value": 355,
+      "currency": "USD",
+      "as_of": "2025-03-14",
+      "source": "http://web.archive.org/web/20250314200514/https://www.nadona.org/products/p/certified-lpn-certificate-of-mastery-program-xml3s",
+      "confidence": "medium",
+      "note": "Listed as 'Discounted member price: $355'. Archived, not confirmed current."
+    },
+    "recert_fee_nonmember": {
+      "value": 465,
+      "currency": "USD",
+      "as_of": "2025-03-14",
+      "source": "http://web.archive.org/web/20250314200514/https://www.nadona.org/products/p/certified-lpn-certificate-of-mastery-program-xml3s",
+      "confidence": "medium"
+    },
+    "renewal_cycle_years": {
+      "value": 3,
+      "source": "https://www.nadona.org/clpn-certification-renewal",
+      "confidence": "high",
+      "quote": "Recertification for the CLPN is every 3 years."
+    },
+    "renewal_employment_hours": {
+      "value": 1000,
+      "period": "past 3 years",
+      "setting": "long-term care",
+      "source": "https://www.nadona.org/clpn-certification-renewal",
+      "confidence": "high",
+      "quote": "Requirement: 1000 employed hours in LTC over the past 3 years and 50 contact hours."
+    },
+    "renewal_contact_hours": {
+      "value": 50,
+      "subject_specific": 25,
+      "subject_areas": "leadership, budgeting, aging process, Medicare/Medicaid, regulatory requirements",
+      "ancc_accredited_minimum": 20,
+      "source": "https://www.nadona.org/clpn-certification-renewal",
+      "confidence": "high",
+      "quote": "25 of contact hours need to be in the areas of leadership/budgeting/aging process/Medicare/Medicaid and Regulatory requirements (20 CE need to be ANCC Accredited.)"
+    },
+    "renewal_due_date_rule": {
+      "value": "Renewal is due on the last day of the month in which the nurse originally became certified. NADONA's worked example: certified 1 January 2019, renewal due by 31 January 2022.",
+      "source": "https://www.nadona.org/clpn-certification-renewal",
+      "confidence": "high",
+      "quote": "Your certification renewal will be due on the last day of the month you originally became certified."
+    },
+    "membership_required": {
+      "value": "No. NADONA states explicitly that certification does not confer membership.",
+      "source": "https://www.nadona.org/clpn-certification-renewal",
+      "confidence": "high",
+      "quote": "Please keep in mind your certification does not warrant membership!"
+    },
+    "how_to_apply": {
+      "value": "Create a NADONA account, then register and purchase the exam through the MemberClicks exam registration portal at nadona.memberclicks.net/exam_registration. Renewals go through nadona.memberclicks.net/certification_renewal.",
+      "source": "https://www.nadona.org/clpn-exam",
+      "confidence": "high"
+    },
+    "common_confusions": {
+      "value": [
+        {
+          "credential": "LPN / LVN licensure",
+          "disambiguation": "LPN/LVN is a state-issued licence to practise, earned by graduating an approved practical nursing programme and passing the NCLEX-PN. CLPN is a voluntary specialty certification layered on top of an existing licence. A nurse cannot hold CLPN without first holding an LPN or LVN licence."
+        },
+        {
+          "credential": "NCLEX-PN",
+          "disambiguation": "NCLEX-PN is the national licensure examination administered under the National Council of State Boards of Nursing (NCSBN). It is the gateway to the LPN/LVN licence, not to CLPN. The CLPN exam is a separate NADONA/LTC exam taken after licensure."
+        },
+        {
+          "credential": "CLTC (NAPNES)",
+          "disambiguation": "The National Association for Practical Nurse Education and Service (NAPNES) offers its own long-term-care certification. It is a different credential from a different body. Question counts and exam specifics found online for CLTC do not apply to NADONA's CLPN."
+        },
+        {
+          "credential": "CLTCN (NADONA)",
+          "disambiguation": "NADONA's Certified Long Term Care Nurse is a separate NADONA credential. NADONA's own site currently renders the CLPN heading on the CLTCN exam URL, so the two are easy to conflate when scraping."
+        },
+        {
+          "credential": "CDONA (NADONA)",
+          "disambiguation": "Certified Director of Nursing Administration is NADONA's leadership credential for directors and assistant directors of nursing in long-term care. CLPN is the LPN-level bedside credential."
+        },
+        {
+          "credential": "PAC-LPN",
+          "disambiguation": "Post-Acute Care Certified Licensed Practical Nurse is offered by a different organisation. Pass marks and exam availability figures published for PAC-LPN do not describe NADONA's CLPN."
+        },
+        {
+          "credential": "CNA",
+          "disambiguation": "Certified Nursing Assistant is an entry-level unlicensed role. It is neither a prerequisite for nor a step within CLPN certification."
+        }
+      ],
+      "confidence": "high"
+    },
+    "ancc_relationship": {
+      "value": "ANCC does not award CLPN. ANCC's only role is accreditation of continuing education: 20 of the 50 contact hours required for CLPN renewal must be ANCC-accredited.",
+      "source": "https://www.nadona.org/clpn-certification-renewal",
+      "confidence": "high",
+      "note": "The content brief listed ANCC as an entity in a way that implies it certifies practical nurses. It does not."
+    },
+    "acen_relationship": {
+      "value": "ACEN accredits pre-licensure practical nursing education programmes. ACEN does not accredit CLPN certification, and there is no such thing as an 'accredited CLPN programme'.",
+      "confidence": "high",
+      "note": "The brief asked for a 'comprehensive list of accredited CLPN programs in the US'. No such list exists because CLPN is a certification exam, not an educational programme."
+    }
+  },
+  "gaps": [
+    "question_count - NADONA publishes no item count for the CLPN exam.",
+    "time_limit - no exam duration published.",
+    "passing_score - no passing standard published.",
+    "pass_rate - no pass-rate data published for CLPN or any NADONA exam, in any year.",
+    "blueprint_domains - no weighted content outline published; only an unweighted archived prep-course topic list exists.",
+    "eligibility_hours - no quantified initial experience requirement published; only a qualitative third-party description of 'active LPN license plus LTC experience'.",
+    "fee_current - current exam and renewal fees are behind the MemberClicks login; on-page figures are last-published archived NADONA prices from 2025 and must be re-verified.",
+    "year_launched - no launch year published; 2019 web-archive capture is a floor only.",
+    "active_certificants - no certificant count published.",
+    "exam_delivery_conditions - proctoring and open-book status not published.",
+    "retake_policy - no retake waiting period or attempt limit published by NADONA."
+  ],
+  "brief_errors": [
+    "The brief never identifies NADONA/LTC as the CLPN certifying body, and mis-expands NADONA as 'National Association of Directors of Nursing Administration', omitting 'in Long Term Care'.",
+    "The brief blurs CLPN with LPN licensure throughout, listing NCLEX-PN and state boards as if they were part of the CLPN pathway rather than its prerequisite.",
+    "Table 5 'training duration 12 months' (nursingworld.org) describes pre-licensure practical nursing school, not CLPN certification.",
+    "Table 5 'exam retake waiting period 45 days' (nursingworld.org) is an NCLEX-PN rule, not a CLPN rule.",
+    "Table 5 'passing grade 80%' and 'exam availability 24/7' (theinspac.com) describe the PAC-LPN credential, a different certification from a different body.",
+    "Table 5 'job demand increase 5%' is attributed to goodwin.edu, whose LPN certifications article does not mention CLPN or NADONA at all; its long-term-care item is the NAPNES CLTC credential.",
+    "The 'conflicting' program-duration flag (12 months vs 12-18 months) is a category error - both figures describe practical nursing school length, and neither bears on CLPN certification.",
+    "Section 2 of the outline directs the writer to verify CLPN eligibility 'against the current guidelines from relevant bodies like the National Council of State Boards of Nursing'. NCSBN governs licensure, not CLPN; NADONA/LTC is the correct authority.",
+    "Section 11 asks for a 'comprehensive list of accredited CLPN programs in the US'. CLPN is an exam-based certification with no accredited programme list; ACEN accredits pre-licensure LPN schools instead.",
+    "The recommended H1 'Unlock Your Nursing Career with CLPN Certification' uses 'unlock', which the brief's own pre-submit checklist bans as an AI tell.",
+    "The brief's URL slug /clpn-certification-guide/ conflicts with the NursPrep site convention of /certifications/{code}/.",
+    "Section 3 of the outline instructs the writer to 'avoid specific numbers or pass rates' for the exam. That happens to be correct here, but for the wrong reason - the figures are unavailable, not merely unnecessary."
+  ],
+  "sources": [
+    "https://www.nadona.org/clpn-certification-renewal",
+    "https://www.nadona.org/clpn-exam",
+    "https://www.nadona.org/",
+    "http://web.archive.org/web/20250115123730/https://nadona.org/product/long-term-care-cltc-lpn/",
+    "http://web.archive.org/web/20250314200514/https://www.nadona.org/products/p/certified-lpn-certificate-of-mastery-program-xml3s",
+    "http://web.archive.org/web/20230608141339/https://nadona.org/product/clpn-certificate-of-mastery-class/",
+    "https://www.vivian.com/certifications/clpn-nadona/",
+    "https://www.ncsbn.org/exams/about-nclex.page"
+  ]
+}

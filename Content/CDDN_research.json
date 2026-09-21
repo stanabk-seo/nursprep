@@ -1,0 +1,288 @@
+{
+  "code": "CDDN",
+  "name": "Certified Developmental Disabilities Nurse",
+  "researched_at": "2026-09-21T00:00:00Z",
+  "research_note": "ddna.org intermittently blocked direct fetches (Wordfence) and renders its certification detail inside collapsed accordions. Where the live page could not be read, content was read from the Internet Archive snapshot of the same canonical URL dated 2025-08-20. Canonical ddna.org URLs are cited throughout; the snapshot date is noted per fact.",
+  "facts": {
+    "awarding_body": {
+      "value": "Developmental Disabilities Nurses Association (DDNA)",
+      "note": "DDNA administers the certification program directly. There is no separate credentialing centre. Mailing address for certification: DDNA Certification, 1501 South Loop 288, Suite 104-381, Denton, TX 76205. Office line (800) 888-6733.",
+      "source": "https://ddna.org/certification/",
+      "confidence": "high"
+    },
+    "credential_scope_rn_vs_lpn": {
+      "value": "CDDN is the RN-level credential only. DDNA runs a parallel LPN/LVN programme whose credential is DDC, not CDDN. Certified RNs use 'RN, CDDN'; certified LPNs use 'LPN, DDC' and certified LVNs use 'LVN, DDC'.",
+      "source": "https://ddna.org/certification/",
+      "confidence": "high",
+      "note": "This is the single most commonly mis-stated fact about CDDN. Several third-party pages say an LPN/LVN can sit for CDDN. DDNA's own certification page contradicts that."
+    },
+    "exam_history": {
+      "value": "The RN certification programme was initially developed in 1995 in collaboration with the National League for Nursing. The CDDN exam was updated in 2003 by Health Education Systems, Inc. (HESI). The exam is now distributed by Elsevier, Inc.",
+      "source": "https://www.georgiacollaborative.com/wp-content/uploads/sites/15/2017/08/DDRN-Certification.pdf",
+      "confidence": "medium",
+      "note": "DDNA-authored CDDN application packet hosted by Georgia Collaborative ASO, dated 2017. DDNA's current site does not restate the exam's development history, so this is corroborating rather than current."
+    },
+    "eligibility": {
+      "value": "There is no education or degree requirement beyond licensure. The candidate must document a minimum of 4,000 hours of active developmental disabilities nursing practice within the immediate previous 60 months (five years). Hours earned before that 60-month window are not counted. A nurse who accrued hours as an LPN/LVN and later became an RN must accrue 4,000 hours as an RN before sitting the CDDN exam. Caring for a family member with a developmental disability, paid or unpaid, does not count.",
+      "source": "https://ddna.org/certification/apply/",
+      "confidence": "high",
+      "accessed_via": "web.archive.org snapshot 2025-08-20"
+    },
+    "eligible_roles": {
+      "value": [
+        "Practicing nurse in developmental disabilities in an institutional or community setting",
+        "Nurse administrator in a developmental disabilities programme",
+        "Nurse educator in a developmental disabilities programme",
+        "Nurse consultant in developmental disabilities",
+        "Nurse practising in the expanded role in an IDD institutional or community setting, including nurse practitioners"
+      ],
+      "note": "Roles outside this list are reviewed case by case by the DDNA Certification Committee.",
+      "source": "https://ddna.org/certification/apply/",
+      "confidence": "high"
+    },
+    "membership_requirement": {
+      "value": "DDNA membership is mandatory to sit the exam and must be maintained for the entire period of certification. If membership lapses, the certification lapses and the CDDN or DDC credential may not be used until membership is reinstated.",
+      "source": "https://ddna.org/certification/fees-faq/",
+      "confidence": "high"
+    },
+    "membership_dues": {
+      "value": 80,
+      "currency": "USD",
+      "period": "year",
+      "source": "https://ddna.org/",
+      "confidence": "high"
+    },
+    "application_processing_time": {
+      "value": "Within 60 days of receiving the application packet DDNA notifies the candidate that the application is approved or deficient.",
+      "source": "https://ddna.org/certification/apply/",
+      "confidence": "high",
+      "note": "The 2017 DDNA packet stated five weeks. The current published figure is 60 days."
+    },
+    "eligibility_window": {
+      "value": "Once approved, candidate eligibility to sit the exam is valid for two years. After two years the candidate must submit a new application and a new application fee.",
+      "source": "https://ddna.org/certification/apply/",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-administered multiple-choice exam. Two delivery options: a group exam held once a year at the DDNA Annual Education Conference, and a local exam by appointment year-round at Prometric testing centres. Questions cannot be skipped and returned to; a skipped question is scored as incorrect.",
+      "source": "https://ddna.org/certification/apply/",
+      "confidence": "high"
+    },
+    "exam_vendor": {
+      "value": "Prometric delivers the local exam (DDNA cites over 400 centres in the United States and Canada). Elsevier, Inc. distributes the exam and issues the scheduling authorisation after DDNA approves the candidate.",
+      "source": "https://ddna.org/certification/apply/",
+      "confidence": "high"
+    },
+    "testing_windows": {
+      "value": "Local Prometric exams are available by appointment throughout the year. The group exam runs once annually at the DDNA Annual Education Conference; the conference location changes each year.",
+      "source": "https://ddna.org/certification/fees-faq/",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": null,
+      "confidence": "none",
+      "note": "DDNA does not publish an item count for the CDDN exam. Not stated on the certification, apply, fees/FAQ or exam-prep pages, nor in the DDNA application packet PDF. See discrepancies."
+    },
+    "time_limit": {
+      "value": "Up to 90 minutes",
+      "typical": "45 to 60 minutes",
+      "source": "https://ddna.org/certification/apply/",
+      "confidence": "high",
+      "note": "DDNA states the exam generally takes 45-60 minutes to complete but the candidate has up to 90 minutes."
+    },
+    "passing_score": {
+      "value": null,
+      "confidence": "none",
+      "note": "DDNA does not publish a cut score or scaled-score scale. Candidates may see a number on screen at a local centre immediately after testing, but DDNA warns that number does not necessarily indicate a pass."
+    },
+    "results_turnaround": {
+      "value": "Group (conference) exam results are emailed about 6 to 8 weeks after the conference. Local Prometric exam results are typically emailed 4 to 6 weeks after the candidate notifies DDNA that the exam was taken.",
+      "source": "https://ddna.org/certification/apply/",
+      "confidence": "high"
+    },
+    "fee_application_member": {
+      "value": 104.50,
+      "currency": "USD",
+      "note": "Current DDNA member, applying online, credit card only. Does not include membership dues or the exam fee. Non-refundable.",
+      "source": "https://ddna.org/certification/fees-faq/",
+      "confidence": "high"
+    },
+    "fee_application_new_member": {
+      "value": 209.00,
+      "currency": "USD",
+      "note": "New Member Option, applying online, credit card only. Includes one year of DDNA membership dues plus the application processing fee.",
+      "source": "https://ddna.org/certification/fees-faq/",
+      "confidence": "high"
+    },
+    "fee_exam_local": {
+      "value": 150,
+      "currency": "USD",
+      "note": "Local exam at a Prometric testing centre. Paid to DDNA after application approval. Not transferable. Prometric charges a separate sitting fee on top.",
+      "source": "https://ddna.org/certification/fees-faq/",
+      "confidence": "high"
+    },
+    "fee_exam_group": {
+      "value": 250,
+      "currency": "USD",
+      "note": "Group exam at the DDNA Annual Education Conference or a network/affiliate scheduled exam. Transferable. No additional sitting fee. Does not include conference attendance.",
+      "source": "https://ddna.org/certification/fees-faq/",
+      "confidence": "high"
+    },
+    "fee_prometric_sitting": {
+      "value": null,
+      "currency": "USD",
+      "confidence": "none",
+      "note": "DDNA's current fees page states a sitting fee is charged by Prometric but does not publish the amount. The 2017 DDNA packet listed $175. A $199.95 figure appears in search-engine summaries of DDNA pages but could not be confirmed against the page text. Left null."
+    },
+    "renewal_cycle_years": {
+      "value": 2,
+      "source": "https://ddna.org/certification/renew/",
+      "confidence": "high",
+      "note": "Certification is valid for two years and is renewable by the last day of the month in which the candidate sat the exam."
+    },
+    "renewal_requirements": {
+      "value": "Three options, chosen by how many IDD practice hours the nurse logged in the two-year cycle. Option 1: at least 1,000 practice hours plus 25 contact hours of IDD-specific CE. Option 2: 500-999 practice hours plus 40 contact hours of IDD-specific CE. Option 3: under 500 practice hours, or none, plus 60 contact hours of IDD-specific CE.",
+      "source": "https://ddna.org/certification/renew/",
+      "confidence": "high"
+    },
+    "renewal_ce_rules": {
+      "value": "CE must be IDD-specific or IDD-related and must be approved by DDNA or accredited by a recognised nursing CE accreditor such as ANCC or a State Board of Nursing. A maximum of 10 hours of merely DD-related (rather than DD-specific) course work counts. General nursing courses such as HIPAA, medication administration, infection control, CPR and general nursing ethics are not accepted. DDNA does not accept CE from several commercial CE websites and does not grant credit for teaching, except for sessions delivered through DDNA.",
+      "source": "https://ddna.org/certification/renew/",
+      "confidence": "high"
+    },
+    "renewal_fee_member": {
+      "value": 100,
+      "currency": "USD",
+      "source": "https://ddna.org/certification/renew/",
+      "confidence": "high"
+    },
+    "renewal_fee_expired_member": {
+      "value": 200,
+      "currency": "USD",
+      "note": "Includes $100 membership reinstatement for one year plus the $100 renewal processing fee.",
+      "source": "https://ddna.org/certification/renew/",
+      "confidence": "high"
+    },
+    "renewal_late_fees": {
+      "value": "Add $50 if the renewal is postmarked after the expiration date but within six months of it. Add $100 if the renewal is six or more months late.",
+      "source": "https://ddna.org/certification/renew/",
+      "confidence": "high"
+    },
+    "renewal_processing_time": {
+      "value": "At least 60 days from receipt at the DDNA office.",
+      "source": "https://ddna.org/certification/renew/",
+      "confidence": "high"
+    },
+    "retake_policy": {
+      "value": "A candidate who fails the first attempt may retake the exam once more without further documentation or Certification Committee approval. A candidate who fails a second time must submit documentation of 30 contact hours of IDD-specific continuing education earned after the date of the second attempt, for Certification Committee review, before being approved to re-test. Re-testing may be repeated within the two-year eligibility window provided the CE requirement is met each time. Each attempt requires a new registration form and payment of the applicable exam fee.",
+      "source": "https://ddna.org/certification/apply/",
+      "confidence": "high"
+    },
+    "exam_content_guidance": {
+      "value": "DDNA's exam-prep page states the exam covers the lifespan and reflects day-to-day IDD nursing practice. Named study areas: common syndromes and conditions; seizure care; appropriate delegation to caregivers and direct support personnel; medications commonly administered to people with IDD; health problems associated with particular syndromes and conditions, including signs, symptoms and treatment; laws affecting the rights of people with developmental disabilities; and the significance of laboratory values for tests commonly ordered for people with developmental disabilities. DDNA states there are no drug-calculation items.",
+      "source": "https://ddna.org/certification/study/",
+      "confidence": "high"
+    },
+    "practice_hour_conversion": {
+      "value": "DDNA's employment-verification instructions define full-time employment as 2,080 hours per year.",
+      "source": "https://www.georgiacollaborative.com/wp-content/uploads/sites/15/2017/08/DDRN-Certification.pdf",
+      "confidence": "medium"
+    },
+    "uniqueness_claim": {
+      "value": "DDNA describes CDDN as the only certification programme for registered nurses specialising in the field of developmental disabilities.",
+      "source": "https://www.georgiacollaborative.com/wp-content/uploads/sites/15/2017/08/DDRN-Certification.pdf",
+      "confidence": "medium"
+    },
+    "accreditation": {
+      "value": null,
+      "confidence": "none",
+      "note": "No ABSNC, NCCA or other third-party accreditation of the CDDN exam is claimed anywhere on ddna.org. Do not assert accreditation on the page."
+    },
+    "active_certificants": {
+      "value": null,
+      "confidence": "none",
+      "note": "DDNA publishes no certificant count."
+    },
+    "salary_context": {
+      "value": null,
+      "confidence": "none",
+      "note": "The Bureau of Labor Statistics has no occupation code for developmental disabilities nursing. No CDDN-specific wage premium is published by any primary source. Page should point readers at the BLS Registered Nurses OOH page rather than quote a figure."
+    }
+  },
+  "blueprint": [],
+  "blueprint_total_scored_items": null,
+  "blueprint_note": "DDNA publishes no weighted content outline, no domain percentages and no item counts for the CDDN exam. The only published guidance is the unweighted study-area list captured in facts.exam_content_guidance. Third-party pages claiming 'six weighted content domains' cite no source and are contradicted by DDNA's own 45-60 minute typical testing time. The page must not display domain percentages.",
+  "blueprint_source_dco": null,
+  "pass_rate_history": [],
+  "pass_rate_note": "DDNA publishes no CDDN pass rate for any year. No cohort counts, no first-time or repeater figures. Searches of ddna.org and the wider web returned nothing traceable to DDNA.",
+  "sources_index": [
+    {"title": "DDNA - Certification Program (CDDN for RNs, DDC for LPNs/LVNs; scope, purpose, credential titles)", "url": "https://ddna.org/certification/", "accessed": "2026-09-21"},
+    {"title": "DDNA - Certification Application & Exam Process (4,000-hour rule, 60-day approval, two-year eligibility, 90-minute exam, retake policy, results turnaround)", "url": "https://ddna.org/certification/apply/", "accessed": "2026-09-21", "read_via": "web.archive.org snapshot 2025-08-20"},
+    {"title": "DDNA - Certification Fees & FAQ (application, exam and renewal fees; membership requirement; exam administration)", "url": "https://ddna.org/certification/fees-faq/", "accessed": "2026-09-21", "read_via": "web.archive.org snapshot 2025-08-20"},
+    {"title": "DDNA - Certification Renewal (two-year cycle, three practice-hour/CE options, CE rules, fees, late fees)", "url": "https://ddna.org/certification/renew/", "accessed": "2026-09-21", "read_via": "web.archive.org snapshot 2025-08-20"},
+    {"title": "DDNA - Exam Prep (study areas, boot camp, practice questions)", "url": "https://ddna.org/certification/study/", "accessed": "2026-09-21", "read_via": "web.archive.org snapshot 2025-08-20"},
+    {"title": "DDNA - Home (annual membership dues, member benefits, CDDN/DDC pointer)", "url": "https://ddna.org/", "accessed": "2026-09-21"},
+    {"title": "DDNA - Registered Nurse Certification Application packet (PDF, 2017; NLN 1995 origin, HESI 2003 update, Elsevier distribution, 2,080 hours = full-time year, historical fee schedule)", "url": "https://www.georgiacollaborative.com/wp-content/uploads/sites/15/2017/08/DDRN-Certification.pdf", "accessed": "2026-09-21"},
+    {"title": "DDNA - RN Certification Application packet (PDF, current site copy; 4,000-hour requirement, HESI co-development)", "url": "https://ddna.org/wp-content/uploads/2020/01/RN-Certification-Application-Packet-2.pdf", "accessed": "2026-09-21"},
+    {"title": "Vivian Health - CDDN guide (secondary; used only to identify conflicting claims)", "url": "https://www.vivian.com/certifications/cddn/", "accessed": "2026-09-21"},
+    {"title": "RegisteredNursing.org - Developmental Disability Nurse career guide (secondary; source of the unverified 150-question claim)", "url": "https://www.registerednursing.org/specialty/developmental-disability-nurse/", "accessed": "2026-09-21"},
+    {"title": "US Bureau of Labor Statistics - Registered Nurses, Occupational Outlook Handbook (wage and outlook reference; no DD-nursing occupation code exists)", "url": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm", "accessed": "2026-09-21"}
+  ],
+  "discrepancies": [
+    {
+      "field": "credential_scope",
+      "description": "Vivian Health's CDDN FAQ answers 'Can an LPN/LVN sit for the CDDN exam?' with 'Yes'. DDNA's certification page is explicit that LPNs and LVNs earn DDC, and only RNs may use 'RN, CDDN'. DDNA wins. The content brief's entity list and Things-to-Know table also imply LPNs earn CDDN, which is wrong."
+    },
+    {
+      "field": "question_count",
+      "description": "RegisteredNursing.org states 150 questions; AI-generated summaries of studyguides.com add 'six weighted content domains' and 'three hours'. DDNA publishes no item count and states the exam generally takes 45-60 minutes with a 90-minute maximum, which is not compatible with a 150-item exam. Set to null; no item count appears on the page."
+    },
+    {
+      "field": "time_limit",
+      "description": "Vivian Health lists 'Completion Time: 2 hours'. DDNA states up to 90 minutes. DDNA wins."
+    },
+    {
+      "field": "fee_application",
+      "description": "Credenza Health lists $100 (current member) and $200 (new member) application fees; Vivian lists $104.50 and $209. DDNA's published online fees are $104.50 and $209.00, credit card only. The $100/$200 figures look like the pre-processing-fee amounts. DDNA's published numbers are used."
+    },
+    {
+      "field": "fee_prometric_sitting",
+      "description": "The 2017 DDNA packet listed a $175 Prometric sitting fee. A $199.95 figure surfaced in a search-engine summary attributed to DDNA but could not be confirmed in page text. DDNA's current fees page names no amount. Left null; the page says only that Prometric charges a separate sitting fee."
+    },
+    {
+      "field": "renewal_cycle",
+      "description": "The brief flagged O*NET ('Every 2 Year(s)') against Vivian ('Renews every 2 years') as a conflict. They agree, and DDNA's own renewal page confirms two years. Not a real conflict."
+    },
+    {
+      "field": "exam_dates_2026",
+      "description": "The brief cites a Facebook post for a 27 February 2026 application deadline and an 18 May 2026 exam date, and a third-party events listing gives a 14-18 May 2026 DDNA conference in Phoenix. None of this is confirmed on ddna.org, and all of it is now in the past. No dated deadline appears on the page."
+    },
+    {
+      "field": "site_freshness",
+      "description": "ddna.org is internally inconsistent on non-certification pages: the home page still carries 2014 news items and refers to the 22nd/23rd Annual Education Conference, and /conference/ still shows 2016 content, while the exam-prep page references a 33rd Annual Education Conference on 1-5 May 2025. Certification, fees, apply and renew pages appear maintained. Treat conference and date content on ddna.org as unreliable; treat certification policy content as current."
+    },
+    {
+      "field": "application_processing_time",
+      "description": "The 2017 DDNA packet said five weeks; the current apply page says 60 days. The 60-day figure is used."
+    },
+    {
+      "field": "application_channel",
+      "description": "The live /certification/ page still shows COVID-era guidance and separate downloadable RN and LPN/LVN PDF applications; the 2025 snapshot shows a combined 'RN & LPN/LVN Online Application' and online credit-card fees. The page describes both a downloadable packet and an online application without asserting which is the only route."
+    },
+    {
+      "field": "pdf_labelling",
+      "description": "The file ddna.org/wp-content/uploads/2020/01/RN-Certification-Application-Packet-2.pdf opens with a 'Dear LPN Colleague' letter and the LPN/DDC programme description. DDNA appears to have mislabelled or bundled the packet. Worth reporting to DDNA; do not link to it as the RN packet."
+    }
+  ],
+  "gaps": [
+    "question_count - DDNA publishes no item count for the CDDN exam. Page states the time limit instead and tells readers to confirm format with DDNA.",
+    "passing_score - no cut score, scaled-score range or pass/fail threshold is published by DDNA.",
+    "blueprint - no content outline with domain weights exists. Page presents DDNA's unweighted study-area list and says explicitly that DDNA publishes no weighted blueprint. The blueprint doughnut chart is intentionally suppressed (domains array is empty).",
+    "pass_rate - DDNA publishes no pass rate for any year. The pass-rate chart is intentionally suppressed (rows array is empty) and the section explains the absence.",
+    "fee_prometric_sitting - amount not published by DDNA today.",
+    "active_certificants - no certificant count published.",
+    "accreditation - no ABSNC/NCCA accreditation claimed by DDNA; the page makes no accreditation claim.",
+    "salary - no CDDN-specific wage data from any primary source; the page links to the BLS Registered Nurses OOH instead of quoting a figure.",
+    "current_exam_dates - next group-exam and conference dates are not reliably published on ddna.org."
+  ]
+}

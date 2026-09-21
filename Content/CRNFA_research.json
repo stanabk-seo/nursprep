@@ -1,0 +1,310 @@
+{
+  "code": "CRNFA",
+  "name": "Certified Registered Nurse First Assistant",
+  "researched_at": "2026-09-21T00:00:00Z",
+  "critical_correction": {
+    "brief_and_task_assumption": "Task brief specified body = CCI and described CRNFA as an exam-based credential.",
+    "verified_reality": "CRNFA has been administered by the National Assistant at Surgery Certification (NASC) since January 1, 2019, not by the Competency & Credentialing Institute (CCI). The CRNFA examination was discontinued at the end of 2020 and replaced by the CRNFA Professional Portfolio, which opened for applications in February 2021. CCI's remaining link to CRNFA is that current CNOR certification (a CCI credential) is a prerequisite on the RN eligibility path.",
+    "sources": [
+      "https://nascertification.com/crnfa/application-and-candidate-handbook/",
+      "https://nascertification.com/resources/faqs/",
+      "https://www.aorn.org/guidelines-resources/clinical-resources/rn-first-assistant-resources",
+      "https://www.cc-institute.org/credentials/credential-statistics/"
+    ],
+    "corroborating_evidence": "CCI's own 2021-2025 credential statistics table and its Certify/Recertify site navigation list CNOR, CFPN, CSSL, CNAMB, CNS-CP and NPDA-BC only - CRNFA does not appear. A legacy, unlinked page still exists at https://www.cc-institute.org/crnfa (absent from CCI's page-sitemap.xml) and states CRNFA is NCCA-accredited; that page is stale and contradicts the current NASC/ABSNC position. Do not cite it."
+  },
+  "facts": {
+    "awarding_body": {
+      "value": "National Assistant at Surgery Certification (NASC), Greenwood Village, Colorado",
+      "source": "https://nascertification.com/crnfa/certification/",
+      "confidence": "high"
+    },
+    "previous_awarding_body": {
+      "value": "Competency & Credentialing Institute (CCI) until December 31, 2018. Effective January 1, 2019 the credentialing body administering CRNFA changed from CCI to NASC.",
+      "source": "https://www.aorn.org/guidelines-resources/clinical-resources/rn-first-assistant-resources",
+      "confidence": "high"
+    },
+    "assessment_method": {
+      "value": "CRNFA Professional Portfolio - a written, submitted portfolio of three studies. There is no CRNFA examination.",
+      "note": "NASC FAQ, verbatim: 'Is there still a CRNFA exam? The exam was discontinued at the end of 2020.' Portfolio applications opened February 2021.",
+      "source": "https://nascertification.com/resources/faqs/",
+      "confidence": "high"
+    },
+    "accreditation": {
+      "value": "Accredited by the Accreditation Board for Specialty Nursing Certification (ABSNC). Accreditation announced October 16, 2024. ABSNC is the only accrediting body with an accreditation process for portfolio-based nursing credentials, and ABSNC-accredited programs are recognized on the ANCC Magnet scorecard.",
+      "source": "https://nascertification.com/news/crnfa-achieves-absnc-accreditation/",
+      "confidence": "high"
+    },
+    "eligibility_rn_path": {
+      "value": "Bachelor's degree or higher in any field; current CNOR certification; current, unrestricted RN licensure in the country where currently practicing; completion of an acceptable formal RNFA program meeting AORN standards (certificate of completion required); minimum 2,000 documented hours of practice as an RNFA.",
+      "source": "https://nascertification.com/crnfa/application-and-candidate-handbook/",
+      "confidence": "high"
+    },
+    "eligibility_aprn_path": {
+      "value": "Master's, doctoral or post-master's certificate in an advanced practice program plus national APRN certification by an accredited certification program (CNS, NP, CNM or CRNA); current, unrestricted RN licensure; completion of an acceptable formal RNFA program meeting AORN standards; minimum 2,000 documented hours of practice as an RNFA. CNOR is NOT required on the APRN path.",
+      "source": "https://nascertification.com/crnfa/application-and-candidate-handbook/",
+      "confidence": "high"
+    },
+    "practice_hours_rule": {
+      "value": "2,000 documented RNFA hours total. Must fall in the five years immediately preceding application; at least 500 hours in the two years immediately preceding application; at least 1,000 hours must involve first assisting during the intraoperative period. Hours may include preoperative, intraoperative and postoperative care, may include an RNFA internship or practicum, and may include volunteer RNFA practice. Hours may not include class, program or seminar attendance. While in the intraoperative role the RNFA cannot concurrently serve in any other perioperative role (eg, scrub person).",
+      "source": "https://nascertification.com/crnfa/application-and-candidate-handbook/",
+      "confidence": "high"
+    },
+    "practice_log_fields": {
+      "value": "Date of procedure; type of procedure; time of procedure delineating pre-, intra- and postoperative hours; initials of the surgeon assisted (surgeon signature not required). Candidate must be listed as RNFA or first assistant.",
+      "source": "https://nascertification.com/crnfa/application-and-candidate-handbook/",
+      "confidence": "high"
+    },
+    "application_verification": {
+      "value": "NASC may verify RN license via Nursys, CNOR certification via the CCI website, professional nursing history via past employers, and practice hour logs via the supervisor.",
+      "source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf",
+      "confidence": "high"
+    },
+    "fee_initial": {
+      "value": 550,
+      "currency": "USD",
+      "note": "New applicants. There is no member/non-member fee tier - NASC is not a membership organization. The only reduced rate is for current RNAS-C certificants.",
+      "source": "https://nascertification.com/crnfa/application-and-candidate-handbook/",
+      "confidence": "high"
+    },
+    "fee_rnasc_holder": {
+      "value": 275,
+      "currency": "USD",
+      "source": "https://nascertification.com/crnfa/application-and-candidate-handbook/",
+      "confidence": "high"
+    },
+    "fee_member": {
+      "value": null,
+      "reason": "Not applicable. NASC does not price CRNFA by membership status, so there is no member/non-member split to report."
+    },
+    "fee_nonmember": {
+      "value": null,
+      "reason": "Not applicable - see fee_member."
+    },
+    "fee_portfolio_extension": {
+      "value": 100,
+      "currency": "USD",
+      "note": "Administrative fee per one-month extension of the portfolio start or submission deadline; limited to three extensions.",
+      "source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf",
+      "confidence": "high"
+    },
+    "fee_resubmission": {
+      "value": 100,
+      "currency": "USD",
+      "note": "Fee to revise and resubmit a failed portfolio within 60 days. One resubmission opportunity only.",
+      "source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf",
+      "confidence": "high"
+    },
+    "portfolio_timeline": {
+      "value": "Candidate selects a start date within two months of application approval. Completed portfolio must be uploaded within three months of the selected start date. NASC's stated goal is to notify candidates of pass/fail within one month of submission. Official certificate mailed within three weeks of passing.",
+      "source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf",
+      "confidence": "high"
+    },
+    "portfolio_submission_format": {
+      "value": "Portfolio documents are supplied as Microsoft Word files through the NASC online portal and must be submitted in Microsoft Word format.",
+      "source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf",
+      "confidence": "high"
+    },
+    "portfolio_evaluation": {
+      "value": "Two members of a NASC volunteer panel of active and emeritus CRNFAs score each portfolio against a detailed rubric. If the two evaluators disagree, a third evaluator reviews. The process is double-blind. The passing standard was set by a Standard Setting Committee working with a psychometrician using pilot and beta test data.",
+      "source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": null,
+      "reason": "NASC does not publish a numeric passing score or cut score for the CRNFA Professional Portfolio. The handbook states only that a psychometrician-supported Standard Setting Committee set the passing score."
+    },
+    "failure_pathway": {
+      "value": "A failed portfolio may be revised and resubmitted once, within 60 days, for a $100 fee. The same evaluators review the revision. A second failure requires reapplying, paying the full certification fee, and completing a new portfolio using a different patient for the Clinical Case Study.",
+      "source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": null,
+      "reason": "CRNFA has no examination. The CRNFA exam was discontinued at the end of 2020. The comparable structural figure is 109 portfolio activities across three studies."
+    },
+    "scored_vs_pretest": {
+      "value": null,
+      "reason": "Not applicable - no examination, therefore no scored/pretest item split."
+    },
+    "time_limit": {
+      "value": null,
+      "reason": "Not applicable - no seated examination. The governing time constraint is three months from the selected portfolio start date."
+    },
+    "testing_vendor": {
+      "value": null,
+      "reason": "Not applicable - no examination, so no Pearson VUE / PSI / Prolydian delivery for CRNFA. (NASC's other credential, RNAS-C, is delivered by Prolydian.)"
+    },
+    "testing_windows": {
+      "value": null,
+      "reason": "Not applicable - no examination windows. Applications are accepted year-round and the candidate chooses their own portfolio start date."
+    },
+    "renewal_cycle_years": {
+      "value": 5,
+      "source": "https://nascertification.com/crnfa/recertification/",
+      "confidence": "high"
+    },
+    "renewal_requirements": {
+      "value": "Recertify by contact hours or by professional activity points, chosen by the certificant. Requirement scales with RNFA clinical practice hours accrued in the five-year accrual period. Contact hours: 1,000+ practice hours requires 200 contact hours (150 RNFA/perioperative related); 500-1,000 practice hours requires 300 contact hours (225 RNFA/perioperative related). Points: 1,000+ practice hours requires 400 points; 500-1,000 practice hours requires 500 points. NASC randomly audits 10% of recertification applications.",
+      "source": "https://nascertification.com/crnfa/recertification/",
+      "confidence": "high"
+    },
+    "renewal_fees": {
+      "value": "Early recertification (January 1 - July 1): $450 by either method. Standard recertification (July 2 - December 31): $500 by either method. One-year extension: $100. Emeritus status: $125 one-time.",
+      "source": "https://nascertification.com/crnfa/recertification/",
+      "confidence": "high"
+    },
+    "extension_and_emeritus": {
+      "value": "A one-year extension keeps the credential active while the certificant accrues hours or points; available once every 10 years (two recertification cycles); no contact hours or points required. CRNFA Emeritus - CRNFA (E) - is for CRNFAs no longer working in the RNFA role; once retired the credential cannot be reactivated and full recertification by portfolio would be required.",
+      "source": "https://nascertification.com/crnfa/recertification/",
+      "confidence": "high"
+    },
+    "dual_certification_change": {
+      "value": "On September 18, 2023 CCI announced it would no longer honor dual CNOR/CRNFA certification. CNOR and CRNFA are no longer merged onto a single recertification schedule; holders of both must now meet and submit each credential's requirements separately to CCI and NASC and pay each organization. NASC reduced its one-year CRNFA extension fee from $195 to $100 to help certificants facing two renewals in the same year. NASC will accept a printout of contact hours entered on the CCI website.",
+      "source": "https://nascertification.com/resources/faqs/",
+      "confidence": "high"
+    },
+    "rnfa_program_standard": {
+      "value": "The RNFA education program must meet the AORN Standards for RN First Assistant Education Programs. Minimum equivalent of six (6) semester credit hours of formal post-basic RN education: at least three (3) semester credit hours didactic and at least three (3) semester credit hours clinical. The clinical component must include a minimum of 120 intraoperative first-assisting hours. Programs must be associated with a US Department of Education-recognized accredited college or university and a nursing program approved by a state board of nursing, and must incorporate all content of the Core Curriculum for the RN First Assistant, 6th edition (AORN, 2025). Admission requires CNOR (or an approved international equivalent) or APRN recognition, plus CPR/BCLS certification (ACLS preferred).",
+      "source": "https://www.aorn.org/docs/default-source/guidelines-resources/rnfa-education-standards_2025-2026.pdf",
+      "confidence": "high"
+    },
+    "acceptable_program_count": {
+      "value": 16,
+      "as_of": "2026-09-21",
+      "note": "16 programs across 13 states on NASC's Acceptable RNFA Programs list; four are National Institute of First Assisting (NIFA) programs or NIFA partnerships. The list excludes historical programs - candidates from a retired program must contact NASC about eligibility.",
+      "source": "https://nascertification.com/resources/acceptable-rnfa-programs/",
+      "confidence": "high"
+    },
+    "aorn_rnfa_role_definition": {
+      "value": "AORN, verbatim: 'The Registered Nurse First Assistant (RNFA) is a perioperative registered nurse who functions in an expanded role or an Advanced Practice Registered Nurse (APRN) functioning as a first assistant. The RNFA role is recognized within the scope of nursing practice by the nurse practice acts in all 50 states.'",
+      "source": "https://www.aorn.org/guidelines-resources/clinical-resources/rn-first-assistant-resources",
+      "confidence": "high"
+    },
+    "job_analysis": {
+      "value": "The portfolio is built on the CRNFA Job Analysis: seven domains, 104 task statements and 97 knowledge statements. NASC has conducted two CRNFA job analyses since taking over the credential in 2019 - an in-person task force in September 2019 and a survey-based analysis in 2024.",
+      "source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf",
+      "confidence": "high"
+    },
+    "reimbursement": {
+      "value": null,
+      "reason": "AORN's RNFA resource page carries no Medicare or third-party payer detail. Its only reimbursement sentence is, verbatim: 'Contact AORN Government Affairs or your state board of nursing for rules and regulations defining RNFA behaviors and reimbursement language.' No rate, policy or eligibility claim is sourceable from a primary source, so the page makes none."
+    },
+    "salary": {
+      "value": null,
+      "reason": "The US Bureau of Labor Statistics publishes no RNFA or CRNFA occupation code. Aggregator salary figures circulating for 'rnfa salary' (the brief's highest-volume keyword at ~49,500/mo) are not primary-source data and are excluded."
+    }
+  },
+  "blueprint": [
+    { "domain": "Preoperative Patient Assessment", "knowledge_statements": 25, "weight_pct": 10, "source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf", "confidence": "high" },
+    { "domain": "Intraoperative Patient Care Interventions", "knowledge_statements": 21, "weight_pct": 35, "source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf", "confidence": "high" },
+    { "domain": "Emergency Situations", "knowledge_statements": 6, "weight_pct": 9, "source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf", "confidence": "high" },
+    { "domain": "Postoperative Patient Care Interventions", "knowledge_statements": 6, "weight_pct": 5, "source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf", "confidence": "high" },
+    { "domain": "Infection Prevention", "knowledge_statements": 16, "weight_pct": 13, "source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf", "confidence": "high" },
+    { "domain": "Perioperative Workplace Safety", "knowledge_statements": 7, "weight_pct": 13, "source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf", "confidence": "high" },
+    { "domain": "Professional Practice", "knowledge_statements": 16, "weight_pct": 15, "source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf", "confidence": "high" }
+  ],
+  "blueprint_total_knowledge_statements": 97,
+  "blueprint_note": "These are the seven CRNFA Job Analysis domains and their percent of the portfolio, from Table 1 of the NASC CRNFA Certification/Recertification Candidate Handbook. Percentages sum to 100%. They describe portfolio weighting, not exam item counts - CRNFA has no exam.",
+  "portfolio_structure": [
+    { "study": "Clinical Case Study - Preoperative", "activities": 29, "percent_of_portfolio": 27 },
+    { "study": "Clinical Case Study - Intraoperative", "activities": 35, "percent_of_portfolio": 32 },
+    { "study": "Clinical Case Study - Postoperative", "activities": 12, "percent_of_portfolio": 11 },
+    { "study": "Workplace Safety Study", "activities": 15, "percent_of_portfolio": 14 },
+    { "study": "Professional Practice Study", "activities": 18, "percent_of_portfolio": 16 }
+  ],
+  "portfolio_structure_total_activities": 109,
+  "portfolio_structure_source": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf",
+  "pass_rate_history": [
+    { "year": 2021, "cohort": "portfolio", "candidates": 121, "passed": 101, "failed": 20, "pass_rate_pct": 84, "certificants_end_of_year": 1054, "recertified": 111, "source": "https://nascertification.com/crnfa/crnfa-statistics/", "confidence": "high" },
+    { "year": 2022, "cohort": "portfolio", "candidates": 57, "passed": 47, "failed": 10, "pass_rate_pct": 82, "certificants_end_of_year": 1053, "recertified": 87, "source": "https://nascertification.com/crnfa/crnfa-statistics/", "confidence": "high" },
+    { "year": 2023, "cohort": "portfolio", "candidates": 55, "passed": 51, "failed": 4, "pass_rate_pct": 93, "certificants_end_of_year": 1024, "recertified": 122, "source": "https://nascertification.com/crnfa/crnfa-statistics/", "confidence": "high" },
+    { "year": 2024, "cohort": "portfolio", "candidates": 47, "passed": 46, "failed": 1, "pass_rate_pct": 98, "certificants_end_of_year": 963, "recertified": 144, "source": "https://nascertification.com/crnfa/crnfa-statistics/", "confidence": "high" },
+    { "year": 2025, "cohort": "portfolio", "candidates": null, "passed": 39, "failed": null, "pass_rate_pct": null, "certificants_end_of_year": null, "recertified": null, "note": "NASC's January 2026 news post celebrates 39 new CRNFAs for 2025, but the 2025 row has not yet been added to the CRNFA statistics table, so candidate count and pass rate are unknown.", "source": "https://nascertification.com/news/new-certificants-of-2025/", "confidence": "medium" }
+  ],
+  "active_certificants": {
+    "value": 963,
+    "as_of": "2024-12-31",
+    "note": "Down from 1,054 at the end of 2021. The certificant pool is shrinking because annual new certifications (46-51 recently) run below attrition.",
+    "source": "https://nascertification.com/crnfa/crnfa-statistics/",
+    "confidence": "high"
+  },
+  "related_credentials": {
+    "RNAS-C": {
+      "body": "NASC",
+      "full_name": "Registered Nurse Assistant at Surgery - Certified",
+      "method": "150-item multiple-choice exam, 3 hours, one 15-minute break, live remote proctored through Prolydian, schedulable 365 days a year, must test within 4 months of application",
+      "passing_score": "70%",
+      "fee": "$425 initial; $195 retake",
+      "eligibility": "CNOR (or APRN certification); unrestricted RN license; ACLS, BLS or CPR certification; acceptable RNFA program; 120 documented intraoperative first-assisting hours in the two years immediately preceding application; two letters of recommendation (one surgeon, one OR supervisor/manager). No degree requirement.",
+      "domains": "Surgical Patient Care 33 items/22%; Surgical Skills 33/22%; Anatomy & Physiology 33/22%; Procedure Considerations 33/22%; Pre- and Postoperative Considerations 18/12%",
+      "administered_since": 2009,
+      "scored_vs_pretest": null,
+      "scored_vs_pretest_reason": "NASC does not publish a pretest split for RNAS-C; the five domain counts sum to exactly 150.",
+      "source": "https://nascertification.com/rnas-c/about-the-rnas-c-exam/",
+      "confidence": "high"
+    },
+    "CNOR": {
+      "body": "CCI",
+      "relationship": "Prerequisite for CRNFA on the RN eligibility path, and an admission requirement for AORN-standard RNFA education programs.",
+      "pass_rate_2025_first_time": 68.0,
+      "active_certificants_end_2025": 39888,
+      "source": "https://www.cc-institute.org/credentials/credential-statistics/",
+      "confidence": "high"
+    }
+  },
+  "sources_index": [
+    { "title": "NASC - CRNFA Certification (definition, 2,000-hour and degree summary, ABSNC accreditation)", "url": "https://nascertification.com/crnfa/certification/", "accessed": "2026-09-21" },
+    { "title": "NASC - CRNFA Application (fees, full RN and APRN eligibility, practice-hour rules and logging)", "url": "https://nascertification.com/crnfa/application-and-candidate-handbook/", "accessed": "2026-09-21" },
+    { "title": "NASC - CRNFA Certification/Recertification Candidate Handbook (PDF): job analysis domains, portfolio content outline, timelines, evaluation, failure pathway", "url": "https://nascertification.com/wp-content/uploads/2022/03/CRNFA-Certification_Recertification-Candidate-Handbook.pdf", "accessed": "2026-09-21" },
+    { "title": "NASC - About the CRNFA Professional Portfolio (three studies, development, double-blind evaluation)", "url": "https://nascertification.com/crnfa/about-the-crnfa-professional-portfolio/", "accessed": "2026-09-21" },
+    { "title": "NASC - CRNFA Statistics (2021-2024 portfolio pass rates and certificant counts)", "url": "https://nascertification.com/crnfa/crnfa-statistics/", "accessed": "2026-09-21" },
+    { "title": "NASC - CRNFA Recertification (5-year cycle, contact hours vs points, fees, extension, emeritus, 10% audit)", "url": "https://nascertification.com/crnfa/recertification/", "accessed": "2026-09-21" },
+    { "title": "NASC - FAQs (CRNFA exam discontinued end of 2020; CNOR/CRNFA dual certification discontinued 18 Sep 2023; RNAS-C to CRNFA transition)", "url": "https://nascertification.com/resources/faqs/", "accessed": "2026-09-21" },
+    { "title": "NASC - Acceptable RNFA Programs (16 programs, 13 states, AORN compliance criteria)", "url": "https://nascertification.com/resources/acceptable-rnfa-programs/", "accessed": "2026-09-21" },
+    { "title": "NASC - CRNFA Achieves ABSNC Accreditation (16 October 2024)", "url": "https://nascertification.com/news/crnfa-achieves-absnc-accreditation/", "accessed": "2026-09-21" },
+    { "title": "NASC - New Certificants of 2025 (39 new CRNFAs, 50 new RNAS-Cs)", "url": "https://nascertification.com/news/new-certificants-of-2025/", "accessed": "2026-09-21" },
+    { "title": "NASC - About the RNAS-C Exam (150 items, 3 hours, Prolydian, 70% pass, domain weights)", "url": "https://nascertification.com/rnas-c/about-the-rnas-c-exam/", "accessed": "2026-09-21" },
+    { "title": "AORN - RN First Assistant Resources (CCI-to-NASC transfer effective 1 Jan 2019; RNFA role definition; Core Curriculum 6th ed)", "url": "https://www.aorn.org/guidelines-resources/clinical-resources/rn-first-assistant-resources", "accessed": "2026-09-21" },
+    { "title": "AORN - Standards for RN First Assistant Education Programs 2025-2026 (PDF): 6 semester credit hours, 120 intraoperative first-assisting hours, CNOR admission requirement", "url": "https://www.aorn.org/docs/default-source/guidelines-resources/rnfa-education-standards_2025-2026.pdf", "accessed": "2026-09-21" },
+    { "title": "CCI - Credential Statistics (2021-2025; confirms CRNFA is no longer a CCI credential; CNOR 2025 pass rate and certificant count)", "url": "https://www.cc-institute.org/credentials/credential-statistics/", "accessed": "2026-09-21" },
+    { "title": "CCI - CNOR certification page (prerequisite credential)", "url": "https://www.cc-institute.org/certify/cnor/", "accessed": "2026-09-21" }
+  ],
+  "discrepancies": [
+    {
+      "field": "awarding_body",
+      "description": "A legacy CCI page at https://www.cc-institute.org/crnfa still describes a CCI CRNFA program, claims more than 1,500 nurses have earned the credential, says CNOR merges into CRNFA for recertification, and states NCCA accreditation. Every one of those statements is superseded: NASC administers CRNFA, CCI ended the CNOR/CRNFA merge on 18 Sep 2023, CRNFA is ABSNC-accredited (Oct 2024), and NASC reports 963 active certificants at end of 2024. The page is absent from CCI's page-sitemap.xml and is not linked from CCI's Certify or Recertify navigation. Treated as stale; not cited on the page."
+    },
+    {
+      "field": "eligibility_aprn_path",
+      "description": "The NASC website's APRN path lists a master's, doctoral or post-master's certificate in an advanced practice program as a bullet; the 2022 candidate handbook lists only national certification as an APRN by an accredited certification program. These are not in conflict in practice (APRN certification presupposes graduate preparation), but the website is the more recent and more explicit wording and is what the page reflects."
+    },
+    {
+      "field": "portfolio_evaluator_count",
+      "description": "The About the CRNFA Professional Portfolio web page says two or three experienced CRNFAs will evaluate and score each portfolio submission; the handbook is more precise - two evaluators, with a third only if the first two disagree. The handbook wording is used."
+    },
+    {
+      "field": "clinical_inquiry_points_cap",
+      "description": "The handbook's table of contents lists Clinical inquiry activities (Max. 100 points) while the body text of the same handbook lists Clinical inquiry activities (Max. 200 points). The per-activity point caps are therefore not reliable enough to publish; the page reports only the 400/500 point totals, which are consistent across the handbook, the recertification page and the FAQ."
+    }
+  ],
+  "gaps": [
+    "Numeric passing score / cut score for the CRNFA Professional Portfolio - NASC publishes none.",
+    "2025 CRNFA pass rate and candidate count - the NASC statistics table stops at 2024; only the count of 39 new 2025 certificants is published.",
+    "Average or typical time candidates spend on the portfolio - NASC publishes deadlines (2 months to start, 3 months to submit) but no effort estimate. The three-month preparation figure on the legacy CCI page refers to the discontinued exam and was not used.",
+    "Medicare and third-party reimbursement rules for RNFAs - AORN directs readers to AORN Government Affairs or their state board of nursing and publishes no figures. No reimbursement claim is made on the page.",
+    "CRNFA-specific salary data - no BLS occupation code exists for RNFA or CRNFA. No salary figure is stated on the page.",
+    "Per-activity recertification point caps - contradicted within the NASC handbook itself (see discrepancies).",
+    "Whether the 2024 CRNFA job analysis has changed the seven-domain weighting - NASC's blog confirms a 2024 job analysis was conducted by survey but has not published a revised domain table, so the existing handbook weights are used and flagged as such.",
+    "The date of the current CRNFA candidate handbook - the PDF is served from a /2022/03/ upload path and carries no visible revision date; treat all fees and rules as verify-before-applying."
+  ],
+  "brief_errors_found": [
+    "The brief states CRNFA is recognized by the National Assistant at Surgery Certification and accredited by ABSNC. NASC does not merely recognize CRNFA - NASC awards it, and has since 1 January 2019. The task instruction body=CCI is likewise incorrect.",
+    "The brief is written throughout as if CRNFA were an exam: it asks for a CRNFA certification exam, an Exam Blueprint and Domain Weights, Sample CRNFA Exam Questions with Rationales and CRNFA Exam Pass Rates. The CRNFA exam was discontinued at the end of 2020.",
+    "Brief table 9 cites years of experience: 10 years, program start year: 1998 and initial OR experience: 12 years from www.rnfa.org. Those figures come from a single practitioner profile article (Self-Employed RNFA in the Spotlight), not from any CRNFA requirement. They are biographical, not eligibility rules.",
+    "The brief's nasc certification keyword group (480/mo) is contaminated: nasc certified dog supplements, nasc certified meaning and is nutramax nasc certified belong to the National Animal Supplement Council, a different NASC. Targeting that group would attract entirely irrelevant traffic.",
+    "The brief's Things to Know table says the National Assistant at Surgery Certification provides certification for surgical assistants, including CRNFAs. NASC certifies registered nurses in the first-assistant role (CRNFA and RNAS-C); it does not certify surgical technologist surgical assistants - that is NBSTSA's CSFA.",
+    "The brief's recommended slug /crnfa-certification-guide/ conflicts with the site's /certifications/{code}/ convention. The task's URL instruction was followed instead.",
+    "The brief's eligibility section never mentions the CNOR prerequisite or the bachelor's-degree requirement, which are the two most consequential gates on the RN pathway."
+  ]
+}

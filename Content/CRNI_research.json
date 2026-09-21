@@ -1,0 +1,273 @@
+{
+  "code": "CRNI",
+  "name": "Certified Registered Nurse Infusion",
+  "researched_at": "2026-09-21T00:00:00Z",
+  "facts": {
+    "awarding_body": {
+      "value": "Infusion Nurses Certification Corporation (INCC)",
+      "source": "https://www.ins1.org/crni/exam/overview/",
+      "confidence": "high"
+    },
+    "issuing_body_parent": {
+      "value": "INCC is the certifying arm affiliated with the Infusion Nurses Society (INS). The January 2026 CRNI Exam Handbook states the two organizations are legally and financially independent of each other, while sharing infusion-care goals. INS sets the Infusion Therapy Standards of Practice; INCC owns and administers the CRNI exam.",
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "confidence": "high"
+    },
+    "credential_scope": {
+      "value": "RN-only specialty certification covering infusion therapy nursing as a whole: principles of practice, vascular and non-vascular access devices, and the infusion therapies delivered through them. INCC describes CRNI as the only nationally recognized, accredited specialty certification for infusion nurses.",
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "confidence": "high"
+    },
+    "program_age": {
+      "value": "More than 30 years of operation as of the 2026 cycle (INCC states a 'proven track record of more than 30 years').",
+      "exact_launch_year": null,
+      "note": "INCC does not publish a founding year on the pages fetched; only the 'more than 30 years' phrasing is verifiable. Do not state a specific launch year.",
+      "source": "https://www.ins1.org/crni/exam/overview/",
+      "confidence": "medium"
+    },
+    "eligibility": {
+      "value": "A current, active, unrestricted registered nurse (RN) license in the United States or Canada, plus a minimum of 1,600 hours of experience in infusion therapy as an RN within the past two years. Direct bedside care is not required; hours may come from nursing education, administration, research, or clinical practice within the infusion specialty. INCC may contact the candidate's supervisor to verify clinical experience.",
+      "hours_required": 1600,
+      "hours_window_years": 2,
+      "rn_only": true,
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "corroborating_source": "https://www.ins1.org/crni/exam/overview/",
+      "confidence": "high"
+    },
+    "eligibility_hours_framing": {
+      "value": "INCC frames 1,600 hours over two years as roughly 15 hours per week, or about 42% of a 36-hour week spent on infusion therapy.",
+      "source": "https://www.ins1.org/crni/exam/overview/",
+      "confidence": "high"
+    },
+    "eligibility_international": {
+      "value": "Applicants practising outside the United States and Canada qualify through the international pathway: documentation of a current, active, unrestricted RN license in the country of practice, the same 1,600-hour requirement, and uploaded documentation from a credentials evaluation organization. An additional $140 international site fee applies. INCC states certificants come from more than 11 countries and that the exam reflects United States practice, regulations and culture.",
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "confidence": "high"
+    },
+    "exam_format": {
+      "value": "Computer-based, four-option multiple choice, delivered at PSI Assessment Centers. 140 items administered; 120 scored and 20 unscored pretest items. 2.5 hours (150 minutes) of testing time. An untimed on-screen practice exam precedes the timed exam. Items are written at recall and application cognitive levels.",
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "confidence": "high"
+    },
+    "exam_vendor": {
+      "value": "PSI (PSI Assessment Centers / PSI Premier PLUS network). Candidates schedule online at https://test-takers.psiexams.com/incc or by phone at (833) 333-4755. Appointments open roughly three weeks before the testing window.",
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "confidence": "high"
+    },
+    "question_count": {
+      "value": 140,
+      "scored": 120,
+      "pretest": 20,
+      "source": "https://www.ins1.org/crni/exam/overview/",
+      "confidence": "high"
+    },
+    "time_limit": {
+      "value": "2.5 hours (150 minutes)",
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "confidence": "high"
+    },
+    "passing_score": {
+      "value": null,
+      "method": "Criterion-referenced minimum passing score set by the Angoff method on a base form, then carried to new forms by pre-equating. Score reports show pass/fail plus raw scores by major content category. The passing point may be slightly higher or lower than the base form depending on form difficulty.",
+      "note": "INCC does not publish a numeric passing score or passing percentage. Do not state one.",
+      "source": "https://www.ins1.org/crni/exam/score-and-data/",
+      "confidence": "high"
+    },
+    "exam_windows": {
+      "value": "Two annual testing windows: the month of March and the month of September (September excludes Labor Day). Appointments are offered Monday through Saturday.",
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "confidence": "high"
+    },
+    "application_deadlines": {
+      "value": {
+        "march_exam": { "early_bird": "By November 10", "regular": "November 11 – January 10", "late": "After January 10", "cancellation": "By January 10", "transfer": "By February 1" },
+        "september_exam": { "early_bird": "By June 10", "regular": "June 11 – July 10", "late": "After July 10", "cancellation": "By July 10", "transfer": "By August 1" }
+      },
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "confidence": "high"
+    },
+    "fee_member": {
+      "value": 335,
+      "currency": "USD",
+      "tier": "early bird",
+      "regular": 385,
+      "late": 435,
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "confidence": "high"
+    },
+    "fee_nonmember": {
+      "value": 475,
+      "currency": "USD",
+      "tier": "early bird",
+      "regular": 525,
+      "late": 575,
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "confidence": "high"
+    },
+    "other_fees": {
+      "value": {
+        "international_site_fee": 140,
+        "retake_discount": -50,
+        "late_application_fee": 50,
+        "cancellation_processing_fee": 75,
+        "transfer_administrative_fee": 75,
+        "transfer_late_fee": 75,
+        "duplicate_score_report": 25,
+        "study_guide_member": 40,
+        "study_guide_nonmember": 50
+      },
+      "note": "Cancellation refunds the exam fee minus a $75 processing fee and only before the regular deadline. Transfers are offered once only and are non-refundable. The $50 retake discount applies to previously unsuccessful candidates but not to CRNIs recertifying by exam.",
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "corroborating_source": "https://www.ins1.org/crni/exam/prepare/",
+      "confidence": "high"
+    },
+    "renewal_cycle_years": {
+      "value": 3,
+      "detail": "The credential becomes effective April 1 for March passers and October 1 for September passers, and expires three years later on the same date. Validity is contingent on continuous RN licensure.",
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "confidence": "high"
+    },
+    "renewal_program": {
+      "value": "Two pathways. (1) Recertification by continuing education: earn 40 CRNI Recertification Units (RUs) — not contact hours or CEs — within the three-year cycle, of which at least 30 must come from attendance at national INS meetings or INS Virtual Education Conferences. (2) Recertification by exam: pass the CRNI exam during the final year of the cycle, which forfeits the CE option. Both pathways also require documentation of 1,000 hours of infusion therapy clinical experience within the previous three years and a current, active, unrestricted RN license. Recertification deadlines are March 31 (March-cycle CRNIs) and September 30 (September-cycle CRNIs). Failure to recertify by the deadline revokes the credential and requires passing the exam again to regain it.",
+      "rus_required": 40,
+      "rus_from_ins_meetings": 30,
+      "practice_hours_required": 1000,
+      "practice_hours_window_years": 3,
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "confidence": "high"
+    },
+    "renewal_fees": {
+      "value": { "member": 200, "nonmember": 325, "late_fee": 50 },
+      "currency": "USD",
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "confidence": "high"
+    },
+    "retake_policy": {
+      "value": "Unlimited attempts as long as eligibility requirements continue to be met. Unsuccessful candidates reapply for the next administration with a complete application and fee, minus a $50 retake discount. Appeals must be filed in writing within 15 days of receiving the result.",
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "confidence": "high"
+    },
+    "certificant_count": {
+      "value": 2378,
+      "label": "Total CRNIs",
+      "as_of": "2026-01-20 (page last modified)",
+      "note": "INCC's Score & Data page reports 'Total CRNI®s: 2,378' without stating whether this is active or cumulative. Present as 'INCC reports 2,378 CRNIs' rather than 'active certificants'.",
+      "source": "https://www.ins1.org/crni/exam/score-and-data/",
+      "confidence": "medium"
+    },
+    "accreditation": {
+      "value": "Dual accreditation: Accreditation Board for Specialty Nursing Certification (ABSNC) and the National Commission for Certifying Agencies (NCCA). INCC displays both accreditation marks on the CRNI exam overview page.",
+      "source": "https://www.ins1.org/crni/exam/overview/",
+      "confidence": "high"
+    },
+    "study_resources": {
+      "value": "CRNI Academy (INCC's online prep platform at ins.benchprep.com) combines four INS study resources — Core Curriculum for Infusion Nursing, Infusion Therapy Standards of Practice, Infusion Nursing: An Evidence-Based Approach, and all five Policies and Procedures for Infusion Therapy titles — and adds sample questions, flashcards, a personalized study plan and gamification tools. The CRNI Exam Study Guide and Practice Questions contains 125 sample questions with answers and rationales ($40 member / $50 non-member). INCC also publishes a Detailed Content Outline, an Approved Exam Reference List and an Approved Abbreviation List. INCC does not endorse or sponsor any third-party review course.",
+      "source": "https://www.ins1.org/crni/exam/prepare/",
+      "confidence": "high"
+    },
+    "common_confusions": {
+      "value": [
+        {"credential": "VA-BC", "disambiguation": "VA-BC (Vascular Access Board Certified, issued by VACC) certifies vascular access device knowledge and is open to RNs, LPNs, physicians, PAs, NPs, respiratory and radiologic therapists, paramedics and pharmacists. CRNI is RN-only and covers infusion therapy as a whole, including the infusates. VACC sets no numeric practice-hour threshold; CRNI requires 1,600 infusion hours in two years."},
+        {"credential": "INS membership", "disambiguation": "INS is the professional society; INCC is the certifying body. INS membership is not required to sit the exam — it reduces the fee by $140 at every deadline tier."},
+        {"credential": "IV / PICC insertion courses", "disambiguation": "Vendor IV-therapy and PICC insertion courses are procedural training, not board certification. They do not place letters after your name."},
+        {"credential": "LPN/LVN IV certification", "disambiguation": "State-level IV therapy certification for LPNs and LVNs is a scope-of-practice authorisation granted under state nursing rules. CRNI requires an RN license and cannot be earned by an LPN or LVN."}
+      ],
+      "source": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf",
+      "va_bc_source": "https://www.vacert.org/eligibility/",
+      "confidence": "medium",
+      "note": "VA-BC details carried from the site's existing VA-BC research and page (src/_data/exams/va-bc.js, sourced to vacert.org); vacert.org was not re-fetched in this pass."
+    },
+    "salary_context": {
+      "value": null,
+      "note": "No primary source publishes a CRNI-specific salary. The US Bureau of Labor Statistics has no infusion-nurse occupation code, and INCC publishes no compensation data. Omit salary figures from the page.",
+      "source": null,
+      "confidence": "high"
+    }
+  },
+  "blueprint": [
+    {
+      "domain": "Principles of Practice",
+      "scored_items": 35,
+      "weight_pct": 29,
+      "subtopics": ["Anatomy and physiology (including body positioning for catheter insertion and removal)", "Infection prevention and control (epidemiology, chain of infection, bloodstream infections)", "Phlebotomy (blood sampling, including blood culture collection; therapeutic phlebotomy)"],
+      "source": "https://www.ins1.org/crni/exam/overview/",
+      "confidence": "high"
+    },
+    {
+      "domain": "Access Devices",
+      "scored_items": 39,
+      "weight_pct": 33,
+      "subtopics": ["Technology and clinical applications (solution containers, administration sets, filters, add-on devices, electronic and non-electronic administration devices, vein location devices, navigational/tip-locating tools, securement devices)", "Infusion access devices (short and long peripheral, midline, PICC, tunneled, non-tunneled, implanted ports, subcutaneous, intraosseous)", "Maintenance and care", "Special populations (older adults, chronic renal conditions, pediatrics, immunocompromised and oncology, bariatrics)", "Device-related complications (infiltration and extravasation, catheter occlusion)"],
+      "source": "https://www.ins1.org/crni/exam/overview/",
+      "confidence": "high"
+    },
+    {
+      "domain": "Infusion Therapies",
+      "scored_items": 46,
+      "weight_pct": 38,
+      "subtopics": ["Pain management", "Cardiovascular", "Antineoplastic", "Biologics and immunologics", "Anti-infectives", "Blood products", "Fluid and electrolyte balance (body composition, fluid volume excess and deficit, electrolyte disorders, maintenance and replacement)", "Parenteral nutrition (solution composition; infectious, metabolic and mechanical complications)", "Therapy-related complications (rate-related, adverse reactions, hazardous drug and waste exposure)"],
+      "source": "https://www.ins1.org/crni/exam/overview/",
+      "confidence": "high"
+    }
+  ],
+  "blueprint_total_scored_items": 120,
+  "blueprint_note": "Three core content areas. Scored-item counts (35 / 39 / 46) sum to 120; INCC publishes the matching percentages as 29% / 33% / 38%. The Detailed Content Outline in the January 2026 handbook is marked 'Effective: September 2025'. Item counts for the sub-areas beneath each core area appear in the handbook PDF but did not extract reliably and are deliberately omitted — verify against the PDF outline before publishing any sub-area weight.",
+  "blueprint_source_dco": "https://www.ins1.org/wp-content/uploads/2025/11/2025-INCC-CRNI-Exam-Content-Outline.pdf",
+  "pass_rate_history": [
+    { "year": 2025, "cohort": "all_attempts", "candidates": 487, "passed": 323, "pass_rate_pct": 66, "source": "https://www.ins1.org/crni/exam/score-and-data/", "confidence": "high" },
+    { "year": 2024, "cohort": "all_attempts", "candidates": 477, "passed": 302, "pass_rate_pct": 63, "source": "https://www.ins1.org/crni/exam/score-and-data/", "confidence": "high" },
+    { "year": 2023, "cohort": "all_attempts", "candidates": 373, "passed": 249, "pass_rate_pct": 67, "source": "https://www.ins1.org/crni/exam/score-and-data/", "confidence": "high" }
+  ],
+  "pass_rate_note": "INCC publishes calendar-year totals across all attempts and does not separate first-time from repeat takers. Years before 2023 are not published on the Score & Data page.",
+  "recertification_rate_history": [
+    { "year": 2025, "due_to_expire": 786, "recertified": 547, "rate_pct": 70, "source": "https://www.ins1.org/crni/exam/score-and-data/", "confidence": "high" },
+    { "year": 2024, "due_to_expire": 795, "recertified": 559, "rate_pct": 70, "source": "https://www.ins1.org/crni/exam/score-and-data/", "confidence": "high" },
+    { "year": 2023, "due_to_expire": 824, "recertified": 546, "rate_pct": 66, "source": "https://www.ins1.org/crni/exam/score-and-data/", "confidence": "high" }
+  ],
+  "sources_index": [
+    {"title": "INCC — CRNI Exam Overview (eligibility, three core content areas with item counts and percentages, dual accreditation)", "url": "https://www.ins1.org/crni/exam/overview/", "accessed": "2026-09-21"},
+    {"title": "INCC — CRNI Exam Handbook, revised January 2026 (PDF): eligibility, fees and deadlines, scheduling, scoring method, recertification rules, content outline", "url": "https://www.ins1.org/wp-content/uploads/2026/01/CRNI-Handbook-Revised-1-2026-1.pdf", "accessed": "2026-09-21"},
+    {"title": "INCC — Exam Score and Data (Angoff scoring method, 2023–2025 pass rates, recertification rates, total CRNIs)", "url": "https://www.ins1.org/crni/exam/score-and-data/", "accessed": "2026-09-21"},
+    {"title": "INCC — CRNI Exam Preparation (CRNI Academy, Study Guide with 125 practice questions and pricing, approved reference and abbreviation lists)", "url": "https://www.ins1.org/crni/exam/prepare/", "accessed": "2026-09-21"},
+    {"title": "INCC — CRNI Exam Registration (registration criteria, PSI scheduling process, confirmation letter and PSI code)", "url": "https://www.ins1.org/crni/exam/register/", "accessed": "2026-09-21"},
+    {"title": "INCC — 2025 CRNI Exam Content Outline (PDF)", "url": "https://www.ins1.org/wp-content/uploads/2025/11/2025-INCC-CRNI-Exam-Content-Outline.pdf", "accessed": "2026-09-21"},
+    {"title": "INCC — Job Analysis Executive Summary (PDF)", "url": "https://www.ins1.org/wp-content/uploads/2025/12/JA-Executive-Summary.pdf", "accessed": "2026-09-21"},
+    {"title": "INCC — Recertification overview", "url": "https://www.ins1.org/crni/recertification/", "accessed": "2026-09-21"},
+    {"title": "INCC — Recertification Unit (RU) options", "url": "https://www.ins1.org/crni/recertification/ru-options/", "accessed": "2026-09-21"},
+    {"title": "INS — Infusion Therapy Standards of Practice, 9th edition (exam reference)", "url": "https://www.ins1.org/publications/infusion-therapy-standards-of-practice/", "accessed": "2026-09-21"},
+    {"title": "VACC — VA-BC eligibility (used for the CRNI vs VA-BC comparison; carried from the site's existing VA-BC research, not re-fetched)", "url": "https://www.vacert.org/eligibility/", "accessed": "2026-09-21"},
+    {"title": "VACC — About the VA-BC exam (used for the CRNI vs VA-BC comparison; carried from the site's existing VA-BC research, not re-fetched)", "url": "https://www.vacert.org/about-the-exam/", "accessed": "2026-09-21"}
+  ],
+  "discrepancies": [
+    {
+      "field": "test_center_counts",
+      "description": "INCC's own numbers are internally inconsistent. The January 2026 handbook says 866 PSI Premier PLUS centers plus 340 third-party centers 'for a total of 600 centers available to candidates in the US and Canada'; the Register page says 260 Premier PLUS plus 340 third-party for the same total of 600. 866 + 340 does not equal 600, and 260 conflicts with 866. The page avoids a specific centre count and says 'hundreds of PSI test centers across the US and Canada, plus 570+ international sites'."
+    },
+    {
+      "field": "job_analysis_date",
+      "description": "The handbook body text says INCC's most recent job analysis was conducted in 2019 and implemented with the March 2020 exam, but the Detailed Content Outline printed in the same handbook is headed 'Effective: September 2025', and INCC published a new Job Analysis Executive Summary in December 2025. The page states only that the current content outline took effect in September 2025 and does not cite a job-analysis year."
+    },
+    {
+      "field": "question_count_vs_brief",
+      "description": "The content brief cites '150 questions' sourced to infusioninstitute.com. INCC's own overview page and handbook both state 140 items administered with 120 scored. The primary source wins; 150 is wrong and was not used."
+    },
+    {
+      "field": "deadline_labels_in_brief",
+      "description": "The brief inverts INCC's deadline labels. It lists 'March exam application deadline November 10' and 'March exam early bird deadline January 10'. Per the handbook, November 10 IS the early-bird deadline for the March exam and January 10 closes the regular window. Same inversion for the September exam (June 10 is early bird, July 10 closes regular)."
+    },
+    {
+      "field": "certs_js_row_missing",
+      "description": "src/_data/certs.js has no CRNI row, so the usual certs.js-wins conflict rule could not be applied and the catalog card for CRNI will not render. Flagged for the site owner; certs.js was not edited per instructions."
+    }
+  ],
+  "gaps": [
+    "Numeric passing score — INCC publishes the Angoff/pre-equating method but no cut score or passing percentage. Left null; the page describes the method instead.",
+    "Sub-area item counts inside each of the three core content areas — present in the handbook PDF but extracted unreliably. Left out of blueprint entirely rather than guessed.",
+    "First-time versus repeat-taker pass rates — INCC reports calendar-year totals across all attempts only.",
+    "Pass-rate history before 2023 — not published on INCC's Score & Data page.",
+    "CRNI-specific salary data — no primary source; BLS has no infusion-nurse occupation code. All salary claims omitted from the page despite 'crni salary' appearing as a brief keyword.",
+    "CRNI Academy module count — the brief claims '8 learning modules'; INCC's Prepare page describes the platform's contents but states no module count. Omitted.",
+    "Exact CRNI launch year — INCC says only 'more than 30 years'. Omitted.",
+    "Whether 'Total CRNI®s: 2,378' means currently active or cumulative certificants — INCC does not say. Page uses INCC's own wording."
+  ]
+}
