@@ -203,8 +203,8 @@ eleventyComputed:
               <p>{{ exam.ctaProse }}</p>
             </div>
             <div class="exam-cta-actions">
-              {% if exam.ctaPrimary %}<a class="btn btn-primary btn-lg" href="{{ exam.ctaPrimary.href }}">{{ exam.ctaPrimary.label }}</a>{% endif %}
-              {% if exam.ctaSecondary %}<a class="btn btn-ghost btn-lg" href="{{ exam.ctaSecondary.href }}">{{ exam.ctaSecondary.label }}</a>{% endif %}
+              {% if exam.ctaPrimary %}<a class="btn btn-primary btn-lg" href="{{ exam.boardcerts.diagnostic or exam.ctaPrimary.href }}">{{ exam.ctaPrimary.label }}</a>{% endif %}
+              {% if exam.ctaSecondary %}<a class="btn btn-ghost btn-lg" href="{{ exam.boardcerts.questionBank or exam.ctaSecondary.href }}">{{ exam.ctaSecondary.label }}</a>{% endif %}
             </div>
           </div>
         </section>
