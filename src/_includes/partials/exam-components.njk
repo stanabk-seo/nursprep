@@ -62,7 +62,7 @@
         </div>
 
         <div class="exam-hero-cta">
-          <a class="btn btn-primary btn-lg" href="#">Start {{ exam.code }} practice</a>
+          <a class="btn btn-primary btn-lg" href="{{ exam.practiceTestUrl or '#' }}">Start {{ exam.code }} practice</a>
           <a class="btn btn-ghost btn-lg" href="#cost">How to apply</a>
         </div>
       </div>

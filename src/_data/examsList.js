@@ -7,6 +7,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const practiceTests = require("./practiceTests.js");
 
 module.exports = function () {
   const dir = path.join(__dirname, "exams");
@@ -20,7 +21,9 @@ module.exports = function () {
       return require(full);
     })
     // Only include entries that have a code — guards against draft stubs
-    .filter((e) => e && e.code);
+    .filter((e) => e && e.code)
+    // BoardCerts practice test for the hero CTA (undefined if none exists)
+    .map((e) => ({ ...e, practiceTestUrl: practiceTests[e.code] }));
 
   // Sort by code for stable ordering (deterministic builds)
   entries.sort((a, b) => a.code.localeCompare(b.code));
