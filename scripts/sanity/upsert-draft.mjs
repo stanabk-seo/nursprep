@@ -97,10 +97,13 @@ if (args['dry-run']) {
   process.exit(0)
 }
 
+// New image if given; otherwise keep the one already on the draft/published doc (e.g. on a retry)
 let imageAssetId
 if (args.image) {
   const asset = await client.assets.upload('image', createReadStream(args.image), {filename: `${exam.code.toLowerCase()}-card.png`})
   imageAssetId = asset._id
+} else {
+  imageAssetId = await client.fetch('*[_id in [$draft, $published]][0].cardImage.asset._ref', {draft: draftId, published: publishedId ?? ''})
 }
 
 const doc = examToDoc(exam, {
