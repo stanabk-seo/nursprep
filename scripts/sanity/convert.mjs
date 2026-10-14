@@ -14,7 +14,7 @@ const DECORATORS = {strong: 'strong', b: 'strong', em: 'em', i: 'em'}
 
 /**
  * @param {string} html
- * @param {{resolveLink: (href: string) => string}} opts  href -> referenced exam _id
+ * @param {{resolveLink: (href: string) => string|object}} opts  href -> referenced exam _id (or reference object)
  * @returns {object[]} Portable Text blocks
  */
 export function htmlToBlocks(html, {resolveLink}) {
@@ -39,8 +39,9 @@ export function htmlToBlocks(html, {resolveLink}) {
     if (DECORATORS[tag]) {
       node.childNodes.forEach((c) => inline(c, block, [...marks, DECORATORS[tag]]))
     } else if (tag === 'a') {
-      const href = node.getAttribute('href')
-      const markDef = {_type: 'internalLink', _key: key(), reference: {_type: 'reference', _ref: resolveLink(href)}}
+      const target = resolveLink(node.getAttribute('href')) // _id, or a full (e.g. weak) reference object
+      const reference = typeof target === 'string' ? {_type: 'reference', _ref: target} : target
+      const markDef = {_type: 'internalLink', _key: key(), reference}
       block.markDefs.push(markDef)
       node.childNodes.forEach((c) => inline(c, block, [...marks, markDef._key]))
     } else {

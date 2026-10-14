@@ -14,17 +14,12 @@ import {createReadStream, existsSync} from 'node:fs'
 import {createRequire} from 'node:module'
 import {randomUUID} from 'node:crypto'
 import {fileURLToPath} from 'node:url'
-import {htmlToBlocks, stripTags} from './convert.mjs'
+import {clean, examToDoc, ref} from './exam-doc.mjs'
 
 const require = createRequire(import.meta.url)
 const root = fileURLToPath(new URL('../../', import.meta.url))
 const dataDir = root + 'scripts/sanity/legacy/' // original 11ty data files, kept until cleanup
 const key = () => randomUUID().replace(/-/g, '').slice(0, 12)
-const ref = (_ref) => ({_type: 'reference', _ref})
-const keyed = (arr, map = (x) => x) => (arr?.length ? arr.map((x) => ({_key: key(), ...map(x)})) : undefined)
-
-// Remove undefined/null so documents don't carry empty fields
-const clean = (v) => JSON.parse(JSON.stringify(v, (_k, x) => (x === null ? undefined : x)))
 
 export async function migrate(client, {force = false} = {}) {
   const raw = client.withConfig({perspective: 'raw'})
@@ -57,10 +52,6 @@ export async function migrate(client, {force = false} = {}) {
     if (!examIdBy[code]) throw new Error(`Link to unknown exam: ${href}`)
     return examIdBy[code]
   }
-  const blocks = (strings) => (strings?.length ? strings.flatMap((s) => htmlToBlocks(s, {resolveLink})) : undefined)
-  const inline = (s) => (s ? htmlToBlocks(s, {resolveLink}) : undefined)
-  const factBox = (b) => b && {_type: 'factBox', tone: b.tone, title: b.title, text: inline(b.html)}
-  const kv = (r) => ({_type: 'keyValue', k: r.k, v: r.v, highlight: r.highlight})
 
   // ---- 3 + 4. card image + full document per exam
   for (const [catalogOrder, c] of certs.entries()) {
@@ -70,107 +61,18 @@ export async function migrate(client, {force = false} = {}) {
     const asset = await client.assets.upload('image', createReadStream(png), {filename: `${e.code.toLowerCase()}-card.png`})
 
     const bc = links[e.code] || {}
-    const slug = /\/exams\/([a-z0-9-]+)\//.exec(bc.questionBank || bc.practiceTest || '')?.[1]
-
-    const doc = clean({
-      _id: examIdBy[e.code],
-      _type: 'exam',
-      code: e.code,
-      name: e.name, // exam page wins over certs.js (agreed single source of truth)
-      body: e.body,
-      category: ref(catIdBy[e.cat]),
-      updated: e.updated,
-      updatedLabel: e.updatedLabel,
-      seo: e.seo,
-      lede: inline(e.lede),
-      heroPills: keyed(e.heroPills, kv),
-      ataGlance: keyed(e.ataGlance, kv),
-      heroCardFoot: e.heroCardFoot,
-      cardImage: {_type: 'image', asset: ref(asset._id)},
-      sections: keyed(e.sections, (s) => ({_type: 'tocItem', id: s.id, label: s.label})),
-      overview: e.overview && {
-        heading: e.overview.heading,
-        prose: blocks(e.overview.prose),
-        stats: keyed(e.overview.stats, (s) => ({_type: 'stat', ...s})),
-        factBox: factBox(e.overview.factBox),
-        coverImageLabel: e.overview.coverImageLabel,
+    const doc = examToDoc(e, {
+      resolveLink,
+      categoryId: catIdBy[e.cat],
+      imageAssetId: asset._id,
+      // name/body come from the exam page, not certs.js (agreed single source of truth)
+      catalog: {questions: c.questions, blurb: c.blurb, catalogOrder},
+      boardcerts: {
+        slug: /\/exams\/([a-z0-9-]+)\//.exec(bc.questionBank || bc.practiceTest || '')?.[1],
+        hasPracticeTest: Boolean(bc.practiceTest),
       },
-      eligibility: e.eligibility && {
-        heading: e.eligibility.heading,
-        prose: blocks(e.eligibility.prose),
-        candidateHeading: e.eligibility.candidateHeading,
-        candidateList: blocks(e.eligibility.candidateList),
-      },
-      blueprint: e.blueprint && {
-        heading: e.blueprint.heading,
-        prose: blocks(e.blueprint.prose),
-        domains: keyed(e.blueprint.domains, (d) => ({_type: 'domain', label: d.label, weight: d.weight})),
-      },
-      cost: e.cost && {
-        heading: e.cost.heading,
-        prose: blocks(e.cost.prose),
-        rows: keyed(e.cost.rows, kv),
-        factBox: factBox(e.cost.factBox),
-        renewalHeading: e.cost.renewalHeading,
-        renewalProse: blocks(e.cost.renewalProse),
-      },
-      passrate: e.passrate && {
-        heading: e.passrate.heading,
-        prose: blocks(e.passrate.prose),
-        rows: keyed(e.passrate.rows, (r) => ({_type: 'passRow', year: r.year, pct: r.pct})),
-        target: e.passrate.target,
-        footnote: e.passrate.footnote,
-        factBox: factBox(e.passrate.factBox),
-      },
-      plan: e.plan && {
-        heading: e.plan.heading,
-        prose: blocks(e.plan.prose),
-        planSubtitle: e.plan.planSubtitle,
-        weeks: keyed(e.plan.weeks, (w) => ({_type: 'week', n: w.n, focus: w.focus, qs: w.qs})),
-        tipsHeading: e.plan.tipsHeading,
-        tips: keyed(e.plan.tips, (t) => ({_type: 'tip', kicker: t.kicker, text: stripTags(t.text)})),
-      },
-      sample: e.sample && {
-        heading: e.sample.heading,
-        prose: blocks(e.sample.prose),
-        q: {
-          scenario: e.sample.q.scenario,
-          stem: e.sample.q.stem,
-          options: e.sample.q.options,
-          correct: e.sample.q.correct,
-          rationale: inline(e.sample.q.rationale),
-        },
-      },
-      keyterms: e.keyterms && {
-        heading: e.keyterms.heading,
-        prose: blocks(e.keyterms.prose),
-        rows: keyed(e.keyterms.rows, (r) => ({_type: 'keyterm', term: r.term, defn: r.defn, domain: r.domain})),
-      },
-      compare: e.compare && {
-        heading: e.compare.heading,
-        prose: blocks(e.compare.prose),
-        rows: keyed(e.compare.rows, (r) => ({_type: 'compareRow', ...r})),
-        closingProse: inline(e.compare.closingProse),
-      },
-      faq: e.faq && {heading: e.faq.heading, items: keyed(e.faq.items, (i) => ({_type: 'faqItem', q: i.q, a: i.a}))},
-      sources: e.sources && {
-        heading: e.sources.heading,
-        prose: blocks(e.sources.prose),
-        list: e.sources.list?.map(stripTags),
-      },
-      sidebarFactBox: factBox(e.sidebarFactBox),
-      ctaHeading: e.ctaHeading,
-      ctaProse: e.ctaProse,
-      ctaPrimary: e.ctaPrimary && {_type: 'link', label: e.ctaPrimary.label, url: e.ctaPrimary.href},
-      ctaSecondary: e.ctaSecondary && {_type: 'link', label: e.ctaSecondary.label, url: e.ctaSecondary.href},
-      related: keyed(e.related, (r) => ({_type: 'relatedCard', ...r})),
-      questions: c.questions,
-      blurb: c.blurb,
-      catalogOrder,
-      boardcertsSlug: slug,
-      hasPracticeTest: Boolean(bc.practiceTest),
     })
-    await client.createOrReplace(doc)
+    await client.createOrReplace({...doc, _id: examIdBy[e.code]})
     console.log(`exam ${String(catalogOrder + 1).padStart(2)}/${certs.length} ${e.code}`)
   }
 

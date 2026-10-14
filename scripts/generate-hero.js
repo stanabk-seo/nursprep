@@ -3,13 +3,17 @@
 //
 // Lives at: Website Codebase 11ty/scripts/generate-hero.js
 // Template: scripts/cert-template.svg
-// Source data: src/_data/exams/{slug}.js
-// Output PNG: src/assets/images/certs/{slug}-card.png
+// Source data: a page-builder draft JSON (same shape as the legacy data files),
+//   or scripts/sanity/legacy/exams/{slug}.js (pre-Sanity copies)
+// Output PNG: src/assets/images/certs/{slug}-card.png, or --out <dir>
 // (Intermediate SVG written to /tmp and not committed.)
+// Exam content now lives in Sanity; the pipeline uploads the PNG with the draft
+// (scripts/sanity/upsert-draft.mjs --image).
 //
 // Usage:
-//   node scripts/generate-hero.js               # all certs
-//   node scripts/generate-hero.js tcrn cfrn     # specific slugs
+//   node scripts/generate-hero.js --out /tmp /tmp/nursprep-draft-ocn.json   # pipeline
+//   node scripts/generate-hero.js tcrn cfrn                                 # legacy slugs
+//   node scripts/generate-hero.js                                           # all legacy certs
 
 const fs = require("fs");
 const os = require("os");
@@ -17,9 +21,10 @@ const path = require("path");
 const { execSync } = require("child_process");
 
 const ROOT = path.resolve(__dirname, "..");
-const EXAMS_DIR = path.join(ROOT, "src", "_data", "exams");
+const EXAMS_DIR = path.join(ROOT, "scripts", "sanity", "legacy", "exams");
 const TEMPLATE = path.join(__dirname, "cert-template.svg");
-const OUT_DIR = path.join(ROOT, "src", "assets", "images", "certs");
+const outIdx = process.argv.indexOf("--out");
+const OUT_DIR = outIdx > -1 ? path.resolve(process.argv[outIdx + 1]) : path.join(ROOT, "src", "assets", "images", "certs");
 const TMP_SVG_DIR = fs.mkdtempSync(path.join(os.tmpdir(), "nursprep-card-svgs-"));
 
 function normalizePassRate(raw) {
@@ -69,10 +74,16 @@ function fillTemplate(tpl, data) {
     .replace(/\{\{BADGE_X\}\}/g, box.x);
 }
 
-function render(slug) {
-  const examPath = path.join(EXAMS_DIR, `${slug}.js`);
+function loadExam(arg) {
+  if (arg.endsWith(".json")) return JSON.parse(fs.readFileSync(arg, "utf8"));
+  const examPath = path.join(EXAMS_DIR, `${arg}.js`);
   delete require.cache[examPath];
-  const exam = require(examPath);
+  return require(examPath);
+}
+
+function render(arg) {
+  const exam = loadExam(arg);
+  const slug = exam.code.toLowerCase();
   const pass = normalizePassRate(getField(exam.heroPills || [], /pass rate/i) || "");
   const renewalRaw =
     getField(exam.heroPills || [], /renewal/i) ||
@@ -103,7 +114,7 @@ function render(slug) {
 
 if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
 
-const args = process.argv.slice(2);
+const args = process.argv.slice(2).filter((a, i, all) => a !== "--out" && all[i - 1] !== "--out");
 const slugs = args.length ? args : fs.readdirSync(EXAMS_DIR).filter(f => f.endsWith(".js")).map(f => f.replace(/\.js$/, ""));
 
 let success = 0, fail = 0;
