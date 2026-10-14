@@ -1,5 +1,5 @@
 ---
-# One HTML page per file in src/_data/exams/
+# One HTML page per exam document in Sanity (via src/_data/examsList.js)
 # Permalink: /certifications/{code}/  (already expected by the footer + hero chips)
 pagination:
   data: examsList
@@ -75,7 +75,7 @@ eleventyComputed:
           <h2>{{ exam.overview.heading }}</h2>
           {% for p in exam.overview.prose %}<p>{{ p | safe }}</p>{% endfor %}
           {% if exam.overview.coverImageLabel %}
-            {{ ex.coverImage(exam.overview.coverImageLabel, exam.code) }}
+            {{ ex.coverImage(exam.overview.coverImageLabel, exam.code, exam.cardImageUrl) }}
           {% endif %}
           {% if exam.overview.stats %}{{ ex.statGrid(exam.overview.stats) }}{% endif %}
           {% if exam.overview.factBox %}{{ ex.factBox(exam.overview.factBox) }}{% endif %}

@@ -387,12 +387,12 @@
 {% endmacro %}
 
 {# ========== Cover image (cert-card hero) ========== #}
-{# Renders the data-driven cert hero card PNG built by /cert-hero-images/generate-hero.js.
-   Third `accent` arg kept for backward compatibility with callers; unused now. #}
-{% macro coverImage(label, code, accent) %}
+{# Renders the cert card PNG (scripts/generate-hero.js), served from Sanity's
+   image CDN; falls back to the copy in src/assets/images/certs/. #}
+{% macro coverImage(label, code, src) %}
 <figure class="cover-image" aria-label="{{ label }}">
   <img
-    src="/assets/images/certs/{{ code | lower }}-card.png"
+    src="{{ src or ('/assets/images/certs/' ~ (code | lower) ~ '-card.png') }}"
     alt="{{ code }} — {{ label }}"
     width="1200"
     height="630"

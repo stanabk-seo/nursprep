@@ -17,7 +17,17 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("src/styles.css");
   eleventyConfig.addWatchTarget("src/exam-styles.css");
   eleventyConfig.addWatchTarget("src/assets/js");
-  eleventyConfig.addWatchTarget("src/_data/exams");
+
+  // ---- Content from Sanity ----
+  // One GROQ request per build (re-run on every --serve rebuild). The data
+  // files in src/_data/ (site, certs, certsByCategory, categories, examsList)
+  // read their slice of this, so templates keep using the same global names.
+  eleventyConfig.addGlobalData("sanity", async () => {
+    const { fetchContent, buildSiteData } = await import("./src/_lib/sanity.mjs");
+    const perspective = process.env.SANITY_PERSPECTIVE || "published";
+    const content = await fetchContent({ perspective });
+    return buildSiteData(content, { perspective, siteUrl: "https://nursprep.com" });
+  });
 
   // ---- Filters ----
   // Pre-computes the dash length and running offset for each slice of the

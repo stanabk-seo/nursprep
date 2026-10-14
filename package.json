@@ -9,9 +9,16 @@
     "clean": "rm -rf _site"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "@portabletext/html": "^2.0.1",
+    "@portabletext/schema": "^3.0.1",
+    "jsdom": "^26.1.0"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22.12"
+  },
+  "dependencies": {
+    "@portabletext/to-html": "^6.0.0",
+    "@sanity/client": "^8.9.0"
   }
 }

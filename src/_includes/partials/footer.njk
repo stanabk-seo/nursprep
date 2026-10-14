@@ -10,8 +10,8 @@
         <p class="footer-cta-sub">No credit card. Full access to any one certification track. If it doesn't click, nothing to cancel.</p>
       </div>
       <div class="footer-cta-actions">
-        <a href="#" class="btn btn-primary btn-lg">Question Banks</a>
-        <a href="#" class="btn btn-ghost-light btn-lg">Talk to our team</a>
+        <a href="{{ site.footer.ctaPrimary.url }}" class="btn btn-primary btn-lg">{{ site.footer.ctaPrimary.label }}</a>
+        <a href="{{ site.footer.ctaSecondary.url }}" class="btn btn-ghost-light btn-lg">{{ site.footer.ctaSecondary.label }}</a>
       </div>
     </div>
 
@@ -43,12 +43,9 @@
         <span>NursPrep · Built by nurses, for nurses.</span>
       </div>
       <nav class="footer-bottom-links">
-        <a href="#">About</a>
-        <a href="#">Pass guarantee</a>
-        <a href="#">Pricing</a>
-        <a href="#">Contact</a>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
+        {% for link in site.footer.links %}
+        <a href="{{ link.url }}">{{ link.label }}</a>
+        {% endfor %}
       </nav>
       <div class="footer-legal">© {{ site.year }} NursPrep Inc. NursPrep is not affiliated with ANCC, AACN, BCEN, or any other certifying body referenced on this site.</div>
     </div>

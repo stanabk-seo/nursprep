@@ -1,32 +1,5 @@
-// Aggregates every exam data file in _data/exams/ into a single array.
-// Pagination template in src/certifications/certification.njk iterates over this.
-//
-// To publish a new cert page: drop a new file at _data/exams/{code}.js that
-// exports the exam schema (same shape as cfrn.js). It's picked up automatically
-// on the next build — no registration required.
-
-const fs = require("fs");
-const path = require("path");
-const boardcertsLinks = require("./boardcertsLinks.js");
-
-module.exports = function () {
-  const dir = path.join(__dirname, "exams");
-  const entries = fs
-    .readdirSync(dir)
-    .filter((f) => f.endsWith(".js"))
-    .map((f) => {
-      // Require with a clean cache so dev reloads pick up edits
-      const full = path.join(dir, f);
-      delete require.cache[require.resolve(full)];
-      return require(full);
-    })
-    // Only include entries that have a code — guards against draft stubs
-    .filter((e) => e && e.code)
-    // BoardCerts practice test / question bank links for the CTAs ({} if none exist)
-    .map((e) => ({ ...e, boardcerts: boardcertsLinks[e.code] || {} }));
-
-  // Sort by code for stable ordering (deterministic builds)
-  entries.sort((a, b) => a.code.localeCompare(b.code));
-
-  return entries;
-};
+// Every exam page from Sanity, sorted by code, shaped for the templates
+// (rich text already rendered to HTML, BoardCerts links attached as
+// `exam.boardcerts`). Pagination in src/certifications/certification.njk
+// iterates over this — publishing a new exam in Sanity creates its page.
+module.exports = ({ sanity }) => sanity.examsList;
